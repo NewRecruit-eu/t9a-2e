@@ -1,0 +1,6401 @@
+{
+ "catalogue": {
+  "id": "cfbb-69db-3d04-e3d2",
+  "name": "T9A Common Items",
+  "revision": 1,
+  "battleScribeVersion": "2.03",
+  "authorName": "NR t9a->bs converter",
+  "library": true,
+  "gameSystemId": "e5de-3ced-995e-8897",
+  "gameSystemRevision": 1,
+  "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+  "catalogueLinks": [
+   {
+    "id": "39f8-4fbd-9150-660c",
+    "name": "T9A Spells",
+    "targetId": "eb0c-451a-6a58-424b",
+    "type": "catalogue",
+    "importRootEntries": false
+   }
+  ],
+  "categoryEntries": [
+   {
+    "id": "209d-da50-23f8-8091",
+    "name": "Dusk Forged",
+    "comment": "ce_duskforge",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "94e9-ef65-862f-560d",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "94e9-ef65-862f-560d",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "3604-ea61-14c0-16d8",
+    "name": "Willow's Ward",
+    "comment": "ce_saulgly",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "0f17-d253-1681-26aa",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "0f17-d253-1681-26aa",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "7e5c-e7ac-b574-b3a3",
+    "name": "Death Cheater",
+    "comment": "ae_vc_deathcheat",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "5d06-c729-6cb8-2dbd",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "5d06-c729-6cb8-2dbd",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "7cd3-8edc-5614-b4dd",
+    "name": "Destiny's Call",
+    "comment": "ae_destiny",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "79d6-e4bd-4d8d-29f2",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "79d6-e4bd-4d8d-29f2",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "e257-d1d6-7095-a874",
+    "name": "Essence of Mithril",
+    "comment": "ae_mythriless",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "c1bb-d794-a752-43c6",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "c1bb-d794-a752-43c6",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "e93b-e814-45ea-bb7d",
+    "name": "Basalt Infusion",
+    "comment": "ae_basalt_inject",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "c6e8-2d2d-4c71-fc3c",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "c6e8-2d2d-4c71-fc3c",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "31b8-462f-f672-0b5e",
+    "name": "Alchemist's Alloy",
+    "comment": "ae_alchy",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "9129-670c-2265-548a",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "9129-670c-2265-548a",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "9c60-c133-5235-eca6",
+    "name": "Ghostly Guard",
+    "comment": "ae_phantom",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "342c-5564-36c8-8c67",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "342c-5564-36c8-8c67",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "3d20-cff4-df7f-fb91",
+    "name": "Banner of Speed",
+    "comment": "be_speed",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "2abe-df48-ca46-40d3",
+      "field": "selections",
+      "scope": "roster",
+      "value": 3,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "2abe-df48-ca46-40d3",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "eac7-a936-6607-8553",
+    "name": "Stalker's Standard",
+    "comment": "be_ranger",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "4c52-1119-1211-0719",
+      "field": "selections",
+      "scope": "roster",
+      "value": 3,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "4c52-1119-1211-0719",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "0607-1004-9f5c-ca34",
+    "name": "Flaming Standard",
+    "comment": "be_burning",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "b3ab-a12e-5d01-31a7",
+      "field": "selections",
+      "scope": "roster",
+      "value": 3,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "b3ab-a12e-5d01-31a7",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "9ede-422d-c500-0f02",
+    "name": "Banner of Discipline",
+    "comment": "be_discipline",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "881c-c60a-36c3-224e",
+      "field": "selections",
+      "scope": "roster",
+      "value": 3,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "881c-c60a-36c3-224e",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "076f-ace7-96de-a40b",
+    "name": "Banner of the Relentless Company",
+    "comment": "be_unwaivering",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "09d1-17a3-3dff-2cc8",
+      "field": "selections",
+      "scope": "roster",
+      "value": 3,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "09d1-17a3-3dff-2cc8",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "199c-349c-4838-e440",
+    "name": "Legion Standard",
+    "comment": "be_legion",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "b632-8f16-e123-b185",
+      "field": "selections",
+      "scope": "roster",
+      "value": 3,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "b632-8f16-e123-b185",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "a2a3-91b4-625c-25d4",
+    "name": "Aether Icon",
+    "comment": "be_ether",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "941f-496b-3abb-6c20",
+      "field": "selections",
+      "scope": "roster",
+      "value": 3,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "941f-496b-3abb-6c20",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "7144-f28d-5baf-2633",
+    "name": "King Slayer",
+    "comment": "we_king_slayer",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "619c-a845-9495-c968",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "619c-a845-9495-c968",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "c0eb-2801-7a8f-bd8a",
+    "name": "Eldritch Inscriptions",
+    "comment": "we_eldritch_ins",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "49ca-fd94-b364-96f3",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "49ca-fd94-b364-96f3",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "6c0b-6c39-6d2d-6d6f",
+    "name": "Shield Breaker",
+    "comment": "we_shield_breaker",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "d499-d865-95b1-b3b5",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "d499-d865-95b1-b3b5",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "234a-d56f-4d65-2d76",
+    "name": "Touch of Greatness",
+    "comment": "we_grace_touched",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "4d73-38bb-3eb2-2838",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "4d73-38bb-3eb2-2838",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "db6d-05c2-612f-7e84",
+    "name": "Cleansing Light",
+    "comment": "we_pur_light",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "fc9e-ba47-9c24-b230",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "fc9e-ba47-9c24-b230",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "06da-96e7-05a5-5601",
+    "name": "Supernatural Dexterity",
+    "comment": "we_sur_dex",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "6dd8-adb0-bd0a-0557",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "6dd8-adb0-bd0a-0557",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "c9ac-2a89-73e9-2e3b",
+    "name": "Hero's Heart",
+    "comment": "we_hero_heart",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "6e2d-56bb-51ef-f344",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "6e2d-56bb-51ef-f344",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "7d5e-7da9-f220-4bdc",
+    "name": "Crown of Autocracy",
+    "comment": "autocrati_crown",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "56f2-e683-2e17-a850",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "56f2-e683-2e17-a850",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "afcd-a313-1d5a-4c11",
+    "name": "Book of Arcane Mastery",
+    "comment": "art_power_grim",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "7fdb-4c37-1e82-f8cc",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "7fdb-4c37-1e82-f8cc",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "103f-c1a1-f5a3-a9bc",
+    "name": "Forbidden Path",
+    "comment": "forbidden_path",
+    "hidden": true,
+    "constraints": [],
+    "modifiers": []
+   },
+   {
+    "id": "84ca-1ae8-25e2-7dbe",
+    "name": "Rod of Battle",
+    "comment": "art_cursed_wand",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "e02d-ddb7-9edf-30ad",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "e02d-ddb7-9edf-30ad",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "4e03-5e68-c61c-2649",
+    "name": "Crown of the Wizard King",
+    "comment": "art_wizard_crown",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "350f-7cd6-1440-de89",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "350f-7cd6-1440-de89",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "abb5-9393-afc5-c5b9",
+    "name": "Binding Scroll",
+    "comment": "art_blocking_scroll",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "9178-c829-e05e-cfda",
+      "field": "selections",
+      "scope": "roster",
+      "value": 2,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "9178-c829-e05e-cfda",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "a66c-0fe9-9834-acd4",
+    "name": "Crystal Ball",
+    "comment": "art_crysball",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "e985-07cd-7509-2abb",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "e985-07cd-7509-2abb",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "d44a-67dc-3c80-facf",
+    "name": "Talisman of Shielding",
+    "comment": "protect_talis",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "0e11-98c2-e662-e93e",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "0e11-98c2-e662-e93e",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "9222-cbc2-05c5-ba24",
+    "name": "Talisman of the Void",
+    "comment": "art_void_talis",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "3acd-27a8-7359-e64a",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "3acd-27a8-7359-e64a",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "a548-92e5-dfa5-bb1e",
+    "name": "Lightning Vambraces",
+    "comment": "art_thunder_brac",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "8b43-416c-14b5-fa44",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "8b43-416c-14b5-fa44",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "5627-e159-4ed7-25fa",
+    "name": "Ranger's Boots",
+    "comment": "art_forest_boots",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "839b-92c5-4ddd-3d5a",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "839b-92c5-4ddd-3d5a",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "dbb2-5210-6ab9-a5de",
+    "name": "Magical Heirloom",
+    "comment": "art_magical_inh",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "4be9-1f47-070a-9e9b",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "4be9-1f47-070a-9e9b",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "b307-fc69-1305-091f",
+    "name": "Bound Or Broken",
+    "comment": "bound_or_broken",
+    "hidden": true,
+    "constraints": [],
+    "modifiers": []
+   },
+   {
+    "id": "ecec-32be-af4f-fe8b",
+    "name": "Obsidian Rock",
+    "comment": "art_obsi_roc",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "2759-7255-95c2-6957",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "2759-7255-95c2-6957",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "6053-9fc5-16b3-8a65",
+    "name": "Sceptre of Power",
+    "comment": "art_power_scept",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "9ed3-8f6e-b2a8-b096",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "9ed3-8f6e-b2a8-b096",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "034e-585e-03cf-9ddf",
+    "name": "Dragon Staff",
+    "comment": "art_drago_staff",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "87ba-ca5d-4805-93cd",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "87ba-ca5d-4805-93cd",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "2de0-e65b-acaa-6bae",
+    "name": "Potion of Strength",
+    "comment": "art_str_pot",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "e3c0-6cc9-d6e0-2d35",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "e3c0-6cc9-d6e0-2d35",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "ec8f-d234-9bd4-af68",
+    "name": "Lucky Charm",
+    "comment": "art_luck_charm",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "fe45-e644-6512-dc75",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "fe45-e644-6512-dc75",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "81d9-42dc-9f0b-71dd",
+    "name": "Potion of Swiftness",
+    "comment": "art_speed_pot",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "3ec6-ed04-0a1a-e842",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "3ec6-ed04-0a1a-e842",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "forceEntries": [],
+  "selectionEntries": [],
+  "sharedSelectionEntries": [
+   {
+    "id": "4fad-d9f8-2e82-2e7a",
+    "name": "Dusk Forged",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 55
+     }
+    ],
+    "constraints": [
+     {
+      "id": "bc43-eea0-d135-d61b",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "4f0a-a62a-bfff-332e",
+      "name": "Dusk Forged",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "3eef-fc4c-a599-c92a"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "e1ca-b5ed-226f-6262",
+      "name": "Dusk Forged",
+      "hidden": true,
+      "targetId": "209d-da50-23f8-8091",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "collective": true
+   },
+   {
+    "id": "fdaf-f55f-7d8f-fb94",
+    "name": "Willow's Ward",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 15
+     }
+    ],
+    "constraints": [
+     {
+      "id": "0ef2-9997-00d7-87a1",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "d368-25fc-557f-b395",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "edbe-a5d2-8dda-794b",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Global",
+      "position": "1",
+      "type": "replace",
+      "value": "",
+      "arg": ", Parry",
+      "conditions": [],
+      "conditionGroups": []
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "edbe-a5d2-8dda-794b",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Global",
+      "position": "1",
+      "type": "replace",
+      "value": "",
+      "arg": ", Parry",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "edbe-a5d2-8dda-794b",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Global",
+      "position": "2",
+      "type": "replace",
+      "value": "",
+      "arg": "Parry, ",
+      "conditions": [],
+      "conditionGroups": []
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "edbe-a5d2-8dda-794b",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Global",
+      "position": "2",
+      "type": "replace",
+      "value": "",
+      "arg": "Parry, ",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "edbe-a5d2-8dda-794b",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Global",
+      "position": "3",
+      "type": "replace",
+      "value": "",
+      "arg": "Parry",
+      "conditions": [],
+      "conditionGroups": []
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "edbe-a5d2-8dda-794b",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Global",
+      "position": "3",
+      "type": "replace",
+      "value": "",
+      "arg": "Parry",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "5e9b-1961-df0b-5ddd",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Offensive",
+      "position": "1",
+      "type": "replace",
+      "value": "",
+      "arg": ", Parry",
+      "conditions": [],
+      "conditionGroups": []
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "5e9b-1961-df0b-5ddd",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Offensive",
+      "position": "1",
+      "type": "replace",
+      "value": "",
+      "arg": ", Parry",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "5e9b-1961-df0b-5ddd",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Offensive",
+      "position": "2",
+      "type": "replace",
+      "value": "",
+      "arg": "Parry, ",
+      "conditions": [],
+      "conditionGroups": []
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "5e9b-1961-df0b-5ddd",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Offensive",
+      "position": "2",
+      "type": "replace",
+      "value": "",
+      "arg": "Parry, ",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "5e9b-1961-df0b-5ddd",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Offensive",
+      "position": "3",
+      "type": "replace",
+      "value": "",
+      "arg": "Parry",
+      "conditions": [],
+      "conditionGroups": []
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "5e9b-1961-df0b-5ddd",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Offensive",
+      "position": "3",
+      "type": "replace",
+      "value": "",
+      "arg": "Parry",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "add5-e615-b82e-05dc",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Defensive",
+      "position": "1",
+      "type": "replace",
+      "value": "",
+      "arg": ", Parry",
+      "conditions": [],
+      "conditionGroups": []
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "add5-e615-b82e-05dc",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Defensive",
+      "position": "1",
+      "type": "replace",
+      "value": "",
+      "arg": ", Parry",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "add5-e615-b82e-05dc",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Defensive",
+      "position": "2",
+      "type": "replace",
+      "value": "",
+      "arg": "Parry, ",
+      "conditions": [],
+      "conditionGroups": []
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "add5-e615-b82e-05dc",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Defensive",
+      "position": "2",
+      "type": "replace",
+      "value": "",
+      "arg": "Parry, ",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "add5-e615-b82e-05dc",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Defensive",
+      "position": "3",
+      "type": "replace",
+      "value": "",
+      "arg": "Parry",
+      "conditions": [],
+      "conditionGroups": []
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "add5-e615-b82e-05dc",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Defensive",
+      "position": "3",
+      "type": "replace",
+      "value": "",
+      "arg": "Parry",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": []
+     }
+    ],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "2863-335e-0118-808a",
+      "name": "Willow's Ward",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "8fb5-02a4-8765-a52d"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "6a24-4434-c12f-e0e3",
+      "name": "Willow's Ward",
+      "hidden": true,
+      "targetId": "3604-ea61-14c0-16d8",
+      "primary": false
+     },
+     {
+      "id": "79fd-59a7-2df2-0855",
+      "name": "⟨loses:parry⟩",
+      "hidden": true,
+      "targetId": "fe31-2c50-b4c5-dfa8",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "comment": "restriction: Cannot be taken with Mount.",
+    "collective": true
+   },
+   {
+    "id": "4e38-18e2-3a5a-e743",
+    "name": "Death Cheater",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 90
+     }
+    ],
+    "constraints": [
+     {
+      "id": "3455-8d4c-aa78-2756",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "07b0-4f52-f35c-f121",
+      "name": "Death Cheater",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "6170-799e-68d6-a93f"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "a999-b949-d591-f255",
+      "name": "Death Cheater",
+      "hidden": true,
+      "targetId": "7e5c-e7ac-b574-b3a3",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "collective": true
+   },
+   {
+    "id": "b949-f581-678b-4841",
+    "name": "Destiny's Call",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 70
+     }
+    ],
+    "constraints": [
+     {
+      "id": "7375-4bd0-6fd6-29f8",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "18fa-3eca-aa11-c5a0",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [],
+      "conditionGroups": [
+       {
+        "type": "or",
+        "conditions": [
+         {
+          "type": "atLeast",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "4fb4-69c1-a8e6-be53",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atLeast",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "57e9-b1a9-cd85-c676",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ]
+     },
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "5912-3e17-93bc-d695",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     }
+    ],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "fe8a-c586-f16f-416a",
+      "name": "Destiny's Call",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "1808-d66c-202e-4dc0"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "fd1c-b07b-5c4e-6b53",
+      "name": "Destiny's Call",
+      "hidden": true,
+      "targetId": "7cd3-8edc-5614-b4dd",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "comment": "restriction: Cannot be taken with Towering. Cannot be taken with Large Size or Construct. Cannot be taken with Gigantic Size.",
+    "collective": true
+   },
+   {
+    "id": "6e82-8380-2156-6319",
+    "name": "Essence of Mithril",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 50
+     }
+    ],
+    "constraints": [
+     {
+      "id": "543b-cacd-2c23-5d19",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "18fa-3eca-aa11-c5a0",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "5912-3e17-93bc-d695",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [],
+      "conditionGroups": [
+       {
+        "type": "or",
+        "conditions": [
+         {
+          "type": "atLeast",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "4fb4-69c1-a8e6-be53",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atLeast",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "57e9-b1a9-cd85-c676",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ]
+     }
+    ],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "c686-aa57-ee2a-1141",
+      "name": "Essence of Mithril",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "cfd4-e7d9-0e70-6a6d"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "9211-7865-413d-adde",
+      "name": "Essence of Mithril",
+      "hidden": true,
+      "targetId": "e257-d1d6-7095-a874",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "comment": "restriction: Cannot be taken with Towering. Cannot be taken with Gigantic Size. Cannot be taken with Large Size or Construct.",
+    "collective": true
+   },
+   {
+    "id": "5ec4-769a-4207-9457",
+    "name": "Basalt Infusion",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 40
+     }
+    ],
+    "constraints": [
+     {
+      "id": "ea98-c3a1-1c54-b14a",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "9a1f-0bcd-c221-9720",
+      "name": "Basalt Infusion",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "2bd2-bdae-ef6d-ed4e"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "2ecb-8b0a-f1bd-f9c2",
+      "name": "Basalt Infusion",
+      "hidden": true,
+      "targetId": "e93b-e814-45ea-bb7d",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "collective": true
+   },
+   {
+    "id": "6769-f4c8-f5b8-8a04",
+    "name": "Alchemist's Alloy",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 15
+     }
+    ],
+    "constraints": [
+     {
+      "id": "66b2-c219-272d-5607",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "4031-356e-100f-39c3",
+      "name": "Alchemist's Alloy",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "46a3-a976-1384-f9fe"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "377d-4975-f198-92aa",
+      "name": "Alchemist's Alloy",
+      "hidden": true,
+      "targetId": "31b8-462f-f672-0b5e",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "collective": true
+   },
+   {
+    "id": "e1e3-0ede-5b98-c1a5",
+    "name": "Ghostly Guard",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 30
+     }
+    ],
+    "constraints": [
+     {
+      "id": "e6d5-8f20-1173-ae7a",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "7a87-49c8-cfb0-23d3",
+      "name": "Ghostly Guard",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "0c88-0201-1bd0-f26d"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "a16b-b7a8-a70f-efca",
+      "name": "Ghostly Guard",
+      "hidden": true,
+      "targetId": "9c60-c133-5235-eca6",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "collective": true
+   },
+   {
+    "id": "5c8a-5ce3-c1e5-3de7",
+    "name": "Banner of Speed",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 50
+     }
+    ],
+    "constraints": [],
+    "modifiers": [],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "56c6-a908-6ac7-8fa5",
+      "name": "Banner of Speed",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "0e47-fef7-ad32-b848"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "a232-1351-112b-c032",
+      "name": "Banner of Speed",
+      "hidden": true,
+      "targetId": "3d20-cff4-df7f-fb91",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "collective": true
+   },
+   {
+    "id": "6d57-b1be-2111-ca16",
+    "name": "Stalker's Standard",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 35
+     }
+    ],
+    "constraints": [],
+    "modifiers": [],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "e332-ea0e-a880-e483",
+      "name": "Stalker's Standard",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "aac8-83bf-33c3-e6c4"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "c187-278f-986c-8c67",
+      "name": "Stalker's Standard",
+      "hidden": true,
+      "targetId": "eac7-a936-6607-8553",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "collective": true
+   },
+   {
+    "id": "a79a-d6c3-1f45-0927",
+    "name": "Flaming Standard",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 40
+     }
+    ],
+    "constraints": [],
+    "modifiers": [],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "8104-b49a-a86c-1d8f",
+      "name": "Flaming Standard",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "1534-98d9-7a35-2be1"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "ce63-a2e0-e91e-6e5c",
+      "name": "Flaming Standard",
+      "hidden": true,
+      "targetId": "0607-1004-9f5c-ca34",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "collective": true
+   },
+   {
+    "id": "2574-137a-427f-8da1",
+    "name": "Banner of Discipline",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 25
+     }
+    ],
+    "constraints": [],
+    "modifiers": [],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "96a2-b519-4557-01f1",
+      "name": "Banner of Discipline",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "c50c-b918-f244-b3d5"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "e5e8-dc4d-76f6-aefd",
+      "name": "Banner of Discipline",
+      "hidden": true,
+      "targetId": "9ede-422d-c500-0f02",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "collective": true
+   },
+   {
+    "id": "adab-6ad0-ca5d-dbb8",
+    "name": "Banner of the Relentless Company",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 40
+     }
+    ],
+    "constraints": [],
+    "modifiers": [],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "2663-00aa-26f4-c38c",
+      "name": "Banner of the Relentless Company",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "e555-e11c-8122-378e"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "0a3f-9298-ca5c-cbcc",
+      "name": "Banner of the Relentless Company",
+      "hidden": true,
+      "targetId": "076f-ace7-96de-a40b",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "collective": true
+   },
+   {
+    "id": "1062-cf03-499b-3cf4",
+    "name": "Legion Standard",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 10
+     }
+    ],
+    "constraints": [],
+    "modifiers": [],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "da1f-0bdf-1319-7fb1",
+      "name": "Legion Standard",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "a5aa-ddd5-2293-245b"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "e4c1-35fa-5604-e848",
+      "name": "Legion Standard",
+      "hidden": true,
+      "targetId": "199c-349c-4838-e440",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "collective": true
+   },
+   {
+    "id": "f6e7-7f3b-3167-215a",
+    "name": "Aether Icon",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 10
+     }
+    ],
+    "constraints": [],
+    "modifiers": [],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "070c-f3fb-757a-0f84",
+      "name": "Aether Icon",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "5f22-28c3-254e-e893"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "2d17-1597-ec54-5782",
+      "name": "Aether Icon",
+      "hidden": true,
+      "targetId": "a2a3-91b4-625c-25d4",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "collective": true
+   },
+   {
+    "id": "b22e-879e-7c77-7359",
+    "name": "King Slayer",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 50
+     }
+    ],
+    "constraints": [
+     {
+      "id": "90b6-c17c-3ec8-be94",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "d8f0-9334-9044-0d8e",
+      "name": "King Slayer",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "5ad0-a66d-97dd-b380"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "7a17-60a2-79c5-46ae",
+      "name": "Weapon Enchant",
+      "hidden": true,
+      "targetId": "1ce8-fcb8-c558-5bfa",
+      "primary": false
+     },
+     {
+      "id": "aeb5-2b9a-a1ba-9872",
+      "name": "King Slayer",
+      "hidden": true,
+      "targetId": "7144-f28d-5baf-2633",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "collective": true
+   },
+   {
+    "id": "ce44-8579-52c6-b59f",
+    "name": "Eldritch Inscriptions",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 40
+     }
+    ],
+    "constraints": [
+     {
+      "id": "2085-e97f-1f93-5273",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "bf86-3991-f951-1a94",
+      "name": "Eldritch Inscriptions",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "38bc-c7af-faca-6ae2"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "3550-32e8-58c8-ae08",
+      "name": "Weapon Enchant",
+      "hidden": true,
+      "targetId": "1ce8-fcb8-c558-5bfa",
+      "primary": false
+     },
+     {
+      "id": "ee21-784a-495d-6b3b",
+      "name": "Eldritch Inscriptions",
+      "hidden": true,
+      "targetId": "c0eb-2801-7a8f-bd8a",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "collective": true
+   },
+   {
+    "id": "6bd9-b9de-3add-7dd9",
+    "name": "Shield Breaker",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 35
+     }
+    ],
+    "constraints": [
+     {
+      "id": "b32c-cec3-6980-1155",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "d6d8-1d34-5954-0730",
+      "name": "Shield Breaker",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "bb6c-4d87-ca25-7573"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "3fc1-b59f-9347-5cee",
+      "name": "Weapon Enchant",
+      "hidden": true,
+      "targetId": "1ce8-fcb8-c558-5bfa",
+      "primary": false
+     },
+     {
+      "id": "23bc-ca09-fd9f-42c2",
+      "name": "Shield Breaker",
+      "hidden": true,
+      "targetId": "6c0b-6c39-6d2d-6d6f",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "collective": true
+   },
+   {
+    "id": "530e-30ee-e2c2-0877",
+    "name": "Touch of Greatness",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 45
+     }
+    ],
+    "constraints": [
+     {
+      "id": "5bbb-5beb-3012-0374",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "9175-0464-b717-b9c8",
+      "name": "Touch of Greatness",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "e69e-389c-bc1c-1b9e"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "5639-edda-51a2-78bc",
+      "name": "Weapon Enchant",
+      "hidden": true,
+      "targetId": "1ce8-fcb8-c558-5bfa",
+      "primary": false
+     },
+     {
+      "id": "d665-939c-2082-26e2",
+      "name": "Touch of Greatness",
+      "hidden": true,
+      "targetId": "234a-d56f-4d65-2d76",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "collective": true
+   },
+   {
+    "id": "91b7-4106-a473-bf02",
+    "name": "Cleansing Light",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 25
+     }
+    ],
+    "constraints": [
+     {
+      "id": "b4c2-ceed-85c3-6210",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "42a8-0e02-0a72-b17c",
+      "name": "Cleansing Light",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "001f-50a1-5122-ad0f"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "dc14-a23a-e342-f589",
+      "name": "Weapon Enchant",
+      "hidden": true,
+      "targetId": "1ce8-fcb8-c558-5bfa",
+      "primary": false
+     },
+     {
+      "id": "25c8-203b-6a6b-904f",
+      "name": "Cleansing Light",
+      "hidden": true,
+      "targetId": "db6d-05c2-612f-7e84",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "collective": true
+   },
+   {
+    "id": "caf1-d3e2-ba1b-add4",
+    "name": "Supernatural Dexterity",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 20
+     }
+    ],
+    "constraints": [
+     {
+      "id": "332d-bb4f-f35b-2d14",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "90d2-b42f-a255-419c",
+      "name": "Supernatural Dexterity",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "bb15-27b1-d269-6f6a"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "aeda-803d-13e6-85ee",
+      "name": "Weapon Enchant",
+      "hidden": true,
+      "targetId": "1ce8-fcb8-c558-5bfa",
+      "primary": false
+     },
+     {
+      "id": "4d64-7767-39a1-d6bf",
+      "name": "Supernatural Dexterity",
+      "hidden": true,
+      "targetId": "06da-96e7-05a5-5601",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "collective": true
+   },
+   {
+    "id": "b9c5-47c3-4c68-ecc5",
+    "name": "Hero's Heart",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 50
+     }
+    ],
+    "constraints": [
+     {
+      "id": "3086-755f-c252-4421",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "cf76-bf74-18fe-c6f2",
+      "name": "Hero's Heart",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "1fd1-2aab-0d45-29b0"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "e609-a523-9891-bfad",
+      "name": "Weapon Enchant",
+      "hidden": true,
+      "targetId": "1ce8-fcb8-c558-5bfa",
+      "primary": false
+     },
+     {
+      "id": "11e8-3f2d-05ce-1657",
+      "name": "Hero's Heart",
+      "hidden": true,
+      "targetId": "c9ac-2a89-73e9-2e3b",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "collective": true
+   },
+   {
+    "id": "d2b6-cbe8-6def-cc3b",
+    "name": "Crown of Autocracy",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 30
+     }
+    ],
+    "constraints": [
+     {
+      "id": "a6c6-1068-8a5b-bd40",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "1d8a-9021-bdde-3d57",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     }
+    ],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "b70f-c099-849f-ce2a",
+      "name": "Crown of Autocracy",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "f67c-5fe6-b700-1ef1"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "e508-e478-4be8-cd21",
+      "name": "Crown of Autocracy",
+      "hidden": true,
+      "targetId": "7d5e-7da9-f220-4bdc",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "comment": "restriction: Cannot be taken with Not A Leader.",
+    "collective": true
+   },
+   {
+    "id": "925a-d543-84ec-7764",
+    "name": "Book of Arcane Mastery",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 50
+     }
+    ],
+    "constraints": [
+     {
+      "id": "aadc-1f22-0030-32c7",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 0,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "2acf-59f1-2a85-273b",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       },
+       {
+        "type": "atMost",
+        "value": 0,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "5c2d-edeb-a76d-2175",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       },
+       {
+        "type": "atMost",
+        "value": 0,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "103f-c1a1-f5a3-a9bc",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     }
+    ],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "25f8-d45b-8066-856c",
+      "name": "Book of Arcane Mastery",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "f3dd-2047-7e35-6fff"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "5bf2-e72c-66cf-7f53",
+      "name": "Book of Arcane Mastery",
+      "hidden": true,
+      "targetId": "afcd-a313-1d5a-4c11",
+      "primary": false
+     },
+     {
+      "id": "abc9-4d24-e468-ea47",
+      "name": "⟨Dominant⟩",
+      "hidden": true,
+      "targetId": "dbb6-2b39-527b-73dd",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "comment": "restriction: Models with Wizard Apprentice or Wizard Adept or Forbidden Path only.",
+    "collective": true
+   },
+   {
+    "id": "88a8-5ed1-f8c4-e9d7",
+    "name": "Rod of Battle",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 35
+     }
+    ],
+    "constraints": [
+     {
+      "id": "42f0-7ef5-80eb-5a06",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "d525-9b10-af2d-0c07",
+      "name": "Rod of Battle",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "5316-fdb1-37bf-ab95"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "56ef-7519-cb16-2646",
+      "name": "Rod of Battle",
+      "hidden": true,
+      "targetId": "84ca-1ae8-25e2-7dbe",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [
+     {
+      "id": "e27e-0f3e-48c2-6f82",
+      "name": "Bound Spells",
+      "hidden": false,
+      "constraints": [],
+      "modifiers": [],
+      "selectionEntries": [
+       {
+        "id": "89c0-c5e7-e729-a9ff",
+        "name": "Rod of Battle (Bound)",
+        "type": "upgrade",
+        "hidden": false,
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "37a7-7901-5410-8a02",
+          "value": 0
+         }
+        ],
+        "constraints": [
+         {
+          "id": "b0c6-8764-6105-a9e1",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1,
+          "type": "min",
+          "includeChildSelections": false,
+          "includeChildForces": false,
+          "shared": true,
+          "percentValue": false
+         },
+         {
+          "id": "c62e-25c4-0939-e045",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1,
+          "type": "max",
+          "includeChildSelections": false,
+          "includeChildForces": false,
+          "shared": true,
+          "percentValue": false
+         }
+        ],
+        "modifiers": [],
+        "profiles": [],
+        "infoLinks": [
+         {
+          "id": "8718-aadf-2423-303e",
+          "name": "Rod of Battle",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "efeb-d37c-7def-fc8f",
+          "modifiers": [
+           {
+            "type": "set",
+            "field": "8114-69ca-4bf3-08ee",
+            "value": "true",
+            "conditions": [],
+            "conditionGroups": []
+           }
+          ]
+         }
+        ],
+        "categoryLinks": [],
+        "entryLinks": [],
+        "selectionEntryGroups": [],
+        "sortIndex": 1,
+        "collective": true
+       }
+      ],
+      "entryLinks": [],
+      "selectionEntryGroups": [],
+      "sortIndex": 1,
+      "collective": true
+     }
+    ],
+    "entryLinks": [],
+    "collective": true
+   },
+   {
+    "id": "e36c-1758-4994-0689",
+    "name": "Crown of the Wizard King",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 40
+     }
+    ],
+    "constraints": [
+     {
+      "id": "7790-4ea8-3b4d-5ec5",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "2e3d-2342-2529-9d0e",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     }
+    ],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "0c35-0208-3c88-0019",
+      "name": "Crown of the Wizard King",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "d095-e35b-3e43-f6a4"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "9ec6-1686-def2-921e",
+      "name": "Crown of the Wizard King",
+      "hidden": true,
+      "targetId": "4e03-5e68-c61c-2649",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "comment": "restriction: Cannot be taken with Wizard.",
+    "collective": true
+   },
+   {
+    "id": "bcfe-506f-b51a-b8c5",
+    "name": "Essence of a Free Mind",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 35
+     }
+    ],
+    "constraints": [
+     {
+      "id": "7308-dcf4-a5d5-ccf8",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 0,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "2e3d-2342-2529-9d0e",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     }
+    ],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "d67d-88c9-82a4-20a7",
+      "name": "Essence of a Free Mind",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "092e-f5fb-7f95-c3f3"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "7005-39b9-68c5-53d6",
+      "name": "Essence of a Free Mind",
+      "hidden": true,
+      "targetId": "0ab0-4280-2e9b-e7f8",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "comment": "restriction: Models with Wizard only.",
+    "collective": true
+   },
+   {
+    "id": "0f84-720f-5d73-941b",
+    "name": "Binding Scroll",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 65
+     }
+    ],
+    "constraints": [],
+    "modifiers": [],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "496a-b30f-c5d3-7137",
+      "name": "Binding Scroll",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "0353-a2fd-aa59-3bef"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "aa27-7801-7a5e-2e4e",
+      "name": "Binding Scroll",
+      "hidden": true,
+      "targetId": "abb5-9393-afc5-c5b9",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "collective": true
+   },
+   {
+    "id": "eb4c-9d2b-40b4-0095",
+    "name": "Crystal Ball",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 45
+     }
+    ],
+    "constraints": [
+     {
+      "id": "f82b-c2a9-de37-9e6e",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "6bbe-908e-19b8-1bdb",
+      "name": "Crystal Ball",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "4821-0d87-8419-d572"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "5532-d00a-dd46-aaa8",
+      "name": "Crystal Ball",
+      "hidden": true,
+      "targetId": "a66c-0fe9-9834-acd4",
+      "primary": false
+     },
+     {
+      "id": "d876-3b61-e409-bebf",
+      "name": "⟨Dominant⟩",
+      "hidden": true,
+      "targetId": "dbb6-2b39-527b-73dd",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "collective": true
+   },
+   {
+    "id": "dd9d-67f8-8ee0-a43e",
+    "name": "Talisman of Shielding",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 50
+     }
+    ],
+    "constraints": [
+     {
+      "id": "da70-abfd-994f-87cb",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "09cf-7497-37e1-5864",
+      "name": "Talisman of Shielding",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "8b8d-0a97-b53c-0df9"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "e908-ad1c-3b7e-7513",
+      "name": "Talisman of Shielding",
+      "hidden": true,
+      "targetId": "d44a-67dc-3c80-facf",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "collective": true
+   },
+   {
+    "id": "e268-46e6-9628-19ce",
+    "name": "Talisman of the Void",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 50
+     }
+    ],
+    "constraints": [
+     {
+      "id": "68d6-29cf-cf24-6849",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "b8f2-6495-f995-7ed3",
+      "name": "Talisman of the Void",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "2f58-d5ba-f576-f61f"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "1010-7abe-c802-0e3c",
+      "name": "Talisman of the Void",
+      "hidden": true,
+      "targetId": "9222-cbc2-05c5-ba24",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "collective": true
+   },
+   {
+    "id": "bfb6-34be-e6bd-4bde",
+    "name": "Lightning Vambraces",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 20
+     }
+    ],
+    "constraints": [
+     {
+      "id": "3df0-fd08-4ac9-b5ff",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "1d29-2300-8800-bea6",
+      "name": "Lightning Vambraces",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "b1e3-09a3-d213-4041"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "ea77-cbc7-71a4-2346",
+      "name": "Lightning Vambraces",
+      "hidden": true,
+      "targetId": "a548-92e5-dfa5-bb1e",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [
+     {
+      "id": "8f7c-0c0b-f607-8858",
+      "name": "Bound Spells",
+      "hidden": false,
+      "constraints": [],
+      "modifiers": [],
+      "selectionEntries": [
+       {
+        "id": "c9c4-63f5-9264-c62c",
+        "name": "Hand of Heaven (Bound)",
+        "type": "upgrade",
+        "hidden": false,
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "37a7-7901-5410-8a02",
+          "value": 0
+         }
+        ],
+        "constraints": [
+         {
+          "id": "0fb9-e879-8beb-71b5",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1,
+          "type": "min",
+          "includeChildSelections": false,
+          "includeChildForces": false,
+          "shared": true,
+          "percentValue": false
+         },
+         {
+          "id": "ffc2-7b77-79f1-cf15",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1,
+          "type": "max",
+          "includeChildSelections": false,
+          "includeChildForces": false,
+          "shared": true,
+          "percentValue": false
+         }
+        ],
+        "modifiers": [],
+        "profiles": [],
+        "infoLinks": [
+         {
+          "id": "6c2e-82f5-145d-ae38",
+          "name": "Hand of Heaven",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "f0ff-3a2d-4729-9d4b",
+          "modifiers": [
+           {
+            "type": "set",
+            "field": "8114-69ca-4bf3-08ee",
+            "value": "true",
+            "conditions": [],
+            "conditionGroups": []
+           }
+          ]
+         }
+        ],
+        "categoryLinks": [],
+        "entryLinks": [],
+        "selectionEntryGroups": [],
+        "sortIndex": 1,
+        "collective": true
+       }
+      ],
+      "entryLinks": [],
+      "selectionEntryGroups": [],
+      "sortIndex": 1,
+      "collective": true
+     }
+    ],
+    "entryLinks": [],
+    "collective": true
+   },
+   {
+    "id": "1d73-043a-769d-38db",
+    "name": "Ranger's Boots",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 30
+     }
+    ],
+    "constraints": [
+     {
+      "id": "aa51-96ee-82aa-e7b9",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 0,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "0d09-a3fa-e8ed-584e",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "d368-25fc-557f-b395",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "4fb4-69c1-a8e6-be53",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "5912-3e17-93bc-d695",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "18a8-d3f7-335b-5bcf",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     }
+    ],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "b034-0c6e-d782-1cac",
+      "name": "Ranger's Boots",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "b15f-0bb5-5a0c-abfc"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "3b4f-928e-d7f1-33f3",
+      "name": "Ranger's Boots",
+      "hidden": true,
+      "targetId": "5627-e159-4ed7-25fa",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "comment": "restriction: Models with Infantry only. Cannot be taken with Mount. Cannot be taken with Large Size. Cannot be taken with Gigantic Size. Cannot be taken with Taurukh Ritual.",
+    "collective": true
+   },
+   {
+    "id": "eb19-2bba-679e-97bd",
+    "name": "Magical Heirloom",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 50
+     }
+    ],
+    "constraints": [
+     {
+      "id": "ed87-ab99-8ae8-7b52",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 0,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "2e3d-2342-2529-9d0e",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "b307-fc69-1305-091f",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     }
+    ],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "36b1-7cb9-0313-2ca3",
+      "name": "Magical Heirloom",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "b22d-c7fe-f125-b603"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "a87e-aaaf-c58f-72d0",
+      "name": "Magical Heirloom",
+      "hidden": true,
+      "targetId": "dbb2-5210-6ab9-a5de",
+      "primary": false
+     },
+     {
+      "id": "c618-8b77-1697-18d4",
+      "name": "⟨Dominant⟩",
+      "hidden": true,
+      "targetId": "dbb6-2b39-527b-73dd",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "comment": "restriction: Models with Wizard only. Cannot be taken with Bound Or Broken.",
+    "collective": true
+   },
+   {
+    "id": "3884-db42-3e65-0e39",
+    "name": "Obsidian Rock",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 30
+     }
+    ],
+    "constraints": [
+     {
+      "id": "0850-d24f-c096-183c",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "8bd4-5058-7856-6920",
+      "name": "Obsidian Rock",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "cd1e-8b2d-985f-5df9"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "b2af-dee1-bb23-5eba",
+      "name": "Obsidian Rock",
+      "hidden": true,
+      "targetId": "ecec-32be-af4f-fe8b",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "collective": true
+   },
+   {
+    "id": "e243-6301-61b8-6ba5",
+    "name": "Sceptre of Power",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 40
+     }
+    ],
+    "constraints": [
+     {
+      "id": "8725-9a01-c789-c4c2",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "b643-8f72-21ed-0d2d",
+      "name": "Sceptre of Power",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "9633-b89f-3c8f-6793"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "74f3-e64d-3e70-b11a",
+      "name": "Sceptre of Power",
+      "hidden": true,
+      "targetId": "6053-9fc5-16b3-8a65",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "collective": true
+   },
+   {
+    "id": "b0a3-ffc1-cc78-8617",
+    "name": "Dragon Staff",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 20
+     }
+    ],
+    "constraints": [
+     {
+      "id": "b31f-a170-ce43-19a2",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "5f48-f68e-3b80-5e56",
+      "name": "Dragon Staff",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "96de-6a5e-f09f-dac9"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "5ab1-5e72-675b-d234",
+      "name": "Dragon Staff",
+      "hidden": true,
+      "targetId": "034e-585e-03cf-9ddf",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "collective": true
+   },
+   {
+    "id": "c41d-faa2-5fef-47cf",
+    "name": "Potion of Strength",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 10
+     }
+    ],
+    "constraints": [
+     {
+      "id": "32bd-2cdf-24bf-dc5f",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "5912-3e17-93bc-d695",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "18fa-3eca-aa11-c5a0",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     }
+    ],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "f2f4-dcb2-1590-b421",
+      "name": "Potion of Strength",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "315c-0a93-a48f-d1bc"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "17fc-ccbb-cc63-a267",
+      "name": "Potion of Strength",
+      "hidden": true,
+      "targetId": "2de0-e65b-acaa-6bae",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "comment": "restriction: Cannot be taken with Gigantic Size. Cannot be taken with Towering.",
+    "collective": true
+   },
+   {
+    "id": "6420-e67d-134e-7d84",
+    "name": "Dragonfire Gem",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 20
+     }
+    ],
+    "constraints": [
+     {
+      "id": "1133-33b8-6ef9-b7e6",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "7b27-d5b3-17fb-447d",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     }
+    ],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "e896-79f1-39cd-07da",
+      "name": "Dragonfire Gem",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "0f5a-d085-7a81-de09"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "3a4a-fe0f-b46f-fd68",
+      "name": "Dragonfire Gem",
+      "hidden": true,
+      "targetId": "7058-8fe7-8aa0-3f3b",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "comment": "restriction: Cannot be taken with Treefather Ancient.",
+    "collective": true
+   },
+   {
+    "id": "7d15-ebcb-ec60-57ab",
+    "name": "Lucky Charm",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 10
+     }
+    ],
+    "constraints": [
+     {
+      "id": "5e97-6a1d-69ee-27c9",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "0ab2-85a0-b512-01cf",
+      "name": "Lucky Charm",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "c536-9a22-46d8-f739"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "ef45-de5a-cd0d-1070",
+      "name": "Lucky Charm",
+      "hidden": true,
+      "targetId": "ec8f-d234-9bd4-af68",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "collective": true
+   },
+   {
+    "id": "55df-ea75-2cc2-e588",
+    "name": "Potion of Swiftness",
+    "type": "upgrade",
+    "hidden": false,
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 20
+     }
+    ],
+    "constraints": [
+     {
+      "id": "9d6a-3bc8-4b08-4460",
+      "field": "selections",
+      "scope": "parent",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": false,
+      "includeChildForces": false,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [],
+    "profiles": [],
+    "infoLinks": [
+     {
+      "id": "377b-9303-5219-a0c6",
+      "name": "Potion of Swiftness",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "6cb2-d76a-69a0-7c0b"
+     }
+    ],
+    "categoryLinks": [
+     {
+      "id": "4a19-a8e1-ffe6-0536",
+      "name": "Potion of Swiftness",
+      "hidden": true,
+      "targetId": "81d9-42dc-9f0b-71dd",
+      "primary": false
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [],
+    "collective": true
+   }
+  ],
+  "sharedSelectionEntryGroups": [],
+  "sharedProfiles": [
+   {
+    "id": "f7d3-deb4-6198-ab24",
+    "name": "How to Use this Document",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "This document describes the different <b>Paths of Magic</b> and Special Items available for The 9th Age: Fantasy Battles and as such is to be used in conjunction with the main Rulebook. For convenience, we repeated the main rules related to spells and Special Items from the Rulebook in the corresponding sections below, along with the information needed to read the Paths."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "5b03-ff5f-6fb2-ea4f",
+    "name": "Paths of Magic",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "Spells are cast during the Magic Phase. Most spells belong to a specific Path of Magic."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "7892-a404-fed3-5439",
+    "name": "Spell Properties",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "All spells are defined by the following 6 properties (see the figure below):"
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "09d6-a624-4555-ba26",
+    "name": "Spell Classification",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "Spells are classified into the different categories Learned Spells, Attribute Spells, and Hereditary Spells by letters or numbers."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "ce91-d65d-d02c-1135",
+    "name": "Spell Name",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "Use the <b>spell name</b> to state which spell you intend to cast."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "3c0d-afa2-20a8-316e",
+    "name": "Boosted Spells",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "Some spells have two Casting Values, with the greater Casting Value being referred to as the Boosted version of the spell. Boosted versions may have their type (range, target restrictions) modified, and/or the effects of the spell changed. Declare if you are trying to cast the Boosted version before rolling any dice. If no declaration is made, the basic version for the chosen target is assumed to be used.<br><br>\tThe differences between the spell versions are signified by using the following colour coding: <font color='red'>⟨non-Boosted version⟩</font>, <b><font color='blue'>{Boosted version}</font></b>, and, in some rare cases, <b><font color='olive'>⟨⟨amplified version⟩⟩</font></b>."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "e292-a5a6-1c2f-00f2",
+    "name": "Spell Selection",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "The player who chose their Deployment Zone must select spells for their Wizards first. Afterwards, their opponent selects spells for their Wizards. All Magic Paths can be found below. Hereditary Spells can be found in the corresponding Army Books.<br>\t<br>&nbsp;&nbsp;&bull;  <b>Wizard Apprentices</b> know <b>1 spell</b> selected between <b>1</b> and <b>H</b>.<br>&nbsp;&nbsp;&bull;  <b>Wizard Adepts</b> know <b>2</b> different <b>spells</b> selected from <b>1</b>, <b>2</b>, <b>3</b>, <b>4</b>, and <b>H</b>.<br>&nbsp;&nbsp;&bull;  <b>Wizard Masters</b> know <b>4</b> different <b>spells</b> selected from <b>1</b>, <b>2</b>, <b>3</b>, <b>4</b>, <b>5</b>, <b>6</b>, and <b>H</b>.<br>&nbsp;&nbsp;&bull;  <b>Wizard Conclave</b>: the Champion of a unit with Wizard Conclave is a Wizard Adept and gains +1 Health Point in addition to the normal Attack Value increase associated with being a Champion. This Champion may select up to two spells from predetermined spells given in the unit entry. This overrides the <b>Spell Selection</b> rules for Wizard Adepts."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "084f-1e4a-e788-97d1",
+    "name": "Channel",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "During step 3 of the Magic Phase Sequence, each of the Active Player’s models with Channel may add X Veil Tokens to its owner’s Veil Token pool. This Universal Rule is cumulative, adding the X of each instance of Channel to the model’s total Channel value (e.g. a model with Channel (1) and Channel (2) is treated like a model with Channel (3))."
+     }
+    ],
+    "modifiers": [
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditionGroups": [],
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry",
+        "childId": "12a1-5e9e-6201-51e8",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ]
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "cb0b-c667-3bba-3c29",
+    "name": "Spell Types",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "The spell type describes which targets can be chosen for the spell. Unless specifically stated otherwise, a spell may only have a single target and the target must be a single unit. If a spell has more than one type, apply all the restrictions of each type.<br><br>\tFor example, if a spell has the types Direct, Hex, and Range 12\", the target must be in the Caster's Front Arc, be an enemy unit, and be within 12\" of the Caster."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "c9c5-5347-d8bd-ad4f",
+    "name": "Spell Duration",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "The duration of a spell determines how long the effects of the spell are applied."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "38bc-c7af-faca-6ae2",
+    "name": "Eldritch Inscriptions",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "Failed to-wound rolls from attacks made with this weapon <b>must</b> be rerolled."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "1fd1-2aab-0d45-29b0",
+    "name": "Hero's Heart",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "The wielder gains +1 Attack Value while using this weapon. Attacks made with this weapon <b>always</b> have at least Strength 5 and at least Armour Penetration 2."
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "field": "977e-3683-45e2-07ca",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Offensive",
+      "position": "1",
+      "conditions": [],
+      "conditionGroups": [],
+      "type": "increment",
+      "value": 1
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "977e-3683-45e2-07ca",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Offensive",
+      "position": "1",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": [],
+      "type": "increment",
+      "value": 1
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "5ad0-a66d-97dd-b380",
+    "name": "King Slayer",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "The wielder  gains +X Attack Value while using this weapon, and attacks made with this weapon gain +X Strength and +X Armour Penetration, where X is equal to the number of enemy Characters in base contact with the wielder's unit. This bonus is calculated at the Initiative Step when the attacks are made."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "e69e-389c-bc1c-1b9e",
+    "name": "Touch of Greatness",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "Attacks made with this  weapon gain +1 Strength and +1 Armour Penetration. Strength modifiers from this weapon (combining both mundane and Weapon Enchantment modifiers) cannot exceed +2 (but can exceed +2 through modifiers from other sources, such as spells)."
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "field": "cc5e-c56d-543f-0a69",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Offensive",
+      "position": "1",
+      "conditions": [],
+      "conditionGroups": [],
+      "type": "increment",
+      "value": 1
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "cc5e-c56d-543f-0a69",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Offensive",
+      "position": "1",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": [],
+      "type": "increment",
+      "value": 1
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "ca1e-4b8f-6554-3f2f",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Offensive",
+      "position": "1",
+      "conditions": [],
+      "conditionGroups": [],
+      "type": "increment",
+      "value": 1
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "ca1e-4b8f-6554-3f2f",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Offensive",
+      "position": "1",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": [],
+      "type": "increment",
+      "value": 1
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "bb6c-4d87-ca25-7573",
+    "name": "Shield Breaker",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "Attacks made with this  weapon gain +6 Armour Penetration, and can <b>never</b> wound on natural to-wound rolls of ‘1’ and ‘2’."
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "field": "ca1e-4b8f-6554-3f2f",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Offensive",
+      "position": "1",
+      "conditions": [],
+      "conditionGroups": [],
+      "type": "increment",
+      "value": 6
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "ca1e-4b8f-6554-3f2f",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Offensive",
+      "position": "1",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": [],
+      "type": "increment",
+      "value": 6
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "defensive"
+     }
+    ]
+   },
+   {
+    "id": "bb15-27b1-d269-6f6a",
+    "name": "Supernatural Dexterity",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "The wielder  gains +2 Offensive Skill and +2 Agility while using this weapon."
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "field": "6b9c-9509-7450-6cf6",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Offensive",
+      "position": "1",
+      "conditions": [],
+      "conditionGroups": [],
+      "type": "increment",
+      "value": 2
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "6b9c-9509-7450-6cf6",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Offensive",
+      "position": "1",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": [],
+      "type": "increment",
+      "value": 2
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "6518-cb29-b2b2-aa69",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Offensive",
+      "position": "1",
+      "conditions": [],
+      "conditionGroups": [],
+      "type": "increment",
+      "value": 2
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "6518-cb29-b2b2-aa69",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Offensive",
+      "position": "1",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": [],
+      "type": "increment",
+      "value": 2
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "001f-50a1-5122-ad0f",
+    "name": "Cleansing Light",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "At the start of each Round of Combat, the wielder may choose to have attacks made with this  weapon become <b>Divine Attacks</b> and  <b>Flaming Attacks</b>. The effects last until the end of the Round of Combat."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ],
+    "selectable": true
+   },
+   {
+    "id": "6170-799e-68d6-a93f",
+    "name": "Death Cheater",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "The wearer gains +1 Armour and <b>Fortitude (4+)</b>."
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "field": "d15a-5931-24e5-be5d",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Defensive",
+      "position": "1",
+      "conditions": [],
+      "conditionGroups": [],
+      "type": "increment",
+      "value": 1
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "d15a-5931-24e5-be5d",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Defensive",
+      "position": "1",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": [],
+      "type": "increment",
+      "value": 1
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "1808-d66c-202e-4dc0",
+    "name": "Destiny's Call",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "The wearer gains <b>Aegis (4+)</b>. In addition, its Armour is <b>set</b> to 3 and can <b>never</b> be improved beyond this."
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "field": "d15a-5931-24e5-be5d",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Defensive",
+      "position": "1",
+      "conditions": [],
+      "conditionGroups": [],
+      "type": "ceil",
+      "value": 3
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "d15a-5931-24e5-be5d",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Defensive",
+      "position": "1",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": [],
+      "type": "ceil",
+      "value": 3
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "d15a-5931-24e5-be5d",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Defensive",
+      "position": "1",
+      "conditions": [],
+      "conditionGroups": [],
+      "type": "floor",
+      "value": 3
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "d15a-5931-24e5-be5d",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Defensive",
+      "position": "1",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": [],
+      "type": "floor",
+      "value": 3
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "cfd4-e7d9-0e70-6a6d",
+    "name": "Essence of Mithril",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "The wearer's Armour is <b>set</b> to 5 and can <b>never</b> be improved beyond this."
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "field": "d15a-5931-24e5-be5d",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Defensive",
+      "position": "1",
+      "conditions": [],
+      "conditionGroups": [],
+      "type": "ceil",
+      "value": 5
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "d15a-5931-24e5-be5d",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Defensive",
+      "position": "1",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": [],
+      "type": "ceil",
+      "value": 5
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "d15a-5931-24e5-be5d",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Defensive",
+      "position": "1",
+      "conditions": [],
+      "conditionGroups": [],
+      "type": "floor",
+      "value": 5
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "d15a-5931-24e5-be5d",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Defensive",
+      "position": "1",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": [],
+      "type": "floor",
+      "value": 5
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "3eef-fc4c-a599-c92a",
+    "name": "Dusk Forged",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "The bearer may choose to reroll its failed Armour Saves while using this Shield. If the reroll from <b>Dusk Forged</b> is failed, the bearer automatically fails any Special Save against that wound."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ],
+    "selectable": true
+   },
+   {
+    "id": "0c88-0201-1bd0-f26d",
+    "name": "Ghostly Guard",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "The wearer gains +2 Armour against non-Magical Attacks."
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "field": "d15a-5931-24e5-be5d",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Defensive",
+      "position": "1",
+      "conditions": [],
+      "conditionGroups": [],
+      "comment": "<conditional> against Magical Attacks",
+      "type": "increment",
+      "value": 2
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "d15a-5931-24e5-be5d",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Defensive",
+      "position": "1",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": [],
+      "comment": "<conditional> against Magical Attacks",
+      "type": "increment",
+      "value": 2
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "2bd2-bdae-ef6d-ed4e",
+    "name": "Basalt Infusion",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "The wearer gains +1 Armour and <b>Aegis (3+, against Flaming Attacks)</b>. The wearer automatically fails all Fortitude Saves."
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "field": "d15a-5931-24e5-be5d",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Defensive",
+      "position": "1",
+      "conditions": [],
+      "conditionGroups": [],
+      "type": "increment",
+      "value": 1
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "d15a-5931-24e5-be5d",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Defensive",
+      "position": "1",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": [],
+      "type": "increment",
+      "value": 1
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "46a3-a976-1384-f9fe",
+    "name": "Alchemist's Alloy",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "The wearer gains +1 Armour and suffers -2 Offensive Skill."
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "field": "d15a-5931-24e5-be5d",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Defensive",
+      "position": "1",
+      "conditions": [],
+      "conditionGroups": [],
+      "type": "increment",
+      "value": 1
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "d15a-5931-24e5-be5d",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Defensive",
+      "position": "1",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": [],
+      "type": "increment",
+      "value": 1
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "6b9c-9509-7450-6cf6",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Offensive",
+      "position": "1",
+      "conditions": [],
+      "conditionGroups": [],
+      "type": "decrement",
+      "value": 2
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "6b9c-9509-7450-6cf6",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Offensive",
+      "position": "1",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": [],
+      "type": "decrement",
+      "value": 2
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "8fb5-02a4-8765-a52d",
+    "name": "Willow's Ward",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "While using this Shield, the bearer cannot use Parry, gains +1 Armour, and Impact Hits distributed onto the bearer suffer -2 Armour Penetration."
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "field": "d15a-5931-24e5-be5d",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Defensive",
+      "position": "1",
+      "conditions": [],
+      "conditionGroups": [],
+      "type": "increment",
+      "value": 1
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "d15a-5931-24e5-be5d",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Defensive",
+      "position": "1",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": [],
+      "type": "increment",
+      "value": 1
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "0e47-fef7-ad32-b848",
+    "name": "Banner of Speed",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "A unit with one or more Banners of Speed gains +1\" Advance Rate and +2\" March Rate."
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "field": "cf70-c87b-5e2d-5d97",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Global",
+      "position": "1",
+      "conditions": [],
+      "conditionGroups": [],
+      "type": "increment",
+      "value": 1
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "cf70-c87b-5e2d-5d97",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Global",
+      "position": "1",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": [],
+      "type": "increment",
+      "value": 1
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "3547-0c61-20c1-f727",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Global",
+      "position": "1",
+      "conditions": [],
+      "conditionGroups": [],
+      "type": "increment",
+      "value": 2
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "3547-0c61-20c1-f727",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Global",
+      "position": "1",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": [],
+      "type": "increment",
+      "value": 2
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "aac8-83bf-33c3-e6c4",
+    "name": "Stalker's Standard",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "The bearer's unit gains <b>Strider</b>."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "e555-e11c-8122-378e",
+    "name": "Banner of the Relentless Company",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "One use only. May be activated during the owner's Movement Phase. All Infantry models in the bearer's unit <b>always</b> have March Rate 15\" with the following restrictions:<br>\t<br>&nbsp;&nbsp;&bull;  Characters cannot voluntarily leave the bearer's unit.<br>\t\t<br>&nbsp;&nbsp;&bull;  The bearer's unit cannot perform any Shooting Attacks.<br>\t\t<br>&nbsp;&nbsp;&bull;  Only a single <b>Banner of the Relentless Company</b> may be activated during the same phase.<br>\t<br>The effects last until the end of the Player Turn."
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "field": "3547-0c61-20c1-f727",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Global",
+      "position": "1",
+      "conditions": [],
+      "conditionGroups": [],
+      "type": "ceil",
+      "value": 15
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "3547-0c61-20c1-f727",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Global",
+      "position": "1",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": [],
+      "type": "ceil",
+      "value": 15
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "3547-0c61-20c1-f727",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Global",
+      "position": "1",
+      "conditions": [],
+      "conditionGroups": [],
+      "type": "floor",
+      "value": 15
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "3547-0c61-20c1-f727",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Global",
+      "position": "1",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": [],
+      "type": "floor",
+      "value": 15
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ],
+    "selectable": true
+   },
+   {
+    "id": "c50c-b918-f244-b3d5",
+    "name": "Banner of Discipline",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "The bearer's unit may reroll failed Panic Tests. If the Battle Standard Bearer or the General is part of the bearer's unit, it automatically passes Panic Tests instead."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "1534-98d9-7a35-2be1",
+    "name": "Flaming Standard",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "One use only. May be activated at the start of a Round of Combat or before shooting with the bearer's unit. The bearer's unit gains <b>Flaming Attacks</b>. If activated when Engaged in Combat, the effect lasts until the bearer's unit is no longer Engaged in Combat. If activated before shooting with the bearer's unit, the effect lasts until the end of the phase."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ],
+    "selectable": true
+   },
+   {
+    "id": "a5aa-ddd5-2293-245b",
+    "name": "Legion Standard",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "A unit with one <b>Legion Standard</b> increases its maximum Rank Bonus by 1 (normally this means the unit can add up to 4 Full Ranks to its Combat Score). A unit with two or more <b>Legion Standards</b> increases its maximum Rank Bonus by 2 instead."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "5f22-28c3-254e-e893",
+    "name": "Aether Icon",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "The bearer gains <b>Magic Resistance (1)</b>. If the unit contains other instances of Magic Resistance, it increases those Magic Resistance values by 1 instead."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "f67c-5fe6-b700-1ef1",
+    "name": "Crown of Autocracy",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "The  bearer gains <b>Commanding Presence (3\", max. 3\")</b>. If the  bearer has another instance of Commanding Presence, it gains <b>Commanding Presence (+3\", max. 18\")</b> instead."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "f3dd-2047-7e35-6fff",
+    "name": "Book of Arcane Mastery",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "The bearer knows one additional Learned Spell that it selects from the Learned Spells 1, 2, 3, and 4 of its chosen Path. In addition, the bearer cannot cast the Hereditary Spell."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "0353-a2fd-aa59-3bef",
+    "name": "Binding Scroll",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "One use only. May be activated after Siphon the Veil (at the end of step 3 of the Magic Phase Sequence). When activated, pick an enemy model and select one of its Attribute, Bound, or Learned Spells. The selected model cannot cast the chosen instance of the spell during this Magic Phase. Only a single <b>Binding Scroll</b> may be activated during the same phase."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "092e-f5fb-7f95-c3f3",
+    "name": "Essence of a Free Mind",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "The bearer may choose up to two Paths on the Army List instead of one (from the ones normally available to it). During <b>Spell Selection</b>, choose which one of the two Paths to use. The bearer cannot select from the Learned Spells 5 and 6 of its chosen Path."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "d095-e35b-3e43-f6a4",
+    "name": "Crown of the Wizard King",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "During <b>Spell Selection</b>, randomise a Magic Path (from all Paths in this book). The bearer is a <b>Wizard Apprentice</b> using the randomised Path. It cannot select the Hereditary Spell. The bearer cannot take any Special Items nor any other upgrades that are restricted to Wizards (or any types of Wizards)."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "b22d-c7fe-f125-b603",
+    "name": "Magical Heirloom",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "The bearer gains the Hereditary Spell during <b>Spell Selection</b>, <b>always</b> knows it in addition to its other spells, cannot select it during <b>Spell Selection</b>, and cannot replace or otherwise lose it."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "8b8d-0a97-b53c-0df9",
+    "name": "Talisman of Shielding",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "The bearer gains <b>Aegis (5+)</b>."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "defensive"
+     }
+    ]
+   },
+   {
+    "id": "2f58-d5ba-f576-f61f",
+    "name": "Talisman of the Void",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "The bearer gains <b>Channel (1)</b>."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "b1e3-09a3-d213-4041",
+    "name": "Lightning Vambraces",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "The bearer can cast <i>Hand of Heaven</i> (Thaumaturgy) as a Bound Spell with Power Level (4/8)."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "b15f-0bb5-5a0c-abfc",
+    "name": "Ranger's Boots",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "The bearer gains <b>Strider</b> and, unless using Flying Movement, +2\" Advance Rate up to a maximum of 10\", and +4\" March Rate up to a maximum of 20\"."
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "field": "cf70-c87b-5e2d-5d97",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Global",
+      "position": "1",
+      "conditions": [],
+      "conditionGroups": [],
+      "type": "increment",
+      "value": 2
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "cf70-c87b-5e2d-5d97",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Global",
+      "position": "1",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": [],
+      "type": "increment",
+      "value": 2
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "3547-0c61-20c1-f727",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Global",
+      "position": "1",
+      "conditions": [],
+      "conditionGroups": [],
+      "type": "increment",
+      "value": 4
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "3547-0c61-20c1-f727",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Global",
+      "position": "1",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": [],
+      "type": "increment",
+      "value": 4
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "cf70-c87b-5e2d-5d97",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Global",
+      "position": "1",
+      "conditions": [],
+      "conditionGroups": [],
+      "type": "ceil",
+      "value": 10
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "cf70-c87b-5e2d-5d97",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Global",
+      "position": "1",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": [],
+      "type": "ceil",
+      "value": 10
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "3547-0c61-20c1-f727",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Global",
+      "position": "1",
+      "conditions": [],
+      "conditionGroups": [],
+      "type": "ceil",
+      "value": 20
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "3547-0c61-20c1-f727",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Global",
+      "position": "1",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": [],
+      "type": "ceil",
+      "value": 20
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "5316-fdb1-37bf-ab95",
+    "name": "Rod of Battle",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "The bearer can cast a Bound Spell, Power Level (4/8):\\Type: Augment. Range 18\". Duration: One Turn.\\The target gains +1 to hit with its Close Combat Attacks."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "4821-0d87-8419-d572",
+    "name": "Crystal Ball",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "The first Dispelling Attempt in each enemy Magic Phase gains a +2 Dispelling Modifier, provided the bearer is on the Battlefield. When using a single Magic Dice for this Dispelling Attempt, a natural roll of ‘1’ or ‘2’ on the Magic Dice is<br>\t<b>always</b> a failed Dispelling Attempt, regardless of any modifiers."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "9633-b89f-3c8f-6793",
+    "name": "Sceptre of Power",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "One use only. A Wizard with this Artefact may add a single Magic Dice from its Magic Dice pool to one of its casting rolls or dispelling rolls, after seeing the casting or dispelling roll (note that casting rolls cannot exceed the limit of max 5 Magic Dice)."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "96de-6a5e-f09f-dac9",
+    "name": "Dragon Staff",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "The bearer gains Breath Attack (Str 3, AP 0, Flaming Attacks)."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "cd1e-8b2d-985f-5df9",
+    "name": "Obsidian Rock",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "The bearer gains <b>Magic Resistance (2)</b>."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "0f5a-d085-7a81-de09",
+    "name": "Dragonfire Gem",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "The bearer gains <b>Aegis (3+, against Flaming Attacks)</b>. The bearer automatically fails all Fortitude Saves."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "c536-9a22-46d8-f739",
+    "name": "Lucky Charm",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "One use only. May be activated when the bearer's model fails an Armour Save. This failed Armour Save may be rerolled."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ],
+    "selectable": true
+   },
+   {
+    "id": "315c-0a93-a48f-d1bc",
+    "name": "Potion of Strength",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "One use only. May be activated at the start of any Round of Combat. Until the end of the Player Turn, the bearer gains <b>Crush Attack</b>."
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ]
+   },
+   {
+    "id": "6cb2-d76a-69a0-7c0b",
+    "name": "Potion of Swiftness",
+    "typeId": "1188-e4e6-df9f-53bd",
+    "typeName": "Rule",
+    "hidden": false,
+    "characteristics": [
+     {
+      "name": "Rule",
+      "typeId": "a488-36d4-35d9-8068",
+      "$text": "One use only. May be activated at the start of any Round of Combat. Until the end of the Player Turn, the bearer gains +3 Agility."
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "field": "6518-cb29-b2b2-aa69",
+      "scope": "non-upgrade-entry-self",
+      "affects": "self.profiles.Offensive",
+      "position": "1",
+      "conditions": [],
+      "conditionGroups": [],
+      "type": "increment",
+      "value": 3
+     },
+     {
+      "parentKey": "modifiers",
+      "field": "6518-cb29-b2b2-aa69",
+      "scope": "non-upgrade-entry-self",
+      "affects": "entries.recursive.profiles.Offensive",
+      "position": "1",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "non-upgrade-entry-self",
+        "childId": "unit",
+        "shared": true
+       }
+      ],
+      "conditionGroups": [],
+      "type": "increment",
+      "value": 3
+     }
+    ],
+    "attributes": [
+     {
+      "name": "Classification",
+      "typeId": "ca00-0fed-56f8-da86",
+      "$text": "global"
+     }
+    ],
+    "selectable": true
+   }
+  ],
+  "sharedRules": []
+ },
+ "playable": false,
+ "id": 3350213999,
+ "include": [
+  1000
+ ],
+ "name": "T9A Common Items",
+ "short": "t9a_common_items",
+ "version": "2022",
+ "nrversion": 1
+}
