@@ -87,6 +87,44 @@
     ],
     "modifiers": [
      {
+      "type": "set",
+      "field": "dbc2-76a9-2cca-d8fc",
+      "value": 1,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "dbc2-76a9-2cca-d8fc",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
       "parentKey": "modifiers",
       "type": "ceil",
       "value": -1,
@@ -142,6 +180,44 @@
     ],
     "modifiers": [
      {
+      "type": "set",
+      "field": "395c-084d-74fc-c947",
+      "value": 1,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "395c-084d-74fc-c947",
+      "value": 4,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
       "parentKey": "modifiers",
       "type": "ceil",
       "value": -1,
@@ -179,6 +255,44 @@
      }
     ],
     "modifiers": [
+     {
+      "type": "set",
+      "field": "f7e9-dce5-c54f-32f5",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "f7e9-dce5-c54f-32f5",
+      "value": 8,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
      {
       "parentKey": "modifiers",
       "type": "ceil",
@@ -242,6 +356,44 @@
     ],
     "modifiers": [
      {
+      "type": "set",
+      "field": "199f-28e1-c3e6-f8d7",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "199f-28e1-c3e6-f8d7",
+      "value": 8,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
       "parentKey": "modifiers",
       "type": "ceil",
       "value": -1,
@@ -279,6 +431,44 @@
      }
     ],
     "modifiers": [
+     {
+      "type": "set",
+      "field": "ce70-afa6-2b1a-0f04",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "ce70-afa6-2b1a-0f04",
+      "value": 8,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
      {
       "parentKey": "modifiers",
       "type": "ceil",
@@ -318,6 +508,44 @@
     ],
     "modifiers": [
      {
+      "type": "set",
+      "field": "f2ed-b4f6-71d0-0e4b",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "f2ed-b4f6-71d0-0e4b",
+      "value": 8,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
       "parentKey": "modifiers",
       "type": "ceil",
       "value": -1,
@@ -355,6 +583,44 @@
      }
     ],
     "modifiers": [
+     {
+      "type": "set",
+      "field": "872a-49bc-48dc-30ca",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "872a-49bc-48dc-30ca",
+      "value": 8,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
      {
       "parentKey": "modifiers",
       "type": "ceil",
@@ -418,6 +684,44 @@
     ],
     "modifiers": [
      {
+      "type": "set",
+      "field": "f864-cf75-63c1-9e7d",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "f864-cf75-63c1-9e7d",
+      "value": 8,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
       "parentKey": "modifiers",
       "type": "ceil",
       "value": -1,
@@ -455,6 +759,44 @@
      }
     ],
     "modifiers": [
+     {
+      "type": "set",
+      "field": "110d-7e0f-0d4f-c443",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "110d-7e0f-0d4f-c443",
+      "value": 8,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
      {
       "parentKey": "modifiers",
       "type": "ceil",
@@ -494,6 +836,44 @@
     ],
     "modifiers": [
      {
+      "type": "set",
+      "field": "289f-34ab-20d2-fa9f",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "289f-34ab-20d2-fa9f",
+      "value": 6,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
       "parentKey": "modifiers",
       "type": "ceil",
       "value": -1,
@@ -531,6 +911,44 @@
      }
     ],
     "modifiers": [
+     {
+      "type": "set",
+      "field": "f73f-66d8-f790-b33b",
+      "value": 1,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "f73f-66d8-f790-b33b",
+      "value": 4,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
      {
       "parentKey": "modifiers",
       "type": "ceil",
@@ -570,6 +988,44 @@
     ],
     "modifiers": [
      {
+      "type": "set",
+      "field": "e589-d90b-51e0-c48b",
+      "value": 1,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "e589-d90b-51e0-c48b",
+      "value": 4,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
       "parentKey": "modifiers",
       "type": "ceil",
       "value": -1,
@@ -607,6 +1063,44 @@
      }
     ],
     "modifiers": [
+     {
+      "type": "set",
+      "field": "326e-3d29-ba3f-6d32",
+      "value": 1,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "326e-3d29-ba3f-6d32",
+      "value": 4,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
      {
       "parentKey": "modifiers",
       "type": "ceil",
@@ -646,6 +1140,44 @@
     ],
     "modifiers": [
      {
+      "type": "set",
+      "field": "304b-233c-401b-d898",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "304b-233c-401b-d898",
+      "value": 6,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
       "parentKey": "modifiers",
       "type": "ceil",
       "value": -1,
@@ -683,6 +1215,44 @@
      }
     ],
     "modifiers": [
+     {
+      "type": "set",
+      "field": "ca7e-088c-2833-405a",
+      "value": 1,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "ca7e-088c-2833-405a",
+      "value": 4,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
      {
       "parentKey": "modifiers",
       "type": "ceil",
@@ -722,6 +1292,44 @@
     ],
     "modifiers": [
      {
+      "type": "set",
+      "field": "c072-b87f-a325-b051",
+      "value": 1,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "c072-b87f-a325-b051",
+      "value": 4,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
       "parentKey": "modifiers",
       "type": "ceil",
       "value": -1,
@@ -759,6 +1367,44 @@
      }
     ],
     "modifiers": [
+     {
+      "type": "set",
+      "field": "7118-ae66-cbeb-057a",
+      "value": 20,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "7118-ae66-cbeb-057a",
+      "value": 80,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
      {
       "parentKey": "modifiers",
       "type": "ceil",
@@ -798,6 +1444,44 @@
     ],
     "modifiers": [
      {
+      "type": "set",
+      "field": "c6ad-1591-94bd-0bf9",
+      "value": 1,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "c6ad-1591-94bd-0bf9",
+      "value": 4,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
       "parentKey": "modifiers",
       "type": "ceil",
       "value": -1,
@@ -835,6 +1519,44 @@
      }
     ],
     "modifiers": [
+     {
+      "type": "set",
+      "field": "bfb2-9802-c55c-b742",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "bfb2-9802-c55c-b742",
+      "value": 6,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
      {
       "parentKey": "modifiers",
       "type": "ceil",
@@ -874,6 +1596,44 @@
     ],
     "modifiers": [
      {
+      "type": "set",
+      "field": "19b3-5a9a-e46c-3d55",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "19b3-5a9a-e46c-3d55",
+      "value": 6,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
       "parentKey": "modifiers",
       "type": "ceil",
       "value": -1,
@@ -911,6 +1671,44 @@
      }
     ],
     "modifiers": [
+     {
+      "type": "set",
+      "field": "2fdb-8a73-af3e-7bf5",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "2fdb-8a73-af3e-7bf5",
+      "value": 6,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
      {
       "parentKey": "modifiers",
       "type": "ceil",
@@ -950,6 +1748,44 @@
     ],
     "modifiers": [
      {
+      "type": "set",
+      "field": "28c6-1df5-1a23-da3b",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "28c6-1df5-1a23-da3b",
+      "value": 6,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
       "parentKey": "modifiers",
       "type": "ceil",
       "value": -1,
@@ -987,6 +1823,44 @@
      }
     ],
     "modifiers": [
+     {
+      "type": "set",
+      "field": "2f08-186b-994e-a26e",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "2f08-186b-994e-a26e",
+      "value": 6,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
      {
       "parentKey": "modifiers",
       "type": "ceil",
@@ -1026,6 +1900,44 @@
     ],
     "modifiers": [
      {
+      "type": "set",
+      "field": "bcce-db48-4520-6fc8",
+      "value": 9,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "bcce-db48-4520-6fc8",
+      "value": 36,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
       "parentKey": "modifiers",
       "type": "ceil",
       "value": -1,
@@ -1063,6 +1975,44 @@
      }
     ],
     "modifiers": [
+     {
+      "type": "set",
+      "field": "e2b8-5b26-3aa4-8e09",
+      "value": 1,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "e2b8-5b26-3aa4-8e09",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
      {
       "parentKey": "modifiers",
       "type": "ceil",
@@ -1102,6 +2052,44 @@
     ],
     "modifiers": [
      {
+      "type": "set",
+      "field": "7180-2bdb-b4e3-2c53",
+      "value": 1,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "7180-2bdb-b4e3-2c53",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
       "parentKey": "modifiers",
       "type": "ceil",
       "value": -1,
@@ -1139,6 +2127,44 @@
      }
     ],
     "modifiers": [
+     {
+      "type": "set",
+      "field": "3625-515a-7539-67d1",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "3625-515a-7539-67d1",
+      "value": 8,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
      {
       "parentKey": "modifiers",
       "type": "ceil",
@@ -1178,6 +2204,44 @@
     ],
     "modifiers": [
      {
+      "type": "set",
+      "field": "9bd2-9581-174f-c36c",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "9bd2-9581-174f-c36c",
+      "value": 8,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
       "parentKey": "modifiers",
       "type": "ceil",
       "value": -1,
@@ -1215,6 +2279,44 @@
      }
     ],
     "modifiers": [
+     {
+      "type": "set",
+      "field": "54ec-b4ae-25d9-c70d",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "54ec-b4ae-25d9-c70d",
+      "value": 8,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
      {
       "parentKey": "modifiers",
       "type": "ceil",
@@ -1254,6 +2356,44 @@
     ],
     "modifiers": [
      {
+      "type": "set",
+      "field": "6960-267a-4ea0-ed5c",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "6960-267a-4ea0-ed5c",
+      "value": 8,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
       "parentKey": "modifiers",
       "type": "ceil",
       "value": -1,
@@ -1291,6 +2431,44 @@
      }
     ],
     "modifiers": [
+     {
+      "type": "set",
+      "field": "5c2c-41ef-f0f5-5944",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "5c2c-41ef-f0f5-5944",
+      "value": 6,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
      {
       "parentKey": "modifiers",
       "type": "ceil",
@@ -1330,6 +2508,44 @@
     ],
     "modifiers": [
      {
+      "type": "set",
+      "field": "d02d-ce5f-c66a-c603",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "d02d-ce5f-c66a-c603",
+      "value": 6,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
       "parentKey": "modifiers",
       "type": "ceil",
       "value": -1,
@@ -1367,6 +2583,44 @@
      }
     ],
     "modifiers": [
+     {
+      "type": "set",
+      "field": "44ae-be68-c470-daa3",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "44ae-be68-c470-daa3",
+      "value": 6,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
      {
       "parentKey": "modifiers",
       "type": "ceil",
@@ -1406,6 +2660,44 @@
     ],
     "modifiers": [
      {
+      "type": "set",
+      "field": "7119-cce7-08d2-5bab",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "7119-cce7-08d2-5bab",
+      "value": 8,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
       "parentKey": "modifiers",
       "type": "ceil",
       "value": -1,
@@ -1443,6 +2735,44 @@
      }
     ],
     "modifiers": [
+     {
+      "type": "set",
+      "field": "0b1c-3990-5adf-9adc",
+      "value": 3,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "0b1c-3990-5adf-9adc",
+      "value": 10,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
      {
       "parentKey": "modifiers",
       "type": "ceil",
@@ -1482,6 +2812,44 @@
     ],
     "modifiers": [
      {
+      "type": "set",
+      "field": "ebed-2872-f6e6-bc3f",
+      "value": 3,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "ebed-2872-f6e6-bc3f",
+      "value": 10,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
       "parentKey": "modifiers",
       "type": "ceil",
       "value": -1,
@@ -1520,6 +2888,44 @@
     ],
     "modifiers": [
      {
+      "type": "set",
+      "field": "a945-f3c7-c734-94a7",
+      "value": 1,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "a945-f3c7-c734-94a7",
+      "value": 4,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
       "parentKey": "modifiers",
       "type": "ceil",
       "value": -1,
@@ -1557,6 +2963,44 @@
      }
     ],
     "modifiers": [
+     {
+      "type": "set",
+      "field": "1e48-80f7-da88-8f54",
+      "value": 1,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "1e48-80f7-da88-8f54",
+      "value": 4,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
      {
       "parentKey": "modifiers",
       "type": "ceil",
@@ -1604,6 +3048,44 @@
     ],
     "modifiers": [
      {
+      "type": "set",
+      "field": "c5fc-5402-1b8d-6114",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "c5fc-5402-1b8d-6114",
+      "value": 6,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
       "parentKey": "modifiers",
       "type": "ceil",
       "value": -1,
@@ -1641,6 +3123,44 @@
      }
     ],
     "modifiers": [
+     {
+      "type": "set",
+      "field": "6db1-a986-de68-639f",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "6db1-a986-de68-639f",
+      "value": 6,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
      {
       "parentKey": "modifiers",
       "type": "ceil",
@@ -1680,6 +3200,44 @@
     ],
     "modifiers": [
      {
+      "type": "set",
+      "field": "2c81-bc21-0cb5-b1b0",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "2c81-bc21-0cb5-b1b0",
+      "value": 6,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
       "parentKey": "modifiers",
       "type": "ceil",
       "value": -1,
@@ -1717,6 +3275,44 @@
      }
     ],
     "modifiers": [
+     {
+      "type": "set",
+      "field": "48dd-17e3-8892-69ae",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "48dd-17e3-8892-69ae",
+      "value": 6,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
      {
       "parentKey": "modifiers",
       "type": "ceil",
@@ -1756,6 +3352,44 @@
     ],
     "modifiers": [
      {
+      "type": "set",
+      "field": "803b-4242-8dae-cfbb",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "803b-4242-8dae-cfbb",
+      "value": 6,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
       "parentKey": "modifiers",
       "type": "ceil",
       "value": -1,
@@ -1793,6 +3427,44 @@
      }
     ],
     "modifiers": [
+     {
+      "type": "set",
+      "field": "31f0-71a8-5c3e-f91b",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "31f0-71a8-5c3e-f91b",
+      "value": 6,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
      {
       "parentKey": "modifiers",
       "type": "ceil",
@@ -1832,6 +3504,44 @@
     ],
     "modifiers": [
      {
+      "type": "set",
+      "field": "8175-1d29-85d0-de40",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "8175-1d29-85d0-de40",
+      "value": 6,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
       "parentKey": "modifiers",
       "type": "ceil",
       "value": -1,
@@ -1870,6 +3580,44 @@
     ],
     "modifiers": [
      {
+      "type": "set",
+      "field": "1469-4d3c-812e-c199",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "1469-4d3c-812e-c199",
+      "value": 6,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
       "parentKey": "modifiers",
       "type": "ceil",
       "value": -1,
@@ -1907,6 +3655,44 @@
      }
     ],
     "modifiers": [
+     {
+      "type": "set",
+      "field": "eaa8-5b69-0b25-5f6d",
+      "value": 2,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 3000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "eaa8-5b69-0b25-5f6d",
+      "value": 6,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 8000,
+        "field": "limit::37a7-7901-5410-8a02",
+        "scope": "roster",
+        "childId": "any",
+        "shared": true,
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
      {
       "parentKey": "modifiers",
       "type": "ceil",
