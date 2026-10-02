@@ -424,7 +424,7 @@
     "hidden": true,
     "constraints": [
      {
-      "id": "0cc5-541b-eb17-59b0",
+      "id": "407a-6f81-651c-1858",
       "field": "selections",
       "scope": "roster",
       "value": -1,
@@ -438,47 +438,25 @@
     "modifiers": [
      {
       "type": "set",
-      "field": "0cc5-541b-eb17-59b0",
+      "field": "407a-6f81-651c-1858",
       "value": 3,
-      "conditions": [],
-      "conditionGroups": [
+      "conditions": [
        {
-        "type": "or",
-        "conditions": [
-         {
-          "type": "instanceOf",
-          "value": 1,
-          "field": "selections",
-          "scope": "primary-catalogue",
-          "childId": "2b5b-09a7-0e0f-b87c",
-          "shared": true
-         },
-         {
-          "type": "instanceOf",
-          "value": 1,
-          "field": "selections",
-          "scope": "primary-catalogue",
-          "childId": "a26d-7e2a-0737-4cad",
-          "shared": true
-         },
-         {
-          "type": "instanceOf",
-          "value": 1,
-          "field": "selections",
-          "scope": "primary-catalogue",
-          "childId": "fa06-a847-3ea6-bfa1",
-          "shared": true
-         }
-        ],
-        "conditionGroups": []
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "primary-catalogue",
+        "childId": "a26d-7e2a-0737-4cad",
+        "shared": true
        }
-      ]
+      ],
+      "conditionGroups": []
      },
      {
       "parentKey": "modifiers",
       "type": "ceil",
       "value": -1,
-      "field": "0cc5-541b-eb17-59b0",
+      "field": "407a-6f81-651c-1858",
       "conditions": [
        {
         "type": "instanceOf",
@@ -1645,6 +1623,17 @@
       "includeChildForces": true,
       "shared": true,
       "percentValue": false
+     },
+     {
+      "id": "254c-b069-1f35-601b",
+      "field": "selections",
+      "scope": "roster",
+      "value": -1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
      }
     ],
     "modifiers": [
@@ -1669,6 +1658,39 @@
       "type": "ceil",
       "value": -1,
       "field": "b6d1-7d2b-ed9e-f1d7",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     },
+     {
+      "type": "set",
+      "field": "254c-b069-1f35-601b",
+      "value": 4,
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "primary-catalogue",
+        "childId": "d827-ed72-b72d-32ff",
+        "shared": true
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "254c-b069-1f35-601b",
       "conditions": [
        {
         "type": "instanceOf",
@@ -1752,81 +1774,9 @@
     ]
    },
    {
-    "id": "7251-8ff1-a63b-2a83",
-    "name": "Guiding Mirrored Scales",
-    "comment": "guiding_mirscale",
-    "hidden": true
-   },
-   {
     "id": "2913-55f8-3062-a0e1",
     "name": "Possessed Giant",
     "comment": "possessed_giant",
-    "hidden": true,
-    "constraints": [
-     {
-      "id": "94ba-b2d9-c541-915c",
-      "field": "selections",
-      "scope": "roster",
-      "value": -1,
-      "type": "max",
-      "includeChildSelections": true,
-      "includeChildForces": true,
-      "shared": true,
-      "percentValue": false
-     }
-    ],
-    "modifiers": [
-     {
-      "type": "set",
-      "field": "94ba-b2d9-c541-915c",
-      "value": 3,
-      "conditions": [
-       {
-        "type": "instanceOf",
-        "value": 1,
-        "field": "selections",
-        "scope": "primary-catalogue",
-        "childId": "2b5b-09a7-0e0f-b87c",
-        "shared": true
-       }
-      ],
-      "conditionGroups": []
-     },
-     {
-      "parentKey": "modifiers",
-      "type": "ceil",
-      "value": -1,
-      "field": "94ba-b2d9-c541-915c",
-      "conditions": [
-       {
-        "type": "instanceOf",
-        "value": 1,
-        "field": "selections",
-        "scope": "self",
-        "childId": "header",
-        "childName": "header",
-        "shared": true
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "id": "0bf7-71eb-ccde-c39c",
-    "name": "Guiding Kaleidoscopic Flesh",
-    "comment": "guiding_keleido",
-    "hidden": true
-   },
-   {
-    "id": "9801-5345-9865-7353",
-    "name": "Guiding Brimstone Secretions",
-    "comment": "guiding_brimstone",
-    "hidden": true
-   },
-   {
-    "id": "42df-ea8e-9218-48b1",
-    "name": "Guiding Centipede Legs",
-    "comment": "guiding_centipede",
     "hidden": true
    },
    {
@@ -1836,63 +1786,9 @@
     "hidden": true
    },
    {
-    "id": "e19d-586a-6aa9-cc65",
-    "name": "Guiding Piercing Spike",
-    "comment": "guiding_spike",
-    "hidden": true
-   },
-   {
-    "id": "503a-8dba-f8ba-c05a",
-    "name": "Guiding Venom Sacs",
-    "comment": "guiding_venom",
-    "hidden": true
-   },
-   {
-    "id": "16a3-0ab5-c4d0-04d3",
-    "name": "Guiding Digestive Vomit",
-    "comment": "guiding_vomit",
-    "hidden": true
-   },
-   {
     "id": "4510-69aa-aae8-02ec",
     "name": "Guiding Broodmother",
     "comment": "guiding_broodmother",
-    "hidden": true
-   },
-   {
-    "id": "caf9-994d-3ec4-73da",
-    "name": "Guiding Unhinging Jaw",
-    "comment": "guiding_jaw",
-    "hidden": true
-   },
-   {
-    "id": "6f7b-19cc-19ab-ca39",
-    "name": "Guiding Segmented Shell",
-    "comment": "guiding_shell",
-    "hidden": true
-   },
-   {
-    "id": "72a0-4a05-21e1-b62a",
-    "name": "Guiding Divining Snout",
-    "comment": "guiding_snout",
-    "hidden": true
-   },
-   {
-    "id": "e7cb-2c26-7537-9439",
-    "name": "Guiding Smothering Coils",
-    "comment": "guiding_coils",
-    "hidden": true
-   },
-   {
-    "id": "99a1-6585-f446-c964",
-    "name": "Guiding Roaming Hands",
-    "comment": "guiding_hands",
-    "hidden": true
-   },
-   {
-    "id": "6c79-846a-a52b-1b2d",
-    "name": "Guiding Hot Blood",
-    "comment": "guiding_blood",
     "hidden": true
    },
    {
@@ -1967,36 +1863,6 @@
     "id": "561a-aead-8b71-12a5",
     "name": "Guiding Aura of Despair",
     "comment": "guiding_aura_of_despair",
-    "hidden": true
-   },
-   {
-    "id": "ceaa-7f49-5397-5c0e",
-    "name": "Guiding Whipcrack Tail",
-    "comment": "guiding_tail",
-    "hidden": true
-   },
-   {
-    "id": "e71d-737b-4de8-6322",
-    "name": "Guiding Red Haze",
-    "comment": "guiding_haze",
-    "hidden": true
-   },
-   {
-    "id": "12bf-f2f5-fd5a-c3bd",
-    "name": "Guiding Incendiary Ichor",
-    "comment": "guiding_ichor",
-    "hidden": true
-   },
-   {
-    "id": "5181-ba31-3fdd-8863",
-    "name": "Guiding Bronze Backbone",
-    "comment": "guiding_backbone",
-    "hidden": true
-   },
-   {
-    "id": "5c8e-8534-9d72-6838",
-    "name": "Guiding Horns of Hubris",
-    "comment": "guiding_hubris",
     "hidden": true
    },
    {
@@ -2149,7 +2015,7 @@
    },
    {
     "id": "bc16-421b-5314-f609",
-    "name": "Flying Threshing",
+    "name": "Fly",
     "comment": "flying_threshing",
     "hidden": true,
     "constraints": [
@@ -2189,6 +2055,14 @@
           "field": "selections",
           "scope": "primary-catalogue",
           "childId": "4a76-f405-c8d0-8e4c",
+          "shared": true
+         },
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "primary-catalogue",
+          "childId": "f599-17dc-5115-84ba",
           "shared": true
          }
         ],
@@ -2258,6 +2132,14 @@
           "scope": "primary-catalogue",
           "childId": "4a76-f405-c8d0-8e4c",
           "shared": true
+         },
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "primary-catalogue",
+          "childId": "f599-17dc-5115-84ba",
+          "shared": true
          }
         ],
         "conditionGroups": []
@@ -2325,6 +2207,14 @@
           "field": "selections",
           "scope": "primary-catalogue",
           "childId": "4a76-f405-c8d0-8e4c",
+          "shared": true
+         },
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "primary-catalogue",
+          "childId": "f599-17dc-5115-84ba",
           "shared": true
          }
         ],
@@ -3237,17 +3127,6 @@
       "includeChildForces": true,
       "shared": true,
       "percentValue": false
-     },
-     {
-      "id": "b55d-9723-07d4-cf94",
-      "field": "selections",
-      "scope": "roster",
-      "value": -1,
-      "type": "max",
-      "includeChildSelections": true,
-      "includeChildForces": true,
-      "shared": true,
-      "percentValue": false
      }
     ],
     "modifiers": [
@@ -3255,56 +3134,37 @@
       "type": "set",
       "field": "d18f-4344-b60e-89bb",
       "value": 2,
-      "conditions": [
+      "conditions": [],
+      "conditionGroups": [
        {
-        "type": "instanceOf",
-        "value": 1,
-        "field": "selections",
-        "scope": "primary-catalogue",
-        "childId": "2b5b-09a7-0e0f-b87c",
-        "shared": true
+        "type": "or",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "primary-catalogue",
+          "childId": "2b5b-09a7-0e0f-b87c",
+          "shared": true
+         },
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "primary-catalogue",
+          "childId": "f599-17dc-5115-84ba",
+          "shared": true
+         }
+        ],
+        "conditionGroups": []
        }
-      ],
-      "conditionGroups": []
+      ]
      },
      {
       "parentKey": "modifiers",
       "type": "ceil",
       "value": -1,
       "field": "d18f-4344-b60e-89bb",
-      "conditions": [
-       {
-        "type": "instanceOf",
-        "value": 1,
-        "field": "selections",
-        "scope": "self",
-        "childId": "header",
-        "childName": "header",
-        "shared": true
-       }
-      ]
-     },
-     {
-      "type": "set",
-      "field": "b55d-9723-07d4-cf94",
-      "value": 3,
-      "conditions": [
-       {
-        "type": "instanceOf",
-        "value": 1,
-        "field": "selections",
-        "scope": "primary-catalogue",
-        "childId": "f599-17dc-5115-84ba",
-        "shared": true
-       }
-      ],
-      "conditionGroups": []
-     },
-     {
-      "parentKey": "modifiers",
-      "type": "ceil",
-      "value": -1,
-      "field": "b55d-9723-07d4-cf94",
       "conditions": [
        {
         "type": "instanceOf",
@@ -3471,17 +3331,6 @@
       "includeChildForces": true,
       "shared": true,
       "percentValue": false
-     },
-     {
-      "id": "38bc-faf5-e292-5b40",
-      "field": "selections",
-      "scope": "roster",
-      "value": -1,
-      "type": "max",
-      "includeChildSelections": true,
-      "includeChildForces": true,
-      "shared": true,
-      "percentValue": false
      }
     ],
     "modifiers": [
@@ -3489,56 +3338,37 @@
       "type": "set",
       "field": "2000-068a-8296-a4fd",
       "value": 1,
-      "conditions": [
+      "conditions": [],
+      "conditionGroups": [
        {
-        "type": "instanceOf",
-        "value": 1,
-        "field": "selections",
-        "scope": "primary-catalogue",
-        "childId": "2b5b-09a7-0e0f-b87c",
-        "shared": true
+        "type": "or",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "primary-catalogue",
+          "childId": "2b5b-09a7-0e0f-b87c",
+          "shared": true
+         },
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "primary-catalogue",
+          "childId": "f599-17dc-5115-84ba",
+          "shared": true
+         }
+        ],
+        "conditionGroups": []
        }
-      ],
-      "conditionGroups": []
+      ]
      },
      {
       "parentKey": "modifiers",
       "type": "ceil",
       "value": -1,
       "field": "2000-068a-8296-a4fd",
-      "conditions": [
-       {
-        "type": "instanceOf",
-        "value": 1,
-        "field": "selections",
-        "scope": "self",
-        "childId": "header",
-        "childName": "header",
-        "shared": true
-       }
-      ]
-     },
-     {
-      "type": "set",
-      "field": "38bc-faf5-e292-5b40",
-      "value": 2,
-      "conditions": [
-       {
-        "type": "instanceOf",
-        "value": 1,
-        "field": "selections",
-        "scope": "primary-catalogue",
-        "childId": "f599-17dc-5115-84ba",
-        "shared": true
-       }
-      ],
-      "conditionGroups": []
-     },
-     {
-      "parentKey": "modifiers",
-      "type": "ceil",
-      "value": -1,
-      "field": "38bc-faf5-e292-5b40",
       "conditions": [
        {
         "type": "instanceOf",
@@ -3895,60 +3725,6 @@
       "type": "ceil",
       "value": -1,
       "field": "c296-bd04-f54d-16f8",
-      "conditions": [
-       {
-        "type": "instanceOf",
-        "value": 1,
-        "field": "selections",
-        "scope": "self",
-        "childId": "header",
-        "childName": "header",
-        "shared": true
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "id": "c3b2-9041-2092-fd08",
-    "name": "Warriors",
-    "comment": "warriors",
-    "hidden": true,
-    "constraints": [
-     {
-      "id": "6de8-4b0f-6eb8-e52b",
-      "field": "selections",
-      "scope": "roster",
-      "value": -1,
-      "type": "max",
-      "includeChildSelections": true,
-      "includeChildForces": true,
-      "shared": true,
-      "percentValue": false
-     }
-    ],
-    "modifiers": [
-     {
-      "type": "set",
-      "field": "6de8-4b0f-6eb8-e52b",
-      "value": 2,
-      "conditions": [
-       {
-        "type": "instanceOf",
-        "value": 1,
-        "field": "selections",
-        "scope": "primary-catalogue",
-        "childId": "0672-e20b-d0df-ff1f",
-        "shared": true
-       }
-      ],
-      "conditionGroups": []
-     },
-     {
-      "parentKey": "modifiers",
-      "type": "ceil",
-      "value": -1,
-      "field": "6de8-4b0f-6eb8-e52b",
       "conditions": [
        {
         "type": "instanceOf",

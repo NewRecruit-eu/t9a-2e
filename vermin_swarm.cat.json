@@ -871,6 +871,14 @@
     "modifiers": []
    },
    {
+    "id": "7267-c3bf-be65-aec8",
+    "name": "Count As Gunner",
+    "comment": "count_as_gunner",
+    "hidden": true,
+    "constraints": [],
+    "modifiers": []
+   },
+   {
     "id": "ca8c-8bd6-ace0-e321",
     "name": "Jezail",
     "comment": "[indicator] jezail",
@@ -1335,14 +1343,6 @@
     ]
    },
    {
-    "id": "7267-c3bf-be65-aec8",
-    "name": "Count As Gunner",
-    "comment": "count_as_gunner",
-    "hidden": true,
-    "constraints": [],
-    "modifiers": []
-   },
-   {
     "id": "1477-d819-0043-d2d6",
     "name": "Doomspark Device",
     "comment": "doomsparkDevices",
@@ -1571,16 +1571,16 @@
     ]
    },
    {
-    "id": "95cc-33cf-69c2-5d5f",
-    "name": "Shadowfur Stalkers",
-    "comment": "shadowfurStalkers",
+    "id": "a5fe-5b4b-6586-71cb",
+    "name": "Pistol",
+    "comment": "stalkers_pistol",
     "hidden": true,
     "constraints": [
      {
-      "id": "2787-43ad-6057-c06b",
+      "id": "154e-2506-8245-dc05",
       "field": "selections",
       "scope": "roster",
-      "value": 3,
+      "value": 2,
       "type": "max",
       "includeChildSelections": true,
       "includeChildForces": true,
@@ -1593,7 +1593,7 @@
       "parentKey": "modifiers",
       "type": "ceil",
       "value": -1,
-      "field": "2787-43ad-6057-c06b",
+      "field": "154e-2506-8245-dc05",
       "conditions": [
        {
         "type": "instanceOf",
@@ -1708,44 +1708,6 @@
       "type": "ceil",
       "value": -1,
       "field": "027f-968a-2b7d-51c2",
-      "conditions": [
-       {
-        "type": "instanceOf",
-        "value": 1,
-        "field": "selections",
-        "scope": "self",
-        "childId": "header",
-        "childName": "header",
-        "shared": true
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "id": "2867-00a1-6663-a945",
-    "name": "Verminous Giant",
-    "comment": "verminousGiant",
-    "hidden": true,
-    "constraints": [
-     {
-      "id": "08cc-75dc-a103-741a",
-      "field": "selections",
-      "scope": "roster",
-      "value": 3,
-      "type": "max",
-      "includeChildSelections": true,
-      "includeChildForces": true,
-      "shared": true,
-      "percentValue": false
-     }
-    ],
-    "modifiers": [
-     {
-      "parentKey": "modifiers",
-      "type": "ceil",
-      "value": -1,
-      "field": "08cc-75dc-a103-741a",
       "conditions": [
        {
         "type": "instanceOf",
@@ -2368,26 +2330,6 @@
     "constraints": [],
     "modifiers": [],
     "sortIndex": 24,
-    "collective": true
-   },
-   {
-    "id": "a621-8ddd-c5e6-8db6",
-    "name": "Verminous Giant",
-    "hidden": false,
-    "type": "selectionEntry",
-    "targetId": "2009-ea12-f974-3a09",
-    "categoryLinks": [
-     {
-      "id": "36e9-8560-d029-1418",
-      "name": "Bread and Games",
-      "hidden": false,
-      "targetId": "a1d3-a0f8-9040-7a77",
-      "primary": true
-     }
-    ],
-    "constraints": [],
-    "modifiers": [],
-    "sortIndex": 25,
     "collective": true
    }
   ],
@@ -6211,6 +6153,13 @@
             "hidden": true,
             "targetId": "e554-65b4-8976-d011",
             "primary": false
+           },
+           {
+            "id": "f70e-e3df-ea58-8b0f",
+            "name": "Count As Gunner",
+            "hidden": true,
+            "targetId": "7267-c3bf-be65-aec8",
+            "primary": false
            }
           ],
           "selectionEntries": [],
@@ -6354,6 +6303,13 @@
             "name": "Deepfire Thrower",
             "hidden": true,
             "targetId": "cce4-59e6-9a16-7c00",
+            "primary": false
+           },
+           {
+            "id": "a541-da4d-be9f-9f1a",
+            "name": "Count As Gunner",
+            "hidden": true,
+            "targetId": "7267-c3bf-be65-aec8",
             "primary": false
            }
           ],
@@ -7437,6 +7393,25 @@
         "field": "selections",
         "scope": "root-entry-self",
         "childId": "8c7b-a45b-a2dd-f6a6",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "add",
+      "field": "category",
+      "value": "2222-d0a5-8669-caf5",
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "7267-c3bf-be65-aec8",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -9666,7 +9641,7 @@
            {
             "name": "pts",
             "typeId": "37a7-7901-5410-8a02",
-            "value": 1
+            "value": 0
            }
           ],
           "constraints": [
@@ -10003,6 +9978,13 @@
           "selectionEntries": [],
           "selectionEntryGroups": [],
           "entryLinks": [],
+          "displayCosts": [
+           {
+            "name": "pts",
+            "typeId": "37a7-7901-5410-8a02",
+            "value": 1
+           }
+          ],
           "sortIndex": 2,
           "collective": true
          }
@@ -10224,6 +10206,25 @@
         "field": "selections",
         "scope": "root-entry-self",
         "childId": "77ba-8bcf-9f60-384d",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "increment",
+      "field": "37a7-7901-5410-8a02",
+      "value": 1,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "bdb3-30d0-f224-392e",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -13135,7 +13136,62 @@
             "percentValue": false
            }
           ],
-          "modifiers": [],
+          "modifiers": [
+           {
+            "type": "set",
+            "field": "hidden",
+            "value": true,
+            "conditions": [],
+            "conditionGroups": [
+             {
+              "type": "or",
+              "conditions": [
+               {
+                "type": "atLeast",
+                "value": 7,
+                "field": "selections",
+                "scope": "root-entry-self",
+                "childId": "cce4-59e6-9a16-7c00",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": false,
+                "percentValue": false
+               }
+              ],
+              "conditionGroups": [
+               {
+                "type": "and",
+                "conditions": [
+                 {
+                  "type": "atLeast",
+                  "value": 6,
+                  "field": "selections",
+                  "scope": "root-entry-self",
+                  "childId": "cce4-59e6-9a16-7c00",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": false,
+                  "percentValue": false
+                 },
+                 {
+                  "type": "atMost",
+                  "value": 0,
+                  "field": "selections",
+                  "scope": "root-entry-self",
+                  "childId": "b9d1-c409-bd38-ae54",
+                  "shared": true,
+                  "includeChildSelections": true,
+                  "includeChildForces": false,
+                  "percentValue": false
+                 }
+                ],
+                "conditionGroups": []
+               }
+              ]
+             }
+            ]
+           }
+          ],
           "profiles": [],
           "infoLinks": [
            {
@@ -15761,15 +15817,7 @@
     "name": "Shadowfur Stalkers",
     "type": "unit",
     "hidden": false,
-    "categoryLinks": [
-     {
-      "id": "f268-f26a-3b4d-bee2",
-      "name": "Shadowfur Stalkers",
-      "hidden": true,
-      "targetId": "95cc-33cf-69c2-5d5f",
-      "primary": false
-     }
-    ],
+    "categoryLinks": [],
     "costs": [
      {
       "name": "pts",
@@ -16278,7 +16326,27 @@
     ],
     "entryLinks": [],
     "constraints": [],
-    "modifiers": [],
+    "modifiers": [
+     {
+      "type": "add",
+      "field": "category",
+      "value": "a5fe-5b4b-6586-71cb",
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "3b9c-88c7-181b-6f0a",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     }
+    ],
     "collective": true
    },
    {
@@ -17553,416 +17621,6 @@
     ],
     "selectionEntries": [],
     "selectionEntryGroups": [],
-    "entryLinks": [],
-    "constraints": [],
-    "modifiers": [],
-    "collective": true
-   },
-   {
-    "id": "2009-ea12-f974-3a09",
-    "name": "Verminous Giant",
-    "type": "model",
-    "hidden": false,
-    "categoryLinks": [
-     {
-      "id": "7f78-a7d0-b293-ebb7",
-      "name": "Verminous Giant",
-      "hidden": true,
-      "targetId": "2867-00a1-6663-a945",
-      "primary": false
-     }
-    ],
-    "costs": [
-     {
-      "name": "pts",
-      "typeId": "37a7-7901-5410-8a02",
-      "value": 270
-     }
-    ],
-    "profiles": [
-     {
-      "id": "b4dc-6cb9-50b1-293a",
-      "name": "Verminous Giant (Global)",
-      "typeId": "0bb5-fae5-f5a7-6b97",
-      "typeName": "Global",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Adv",
-        "typeId": "cf70-c87b-5e2d-5d97",
-        "$text": "7"
-       },
-       {
-        "name": "Mar",
-        "typeId": "3547-0c61-20c1-f727",
-        "$text": "14"
-       },
-       {
-        "name": "Dis",
-        "typeId": "9766-e5ef-1ccf-e1c4",
-        "$text": "7"
-       },
-       {
-        "name": "Rsr",
-        "typeId": "a67a-60ca-9e84-619d",
-        "$text": ""
-       },
-       {
-        "name": "Rules",
-        "typeId": "edbe-a5d2-8dda-794b",
-        "$text": "Giant See, Giant Do"
-       }
-      ]
-     },
-     {
-      "id": "1ede-b488-5c22-5aa5",
-      "name": "Verminous Giant (Defensive)",
-      "typeId": "cc02-4c45-fc8e-9c20",
-      "typeName": "Defensive",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "HP",
-        "typeId": "d0d3-36c5-8a8d-cbb4",
-        "$text": "7"
-       },
-       {
-        "name": "Def",
-        "typeId": "1f95-9871-6b5e-cc35",
-        "$text": "3"
-       },
-       {
-        "name": "Res",
-        "typeId": "b725-eae8-7a15-b275",
-        "$text": "5"
-       },
-       {
-        "name": "Arm",
-        "typeId": "d15a-5931-24e5-be5d",
-        "$text": "1"
-       },
-       {
-        "name": "Aeg",
-        "typeId": "55dc-3dc1-b4f0-750e",
-        "$text": ""
-       },
-       {
-        "name": "Rules",
-        "typeId": "add5-e615-b82e-05dc",
-        "$text": ""
-       }
-      ]
-     },
-     {
-      "id": "c803-26c5-df6e-d13f",
-      "name": "Verminous Giant",
-      "typeId": "34e0-cf8a-007f-a558",
-      "typeName": "Offensive",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Att",
-        "typeId": "977e-3683-45e2-07ca",
-        "$text": "5"
-       },
-       {
-        "name": "Off",
-        "typeId": "6b9c-9509-7450-6cf6",
-        "$text": "3"
-       },
-       {
-        "name": "Str",
-        "typeId": "cc5e-c56d-543f-0a69",
-        "$text": "5"
-       },
-       {
-        "name": "AP",
-        "typeId": "ca1e-4b8f-6554-3f2f",
-        "$text": "2"
-       },
-       {
-        "name": "Agi",
-        "typeId": "6518-cb29-b2b2-aa69",
-        "$text": "3"
-       },
-       {
-        "name": "Rules",
-        "typeId": "5e9b-1961-df0b-5ddd",
-        "$text": "Rage"
-       },
-       {
-        "name": "Tags",
-        "typeId": "ce24-79db-670a-0520",
-        "$text": ""
-       }
-      ]
-     },
-     {
-      "id": "d4e4-2710-9dcd-67d3",
-      "name": "Verminous Giant (Size)",
-      "typeId": "a7dd-61af-e630-732e",
-      "typeName": "Size",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Height",
-        "typeId": "069b-9ad6-e430-21e6",
-        "$text": ""
-       },
-       {
-        "name": "Type",
-        "typeId": "0fe4-f75c-b1c3-dc9a",
-        "$text": ""
-       },
-       {
-        "name": "Base",
-        "typeId": "0a68-c69a-774f-d74d",
-        "$text": "50×75"
-       },
-       {
-        "name": "Rarity",
-        "typeId": "0a01-69a6-f861-ae76",
-        "$text": ""
-       }
-      ]
-     }
-    ],
-    "infoLinks": [
-     {
-      "id": "1ac5-5fb7-ed6c-43f6",
-      "name": "Giant See, Giant Do",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "da52-0b75-ca5e-adf2"
-     },
-     {
-      "id": "1ffa-3b8e-c3f4-6f89",
-      "name": "Rage",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "857c-9d17-1cb0-ca4a"
-     },
-     {
-      "id": "f344-a0fa-7b70-2b5c",
-      "name": "Hand Weapon",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "c0bc-4ca5-811a-d067"
-     }
-    ],
-    "selectionEntries": [],
-    "selectionEntryGroups": [
-     {
-      "id": "b8b2-f465-8109-a191",
-      "name": "Weapons",
-      "hidden": false,
-      "constraints": [
-       {
-        "id": "2c33-8b2c-97ac-df27",
-        "field": "selections",
-        "scope": "parent",
-        "value": 1,
-        "type": "max",
-        "includeChildSelections": false,
-        "includeChildForces": false,
-        "shared": true,
-        "percentValue": false
-       }
-      ],
-      "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "cb15-1164-085f-c269",
-        "name": "Giant Club",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "794a-64a1-cb5f-4db8",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "7774-cfde-5c25-2c77",
-          "name": "Giant Club",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "592b-56b1-ff87-efd6"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 1,
-        "collective": true
-       },
-       {
-        "id": "8f61-b341-012d-2025",
-        "name": "Living Bomb",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 10
-         }
-        ],
-        "constraints": [
-         {
-          "id": "c707-d479-d7ce-e906",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "c359-f5d5-5099-11f1",
-          "name": "Living Bomb",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "a09b-e599-04c0-1757"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 2,
-        "collective": true
-       },
-       {
-        "id": "a336-feaf-ee57-3d10",
-        "name": "Big Sneaker",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 30
-         }
-        ],
-        "constraints": [
-         {
-          "id": "32d7-c3bf-920a-8348",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "8ddb-487a-328b-bdf0",
-          "name": "Big Sneaker",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "64d1-938d-6853-6afe"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 3,
-        "collective": true
-       }
-      ],
-      "selectionEntryGroups": [],
-      "entryLinks": [],
-      "sortIndex": 1,
-      "collective": true
-     },
-     {
-      "id": "fee1-403c-8505-5551",
-      "name": "Options",
-      "hidden": false,
-      "constraints": [],
-      "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "1537-5a22-386d-9af9",
-        "name": "Big Brother",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 25
-         }
-        ],
-        "constraints": [
-         {
-          "id": "21aa-9c36-eb6c-d914",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "d6ef-a613-d404-9e6a",
-          "name": "Big Brother",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "daed-b47c-d5c3-3a5a"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 1,
-        "collective": true
-       }
-      ],
-      "selectionEntryGroups": [],
-      "entryLinks": [],
-      "sortIndex": 2,
-      "collective": true
-     }
-    ],
     "entryLinks": [],
     "constraints": [],
     "modifiers": [],
@@ -19642,6 +19300,13 @@
       "name": "Storm Rocket",
       "hidden": true,
       "targetId": "8654-d63e-a36a-65e0",
+      "primary": false
+     },
+     {
+      "id": "e4eb-87f5-fb91-7c76",
+      "name": "Weapon Enchant",
+      "hidden": true,
+      "targetId": "1ce8-fcb8-c558-5bfa",
       "primary": false
      }
     ],

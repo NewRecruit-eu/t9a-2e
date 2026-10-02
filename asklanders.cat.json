@@ -554,6 +554,44 @@
     ]
    },
    {
+    "id": "9a99-d577-48d9-0f2a",
+    "name": "Counts towards Core",
+    "comment": "core_horsemen",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "8acf-4fa0-f10c-6e5b",
+      "field": "selections",
+      "scope": "roster",
+      "value": 2,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "8acf-4fa0-f10c-6e5b",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
     "id": "060e-193c-80b9-272d",
     "name": "Berserkers",
     "comment": "berserkers",
@@ -4868,27 +4906,7 @@
             "percentValue": false
            }
           ],
-          "modifiers": [
-           {
-            "type": "set",
-            "field": "hidden",
-            "value": true,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "0494-d779-5ab6-892d",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": false,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           }
-          ],
+          "modifiers": [],
           "profiles": [],
           "infoLinks": [
            {
@@ -4910,7 +4928,6 @@
           "selectionEntries": [],
           "selectionEntryGroups": [],
           "entryLinks": [],
-          "comment": "restriction: Cannot be taken with Shield.",
           "sortIndex": 3,
           "collective": true
          },
@@ -6896,44 +6913,12 @@
       "id": "3c55-9871-af58-e82e",
       "name": "Options",
       "hidden": false,
-      "constraints": [
-       {
-        "id": "fd5a-f938-3bf3-501f",
-        "field": "selections",
-        "scope": "parent",
-        "value": 0,
-        "type": "min",
-        "includeChildSelections": false,
-        "includeChildForces": false,
-        "shared": true,
-        "percentValue": false
-       }
-      ],
-      "modifiers": [
-       {
-        "type": "set",
-        "field": "fd5a-f938-3bf3-501f",
-        "value": 1,
-        "conditions": [
-         {
-          "type": "atLeast",
-          "value": 8,
-          "field": "selections",
-          "scope": "root-entry-self",
-          "childId": "fe32-2305-f4dd-7789",
-          "shared": true,
-          "includeChildSelections": true,
-          "includeChildForces": false,
-          "percentValue": false
-         }
-        ],
-        "conditionGroups": []
-       }
-      ],
+      "constraints": [],
+      "modifiers": [],
       "selectionEntries": [
        {
         "id": "dca4-8097-676d-d27d",
-        "name": "Core",
+        "name": "Counts towards Core",
         "type": "upgrade",
         "hidden": false,
         "costs": [
@@ -6978,21 +6963,20 @@
          }
         ],
         "profiles": [],
-        "infoLinks": [
+        "infoLinks": [],
+        "categoryLinks": [
          {
-          "id": "a119-11e1-9c9b-19a4",
-          "name": "Core",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "4fd8-521d-053c-68ba"
+          "id": "3acf-d376-4dfd-660c",
+          "name": "Counts towards Core",
+          "hidden": true,
+          "targetId": "9a99-d577-48d9-0f2a",
+          "primary": false
          }
         ],
-        "categoryLinks": [],
         "selectionEntries": [],
         "selectionEntryGroups": [],
         "entryLinks": [],
         "comment": "restriction: Models with Number only.",
-        "exportable": false,
         "sortIndex": 1,
         "collective": true
        }
@@ -7013,10 +6997,10 @@
       "conditions": [
        {
         "type": "atLeast",
-        "value": 8,
+        "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "fe32-2305-f4dd-7789",
+        "childId": "9a99-d577-48d9-0f2a",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -7032,51 +7016,13 @@
       "conditions": [
        {
         "type": "atLeast",
-        "value": 8,
+        "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "fe32-2305-f4dd-7789",
+        "childId": "9a99-d577-48d9-0f2a",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
-        "percentValue": false
-       }
-      ],
-      "conditionGroups": []
-     },
-     {
-      "type": "set-primary",
-      "field": "category",
-      "value": "7df6-be55-032f-3a86",
-      "conditions": [
-       {
-        "type": "atLeast",
-        "value": 3,
-        "field": "selections",
-        "scope": "roster",
-        "childId": "dca4-8097-676d-d27d",
-        "shared": true,
-        "includeChildSelections": true,
-        "includeChildForces": true,
-        "percentValue": false
-       }
-      ],
-      "conditionGroups": []
-     },
-     {
-      "type": "remove",
-      "field": "category",
-      "value": "7df6-be55-032f-3a86",
-      "conditions": [
-       {
-        "type": "atLeast",
-        "value": 3,
-        "field": "selections",
-        "scope": "roster",
-        "childId": "dca4-8097-676d-d27d",
-        "shared": true,
-        "includeChildSelections": true,
-        "includeChildForces": true,
         "percentValue": false
        }
       ],
@@ -8292,15 +8238,7 @@
     "name": "Warriors",
     "type": "unit",
     "hidden": false,
-    "categoryLinks": [
-     {
-      "id": "4f49-154e-815d-4009",
-      "name": "Warriors",
-      "hidden": true,
-      "targetId": "c3b2-9041-2092-fd08",
-      "primary": false
-     }
-    ],
+    "categoryLinks": [],
     "costs": [
      {
       "name": "pts",
@@ -10202,6 +10140,17 @@
       "hidden": false,
       "constraints": [
        {
+        "id": "b2f4-9ac9-f009-960d",
+        "field": "selections",
+        "scope": "parent",
+        "value": 1,
+        "type": "min",
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "shared": true,
+        "percentValue": false
+       },
+       {
         "id": "3d0e-3c29-3459-d61d",
         "field": "selections",
         "scope": "parent",
@@ -10498,6 +10447,7 @@
       ],
       "selectionEntryGroups": [],
       "entryLinks": [],
+      "defaultSelectionEntryId": "c3b8-f381-8a67-f505",
       "sortIndex": 2,
       "collective": true
      }
@@ -11548,7 +11498,46 @@
       "percentValue": false
      }
     ],
-    "modifiers": [],
+    "modifiers": [
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "4fb4-69c1-a8e6-be53",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "5912-3e17-93bc-d695",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     }
+    ],
     "profiles": [],
     "infoLinks": [
      {
@@ -11571,6 +11560,7 @@
     "selectionEntries": [],
     "selectionEntryGroups": [],
     "entryLinks": [],
+    "comment": "restriction: Cannot be taken with Large Size. Cannot be taken with Gigantic Size.",
     "collective": true
    },
    {
@@ -11724,6 +11714,25 @@
        }
       ],
       "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "5912-3e17-93bc-d695",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
      }
     ],
     "profiles": [],
@@ -11755,7 +11764,7 @@
     "selectionEntries": [],
     "selectionEntryGroups": [],
     "entryLinks": [],
-    "comment": "restriction: Models with Åsklander Chief only.",
+    "comment": "restriction: Models with Åsklander Chief only. Cannot be taken with Gigantic Size.",
     "collective": true
    },
    {
@@ -11890,7 +11899,27 @@
       "percentValue": false
      }
     ],
-    "modifiers": [],
+    "modifiers": [
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 0,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "2e3d-2342-2529-9d0e",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     }
+    ],
     "profiles": [],
     "infoLinks": [
      {
@@ -11913,6 +11942,7 @@
     "selectionEntries": [],
     "selectionEntryGroups": [],
     "entryLinks": [],
+    "comment": "restriction: Models with Wizard only.",
     "collective": true
    }
   ],

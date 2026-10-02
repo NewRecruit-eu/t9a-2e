@@ -944,26 +944,6 @@
     "collective": true
    },
    {
-    "id": "8670-50fb-fd6d-85fc",
-    "name": "Possessed Giant",
-    "hidden": false,
-    "type": "selectionEntry",
-    "targetId": "06c1-ffc1-558c-186c",
-    "categoryLinks": [
-     {
-      "id": "b71c-92b6-a512-def1",
-      "name": "Special",
-      "hidden": false,
-      "targetId": "c442-7fab-9087-8980",
-      "primary": true
-     }
-    ],
-    "constraints": [],
-    "modifiers": [],
-    "sortIndex": 24,
-    "collective": true
-   },
-   {
     "id": "439a-c0a5-8086-4785",
     "name": "Furies",
     "hidden": false,
@@ -980,7 +960,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 25,
+    "sortIndex": 24,
     "collective": true
    },
    {
@@ -1000,7 +980,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 26,
+    "sortIndex": 25,
     "collective": true
    },
    {
@@ -1020,7 +1000,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 27,
+    "sortIndex": 26,
     "collective": true
    }
   ],
@@ -14805,7 +14785,7 @@
       "selectionEntries": [
        {
         "id": "242a-10c4-c6f8-1dea",
-        "name": "Fly (9\", 9\") and Light Troops",
+        "name": "Fly (9\", 9\")",
         "type": "upgrade",
         "hidden": false,
         "costs": [
@@ -14837,13 +14817,6 @@
           "hidden": false,
           "type": "profile",
           "targetId": "6f5d-a0c9-3761-a6f5"
-         },
-         {
-          "id": "155c-7864-d6e5-1b6d",
-          "name": "Light Troops",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "238c-b5eb-1886-cbc8"
          }
         ],
         "categoryLinks": [
@@ -14856,7 +14829,7 @@
          },
          {
           "id": "5a4e-e933-e5e9-bfe9",
-          "name": "Flying Threshing",
+          "name": "Fly",
           "hidden": true,
           "targetId": "bc16-421b-5314-f609",
           "primary": false
@@ -20820,542 +20793,6 @@
     "collective": true
    },
    {
-    "id": "06c1-ffc1-558c-186c",
-    "name": "Possessed Giant",
-    "type": "model",
-    "hidden": false,
-    "categoryLinks": [
-     {
-      "id": "7e02-7072-682f-b5be",
-      "name": "Possessed Giant",
-      "hidden": true,
-      "targetId": "2913-55f8-3062-a0e1",
-      "primary": false
-     },
-     {
-      "id": "57e4-23bd-b39b-99db",
-      "name": "Gigantic Size",
-      "hidden": true,
-      "targetId": "5912-3e17-93bc-d695",
-      "primary": false
-     }
-    ],
-    "costs": [
-     {
-      "name": "pts",
-      "typeId": "37a7-7901-5410-8a02",
-      "value": 260
-     }
-    ],
-    "profiles": [
-     {
-      "id": "f01b-d9a2-cc39-7efa",
-      "name": "Possessed Giant (Global)",
-      "typeId": "0bb5-fae5-f5a7-6b97",
-      "typeName": "Global",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Adv",
-        "typeId": "cf70-c87b-5e2d-5d97",
-        "$text": "7"
-       },
-       {
-        "name": "Mar",
-        "typeId": "3547-0c61-20c1-f727",
-        "$text": "14"
-       },
-       {
-        "name": "Dis",
-        "typeId": "9766-e5ef-1ccf-e1c4",
-        "$text": "8"
-       },
-       {
-        "name": "Rsr",
-        "typeId": "a67a-60ca-9e84-619d",
-        "$text": ""
-       },
-       {
-        "name": "Rules",
-        "typeId": "edbe-a5d2-8dda-794b",
-        "$text": "Giant See, Giant Do"
-       }
-      ]
-     },
-     {
-      "id": "955c-057e-f349-a1d1",
-      "name": "Possessed Giant (Defensive)",
-      "typeId": "cc02-4c45-fc8e-9c20",
-      "typeName": "Defensive",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "HP",
-        "typeId": "d0d3-36c5-8a8d-cbb4",
-        "$text": "7"
-       },
-       {
-        "name": "Def",
-        "typeId": "1f95-9871-6b5e-cc35",
-        "$text": "3"
-       },
-       {
-        "name": "Res",
-        "typeId": "b725-eae8-7a15-b275",
-        "$text": "5"
-       },
-       {
-        "name": "Arm",
-        "typeId": "d15a-5931-24e5-be5d",
-        "$text": "1"
-       },
-       {
-        "name": "Aeg",
-        "typeId": "55dc-3dc1-b4f0-750e",
-        "$text": "5+"
-       },
-       {
-        "name": "Rules",
-        "typeId": "add5-e615-b82e-05dc",
-        "$text": ""
-       }
-      ]
-     },
-     {
-      "id": "0c3b-d043-62c5-e79d",
-      "name": "Possessed Giant",
-      "typeId": "34e0-cf8a-007f-a558",
-      "typeName": "Offensive",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Att",
-        "typeId": "977e-3683-45e2-07ca",
-        "$text": "5"
-       },
-       {
-        "name": "Off",
-        "typeId": "6b9c-9509-7450-6cf6",
-        "$text": "3"
-       },
-       {
-        "name": "Str",
-        "typeId": "cc5e-c56d-543f-0a69",
-        "$text": "5"
-       },
-       {
-        "name": "AP",
-        "typeId": "ca1e-4b8f-6554-3f2f",
-        "$text": "2"
-       },
-       {
-        "name": "Agi",
-        "typeId": "6518-cb29-b2b2-aa69",
-        "$text": "3"
-       },
-       {
-        "name": "Rules",
-        "typeId": "5e9b-1961-df0b-5ddd",
-        "$text": "Rage"
-       },
-       {
-        "name": "Tags",
-        "typeId": "ce24-79db-670a-0520",
-        "$text": ""
-       }
-      ]
-     },
-     {
-      "id": "41b9-7d18-63ab-dbd0",
-      "name": "Possessed Giant (Size)",
-      "typeId": "a7dd-61af-e630-732e",
-      "typeName": "Size",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Height",
-        "typeId": "069b-9ad6-e430-21e6",
-        "$text": ""
-       },
-       {
-        "name": "Type",
-        "typeId": "0fe4-f75c-b1c3-dc9a",
-        "$text": ""
-       },
-       {
-        "name": "Base",
-        "typeId": "0a68-c69a-774f-d74d",
-        "$text": "50×75"
-       },
-       {
-        "name": "Rarity",
-        "typeId": "0a01-69a6-f861-ae76",
-        "$text": ""
-       }
-      ]
-     }
-    ],
-    "infoLinks": [
-     {
-      "id": "65cf-1b87-1400-f397",
-      "name": "Giant See, Giant Do",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "5655-41f2-8bf1-b51a"
-     },
-     {
-      "id": "e6ac-b92b-e2bc-f4fc",
-      "name": "Rage",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "857c-9d17-1cb0-ca4a"
-     },
-     {
-      "id": "75f2-7a70-43f3-1906",
-      "name": "Hand Weapon",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "c0bc-4ca5-811a-d067"
-     }
-    ],
-    "selectionEntries": [],
-    "selectionEntryGroups": [
-     {
-      "id": "0b81-0f2f-b041-1af8",
-      "name": "Manifestations",
-      "hidden": false,
-      "constraints": [
-       {
-        "id": "5c9e-1c79-bbc8-1817",
-        "field": "selections",
-        "scope": "parent",
-        "value": 2,
-        "type": "max",
-        "includeChildSelections": false,
-        "includeChildForces": false,
-        "shared": true,
-        "percentValue": false
-       }
-      ],
-      "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "d5dc-36ee-0502-3721",
-        "name": "Dark Hide",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 15
-         }
-        ],
-        "constraints": [
-         {
-          "id": "0f81-a7d3-f26f-0da7",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "1eb3-0688-0b9d-e0e1",
-          "name": "Dark Hide",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "1278-baa6-ab7b-9271"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 1,
-        "collective": true
-       },
-       {
-        "id": "757f-cab5-891c-6af4",
-        "name": "Centipede Legs",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 20
-         }
-        ],
-        "constraints": [
-         {
-          "id": "e8a7-3f1d-077b-d9cb",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "c6ea-201c-0c11-542d",
-          "name": "Centipede Legs",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "89e1-c089-ebe6-84a7"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 2,
-        "collective": true
-       },
-       {
-        "id": "a16a-b7eb-2ddd-f487",
-        "name": "Chitinous Scales",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 25
-         }
-        ],
-        "constraints": [
-         {
-          "id": "f81f-9e18-b8a2-74f4",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "0a8e-61cc-fb0e-8b27",
-          "name": "Chitinous Scales",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "90d5-ecf9-7dfa-8a5f"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 3,
-        "collective": true
-       },
-       {
-        "id": "d3ab-60a0-beb2-2457",
-        "name": "Living Shield",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 25
-         }
-        ],
-        "constraints": [
-         {
-          "id": "6189-81f9-6c7c-174a",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "9dc5-9d5e-328f-02de",
-          "name": "Living Shield",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "236e-d794-95ee-b92b"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 4,
-        "collective": true
-       },
-       {
-        "id": "740e-df89-35a3-ace0",
-        "name": "Unnatural Roots",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 25
-         }
-        ],
-        "constraints": [
-         {
-          "id": "bb60-1da7-ecbc-9c93",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "57f7-0033-50e1-6248",
-          "name": "Unnatural Roots",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "79a6-142c-cc19-c655"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 5,
-        "collective": true
-       }
-      ],
-      "selectionEntryGroups": [],
-      "entryLinks": [
-       {
-        "id": "434e-d732-1ef0-3ded",
-        "name": "Mark of the Eternal Champion",
-        "hidden": false,
-        "type": "selectionEntry",
-        "targetId": "4f21-2ef7-575a-fe20",
-        "constraints": [
-         {
-          "id": "7ced-4413-fcbf-019d",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [
-         {
-          "type": "set",
-          "field": "37a7-7901-5410-8a02",
-          "value": 40,
-          "conditions": [],
-          "conditionGroups": []
-         }
-        ],
-        "categoryLinks": [],
-        "sortIndex": 6,
-        "collective": true
-       }
-      ],
-      "sortIndex": 1,
-      "collective": true
-     },
-     {
-      "id": "29a6-192b-cdc9-29e7",
-      "name": "Options",
-      "hidden": false,
-      "constraints": [],
-      "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "70b1-e423-a661-8b98",
-        "name": "Big Brother",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 25
-         }
-        ],
-        "constraints": [
-         {
-          "id": "efb7-87e9-911f-877c",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "7812-312e-bfec-4f38",
-          "name": "Big Brother",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "e266-79c0-1768-da4a"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 1,
-        "collective": true
-       }
-      ],
-      "selectionEntryGroups": [],
-      "entryLinks": [],
-      "sortIndex": 2,
-      "collective": true
-     }
-    ],
-    "entryLinks": [],
-    "constraints": [],
-    "modifiers": [],
-    "collective": true
-   },
-   {
     "id": "9112-5dcc-7cf3-dea8",
     "name": "Furies",
     "type": "unit",
@@ -24588,7 +24025,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "7251-8ff1-a63b-2a83",
+        "childId": "fe7e-a583-eedf-17d3",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -24607,7 +24044,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "7251-8ff1-a63b-2a83",
+        "childId": "fe7e-a583-eedf-17d3",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -24695,13 +24132,6 @@
         ],
         "categoryLinks": [
          {
-          "id": "ff18-d1b9-a68b-f4ad",
-          "name": "Guiding Mirrored Scales",
-          "hidden": true,
-          "targetId": "7251-8ff1-a63b-2a83",
-          "primary": false
-         },
-         {
           "id": "c654-5ae7-d729-b9c1",
           "name": "⟨Dominant⟩",
           "hidden": true,
@@ -24762,7 +24192,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "0bf7-71eb-ccde-c39c",
+        "childId": "87b9-e2ff-68c6-b674",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -24781,7 +24211,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "0bf7-71eb-ccde-c39c",
+        "childId": "87b9-e2ff-68c6-b674",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -24868,13 +24298,6 @@
          }
         ],
         "categoryLinks": [
-         {
-          "id": "f148-c4fc-8950-738e",
-          "name": "Guiding Kaleidoscopic Flesh",
-          "hidden": true,
-          "targetId": "0bf7-71eb-ccde-c39c",
-          "primary": false
-         },
          {
           "id": "6dee-cb4c-7411-80e8",
           "name": "⟨Dominant⟩",
@@ -25177,7 +24600,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "9801-5345-9865-7353",
+        "childId": "70f1-23e5-ed9a-5f8d",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -25196,7 +24619,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "9801-5345-9865-7353",
+        "childId": "70f1-23e5-ed9a-5f8d",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -25284,13 +24707,6 @@
         ],
         "categoryLinks": [
          {
-          "id": "7e36-6ce4-a92e-fce5",
-          "name": "Guiding Brimstone Secretions",
-          "hidden": true,
-          "targetId": "9801-5345-9865-7353",
-          "primary": false
-         },
-         {
           "id": "9717-95d6-0b5d-1c69",
           "name": "⟨Dominant⟩",
           "hidden": true,
@@ -25351,7 +24767,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "42df-ea8e-9218-48b1",
+        "childId": "4c1d-c9f3-fa39-1d95",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -25370,7 +24786,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "42df-ea8e-9218-48b1",
+        "childId": "4c1d-c9f3-fa39-1d95",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -25409,7 +24825,7 @@
          {
           "name": "pts",
           "typeId": "37a7-7901-5410-8a02",
-          "value": 35
+          "value": 30
          }
         ],
         "constraints": [
@@ -25457,13 +24873,6 @@
          }
         ],
         "categoryLinks": [
-         {
-          "id": "d8b7-f391-345c-fc32",
-          "name": "Guiding Centipede Legs",
-          "hidden": true,
-          "targetId": "42df-ea8e-9218-48b1",
-          "primary": false
-         },
          {
           "id": "f312-9792-2f70-3aa7",
           "name": "⟨Dominant⟩",
@@ -25803,7 +25212,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "e19d-586a-6aa9-cc65",
+        "childId": "dc94-d63b-5354-6fd8",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -25822,7 +25231,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "e19d-586a-6aa9-cc65",
+        "childId": "dc94-d63b-5354-6fd8",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -25909,13 +25318,6 @@
          }
         ],
         "categoryLinks": [
-         {
-          "id": "9300-5348-129a-75ac",
-          "name": "Guiding Piercing Spike",
-          "hidden": true,
-          "targetId": "e19d-586a-6aa9-cc65",
-          "primary": false
-         },
          {
           "id": "e82f-dd12-be5e-3549",
           "name": "⟨Dominant⟩",
@@ -26019,7 +25421,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "503a-8dba-f8ba-c05a",
+        "childId": "23c7-38c7-179c-a46d",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -26038,7 +25440,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "503a-8dba-f8ba-c05a",
+        "childId": "23c7-38c7-179c-a46d",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -26126,13 +25528,6 @@
         ],
         "categoryLinks": [
          {
-          "id": "8d1f-1c62-afe0-1088",
-          "name": "Guiding Venom Sacs",
-          "hidden": true,
-          "targetId": "503a-8dba-f8ba-c05a",
-          "primary": false
-         },
-         {
           "id": "77bc-4c5a-f608-98ff",
           "name": "⟨Dominant⟩",
           "hidden": true,
@@ -26193,7 +25588,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "16a3-0ab5-c4d0-04d3",
+        "childId": "5893-bf94-bb2b-cd1e",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -26212,7 +25607,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "16a3-0ab5-c4d0-04d3",
+        "childId": "5893-bf94-bb2b-cd1e",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -26299,13 +25694,6 @@
          }
         ],
         "categoryLinks": [
-         {
-          "id": "54bf-1f5b-4dd7-3549",
-          "name": "Guiding Digestive Vomit",
-          "hidden": true,
-          "targetId": "16a3-0ab5-c4d0-04d3",
-          "primary": false
-         },
          {
           "id": "4c23-3835-5ce7-150b",
           "name": "⟨Dominant⟩",
@@ -26542,7 +25930,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "caf9-994d-3ec4-73da",
+        "childId": "451b-a7bd-076c-ec82",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -26561,7 +25949,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "caf9-994d-3ec4-73da",
+        "childId": "451b-a7bd-076c-ec82",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -26649,13 +26037,6 @@
         ],
         "categoryLinks": [
          {
-          "id": "45ba-752e-8dd1-4569",
-          "name": "Guiding Unhinging Jaw",
-          "hidden": true,
-          "targetId": "caf9-994d-3ec4-73da",
-          "primary": false
-         },
-         {
           "id": "0ffa-378a-e713-430e",
           "name": "⟨Dominant⟩",
           "hidden": true,
@@ -26716,7 +26097,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "6f7b-19cc-19ab-ca39",
+        "childId": "da8c-ec12-0ffe-999c",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -26735,7 +26116,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "6f7b-19cc-19ab-ca39",
+        "childId": "da8c-ec12-0ffe-999c",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -26774,7 +26155,7 @@
          {
           "name": "pts",
           "typeId": "37a7-7901-5410-8a02",
-          "value": 25
+          "value": 30
          }
         ],
         "constraints": [
@@ -26822,13 +26203,6 @@
          }
         ],
         "categoryLinks": [
-         {
-          "id": "9507-e327-4afe-71c4",
-          "name": "Guiding Segmented Shell",
-          "hidden": true,
-          "targetId": "6f7b-19cc-19ab-ca39",
-          "primary": false
-         },
          {
           "id": "156e-cee5-8b90-1906",
           "name": "⟨Dominant⟩",
@@ -26890,7 +26264,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "72a0-4a05-21e1-b62a",
+        "childId": "5997-d2a0-82e9-9fc9",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -26909,7 +26283,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "72a0-4a05-21e1-b62a",
+        "childId": "5997-d2a0-82e9-9fc9",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -26989,13 +26363,6 @@
         "infoLinks": [],
         "categoryLinks": [
          {
-          "id": "3193-c9d0-7a57-2b97",
-          "name": "Guiding Divining Snout",
-          "hidden": true,
-          "targetId": "72a0-4a05-21e1-b62a",
-          "primary": false
-         },
-         {
           "id": "6aed-17c6-3f04-5365",
           "name": "⟨Dominant⟩",
           "hidden": true,
@@ -27056,7 +26423,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "e7cb-2c26-7537-9439",
+        "childId": "02a2-8e24-630b-0a56",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -27075,7 +26442,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "e7cb-2c26-7537-9439",
+        "childId": "02a2-8e24-630b-0a56",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -27162,13 +26529,6 @@
          }
         ],
         "categoryLinks": [
-         {
-          "id": "3801-f869-72e8-e88e",
-          "name": "Guiding Smothering Coils",
-          "hidden": true,
-          "targetId": "e7cb-2c26-7537-9439",
-          "primary": false
-         },
          {
           "id": "78bb-98f3-dc51-798a",
           "name": "⟨Dominant⟩",
@@ -27280,7 +26640,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "99a1-6585-f446-c964",
+        "childId": "6198-0049-a000-daa3",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -27299,7 +26659,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "99a1-6585-f446-c964",
+        "childId": "6198-0049-a000-daa3",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -27387,13 +26747,6 @@
         ],
         "categoryLinks": [
          {
-          "id": "2a7a-0247-8f09-5bb7",
-          "name": "Guiding Roaming Hands",
-          "hidden": true,
-          "targetId": "99a1-6585-f446-c964",
-          "primary": false
-         },
-         {
           "id": "93be-d36b-007d-b1a5",
           "name": "⟨Dominant⟩",
           "hidden": true,
@@ -27454,7 +26807,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "6c79-846a-a52b-1b2d",
+        "childId": "556b-0587-7134-043c",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -27473,7 +26826,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "6c79-846a-a52b-1b2d",
+        "childId": "556b-0587-7134-043c",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -27560,13 +26913,6 @@
          }
         ],
         "categoryLinks": [
-         {
-          "id": "199a-468d-812f-8302",
-          "name": "Guiding Hot Blood",
-          "hidden": true,
-          "targetId": "6c79-846a-a52b-1b2d",
-          "primary": false
-         },
          {
           "id": "4952-b628-0549-bd6c",
           "name": "⟨Dominant⟩",
@@ -27788,7 +27134,15 @@
       "targetId": "44b6-2760-c8a6-d14e"
      }
     ],
-    "categoryLinks": [],
+    "categoryLinks": [
+     {
+      "id": "1833-6327-63d5-0371",
+      "name": "⟨Dominant⟩",
+      "hidden": true,
+      "targetId": "dbb6-2b39-527b-73dd",
+      "primary": false
+     }
+    ],
     "selectionEntries": [],
     "selectionEntryGroups": [
      {
@@ -27853,13 +27207,6 @@
           "hidden": true,
           "targetId": "561a-aead-8b71-12a5",
           "primary": false
-         },
-         {
-          "id": "ee0c-3b92-cb69-afce",
-          "name": "⟨Dominant⟩",
-          "hidden": true,
-          "targetId": "dbb6-2b39-527b-73dd",
-          "primary": false
          }
         ],
         "selectionEntries": [],
@@ -27915,7 +27262,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "ceaa-7f49-5397-5c0e",
+        "childId": "3a82-2814-cce6-509c",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -27934,7 +27281,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "ceaa-7f49-5397-5c0e",
+        "childId": "3a82-2814-cce6-509c",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -28022,13 +27369,6 @@
         ],
         "categoryLinks": [
          {
-          "id": "6a51-a69b-7f6b-262d",
-          "name": "Guiding Whipcrack Tail",
-          "hidden": true,
-          "targetId": "ceaa-7f49-5397-5c0e",
-          "primary": false
-         },
-         {
           "id": "3033-6405-3e59-ce01",
           "name": "⟨Dominant⟩",
           "hidden": true,
@@ -28089,7 +27429,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "e71d-737b-4de8-6322",
+        "childId": "1805-2b2b-97e6-4a99",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -28108,7 +27448,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "e71d-737b-4de8-6322",
+        "childId": "1805-2b2b-97e6-4a99",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -28196,13 +27536,6 @@
         ],
         "categoryLinks": [
          {
-          "id": "60a7-1e96-c952-d94b",
-          "name": "Guiding Red Haze",
-          "hidden": true,
-          "targetId": "e71d-737b-4de8-6322",
-          "primary": false
-         },
-         {
           "id": "5759-7e26-142e-7b30",
           "name": "⟨Dominant⟩",
           "hidden": true,
@@ -28263,7 +27596,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "12bf-f2f5-fd5a-c3bd",
+        "childId": "9632-0497-478c-36d8",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -28282,7 +27615,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "12bf-f2f5-fd5a-c3bd",
+        "childId": "9632-0497-478c-36d8",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -28362,13 +27695,6 @@
         "infoLinks": [],
         "categoryLinks": [
          {
-          "id": "b93d-f54d-5a2a-b5d1",
-          "name": "Guiding Incendiary Ichor",
-          "hidden": true,
-          "targetId": "12bf-f2f5-fd5a-c3bd",
-          "primary": false
-         },
-         {
           "id": "61bb-4fae-447a-4870",
           "name": "⟨Dominant⟩",
           "hidden": true,
@@ -28429,7 +27755,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "5181-ba31-3fdd-8863",
+        "childId": "54ce-82cf-5c43-1993",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -28448,7 +27774,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "5181-ba31-3fdd-8863",
+        "childId": "54ce-82cf-5c43-1993",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -28535,13 +27861,6 @@
          }
         ],
         "categoryLinks": [
-         {
-          "id": "fec4-d2e9-fd09-bca9",
-          "name": "Guiding Bronze Backbone",
-          "hidden": true,
-          "targetId": "5181-ba31-3fdd-8863",
-          "primary": false
-         },
          {
           "id": "929d-286e-0030-0794",
           "name": "⟨Dominant⟩",
@@ -28645,7 +27964,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "5c8e-8534-9d72-6838",
+        "childId": "c472-4637-f531-cd89",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -28664,7 +27983,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "5c8e-8534-9d72-6838",
+        "childId": "c472-4637-f531-cd89",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -28743,13 +28062,6 @@
         "profiles": [],
         "infoLinks": [],
         "categoryLinks": [
-         {
-          "id": "b6ac-3585-eed4-e889",
-          "name": "Guiding Horns of Hubris",
-          "hidden": true,
-          "targetId": "5c8e-8534-9d72-6838",
-          "primary": false
-         },
          {
           "id": "967d-eb89-1d8c-c67c",
           "name": "⟨Dominant⟩",

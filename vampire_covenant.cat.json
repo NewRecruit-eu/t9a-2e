@@ -1145,44 +1145,6 @@
     ]
    },
    {
-    "id": "1c9e-dec1-687a-c75f",
-    "name": "Corpse Giant",
-    "comment": "corpseGiant",
-    "hidden": true,
-    "constraints": [
-     {
-      "id": "f944-fdc3-d66c-85b2",
-      "field": "selections",
-      "scope": "roster",
-      "value": 3,
-      "type": "max",
-      "includeChildSelections": true,
-      "includeChildForces": true,
-      "shared": true,
-      "percentValue": false
-     }
-    ],
-    "modifiers": [
-     {
-      "parentKey": "modifiers",
-      "type": "ceil",
-      "value": -1,
-      "field": "f944-fdc3-d66c-85b2",
-      "conditions": [
-       {
-        "type": "instanceOf",
-        "value": 1,
-        "field": "selections",
-        "scope": "self",
-        "childId": "header",
-        "childName": "header",
-        "shared": true
-       }
-      ]
-     }
-    ]
-   },
-   {
     "id": "5cc6-9222-fe12-2e32",
     "name": "Phantom Hosts",
     "comment": "phantom_host",
@@ -2033,26 +1995,6 @@
     "collective": true
    },
    {
-    "id": "e99c-7ad2-5154-f9d5",
-    "name": "Corpse Giant",
-    "hidden": false,
-    "type": "selectionEntry",
-    "targetId": "06cd-7e2d-9697-d0e1",
-    "categoryLinks": [
-     {
-      "id": "374f-4ce6-67cf-616f",
-      "name": "Special",
-      "hidden": false,
-      "targetId": "e749-0661-f65e-a36a",
-      "primary": true
-     }
-    ],
-    "constraints": [],
-    "modifiers": [],
-    "sortIndex": 19,
-    "collective": true
-   },
-   {
     "id": "ed28-c69d-71e4-239b",
     "name": "Phantom Hosts",
     "hidden": false,
@@ -2069,7 +2011,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 20,
+    "sortIndex": 19,
     "collective": true
    },
    {
@@ -2089,7 +2031,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 21,
+    "sortIndex": 20,
     "collective": true
    },
    {
@@ -2109,7 +2051,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 22,
+    "sortIndex": 21,
     "collective": true
    },
    {
@@ -2129,7 +2071,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 23,
+    "sortIndex": 22,
     "collective": true
    },
    {
@@ -2149,7 +2091,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 24,
+    "sortIndex": 23,
     "collective": true
    },
    {
@@ -2169,7 +2111,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 25,
+    "sortIndex": 24,
     "collective": true
    },
    {
@@ -2189,7 +2131,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 26,
+    "sortIndex": 25,
     "collective": true
    },
    {
@@ -2209,7 +2151,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 27,
+    "sortIndex": 26,
     "collective": true
    }
   ],
@@ -2709,7 +2651,27 @@
           "percentValue": false
          }
         ],
-        "modifiers": [],
+        "modifiers": [
+         {
+          "type": "set",
+          "field": "hidden",
+          "value": true,
+          "conditions": [
+           {
+            "type": "atMost",
+            "value": 0,
+            "field": "selections",
+            "scope": "root-entry-self",
+            "childId": "b3a9-546c-c69f-cf00",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "percentValue": false
+           }
+          ],
+          "conditionGroups": []
+         }
+        ],
         "categoryLinks": [],
         "sortIndex": 5,
         "collective": true
@@ -6485,7 +6447,19 @@
       "id": "533c-6075-c1d1-109d",
       "name": "Blood Powers",
       "hidden": false,
-      "constraints": [],
+      "constraints": [
+       {
+        "id": "24ff-71ed-0a0b-91f1",
+        "field": "selections",
+        "scope": "parent",
+        "value": 1,
+        "type": "min",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
       "modifiers": [],
       "selectionEntries": [],
       "selectionEntryGroups": [],
@@ -6528,6 +6502,7 @@
        }
       ],
       "collapsible": true,
+      "defaultSelectionEntryId": "a7f4-a16d-5639-13fa",
       "sortIndex": 1,
       "collective": true
      },
@@ -16766,7 +16741,7 @@
      {
       "name": "pts",
       "typeId": "37a7-7901-5410-8a02",
-      "value": 4
+      "value": -91
      }
     ],
     "profiles": [],
@@ -18030,27 +18005,7 @@
     "selectionEntryGroups": [],
     "entryLinks": [],
     "constraints": [],
-    "modifiers": [
-     {
-      "type": "set",
-      "field": "hidden",
-      "value": true,
-      "conditions": [
-       {
-        "type": "atLeast",
-        "value": 1,
-        "field": "selections",
-        "scope": "root-entry-self",
-        "childId": "b3a9-546c-c69f-cf00",
-        "shared": true,
-        "includeChildSelections": true,
-        "includeChildForces": false,
-        "percentValue": false
-       }
-      ],
-      "conditionGroups": []
-     }
-    ],
+    "modifiers": [],
     "collective": true
    },
    {
@@ -18875,428 +18830,6 @@
       "selectionEntryGroups": [],
       "entryLinks": [],
       "sortIndex": 1,
-      "collective": true
-     }
-    ],
-    "entryLinks": [],
-    "constraints": [],
-    "modifiers": [],
-    "collective": true
-   },
-   {
-    "id": "06cd-7e2d-9697-d0e1",
-    "name": "Corpse Giant",
-    "type": "model",
-    "hidden": false,
-    "categoryLinks": [
-     {
-      "id": "65a4-9008-e96b-b516",
-      "name": "Corpse Giant",
-      "hidden": true,
-      "targetId": "1c9e-dec1-687a-c75f",
-      "primary": false
-     }
-    ],
-    "costs": [
-     {
-      "name": "pts",
-      "typeId": "37a7-7901-5410-8a02",
-      "value": 275
-     }
-    ],
-    "profiles": [
-     {
-      "id": "210e-84f2-4410-6c8f",
-      "name": "Corpse Giant (Global)",
-      "typeId": "0bb5-fae5-f5a7-6b97",
-      "typeName": "Global",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Adv",
-        "typeId": "cf70-c87b-5e2d-5d97",
-        "$text": "7"
-       },
-       {
-        "name": "Mar",
-        "typeId": "3547-0c61-20c1-f727",
-        "$text": "14"
-       },
-       {
-        "name": "Dis",
-        "typeId": "9766-e5ef-1ccf-e1c4",
-        "$text": "7"
-       },
-       {
-        "name": "Rsr",
-        "typeId": "a67a-60ca-9e84-619d",
-        "$text": "1"
-       },
-       {
-        "name": "Rules",
-        "typeId": "edbe-a5d2-8dda-794b",
-        "$text": "Giant See, Giant Do"
-       }
-      ]
-     },
-     {
-      "id": "7a89-76f9-fa2b-1494",
-      "name": "Corpse Giant (Defensive)",
-      "typeId": "cc02-4c45-fc8e-9c20",
-      "typeName": "Defensive",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "HP",
-        "typeId": "d0d3-36c5-8a8d-cbb4",
-        "$text": "7"
-       },
-       {
-        "name": "Def",
-        "typeId": "1f95-9871-6b5e-cc35",
-        "$text": "3"
-       },
-       {
-        "name": "Res",
-        "typeId": "b725-eae8-7a15-b275",
-        "$text": "5"
-       },
-       {
-        "name": "Arm",
-        "typeId": "d15a-5931-24e5-be5d",
-        "$text": "1"
-       },
-       {
-        "name": "Aeg",
-        "typeId": "55dc-3dc1-b4f0-750e",
-        "$text": ""
-       },
-       {
-        "name": "Rules",
-        "typeId": "add5-e615-b82e-05dc",
-        "$text": ""
-       }
-      ]
-     },
-     {
-      "id": "3d35-004e-b83f-7089",
-      "name": "Corpse Giant",
-      "typeId": "34e0-cf8a-007f-a558",
-      "typeName": "Offensive",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Att",
-        "typeId": "977e-3683-45e2-07ca",
-        "$text": "5"
-       },
-       {
-        "name": "Off",
-        "typeId": "6b9c-9509-7450-6cf6",
-        "$text": "3"
-       },
-       {
-        "name": "Str",
-        "typeId": "cc5e-c56d-543f-0a69",
-        "$text": "5"
-       },
-       {
-        "name": "AP",
-        "typeId": "ca1e-4b8f-6554-3f2f",
-        "$text": "2"
-       },
-       {
-        "name": "Agi",
-        "typeId": "6518-cb29-b2b2-aa69",
-        "$text": "3"
-       },
-       {
-        "name": "Rules",
-        "typeId": "5e9b-1961-df0b-5ddd",
-        "$text": "Rage"
-       },
-       {
-        "name": "Tags",
-        "typeId": "ce24-79db-670a-0520",
-        "$text": ""
-       }
-      ]
-     },
-     {
-      "id": "dd38-c92f-1696-62e2",
-      "name": "Corpse Giant (Size)",
-      "typeId": "a7dd-61af-e630-732e",
-      "typeName": "Size",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Height",
-        "typeId": "069b-9ad6-e430-21e6",
-        "$text": ""
-       },
-       {
-        "name": "Type",
-        "typeId": "0fe4-f75c-b1c3-dc9a",
-        "$text": ""
-       },
-       {
-        "name": "Base",
-        "typeId": "0a68-c69a-774f-d74d",
-        "$text": "50×75"
-       },
-       {
-        "name": "Rarity",
-        "typeId": "0a01-69a6-f861-ae76",
-        "$text": ""
-       }
-      ]
-     }
-    ],
-    "infoLinks": [
-     {
-      "id": "ef32-1687-8680-7fcd",
-      "name": "Giant See, Giant Do",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "57fa-4c0c-85da-404f"
-     },
-     {
-      "id": "ff47-51ed-bf60-47bb",
-      "name": "Rage",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "857c-9d17-1cb0-ca4a"
-     },
-     {
-      "id": "031b-20aa-4dc5-325c",
-      "name": "Hand Weapon",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "c0bc-4ca5-811a-d067"
-     }
-    ],
-    "selectionEntries": [],
-    "selectionEntryGroups": [
-     {
-      "id": "5033-20a7-de58-9b32",
-      "name": "Type",
-      "hidden": false,
-      "constraints": [
-       {
-        "id": "8c5e-f754-f22b-9e73",
-        "field": "selections",
-        "scope": "parent",
-        "value": 1,
-        "type": "min",
-        "includeChildSelections": false,
-        "includeChildForces": false,
-        "shared": true,
-        "percentValue": false
-       },
-       {
-        "id": "c67b-057a-4efe-bb60",
-        "field": "selections",
-        "scope": "parent",
-        "value": 1,
-        "type": "max",
-        "includeChildSelections": false,
-        "includeChildForces": false,
-        "shared": true,
-        "percentValue": false
-       }
-      ],
-      "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "b59f-75f9-40d9-3e3a",
-        "name": "Barrow Giant",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "cb55-ada8-d9fa-eab2",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "9e26-637f-7844-3c48",
-          "name": "Barrow Giant",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "ab06-07af-b2a2-81a1"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 1,
-        "collective": true
-       },
-       {
-        "id": "c232-2738-171b-b31c",
-        "name": "Ghoul Giant",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 10
-         }
-        ],
-        "constraints": [
-         {
-          "id": "0b3d-4640-5c7c-12f0",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "ae6e-997d-7742-4596",
-          "name": "Ghoul Giant",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "cde3-c861-c9f2-6ead"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 2,
-        "collective": true
-       },
-       {
-        "id": "b3d7-74ee-8e47-70cc",
-        "name": "Zombie Giant",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 10
-         }
-        ],
-        "constraints": [
-         {
-          "id": "47d0-946b-ed03-8e81",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "7f6d-cb86-2b5a-ce8b",
-          "name": "Zombie Giant",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "47a5-8f9b-f379-f72f"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 3,
-        "collective": true
-       }
-      ],
-      "selectionEntryGroups": [],
-      "entryLinks": [],
-      "defaultSelectionEntryId": "b59f-75f9-40d9-3e3a",
-      "sortIndex": 1,
-      "collective": true
-     },
-     {
-      "id": "8fd0-3866-9cb7-7366",
-      "name": "Options",
-      "hidden": false,
-      "constraints": [],
-      "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "76b5-8f3d-3bd7-139e",
-        "name": "Big Brother",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 25
-         }
-        ],
-        "constraints": [
-         {
-          "id": "a99e-e14b-2e56-35b6",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "a129-786e-2393-80a5",
-          "name": "Big Brother",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "7bb5-c948-52a8-4318"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 1,
-        "collective": true
-       }
-      ],
-      "selectionEntryGroups": [],
-      "entryLinks": [],
-      "sortIndex": 2,
       "collective": true
      }
     ],
@@ -23542,7 +23075,27 @@
     "selectionEntryGroups": [],
     "entryLinks": [],
     "constraints": [],
-    "modifiers": [],
+    "modifiers": [
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "b3a9-546c-c69f-cf00",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     }
+    ],
     "collective": true
    },
    {
@@ -25332,6 +24885,13 @@
       "primary": false
      },
      {
+      "id": "24e8-95d2-57c8-d5cc",
+      "name": "Dragon or Ancient Dragon Mount",
+      "hidden": true,
+      "targetId": "36f1-b14f-864f-ea58",
+      "primary": false
+     },
+     {
       "id": "3114-ebac-2b1f-cd88",
       "name": "Swift Death",
       "hidden": false,
@@ -25589,20 +25149,7 @@
     "selectionEntries": [],
     "selectionEntryGroups": [],
     "entryLinks": [],
-    "constraints": [
-     {
-      "id": "7731-9abe-10d1-3175",
-      "field": "selections",
-      "scope": "roster",
-      "value": 0,
-      "type": "max",
-      "includeChildSelections": true,
-      "includeChildForces": true,
-      "shared": true,
-      "percentValue": false,
-      "childId": "36f1-b14f-864f-ea58"
-     }
-    ],
+    "constraints": [],
     "modifiers": [
      {
       "type": "set",
@@ -25964,6 +25511,25 @@
       "value": true,
       "conditions": [
        {
+        "type": "atMost",
+        "value": 0,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "67ef-4462-fcf2-24c0",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
         "type": "atLeast",
         "value": 1,
         "field": "selections",
@@ -26019,7 +25585,7 @@
     "selectionEntries": [],
     "selectionEntryGroups": [],
     "entryLinks": [],
-    "comment": "restriction: Cannot be taken with Gigantic Size. Cannot be taken with Court of the Damned.",
+    "comment": "restriction: Models with Vampire only. Cannot be taken with Gigantic Size. Cannot be taken with Court of the Damned.",
     "collective": true
    },
    {
@@ -26713,10 +26279,31 @@
       "includeChildSelections": false,
       "includeChildForces": false,
       "shared": true,
-      "percentValue": false
+      "percentValue": false,
+      "message": "{self}: Models with Wizard only."
      }
     ],
-    "modifiers": [],
+    "modifiers": [
+     {
+      "type": "set",
+      "field": "6a48-412c-0ffd-32c3",
+      "value": 0,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 0,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "2e3d-2342-2529-9d0e",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     }
+    ],
     "profiles": [],
     "infoLinks": [],
     "categoryLinks": [
@@ -26788,6 +26375,7 @@
      }
     ],
     "entryLinks": [],
+    "comment": "restriction: Models with Wizard only.",
     "rules": [
      {
       "id": "510b-97ee-5376-4a9b",
@@ -27555,7 +27143,27 @@
       "percentValue": false
      }
     ],
-    "modifiers": [],
+    "modifiers": [
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "d368-25fc-557f-b395",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     }
+    ],
     "profiles": [],
     "infoLinks": [
      {
@@ -27578,6 +27186,7 @@
     "selectionEntries": [],
     "selectionEntryGroups": [],
     "entryLinks": [],
+    "comment": "restriction: Cannot be taken with Mount.",
     "collective": true
    },
    {
@@ -27655,7 +27264,27 @@
       "percentValue": false
      }
     ],
-    "modifiers": [],
+    "modifiers": [
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "d368-25fc-557f-b395",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     }
+    ],
     "profiles": [],
     "infoLinks": [
      {
@@ -27685,6 +27314,7 @@
     "selectionEntries": [],
     "selectionEntryGroups": [],
     "entryLinks": [],
+    "comment": "restriction: Cannot be taken with Mount.",
     "collective": true
    },
    {

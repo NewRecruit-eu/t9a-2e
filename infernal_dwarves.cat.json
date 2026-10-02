@@ -1521,14 +1521,6 @@
     ]
    },
    {
-    "id": "04d7-7d68-10a6-f432",
-    "name": "Titan Titan",
-    "comment": "titan_titan",
-    "hidden": true,
-    "constraints": [],
-    "modifiers": []
-   },
-   {
     "id": "1265-46b9-85e8-7432",
     "name": "Rocket Battery and Fires of Industry",
     "comment": "titan_rocket",
@@ -2434,26 +2426,6 @@
     "constraints": [],
     "modifiers": [],
     "sortIndex": 24,
-    "collective": true
-   },
-   {
-    "id": "f085-8e31-e14c-3b5c",
-    "name": "Supplement Citizen Giant",
-    "hidden": false,
-    "type": "selectionEntry",
-    "targetId": "fa53-237e-31c1-1e5b",
-    "categoryLinks": [
-     {
-      "id": "08a6-ede4-659b-c4f9",
-      "name": "Instruments of Destruction",
-      "hidden": false,
-      "targetId": "de34-ad7c-94cd-bc34",
-      "primary": true
-     }
-    ],
-    "constraints": [],
-    "modifiers": [],
-    "sortIndex": 25,
     "collective": true
    }
   ],
@@ -5702,7 +5674,19 @@
         "id": "02f8-d3b9-e0cb-bad4",
         "name": "Ranged Weapon",
         "hidden": false,
-        "constraints": [],
+        "constraints": [
+         {
+          "id": "2bde-5419-2bd4-5e6e",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1,
+          "type": "max",
+          "includeChildSelections": false,
+          "includeChildForces": false,
+          "shared": true,
+          "percentValue": false
+         }
+        ],
         "modifiers": [],
         "selectionEntries": [
          {
@@ -14684,13 +14668,6 @@
       "hidden": true,
       "targetId": "2cc3-5c0d-1af4-059e",
       "primary": false
-     },
-     {
-      "id": "650b-4675-2d84-13c2",
-      "name": "Large Size",
-      "hidden": true,
-      "targetId": "4fb4-69c1-a8e6-be53",
-      "primary": false
      }
     ],
     "costs": [
@@ -14950,6 +14927,17 @@
         "hidden": false,
         "constraints": [
          {
+          "id": "6a2b-6825-d61b-7e22",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1,
+          "type": "min",
+          "includeChildSelections": false,
+          "includeChildForces": false,
+          "shared": true,
+          "percentValue": false
+         },
+         {
           "id": "4b1a-ec7c-9ae9-2a63",
           "field": "selections",
           "scope": "parent",
@@ -15095,6 +15083,7 @@
         ],
         "selectionEntryGroups": [],
         "entryLinks": [],
+        "defaultSelectionEntryId": "4214-27e5-9912-6a35",
         "sortIndex": 1,
         "collective": true
        },
@@ -16725,6 +16714,13 @@
       "name": "Infernal Bastion",
       "hidden": true,
       "targetId": "450a-c709-fc63-c7a7",
+      "primary": false
+     },
+     {
+      "id": "9eca-f75b-d456-9246",
+      "name": "Gigantic Size",
+      "hidden": true,
+      "targetId": "5912-3e17-93bc-d695",
       "primary": false
      },
      {
@@ -19925,6 +19921,17 @@
       "hidden": false,
       "constraints": [
        {
+        "id": "db33-0788-f8e1-9478",
+        "field": "selections",
+        "scope": "parent",
+        "value": 1,
+        "type": "min",
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "shared": true,
+        "percentValue": false
+       },
+       {
         "id": "2537-602e-d729-cd1c",
         "field": "selections",
         "scope": "parent",
@@ -20079,7 +20086,7 @@
            },
            {
             "id": "9a17-e02b-50ce-cf6a",
-            "name": "Titan Mortar and Fires of Industry (2)",
+            "name": "Titan Mortar (4+) and Fires of Industry (2)",
             "type": "upgrade",
             "hidden": false,
             "costs": [
@@ -20105,18 +20112,6 @@
               "includeChildForces": false,
               "shared": true,
               "percentValue": false
-             },
-             {
-              "id": "ae74-5832-9788-f59c",
-              "field": "selections",
-              "scope": "roster",
-              "value": 2,
-              "type": "max",
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "shared": true,
-              "percentValue": false,
-              "childId": "04d7-7d68-10a6-f432"
              }
             ],
             "modifiers": [],
@@ -20295,6 +20290,7 @@
       ],
       "selectionEntryGroups": [],
       "entryLinks": [],
+      "defaultSelectionEntryId": "effd-c3cb-7e8c-3a1c",
       "sortIndex": 1,
       "collective": true
      }
@@ -20727,484 +20723,6 @@
     "collective": true
    },
    {
-    "id": "fa53-237e-31c1-1e5b",
-    "name": "Supplement Citizen Giant",
-    "type": "model",
-    "hidden": false,
-    "categoryLinks": [
-     {
-      "id": "d471-906f-da35-a689",
-      "name": "Citizen Giant",
-      "hidden": true,
-      "targetId": "6240-40f7-c449-c69c",
-      "primary": false
-     }
-    ],
-    "costs": [
-     {
-      "name": "pts",
-      "typeId": "37a7-7901-5410-8a02",
-      "value": 330
-     }
-    ],
-    "profiles": [
-     {
-      "id": "6c9f-1bd3-3d3e-5b57",
-      "name": "Supplement Citizen Giant (Global)",
-      "typeId": "0bb5-fae5-f5a7-6b97",
-      "typeName": "Global",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Adv",
-        "typeId": "cf70-c87b-5e2d-5d97",
-        "$text": "7"
-       },
-       {
-        "name": "Mar",
-        "typeId": "3547-0c61-20c1-f727",
-        "$text": "14"
-       },
-       {
-        "name": "Dis",
-        "typeId": "9766-e5ef-1ccf-e1c4",
-        "$text": "8"
-       },
-       {
-        "name": "Rsr",
-        "typeId": "a67a-60ca-9e84-619d",
-        "$text": ""
-       },
-       {
-        "name": "Rules",
-        "typeId": "edbe-a5d2-8dda-794b",
-        "$text": "Giant See, Giant Do"
-       }
-      ]
-     },
-     {
-      "id": "c7a9-2605-14e6-53d3",
-      "name": "Supplement Citizen Giant (Defensive)",
-      "typeId": "cc02-4c45-fc8e-9c20",
-      "typeName": "Defensive",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "HP",
-        "typeId": "d0d3-36c5-8a8d-cbb4",
-        "$text": "7"
-       },
-       {
-        "name": "Def",
-        "typeId": "1f95-9871-6b5e-cc35",
-        "$text": "3"
-       },
-       {
-        "name": "Res",
-        "typeId": "b725-eae8-7a15-b275",
-        "$text": "5"
-       },
-       {
-        "name": "Arm",
-        "typeId": "d15a-5931-24e5-be5d",
-        "$text": "1"
-       },
-       {
-        "name": "Aeg",
-        "typeId": "55dc-3dc1-b4f0-750e",
-        "$text": ""
-       },
-       {
-        "name": "Rules",
-        "typeId": "add5-e615-b82e-05dc",
-        "$text": ""
-       }
-      ]
-     },
-     {
-      "id": "b389-8119-6d63-d2da",
-      "name": "Citizen Giant",
-      "typeId": "34e0-cf8a-007f-a558",
-      "typeName": "Offensive",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Att",
-        "typeId": "977e-3683-45e2-07ca",
-        "$text": "5"
-       },
-       {
-        "name": "Off",
-        "typeId": "6b9c-9509-7450-6cf6",
-        "$text": "3"
-       },
-       {
-        "name": "Str",
-        "typeId": "cc5e-c56d-543f-0a69",
-        "$text": "5"
-       },
-       {
-        "name": "AP",
-        "typeId": "ca1e-4b8f-6554-3f2f",
-        "$text": "2"
-       },
-       {
-        "name": "Agi",
-        "typeId": "6518-cb29-b2b2-aa69",
-        "$text": "3"
-       },
-       {
-        "name": "Rules",
-        "typeId": "5e9b-1961-df0b-5ddd",
-        "$text": "Rage"
-       },
-       {
-        "name": "Tags",
-        "typeId": "ce24-79db-670a-0520",
-        "$text": ""
-       }
-      ]
-     },
-     {
-      "id": "5bb7-25ff-5ae2-91df",
-      "name": "Supplement Citizen Giant (Size)",
-      "typeId": "a7dd-61af-e630-732e",
-      "typeName": "Size",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Height",
-        "typeId": "069b-9ad6-e430-21e6",
-        "$text": ""
-       },
-       {
-        "name": "Type",
-        "typeId": "0fe4-f75c-b1c3-dc9a",
-        "$text": ""
-       },
-       {
-        "name": "Base",
-        "typeId": "0a68-c69a-774f-d74d",
-        "$text": "50×75"
-       },
-       {
-        "name": "Rarity",
-        "typeId": "0a01-69a6-f861-ae76",
-        "$text": ""
-       }
-      ]
-     }
-    ],
-    "infoLinks": [
-     {
-      "id": "13d9-d7b5-3c9e-75a6",
-      "name": "Giant See, Giant Do",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "c69c-9d9c-3d69-b374"
-     },
-     {
-      "id": "9f7f-c0c0-dc30-85d3",
-      "name": "Rage",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "857c-9d17-1cb0-ca4a"
-     },
-     {
-      "id": "5414-4417-e8ed-3413",
-      "name": "Hand Weapon",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "c0bc-4ca5-811a-d067"
-     }
-    ],
-    "selectionEntries": [],
-    "selectionEntryGroups": [
-     {
-      "id": "8872-c0bd-150c-8ff9",
-      "name": "Weapons",
-      "hidden": false,
-      "constraints": [
-       {
-        "id": "f1c0-e41b-13c8-3bec",
-        "field": "selections",
-        "scope": "parent",
-        "value": 1,
-        "type": "max",
-        "includeChildSelections": false,
-        "includeChildForces": false,
-        "shared": true,
-        "percentValue": false
-       }
-      ],
-      "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "06ff-4b92-1725-ef29",
-        "name": "Infernal Lash",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "f5b9-5235-75b3-4454",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "db32-053f-abcf-0903",
-          "name": "Infernal Lash",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "c4ec-6eee-7487-0983"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 1,
-        "collective": true
-       },
-       {
-        "id": "9262-18df-3491-c88a",
-        "name": "Giant Club",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 15
-         }
-        ],
-        "constraints": [
-         {
-          "id": "42c9-c11d-8309-66c1",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "7061-5e46-fe91-1484",
-          "name": "Giant Club",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "7530-9c1c-abfa-a19f"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 2,
-        "collective": true
-       },
-       {
-        "id": "102e-aa46-7b9b-318f",
-        "name": "Oil Kegs",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 20
-         }
-        ],
-        "constraints": [
-         {
-          "id": "fe12-99fa-5a76-833d",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "ebc3-669e-bdeb-bdcf",
-          "name": "Oil Kegs",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "1ac8-6e8a-5440-3f50"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 3,
-        "collective": true
-       }
-      ],
-      "selectionEntryGroups": [],
-      "entryLinks": [],
-      "sortIndex": 1,
-      "collective": true
-     },
-     {
-      "id": "bb91-9a33-54e7-8d18",
-      "name": "Options",
-      "hidden": false,
-      "constraints": [],
-      "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "6768-69f3-d114-f25f",
-        "name": "Big Brother",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 25
-         }
-        ],
-        "constraints": [
-         {
-          "id": "e1bc-8495-16a3-4dfc",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "cae1-f046-cd37-8b89",
-          "name": "Big Brother",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "2f36-48d5-adb0-3144"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 1,
-        "collective": true
-       }
-      ],
-      "selectionEntryGroups": [],
-      "entryLinks": [],
-      "sortIndex": 2,
-      "collective": true
-     },
-     {
-      "id": "964a-baf0-906f-d1f3",
-      "name": "Shield",
-      "hidden": false,
-      "constraints": [
-       {
-        "id": "bfae-dd65-ac42-e24b",
-        "field": "selections",
-        "scope": "parent",
-        "value": 1,
-        "type": "max",
-        "includeChildSelections": false,
-        "includeChildForces": false,
-        "shared": true,
-        "percentValue": false
-       }
-      ],
-      "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "2471-7454-aada-a8e1",
-        "name": "Tower Shield",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "dc0e-d4aa-7937-4ce9",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "c0b2-fa2e-23be-91a2",
-          "name": "Tower Shield",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "12f7-e97e-2ca2-0cdb"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 1,
-        "collective": true
-       }
-      ],
-      "selectionEntryGroups": [],
-      "entryLinks": [],
-      "sortIndex": 3,
-      "collective": true
-     }
-    ],
-    "entryLinks": [],
-    "constraints": [],
-    "modifiers": [],
-    "collective": true
-   },
-   {
     "id": "b211-824a-f992-09bb",
     "name": "Bull of Shamut",
     "type": "mount",
@@ -21236,13 +20754,6 @@
       "name": "Flyer",
       "hidden": true,
       "targetId": "0dbc-49c3-e2cd-1013",
-      "primary": false
-     },
-     {
-      "id": "8273-2699-df93-e3d0",
-      "name": "Beast",
-      "hidden": true,
-      "targetId": "2398-273e-d6b8-4522",
       "primary": false
      },
      {
@@ -23338,361 +22849,6 @@
     "collective": true
    },
    {
-    "id": "c471-7409-3ca5-6b7f",
-    "name": "Vassal Chieftain",
-    "type": "mount",
-    "hidden": false,
-    "categoryLinks": [
-     {
-      "id": "4c5f-a652-7306-a066",
-      "name": "Infantry",
-      "hidden": true,
-      "targetId": "0d09-a3fa-e8ed-584e",
-      "primary": false
-     },
-     {
-      "id": "1c82-6ae4-edc5-7ea8",
-      "name": "⟨mount⟩",
-      "hidden": true,
-      "targetId": "ecee-fbfd-a9f0-7550",
-      "primary": false
-     }
-    ],
-    "costs": [
-     {
-      "name": "pts",
-      "typeId": "37a7-7901-5410-8a02",
-      "value": 0
-     }
-    ],
-    "profiles": [],
-    "infoLinks": [
-     {
-      "id": "a5d3-2c49-4ad5-6d7f",
-      "name": "Hand Weapon",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "c0bc-4ca5-811a-d067"
-     }
-    ],
-    "selectionEntries": [],
-    "selectionEntryGroups": [],
-    "entryLinks": [],
-    "constraints": [],
-    "modifiers": [],
-    "collective": true
-   },
-   {
-    "id": "c73e-1917-39f4-3fab",
-    "name": "Mounted Vassal Chieftain",
-    "type": "mount",
-    "hidden": false,
-    "categoryLinks": [
-     {
-      "id": "19f6-dacd-3838-a5d6",
-      "name": "Cavalry",
-      "hidden": true,
-      "targetId": "c018-0c88-bd8e-2896",
-      "primary": false
-     },
-     {
-      "id": "32a9-d4f5-6ae0-bb62",
-      "name": "⟨mount⟩",
-      "hidden": true,
-      "targetId": "ecee-fbfd-a9f0-7550",
-      "primary": false
-     }
-    ],
-    "costs": [
-     {
-      "name": "pts",
-      "typeId": "37a7-7901-5410-8a02",
-      "value": 0
-     }
-    ],
-    "profiles": [
-     {
-      "id": "fe69-52e7-1a51-fbe0",
-      "name": "Mounted Vassal Chieftain (Global)",
-      "typeId": "0bb5-fae5-f5a7-6b97",
-      "typeName": "Global",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Adv",
-        "typeId": "cf70-c87b-5e2d-5d97",
-        "$text": "4"
-       },
-       {
-        "name": "Mar",
-        "typeId": "3547-0c61-20c1-f727",
-        "$text": "8"
-       },
-       {
-        "name": "Dis",
-        "typeId": "9766-e5ef-1ccf-e1c4",
-        "$text": "7"
-       },
-       {
-        "name": "Rsr",
-        "typeId": "a67a-60ca-9e84-619d",
-        "$text": ""
-       },
-       {
-        "name": "Rules",
-        "typeId": "edbe-a5d2-8dda-794b",
-        "$text": "First Amongst Inferiors, Feigned Flight, Light Troops, Vanguard (6\"), Insignificant"
-       }
-      ]
-     },
-     {
-      "id": "cfa8-90c6-8e51-75a9",
-      "name": "Mounted Vassal Chieftain (Defensive)",
-      "typeId": "cc02-4c45-fc8e-9c20",
-      "typeName": "Defensive",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "HP",
-        "typeId": "d0d3-36c5-8a8d-cbb4",
-        "$text": "2"
-       },
-       {
-        "name": "Def",
-        "typeId": "1f95-9871-6b5e-cc35",
-        "$text": "4"
-       },
-       {
-        "name": "Res",
-        "typeId": "b725-eae8-7a15-b275",
-        "$text": "4"
-       },
-       {
-        "name": "Arm",
-        "typeId": "d15a-5931-24e5-be5d",
-        "$text": "0"
-       },
-       {
-        "name": "Aeg",
-        "typeId": "55dc-3dc1-b4f0-750e",
-        "$text": ""
-       },
-       {
-        "name": "Rules",
-        "typeId": "add5-e615-b82e-05dc",
-        "$text": ""
-       }
-      ]
-     },
-     {
-      "id": "c5ad-ef04-6384-14d1",
-      "name": "Vassal Chieftain",
-      "typeId": "34e0-cf8a-007f-a558",
-      "typeName": "Offensive",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Att",
-        "typeId": "977e-3683-45e2-07ca",
-        "$text": "3"
-       },
-       {
-        "name": "Off",
-        "typeId": "6b9c-9509-7450-6cf6",
-        "$text": "4"
-       },
-       {
-        "name": "Str",
-        "typeId": "cc5e-c56d-543f-0a69",
-        "$text": "4"
-       },
-       {
-        "name": "AP",
-        "typeId": "ca1e-4b8f-6554-3f2f",
-        "$text": "1"
-       },
-       {
-        "name": "Agi",
-        "typeId": "6518-cb29-b2b2-aa69",
-        "$text": "3"
-       },
-       {
-        "name": "Rules",
-        "typeId": "5e9b-1961-df0b-5ddd",
-        "$text": "Lance, Bow (4+)"
-       },
-       {
-        "name": "Tags",
-        "typeId": "ce24-79db-670a-0520",
-        "$text": ""
-       }
-      ]
-     },
-     {
-      "id": "50e1-c66b-e3b7-f51e",
-      "name": "Vassal Steed",
-      "typeId": "34e0-cf8a-007f-a558",
-      "typeName": "Offensive",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Att",
-        "typeId": "977e-3683-45e2-07ca",
-        "$text": "2"
-       },
-       {
-        "name": "Off",
-        "typeId": "6b9c-9509-7450-6cf6",
-        "$text": "3"
-       },
-       {
-        "name": "Str",
-        "typeId": "cc5e-c56d-543f-0a69",
-        "$text": "3"
-       },
-       {
-        "name": "AP",
-        "typeId": "ca1e-4b8f-6554-3f2f",
-        "$text": "1"
-       },
-       {
-        "name": "Agi",
-        "typeId": "6518-cb29-b2b2-aa69",
-        "$text": "3"
-       },
-       {
-        "name": "Rules",
-        "typeId": "5e9b-1961-df0b-5ddd",
-        "$text": "Harnessed"
-       },
-       {
-        "name": "Tags",
-        "typeId": "ce24-79db-670a-0520",
-        "$text": ""
-       }
-      ]
-     },
-     {
-      "id": "1967-947a-8e6d-fbdd",
-      "name": "Mounted Vassal Chieftain (Size)",
-      "typeId": "a7dd-61af-e630-732e",
-      "typeName": "Size",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Height",
-        "typeId": "069b-9ad6-e430-21e6",
-        "$text": ""
-       },
-       {
-        "name": "Type",
-        "typeId": "0fe4-f75c-b1c3-dc9a",
-        "$text": ""
-       },
-       {
-        "name": "Base",
-        "typeId": "0a68-c69a-774f-d74d",
-        "$text": "25×50"
-       },
-       {
-        "name": "Rarity",
-        "typeId": "0a01-69a6-f861-ae76",
-        "$text": ""
-       }
-      ]
-     }
-    ],
-    "infoLinks": [
-     {
-      "id": "da0a-a3c0-10be-6560",
-      "name": "First Amongst Inferiors",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "109a-76d3-4c45-660c"
-     },
-     {
-      "id": "ad2c-10bd-4bd2-c3e6",
-      "name": "Feigned Flight",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "1e11-0f3b-4a91-869f"
-     },
-     {
-      "id": "84f5-a6e1-44c7-0b7e",
-      "name": "Light Troops",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "238c-b5eb-1886-cbc8"
-     },
-     {
-      "id": "abc7-2ece-6c77-d5dd",
-      "name": "Vanguard",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "0238-4bce-d60d-caa8",
-      "modifiers": [
-       {
-        "type": "set",
-        "field": "name",
-        "value": "Vanguard (6\")",
-        "conditions": [],
-        "conditionGroups": []
-       }
-      ]
-     },
-     {
-      "id": "2c92-2157-5254-779c",
-      "name": "Insignificant",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "f7c2-bd92-aadd-1845"
-     },
-     {
-      "id": "1cd6-d35b-0016-ebae",
-      "name": "Harnessed",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "2f6c-46a4-e4ee-af98"
-     },
-     {
-      "id": "c195-c434-384b-59cb",
-      "name": "Lance",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "1237-954b-11d7-151c"
-     },
-     {
-      "id": "c873-5c9e-931e-5ead",
-      "name": "Bow",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "733b-f910-de78-2d37",
-      "modifiers": [
-       {
-        "type": "set",
-        "field": "name",
-        "value": "Bow (4+)",
-        "conditions": [],
-        "conditionGroups": []
-       }
-      ]
-     },
-     {
-      "id": "5897-5542-5267-535e",
-      "name": "Hand Weapon",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "c0bc-4ca5-811a-d067"
-     }
-    ],
-    "selectionEntries": [],
-    "selectionEntryGroups": [],
-    "entryLinks": [],
-    "constraints": [],
-    "modifiers": [],
-    "collective": true
-   },
-   {
     "id": "220f-0e57-a929-7957",
     "name": "Flame of the East",
     "type": "upgrade",
@@ -24270,44 +23426,6 @@
     ],
     "modifiers": [
      {
-      "type": "set",
-      "field": "hidden",
-      "value": true,
-      "conditions": [
-       {
-        "type": "atLeast",
-        "value": 1,
-        "field": "selections",
-        "scope": "root-entry-self",
-        "childId": "18fa-3eca-aa11-c5a0",
-        "shared": true,
-        "includeChildSelections": true,
-        "includeChildForces": false,
-        "percentValue": false
-       }
-      ],
-      "conditionGroups": []
-     },
-     {
-      "type": "set",
-      "field": "hidden",
-      "value": true,
-      "conditions": [
-       {
-        "type": "atLeast",
-        "value": 1,
-        "field": "selections",
-        "scope": "root-entry-self",
-        "childId": "5912-3e17-93bc-d695",
-        "shared": true,
-        "includeChildSelections": true,
-        "includeChildForces": false,
-        "percentValue": false
-       }
-      ],
-      "conditionGroups": []
-     },
-     {
       "parentKey": "modifiers",
       "field": "edbe-a5d2-8dda-794b",
       "scope": "non-upgrade-entry-self",
@@ -24641,7 +23759,6 @@
     "selectionEntries": [],
     "selectionEntryGroups": [],
     "entryLinks": [],
-    "comment": "restriction: Cannot be taken with Towering. Cannot be taken with Gigantic Size.",
     "collective": true
    },
    {

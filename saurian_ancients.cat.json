@@ -171,12 +171,42 @@
     ]
    },
    {
-    "id": "1bf3-ac74-884b-9e08",
-    "name": "Sceptic's Glory Of Dawn Age",
-    "comment": "sceptic's glory_of_dawn_age",
+    "id": "18df-da4c-e271-a99a",
+    "name": "Glory of the Dawn Age",
+    "comment": "glory_of_dawn_age",
     "hidden": true,
-    "constraints": [],
-    "modifiers": []
+    "constraints": [
+     {
+      "id": "cb3d-b413-baf8-2c0f",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "cb3d-b413-baf8-2c0f",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
    },
    {
     "id": "fbaf-3824-ce73-b2a3",
@@ -1566,82 +1596,6 @@
     ]
    },
    {
-    "id": "770c-d692-15f0-d410",
-    "name": "Saurian Giant",
-    "comment": "saurianGiant",
-    "hidden": true,
-    "constraints": [
-     {
-      "id": "3852-1ce2-0976-95dd",
-      "field": "selections",
-      "scope": "roster",
-      "value": 3,
-      "type": "max",
-      "includeChildSelections": true,
-      "includeChildForces": true,
-      "shared": true,
-      "percentValue": false
-     }
-    ],
-    "modifiers": [
-     {
-      "parentKey": "modifiers",
-      "type": "ceil",
-      "value": -1,
-      "field": "3852-1ce2-0976-95dd",
-      "conditions": [
-       {
-        "type": "instanceOf",
-        "value": 1,
-        "field": "selections",
-        "scope": "self",
-        "childId": "header",
-        "childName": "header",
-        "shared": true
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "id": "cade-e97c-0654-d963",
-    "name": "Pet Salamander",
-    "comment": "pet_salamander",
-    "hidden": true,
-    "constraints": [
-     {
-      "id": "e35e-f372-f9c7-edc3",
-      "field": "selections",
-      "scope": "roster",
-      "value": 1,
-      "type": "max",
-      "includeChildSelections": true,
-      "includeChildForces": true,
-      "shared": true,
-      "percentValue": false
-     }
-    ],
-    "modifiers": [
-     {
-      "parentKey": "modifiers",
-      "type": "ceil",
-      "value": -1,
-      "field": "e35e-f372-f9c7-edc3",
-      "conditions": [
-       {
-        "type": "instanceOf",
-        "value": 1,
-        "field": "selections",
-        "scope": "self",
-        "childId": "header",
-        "childName": "header",
-        "shared": true
-       }
-      ]
-     }
-    ]
-   },
-   {
     "id": "1991-cfa7-226e-6c1f",
     "name": "Caiman Elders",
     "comment": "caimanElders",
@@ -2060,16 +2014,16 @@
     ]
    },
    {
-    "id": "4dd0-7f9e-ff61-aa2e",
-    "name": "Weapon Beasts",
-    "comment": "weaponBeasts",
+    "id": "bacc-25c7-a250-a953",
+    "name": "Marking Lure",
+    "comment": "marking_lure_guerrillas",
     "hidden": true,
     "constraints": [
      {
-      "id": "0372-a041-5347-7de2",
+      "id": "f022-d9de-a224-8dc4",
       "field": "selections",
       "scope": "roster",
-      "value": 3,
+      "value": 2,
       "type": "max",
       "includeChildSelections": true,
       "includeChildForces": true,
@@ -2082,7 +2036,7 @@
       "parentKey": "modifiers",
       "type": "ceil",
       "value": -1,
-      "field": "0372-a041-5347-7de2",
+      "field": "f022-d9de-a224-8dc4",
       "conditions": [
        {
         "type": "instanceOf",
@@ -4689,26 +4643,6 @@
     "collective": true
    },
    {
-    "id": "29e5-c91b-da02-11bf",
-    "name": "Saurian Giant",
-    "hidden": false,
-    "type": "selectionEntry",
-    "targetId": "c450-6939-4004-a1cc",
-    "categoryLinks": [
-     {
-      "id": "5723-fa93-3880-eb2e",
-      "name": "Special",
-      "hidden": false,
-      "targetId": "5f8b-5bb1-05fb-3fb9",
-      "primary": true
-     }
-    ],
-    "constraints": [],
-    "modifiers": [],
-    "sortIndex": 16,
-    "collective": true
-   },
-   {
     "id": "ab66-e977-65b3-e9a1",
     "name": "Caiman Elders",
     "hidden": false,
@@ -4725,7 +4659,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 17,
+    "sortIndex": 16,
     "collective": true
    },
    {
@@ -4745,7 +4679,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 18,
+    "sortIndex": 17,
     "collective": true
    },
    {
@@ -4765,7 +4699,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 19,
+    "sortIndex": 18,
     "collective": true
    },
    {
@@ -4785,7 +4719,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 20,
+    "sortIndex": 19,
     "collective": true
    },
    {
@@ -4805,7 +4739,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 21,
+    "sortIndex": 20,
     "collective": true
    },
    {
@@ -4825,7 +4759,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 22,
+    "sortIndex": 21,
     "collective": true
    },
    {
@@ -4845,7 +4779,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 23,
+    "sortIndex": 22,
     "collective": true
    },
    {
@@ -4865,7 +4799,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 24,
+    "sortIndex": 23,
     "collective": true
    },
    {
@@ -4885,7 +4819,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 25,
+    "sortIndex": 24,
     "collective": true
    },
    {
@@ -4905,7 +4839,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 26,
+    "sortIndex": 25,
     "collective": true
    },
    {
@@ -4925,7 +4859,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 27,
+    "sortIndex": 26,
     "collective": true
    },
    {
@@ -4945,7 +4879,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 28,
+    "sortIndex": 27,
     "collective": true
    },
    {
@@ -4965,7 +4899,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 29,
+    "sortIndex": 28,
     "collective": true
    },
    {
@@ -4985,7 +4919,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 30,
+    "sortIndex": 29,
     "collective": true
    },
    {
@@ -5005,7 +4939,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 31,
+    "sortIndex": 30,
     "collective": true
    }
   ],
@@ -10569,6 +10503,17 @@
         "hidden": false,
         "constraints": [
          {
+          "id": "76bc-e565-fd68-207c",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1,
+          "type": "min",
+          "includeChildSelections": false,
+          "includeChildForces": false,
+          "shared": true,
+          "percentValue": false
+         },
+         {
           "id": "0b5e-7985-cb41-7d14",
           "field": "selections",
           "scope": "parent",
@@ -10736,6 +10681,7 @@
         ],
         "selectionEntryGroups": [],
         "entryLinks": [],
+        "defaultSelectionEntryId": "43f1-d9cc-fcfc-0de3",
         "sortIndex": 1,
         "collective": true
        }
@@ -10805,6 +10751,17 @@
           "name": "Caiman Mentors (Caiman Warriors)",
           "hidden": false,
           "constraints": [
+           {
+            "id": "7859-8ab9-e2ef-a801",
+            "field": "selections",
+            "scope": "parent",
+            "value": 1,
+            "type": "min",
+            "includeChildSelections": false,
+            "includeChildForces": false,
+            "shared": true,
+            "percentValue": false
+           },
            {
             "id": "9dad-481a-7fb7-91a7",
             "field": "selections",
@@ -10908,6 +10865,7 @@
           ],
           "selectionEntryGroups": [],
           "entryLinks": [],
+          "defaultSelectionEntryId": "5c16-b4af-b0d6-448c",
           "sortIndex": 1,
           "collective": true
          }
@@ -10985,7 +10943,7 @@
           "selectionEntries": [
            {
             "id": "073f-f25b-9ae9-cea5",
-            "name": "Enclave Wizard (40×40)",
+            "name": "Enclave Wizard (40×40 mm)",
             "hidden": false,
             "costs": [
              {
@@ -11772,7 +11730,7 @@
           "selectionEntries": [
            {
             "id": "7297-7621-601d-3651",
-            "name": "Enclave Wizard (50×50)",
+            "name": "Enclave Wizard (50×50 mm)",
             "hidden": false,
             "costs": [
              {
@@ -11950,424 +11908,6 @@
       "selectionEntryGroups": [],
       "entryLinks": [],
       "sortIndex": 4,
-      "collective": true
-     }
-    ],
-    "entryLinks": [],
-    "constraints": [],
-    "modifiers": [],
-    "collective": true
-   },
-   {
-    "id": "c450-6939-4004-a1cc",
-    "name": "Saurian Giant",
-    "type": "model",
-    "hidden": false,
-    "categoryLinks": [
-     {
-      "id": "5f42-3426-e64b-de52",
-      "name": "Saurian Giant",
-      "hidden": true,
-      "targetId": "770c-d692-15f0-d410",
-      "primary": false
-     }
-    ],
-    "costs": [
-     {
-      "name": "pts",
-      "typeId": "37a7-7901-5410-8a02",
-      "value": 275
-     }
-    ],
-    "profiles": [
-     {
-      "id": "cbb7-2eb4-9bc4-4491",
-      "name": "Saurian Giant (Global)",
-      "typeId": "0bb5-fae5-f5a7-6b97",
-      "typeName": "Global",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Adv",
-        "typeId": "cf70-c87b-5e2d-5d97",
-        "$text": "7"
-       },
-       {
-        "name": "Mar",
-        "typeId": "3547-0c61-20c1-f727",
-        "$text": "14"
-       },
-       {
-        "name": "Dis",
-        "typeId": "9766-e5ef-1ccf-e1c4",
-        "$text": "8"
-       },
-       {
-        "name": "Rsr",
-        "typeId": "a67a-60ca-9e84-619d",
-        "$text": ""
-       },
-       {
-        "name": "Rules",
-        "typeId": "edbe-a5d2-8dda-794b",
-        "$text": "Giant See, Giant Do"
-       }
-      ]
-     },
-     {
-      "id": "f535-41ce-2ff0-2aec",
-      "name": "Saurian Giant (Defensive)",
-      "typeId": "cc02-4c45-fc8e-9c20",
-      "typeName": "Defensive",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "HP",
-        "typeId": "d0d3-36c5-8a8d-cbb4",
-        "$text": "7"
-       },
-       {
-        "name": "Def",
-        "typeId": "1f95-9871-6b5e-cc35",
-        "$text": "3"
-       },
-       {
-        "name": "Res",
-        "typeId": "b725-eae8-7a15-b275",
-        "$text": "5"
-       },
-       {
-        "name": "Arm",
-        "typeId": "d15a-5931-24e5-be5d",
-        "$text": "1"
-       },
-       {
-        "name": "Aeg",
-        "typeId": "55dc-3dc1-b4f0-750e",
-        "$text": ""
-       },
-       {
-        "name": "Rules",
-        "typeId": "add5-e615-b82e-05dc",
-        "$text": ""
-       }
-      ]
-     },
-     {
-      "id": "6169-2405-98a2-f4ae",
-      "name": "Saurian Giant",
-      "typeId": "34e0-cf8a-007f-a558",
-      "typeName": "Offensive",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Att",
-        "typeId": "977e-3683-45e2-07ca",
-        "$text": "5"
-       },
-       {
-        "name": "Off",
-        "typeId": "6b9c-9509-7450-6cf6",
-        "$text": "3"
-       },
-       {
-        "name": "Str",
-        "typeId": "cc5e-c56d-543f-0a69",
-        "$text": "5"
-       },
-       {
-        "name": "AP",
-        "typeId": "ca1e-4b8f-6554-3f2f",
-        "$text": "2"
-       },
-       {
-        "name": "Agi",
-        "typeId": "6518-cb29-b2b2-aa69",
-        "$text": "3"
-       },
-       {
-        "name": "Rules",
-        "typeId": "5e9b-1961-df0b-5ddd",
-        "$text": "Rage"
-       },
-       {
-        "name": "Tags",
-        "typeId": "ce24-79db-670a-0520",
-        "$text": ""
-       }
-      ]
-     },
-     {
-      "id": "a836-037e-eeda-9987",
-      "name": "Saurian Giant (Size)",
-      "typeId": "a7dd-61af-e630-732e",
-      "typeName": "Size",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Height",
-        "typeId": "069b-9ad6-e430-21e6",
-        "$text": ""
-       },
-       {
-        "name": "Type",
-        "typeId": "0fe4-f75c-b1c3-dc9a",
-        "$text": ""
-       },
-       {
-        "name": "Base",
-        "typeId": "0a68-c69a-774f-d74d",
-        "$text": "50×75"
-       },
-       {
-        "name": "Rarity",
-        "typeId": "0a01-69a6-f861-ae76",
-        "$text": ""
-       }
-      ]
-     }
-    ],
-    "infoLinks": [
-     {
-      "id": "e400-e3a4-c1f3-8d7f",
-      "name": "Giant See, Giant Do",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "f4c5-8ca9-d1c5-7796"
-     },
-     {
-      "id": "1ca1-e52a-ba70-d577",
-      "name": "Rage",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "857c-9d17-1cb0-ca4a"
-     },
-     {
-      "id": "92a2-8595-9770-b8dd",
-      "name": "Hand Weapon",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "c0bc-4ca5-811a-d067"
-     }
-    ],
-    "selectionEntries": [],
-    "selectionEntryGroups": [
-     {
-      "id": "6ad3-7f18-d6af-7d8b",
-      "name": "Weapons",
-      "hidden": false,
-      "constraints": [
-       {
-        "id": "fbf3-ad72-a58c-795f",
-        "field": "selections",
-        "scope": "parent",
-        "value": 1,
-        "type": "max",
-        "includeChildSelections": false,
-        "includeChildForces": false,
-        "shared": true,
-        "percentValue": false
-       }
-      ],
-      "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "e3d9-eed6-ffa3-c65c",
-        "name": "Giant Club",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "e248-a8ae-c4e6-40f5",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "96ac-0333-b71b-a424",
-          "name": "Giant Club",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "5f11-4efd-c54c-02d4"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 1,
-        "collective": true
-       },
-       {
-        "id": "7428-f371-4552-99cc",
-        "name": "Skink Companion",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 10
-         }
-        ],
-        "constraints": [
-         {
-          "id": "6d47-cc92-f31e-b7c1",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "5280-c520-2b47-23f8",
-          "name": "Skink Companion",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "4932-60c3-0139-e25f"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 2,
-        "collective": true
-       },
-       {
-        "id": "16ea-6dde-bc0f-7078",
-        "name": "Pet Salamander",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 15
-         }
-        ],
-        "constraints": [
-         {
-          "id": "3793-f644-316c-dc0b",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "5737-b730-12cd-13cf",
-          "name": "Pet Salamander",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "f048-1d18-051d-6a75"
-         }
-        ],
-        "categoryLinks": [
-         {
-          "id": "047c-7807-1481-c492",
-          "name": "Pet Salamander",
-          "hidden": true,
-          "targetId": "cade-e97c-0654-d963",
-          "primary": false
-         }
-        ],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 3,
-        "collective": true
-       }
-      ],
-      "selectionEntryGroups": [],
-      "entryLinks": [],
-      "sortIndex": 1,
-      "collective": true
-     },
-     {
-      "id": "b8b8-48b9-893d-5c3a",
-      "name": "Options",
-      "hidden": false,
-      "constraints": [],
-      "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "3afd-85c1-50ab-027c",
-        "name": "Big Brother",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 25
-         }
-        ],
-        "constraints": [
-         {
-          "id": "b416-b88c-7a1f-1ac4",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "c05a-40c8-e082-a199",
-          "name": "Big Brother",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "6f0b-bab4-ce7e-90a2"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 1,
-        "collective": true
-       }
-      ],
-      "selectionEntryGroups": [],
-      "entryLinks": [],
-      "sortIndex": 2,
       "collective": true
      }
     ],
@@ -17907,6 +17447,13 @@
           "hidden": true,
           "targetId": "b730-5240-42bf-fbe9",
           "primary": false
+         },
+         {
+          "id": "ff0a-e871-3e67-9417",
+          "name": "Marking Lure",
+          "hidden": true,
+          "targetId": "bacc-25c7-a250-a953",
+          "primary": false
          }
         ],
         "selectionEntries": [],
@@ -18016,15 +17563,7 @@
     "name": "Weapon Beasts",
     "type": "unit",
     "hidden": false,
-    "categoryLinks": [
-     {
-      "id": "c271-6a62-c944-b680",
-      "name": "Weapon Beasts",
-      "hidden": true,
-      "targetId": "4dd0-7f9e-ff61-aa2e",
-      "primary": false
-     }
-    ],
+    "categoryLinks": [],
     "costs": [
      {
       "name": "pts",
@@ -19454,6 +18993,20 @@
           "name": "Unit Champion",
           "hidden": true,
           "targetId": "9e48-ac98-a369-730a",
+          "primary": false
+         },
+         {
+          "id": "be68-8039-31ac-bdfd",
+          "name": "Wizard",
+          "hidden": true,
+          "targetId": "2e3d-2342-2529-9d0e",
+          "primary": false
+         },
+         {
+          "id": "0a4e-df80-c7bd-8f80",
+          "name": "Wizard Apprentice",
+          "hidden": true,
+          "targetId": "2acf-59f1-2a85-273b",
           "primary": false
          }
         ],
@@ -22058,18 +21611,6 @@
       "includeChildForces": false,
       "shared": true,
       "percentValue": false
-     },
-     {
-      "id": "8d07-d44b-040b-2a58",
-      "field": "selections",
-      "scope": "roster",
-      "value": 0,
-      "type": "max",
-      "includeChildSelections": true,
-      "includeChildForces": true,
-      "shared": true,
-      "percentValue": false,
-      "childId": "1bf3-ac74-884b-9e08"
      }
     ],
     "modifiers": [],
@@ -22084,6 +21625,13 @@
      }
     ],
     "categoryLinks": [
+     {
+      "id": "157f-7cca-1d20-4a3c",
+      "name": "Glory of the Dawn Age",
+      "hidden": true,
+      "targetId": "18df-da4c-e271-a99a",
+      "primary": false
+     },
      {
       "id": "b1c5-009e-d7bf-21e7",
       "name": "Weapon Enchant",
@@ -23152,7 +22700,7 @@
    },
    {
     "id": "928b-365f-7161-3347",
-    "name": "Magnetic Great Bow",
+    "name": "Magnetic Great Bow (3+)",
     "type": "upgrade",
     "hidden": false,
     "costs": [
@@ -23193,7 +22741,7 @@
     "rules": [
      {
       "id": "21c9-b92d-6ef4-7fb7",
-      "name": "Magnetic Great Bow",
+      "name": "Magnetic Great Bow (3+)",
       "hidden": false,
       "description": "Shooting Weapon. Range 18\", Shots 2, Str 4 [5], AP 1 [3], Area Attack (1×5), Lodestone, March and Shoot, Reload!."
      }
@@ -26237,7 +25785,7 @@
      },
      {
       "id": "2e87-8581-f8cb-e2e6",
-      "name": "Magnetic Great Bow",
+      "name": "Magnetic Great Bow (3+)",
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "928b-365f-7161-3347",

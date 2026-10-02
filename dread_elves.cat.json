@@ -1349,82 +1349,6 @@
     ]
    },
    {
-    "id": "ec0f-f4e9-1fc5-49a2",
-    "name": "Dreaded Giant",
-    "comment": "dreadedGiant",
-    "hidden": true,
-    "constraints": [
-     {
-      "id": "5128-6795-5e01-1703",
-      "field": "selections",
-      "scope": "roster",
-      "value": 3,
-      "type": "max",
-      "includeChildSelections": true,
-      "includeChildForces": true,
-      "shared": true,
-      "percentValue": false
-     }
-    ],
-    "modifiers": [
-     {
-      "parentKey": "modifiers",
-      "type": "ceil",
-      "value": -1,
-      "field": "5128-6795-5e01-1703",
-      "conditions": [
-       {
-        "type": "instanceOf",
-        "value": 1,
-        "field": "selections",
-        "scope": "self",
-        "childId": "header",
-        "childName": "header",
-        "shared": true
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "id": "a4f9-0d6c-92f9-54a9",
-    "name": "Divine Altar",
-    "comment": "divineAltar_mount_unit",
-    "hidden": true,
-    "constraints": [
-     {
-      "id": "0c5c-98f0-c897-ccd0",
-      "field": "selections",
-      "scope": "roster",
-      "value": 1,
-      "type": "max",
-      "includeChildSelections": true,
-      "includeChildForces": true,
-      "shared": true,
-      "percentValue": false
-     }
-    ],
-    "modifiers": [
-     {
-      "parentKey": "modifiers",
-      "type": "ceil",
-      "value": -1,
-      "field": "0c5c-98f0-c897-ccd0",
-      "conditions": [
-       {
-        "type": "instanceOf",
-        "value": 1,
-        "field": "selections",
-        "scope": "self",
-        "childId": "header",
-        "childName": "header",
-        "shared": true
-       }
-      ]
-     }
-    ]
-   },
-   {
     "id": "84b6-2fb7-6900-79ae",
     "name": "Imperious Dragon",
     "comment": "de_dragon_mount_unit",
@@ -2195,26 +2119,6 @@
     "modifiers": [],
     "sortIndex": 27,
     "collective": true
-   },
-   {
-    "id": "e75d-325e-0f14-091e",
-    "name": "Dreaded Giant",
-    "hidden": false,
-    "type": "selectionEntry",
-    "targetId": "21ed-dce6-e105-6054",
-    "categoryLinks": [
-     {
-      "id": "7963-3fe2-8490-a805",
-      "name": "The Menagerie",
-      "hidden": false,
-      "targetId": "cf27-46fd-f99f-f9a6",
-      "primary": true
-     }
-    ],
-    "constraints": [],
-    "modifiers": [],
-    "sortIndex": 28,
-    "collective": true
    }
   ],
   "sharedSelectionEntries": [
@@ -2519,7 +2423,15 @@
           "targetId": "2f6c-46a4-e4ee-af98"
          }
         ],
-        "categoryLinks": [],
+        "categoryLinks": [
+         {
+          "id": "332d-5aa9-b0d7-cb22",
+          "name": "Mount",
+          "hidden": true,
+          "targetId": "d368-25fc-557f-b395",
+          "primary": false
+         }
+        ],
         "selectionEntries": [],
         "selectionEntryGroups": [],
         "entryLinks": [],
@@ -2556,7 +2468,15 @@
          }
         ],
         "modifiers": [],
-        "categoryLinks": [],
+        "categoryLinks": [
+         {
+          "id": "6b2f-ecca-3ed5-42f0",
+          "name": "Mount",
+          "hidden": true,
+          "targetId": "d368-25fc-557f-b395",
+          "primary": false
+         }
+        ],
         "sortIndex": 2,
         "collective": true
        },
@@ -2587,7 +2507,15 @@
          }
         ],
         "modifiers": [],
-        "categoryLinks": [],
+        "categoryLinks": [
+         {
+          "id": "1f99-e8ea-c2a0-73b0",
+          "name": "Mount",
+          "hidden": true,
+          "targetId": "d368-25fc-557f-b395",
+          "primary": false
+         }
+        ],
         "sortIndex": 3,
         "collective": true
        }
@@ -5746,7 +5674,27 @@
             "percentValue": false
            }
           ],
-          "modifiers": [],
+          "modifiers": [
+           {
+            "type": "set",
+            "field": "hidden",
+            "value": true,
+            "conditions": [
+             {
+              "type": "atMost",
+              "value": 0,
+              "field": "selections",
+              "scope": "root-entry-self",
+              "childId": "d368-25fc-557f-b395",
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": false,
+              "percentValue": false
+             }
+            ],
+            "conditionGroups": []
+           }
+          ],
           "profiles": [],
           "infoLinks": [
            {
@@ -5786,6 +5734,7 @@
             "collective": true
            }
           ],
+          "comment": "restriction: Models with Mount only.",
           "sortIndex": 4,
           "collective": true
          },
@@ -14099,6 +14048,17 @@
       "hidden": false,
       "constraints": [
        {
+        "id": "ef58-fdaf-9bcb-5f02",
+        "field": "selections",
+        "scope": "parent",
+        "value": 1,
+        "type": "min",
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "shared": true,
+        "percentValue": false
+       },
+       {
         "id": "8bb7-4d3b-39bc-ed0b",
         "field": "selections",
         "scope": "parent",
@@ -14209,6 +14169,7 @@
       ],
       "selectionEntryGroups": [],
       "entryLinks": [],
+      "defaultSelectionEntryId": "5a90-955e-e543-3864",
       "sortIndex": 1,
       "collective": true
      }
@@ -18390,594 +18351,6 @@
     ],
     "selectionEntries": [],
     "selectionEntryGroups": [],
-    "entryLinks": [],
-    "constraints": [],
-    "modifiers": [],
-    "collective": true
-   },
-   {
-    "id": "21ed-dce6-e105-6054",
-    "name": "Dreaded Giant",
-    "type": "model",
-    "hidden": false,
-    "categoryLinks": [
-     {
-      "id": "5dec-eb83-0aab-46fd",
-      "name": "Dreaded Giant",
-      "hidden": true,
-      "targetId": "ec0f-f4e9-1fc5-49a2",
-      "primary": false
-     }
-    ],
-    "costs": [
-     {
-      "name": "pts",
-      "typeId": "37a7-7901-5410-8a02",
-      "value": 270
-     }
-    ],
-    "profiles": [
-     {
-      "id": "0007-e2a7-9998-8cc5",
-      "name": "Dreaded Giant (Global)",
-      "typeId": "0bb5-fae5-f5a7-6b97",
-      "typeName": "Global",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Adv",
-        "typeId": "cf70-c87b-5e2d-5d97",
-        "$text": "7"
-       },
-       {
-        "name": "Mar",
-        "typeId": "3547-0c61-20c1-f727",
-        "$text": "14"
-       },
-       {
-        "name": "Dis",
-        "typeId": "9766-e5ef-1ccf-e1c4",
-        "$text": "8"
-       },
-       {
-        "name": "Rsr",
-        "typeId": "a67a-60ca-9e84-619d",
-        "$text": ""
-       },
-       {
-        "name": "Rules",
-        "typeId": "edbe-a5d2-8dda-794b",
-        "$text": "Giant See, Giant Do"
-       }
-      ]
-     },
-     {
-      "id": "91ef-f7a8-9287-f011",
-      "name": "Dreaded Giant (Defensive)",
-      "typeId": "cc02-4c45-fc8e-9c20",
-      "typeName": "Defensive",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "HP",
-        "typeId": "d0d3-36c5-8a8d-cbb4",
-        "$text": "7"
-       },
-       {
-        "name": "Def",
-        "typeId": "1f95-9871-6b5e-cc35",
-        "$text": "3"
-       },
-       {
-        "name": "Res",
-        "typeId": "b725-eae8-7a15-b275",
-        "$text": "5"
-       },
-       {
-        "name": "Arm",
-        "typeId": "d15a-5931-24e5-be5d",
-        "$text": "1"
-       },
-       {
-        "name": "Aeg",
-        "typeId": "55dc-3dc1-b4f0-750e",
-        "$text": ""
-       },
-       {
-        "name": "Rules",
-        "typeId": "add5-e615-b82e-05dc",
-        "$text": ""
-       }
-      ]
-     },
-     {
-      "id": "e213-33c5-7d25-9b2f",
-      "name": "Dreaded Giant",
-      "typeId": "34e0-cf8a-007f-a558",
-      "typeName": "Offensive",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Att",
-        "typeId": "977e-3683-45e2-07ca",
-        "$text": "5"
-       },
-       {
-        "name": "Off",
-        "typeId": "6b9c-9509-7450-6cf6",
-        "$text": "3"
-       },
-       {
-        "name": "Str",
-        "typeId": "cc5e-c56d-543f-0a69",
-        "$text": "5"
-       },
-       {
-        "name": "AP",
-        "typeId": "ca1e-4b8f-6554-3f2f",
-        "$text": "2"
-       },
-       {
-        "name": "Agi",
-        "typeId": "6518-cb29-b2b2-aa69",
-        "$text": "3"
-       },
-       {
-        "name": "Rules",
-        "typeId": "5e9b-1961-df0b-5ddd",
-        "$text": "Rage"
-       },
-       {
-        "name": "Tags",
-        "typeId": "ce24-79db-670a-0520",
-        "$text": ""
-       }
-      ]
-     },
-     {
-      "id": "5ea6-ae2c-57ae-f94d",
-      "name": "Dreaded Giant (Size)",
-      "typeId": "a7dd-61af-e630-732e",
-      "typeName": "Size",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Height",
-        "typeId": "069b-9ad6-e430-21e6",
-        "$text": ""
-       },
-       {
-        "name": "Type",
-        "typeId": "0fe4-f75c-b1c3-dc9a",
-        "$text": ""
-       },
-       {
-        "name": "Base",
-        "typeId": "0a68-c69a-774f-d74d",
-        "$text": "50×75"
-       },
-       {
-        "name": "Rarity",
-        "typeId": "0a01-69a6-f861-ae76",
-        "$text": ""
-       }
-      ]
-     }
-    ],
-    "infoLinks": [
-     {
-      "id": "b3fc-346e-cf9e-ffbe",
-      "name": "Giant See, Giant Do",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "440a-1236-773b-5aef"
-     },
-     {
-      "id": "c580-6289-27bb-daba",
-      "name": "Rage",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "857c-9d17-1cb0-ca4a"
-     },
-     {
-      "id": "6d8f-5592-7017-d226",
-      "name": "Hand Weapon",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "c0bc-4ca5-811a-d067"
-     }
-    ],
-    "selectionEntries": [],
-    "selectionEntryGroups": [
-     {
-      "id": "71a4-90b7-92d7-1202",
-      "name": "Weapons",
-      "hidden": false,
-      "constraints": [
-       {
-        "id": "8e63-0c05-6595-6157",
-        "field": "selections",
-        "scope": "parent",
-        "value": 1,
-        "type": "max",
-        "includeChildSelections": false,
-        "includeChildForces": false,
-        "shared": true,
-        "percentValue": false
-       }
-      ],
-      "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "ba7b-aa61-f63d-2ef4",
-        "name": "Giant Club",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "4924-8954-cf63-db97",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "ec6a-50f5-c23c-e49c",
-          "name": "Giant Club",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "e82c-f261-2aec-f473"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 1,
-        "collective": true
-       },
-       {
-        "id": "5a70-99c0-7b9b-062b",
-        "name": "Monstrous Whip",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 10
-         }
-        ],
-        "constraints": [
-         {
-          "id": "c02d-7411-a7af-9ba5",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "3f68-0630-403d-0a8c",
-          "name": "Monstrous Whip",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "b1b8-8c72-e6aa-3f4c"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 2,
-        "collective": true
-       },
-       {
-        "id": "707b-1462-694b-4ba4",
-        "name": "Dread Mask",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 40
-         }
-        ],
-        "constraints": [
-         {
-          "id": "186e-8276-a626-326f",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "fd25-5ebe-22f2-5900",
-          "name": "Dread Mask",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "c9a5-e4c2-4b08-2bf9"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 3,
-        "collective": true
-       }
-      ],
-      "selectionEntryGroups": [],
-      "entryLinks": [],
-      "sortIndex": 1,
-      "collective": true
-     },
-     {
-      "id": "3971-ca01-5e04-630b",
-      "name": "Options",
-      "hidden": false,
-      "constraints": [],
-      "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "e9a5-9855-05bd-fa84",
-        "name": "Big Brother",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 25
-         }
-        ],
-        "constraints": [
-         {
-          "id": "faaf-d660-2a01-9fa5",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "ac92-2ba9-5552-244f",
-          "name": "Big Brother",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "06f4-373c-1a8a-791e"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 1,
-        "collective": true
-       }
-      ],
-      "selectionEntryGroups": [],
-      "entryLinks": [],
-      "sortIndex": 2,
-      "collective": true
-     }
-    ],
-    "entryLinks": [],
-    "constraints": [],
-    "modifiers": [],
-    "collective": true
-   },
-   {
-    "id": "5688-920f-7c61-e551",
-    "name": "Divine Altar",
-    "type": "mount",
-    "hidden": false,
-    "categoryLinks": [
-     {
-      "id": "8197-56e2-e11c-0a59",
-      "name": "Divine Altar",
-      "hidden": true,
-      "targetId": "a4f9-0d6c-92f9-54a9",
-      "primary": false
-     },
-     {
-      "id": "3ed4-5aab-7a32-4ad8",
-      "name": "Large Size",
-      "hidden": true,
-      "targetId": "4fb4-69c1-a8e6-be53",
-      "primary": false
-     },
-     {
-      "id": "8207-7076-5334-45da",
-      "name": "Mount",
-      "hidden": true,
-      "targetId": "d368-25fc-557f-b395",
-      "primary": false
-     },
-     {
-      "id": "4755-27ee-3e80-a097",
-      "name": "Towering",
-      "hidden": true,
-      "targetId": "18fa-3eca-aa11-c5a0",
-      "primary": false
-     },
-     {
-      "id": "6c5a-77e8-cf7e-5622",
-      "name": "⟨mount⟩",
-      "hidden": true,
-      "targetId": "ecee-fbfd-a9f0-7550",
-      "primary": false
-     }
-    ],
-    "costs": [
-     {
-      "name": "pts",
-      "typeId": "37a7-7901-5410-8a02",
-      "value": 0
-     }
-    ],
-    "profiles": [],
-    "infoLinks": [
-     {
-      "id": "ffe4-9f52-91b7-ff05",
-      "name": "Hand Weapon",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "c0bc-4ca5-811a-d067"
-     }
-    ],
-    "selectionEntries": [],
-    "selectionEntryGroups": [
-     {
-      "id": "2d0d-169e-2ad5-d558",
-      "name": "Weapons",
-      "hidden": false,
-      "constraints": [
-       {
-        "id": "c6ea-f12b-da8a-2b13",
-        "field": "selections",
-        "scope": "parent",
-        "value": 1,
-        "type": "max",
-        "includeChildSelections": false,
-        "includeChildForces": false,
-        "shared": true,
-        "percentValue": false
-       }
-      ],
-      "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "3cf5-5bb6-2ab7-78d6",
-        "name": "Light Lance",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 10
-         }
-        ],
-        "constraints": [
-         {
-          "id": "641c-2fe0-dcbc-a90b",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "adbe-15be-3a53-8742",
-          "name": "Light Lance",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "f7b8-a5d1-7b91-74dc"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 1,
-        "collective": true
-       },
-       {
-        "id": "c344-d310-99b1-cef9",
-        "name": "Paired Weapons",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 15
-         }
-        ],
-        "constraints": [
-         {
-          "id": "f797-e4dd-247d-0abc",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "9aec-4513-d023-f90d",
-          "name": "Paired Weapons",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "f20f-afaf-8309-c8d2"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 2,
-        "collective": true
-       }
-      ],
-      "selectionEntryGroups": [],
-      "entryLinks": [],
-      "sortIndex": 1,
-      "collective": true
-     }
-    ],
     "entryLinks": [],
     "constraints": [],
     "modifiers": [],

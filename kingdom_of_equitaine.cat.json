@@ -137,6 +137,44 @@
     ]
    },
    {
+    "id": "b385-e135-ae89-ceb5",
+    "name": "Relic Shroud",
+    "comment": "relic_shroud",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "8d60-7a22-8463-29b2",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "8d60-7a22-8463-29b2",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
     "id": "73f0-5e04-aeeb-97b4",
     "name": "Courage",
     "comment": "courage",
@@ -1149,6 +1187,44 @@
     ]
    },
    {
+    "id": "f8ce-d1d4-9fd9-a1cf",
+    "name": "Solemn Oath Unit",
+    "comment": "solemn_oath_unit",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "e5f2-d8c0-d0b6-b5cc",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "e5f2-d8c0-d0b6-b5cc",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
     "id": "bc37-4dff-2c20-6a19",
     "name": "Lowborn Archers",
     "comment": "lowbornArchers",
@@ -1552,44 +1628,6 @@
       "type": "ceil",
       "value": -1,
       "field": "747b-4b6b-c7fd-9f86",
-      "conditions": [
-       {
-        "type": "instanceOf",
-        "value": 1,
-        "field": "selections",
-        "scope": "self",
-        "childId": "header",
-        "childName": "header",
-        "shared": true
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "id": "aa96-24bd-a858-74bb",
-    "name": "Knighted Giant",
-    "comment": "knighted_giant",
-    "hidden": true,
-    "constraints": [
-     {
-      "id": "b9bd-af8d-070d-7195",
-      "field": "selections",
-      "scope": "roster",
-      "value": 1,
-      "type": "max",
-      "includeChildSelections": true,
-      "includeChildForces": true,
-      "shared": true,
-      "percentValue": false
-     }
-    ],
-    "modifiers": [
-     {
-      "parentKey": "modifiers",
-      "type": "ceil",
-      "value": -1,
-      "field": "b9bd-af8d-070d-7195",
       "conditions": [
        {
         "type": "instanceOf",
@@ -2527,26 +2565,6 @@
     "collective": true
    },
    {
-    "id": "131d-a853-3b11-d2e9",
-    "name": "Feudal Giant",
-    "hidden": false,
-    "type": "selectionEntry",
-    "targetId": "15ea-2f9b-6762-aa18",
-    "categoryLinks": [
-     {
-      "id": "2b6b-342c-1371-0089",
-      "name": "Special",
-      "hidden": false,
-      "targetId": "4fb0-b348-9f41-3e0b",
-      "primary": true
-     }
-    ],
-    "constraints": [],
-    "modifiers": [],
-    "sortIndex": 20,
-    "collective": true
-   },
-   {
     "id": "b954-30dc-502c-1279",
     "name": "Fey Knight",
     "hidden": false,
@@ -2563,7 +2581,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 21,
+    "sortIndex": 20,
     "collective": true
    },
    {
@@ -2583,7 +2601,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 22,
+    "sortIndex": 21,
     "collective": true
    },
    {
@@ -2603,7 +2621,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 23,
+    "sortIndex": 22,
     "collective": true
    },
    {
@@ -2623,7 +2641,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 24,
+    "sortIndex": 23,
     "collective": true
    }
   ],
@@ -4016,36 +4034,6 @@
           "field": "selections",
           "scope": "root-entry-self",
           "childId": "8589-cbff-af0e-be49",
-          "shared": true,
-          "includeChildSelections": true,
-          "includeChildForces": false,
-          "percentValue": false
-         }
-        ],
-        "conditionGroups": []
-       },
-       {
-        "type": "set",
-        "field": "d9ab-1488-0619-f7f9",
-        "value": 150,
-        "conditions": [
-         {
-          "type": "atLeast",
-          "value": 1,
-          "field": "selections",
-          "scope": "root-entry-self",
-          "childId": "437d-3457-c33c-cce6",
-          "shared": true,
-          "includeChildSelections": true,
-          "includeChildForces": false,
-          "percentValue": false
-         },
-         {
-          "type": "atLeast",
-          "value": 1,
-          "field": "selections",
-          "scope": "root-entry-self",
-          "childId": "2acf-59f1-2a85-273b",
           "shared": true,
           "includeChildSelections": true,
           "includeChildForces": false,
@@ -9647,6 +9635,84 @@
     ],
     "selectionEntryGroups": [
      {
+      "id": "aecf-3a15-b5ec-692e",
+      "name": "Options",
+      "hidden": false,
+      "constraints": [],
+      "modifiers": [],
+      "selectionEntries": [
+       {
+        "id": "34a2-aedd-70f9-a015",
+        "name": "Option",
+        "type": "upgrade",
+        "hidden": false,
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "37a7-7901-5410-8a02",
+          "value": 0
+         }
+        ],
+        "constraints": [
+         {
+          "id": "e5a5-4693-4d82-e8fa",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1,
+          "type": "max",
+          "includeChildSelections": false,
+          "includeChildForces": false,
+          "shared": true,
+          "percentValue": false
+         }
+        ],
+        "modifiers": [
+         {
+          "type": "set",
+          "field": "hidden",
+          "value": true,
+          "conditions": [
+           {
+            "type": "atMost",
+            "value": 0,
+            "field": "selections",
+            "scope": "root-entry-self",
+            "childId": "1657-06ec-30b3-7205",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "percentValue": false
+           }
+          ],
+          "conditionGroups": []
+         }
+        ],
+        "profiles": [],
+        "infoLinks": [],
+        "categoryLinks": [
+         {
+          "id": "2831-6988-e82b-9ae1",
+          "name": "Solemn Oath Unit",
+          "hidden": true,
+          "targetId": "f8ce-d1d4-9fd9-a1cf",
+          "primary": false
+         }
+        ],
+        "selectionEntries": [],
+        "selectionEntryGroups": [],
+        "entryLinks": [],
+        "comment": "restriction: Models with Solemn Oath only.",
+        "exportable": false,
+        "sortIndex": 1,
+        "collective": true
+       }
+      ],
+      "selectionEntryGroups": [],
+      "entryLinks": [],
+      "sortIndex": 2,
+      "collective": true
+     },
+     {
       "id": "c159-cbab-ac42-45f7",
       "name": "Command Group",
       "hidden": false,
@@ -9937,7 +10003,7 @@
       ],
       "selectionEntryGroups": [],
       "entryLinks": [],
-      "sortIndex": 2,
+      "sortIndex": 3,
       "collective": true
      }
     ],
@@ -10247,6 +10313,17 @@
         "hidden": false,
         "constraints": [
          {
+          "id": "83a9-6389-f213-b742",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1,
+          "type": "min",
+          "includeChildSelections": false,
+          "includeChildForces": false,
+          "shared": true,
+          "percentValue": false
+         },
+         {
           "id": "73c0-6fac-50e6-5d57",
           "field": "selections",
           "scope": "parent",
@@ -10356,6 +10433,7 @@
         ],
         "selectionEntryGroups": [],
         "entryLinks": [],
+        "defaultSelectionEntryId": "ceb7-77d9-049d-391f",
         "sortIndex": 1,
         "collective": true
        }
@@ -13394,7 +13472,15 @@
           "targetId": "c2c2-1535-1c5c-98bc"
          }
         ],
-        "categoryLinks": [],
+        "categoryLinks": [
+         {
+          "id": "6c5b-5be3-1cfc-70b8",
+          "name": "Prepared Position",
+          "hidden": true,
+          "targetId": "170e-f569-e1c0-c3ea",
+          "primary": false
+         }
+        ],
         "selectionEntries": [],
         "selectionEntryGroups": [],
         "entryLinks": [],
@@ -15501,6 +15587,17 @@
         "hidden": false,
         "constraints": [
          {
+          "id": "3580-9a36-d7ac-b59c",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1,
+          "type": "min",
+          "includeChildSelections": false,
+          "includeChildForces": false,
+          "shared": true,
+          "percentValue": false
+         },
+         {
           "id": "b612-e7d2-e1d0-34c4",
           "field": "selections",
           "scope": "parent",
@@ -15662,6 +15759,7 @@
         ],
         "selectionEntryGroups": [],
         "entryLinks": [],
+        "defaultSelectionEntryId": "6447-c5b5-79c3-c8c1",
         "sortIndex": 1,
         "collective": true
        }
@@ -16617,13 +16715,6 @@
       "primary": false
      },
      {
-      "id": "7e74-7354-d899-f80e",
-      "name": "Construct",
-      "hidden": true,
-      "targetId": "57e9-b1a9-cd85-c676",
-      "primary": false
-     },
-     {
       "id": "7868-2d6e-c078-42a4",
       "name": "Not A Leader",
       "hidden": true,
@@ -16635,6 +16726,13 @@
       "name": "Holy Vows",
       "hidden": true,
       "targetId": "e472-cddf-e739-1161",
+      "primary": false
+     },
+     {
+      "id": "cb2f-fae7-6a15-7261",
+      "name": "Infantry",
+      "hidden": true,
+      "targetId": "0d09-a3fa-e8ed-584e",
       "primary": false
      }
     ],
@@ -18643,424 +18741,6 @@
     "collective": true
    },
    {
-    "id": "15ea-2f9b-6762-aa18",
-    "name": "Feudal Giant",
-    "type": "model",
-    "hidden": false,
-    "categoryLinks": [
-     {
-      "id": "d605-d744-88a6-69e2",
-      "name": "Infantry",
-      "hidden": true,
-      "targetId": "0d09-a3fa-e8ed-584e",
-      "primary": false
-     }
-    ],
-    "costs": [
-     {
-      "name": "pts",
-      "typeId": "37a7-7901-5410-8a02",
-      "value": 295
-     }
-    ],
-    "profiles": [
-     {
-      "id": "2647-c88e-9f24-e9d1",
-      "name": "Feudal Giant (Global)",
-      "typeId": "0bb5-fae5-f5a7-6b97",
-      "typeName": "Global",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Adv",
-        "typeId": "cf70-c87b-5e2d-5d97",
-        "$text": "7"
-       },
-       {
-        "name": "Mar",
-        "typeId": "3547-0c61-20c1-f727",
-        "$text": "14"
-       },
-       {
-        "name": "Dis",
-        "typeId": "9766-e5ef-1ccf-e1c4",
-        "$text": "8"
-       },
-       {
-        "name": "Rsr",
-        "typeId": "a67a-60ca-9e84-619d",
-        "$text": ""
-       },
-       {
-        "name": "Rules",
-        "typeId": "edbe-a5d2-8dda-794b",
-        "$text": "Giant See, Giant Do"
-       }
-      ]
-     },
-     {
-      "id": "cc65-8777-033c-a7e5",
-      "name": "Feudal Giant (Defensive)",
-      "typeId": "cc02-4c45-fc8e-9c20",
-      "typeName": "Defensive",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "HP",
-        "typeId": "d0d3-36c5-8a8d-cbb4",
-        "$text": "7"
-       },
-       {
-        "name": "Def",
-        "typeId": "1f95-9871-6b5e-cc35",
-        "$text": "3"
-       },
-       {
-        "name": "Res",
-        "typeId": "b725-eae8-7a15-b275",
-        "$text": "5"
-       },
-       {
-        "name": "Arm",
-        "typeId": "d15a-5931-24e5-be5d",
-        "$text": "1"
-       },
-       {
-        "name": "Aeg",
-        "typeId": "55dc-3dc1-b4f0-750e",
-        "$text": "6+"
-       },
-       {
-        "name": "Rules",
-        "typeId": "add5-e615-b82e-05dc",
-        "$text": ""
-       }
-      ]
-     },
-     {
-      "id": "10fa-dadf-a75c-d4a5",
-      "name": "Feudal Giant",
-      "typeId": "34e0-cf8a-007f-a558",
-      "typeName": "Offensive",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Att",
-        "typeId": "977e-3683-45e2-07ca",
-        "$text": "5"
-       },
-       {
-        "name": "Off",
-        "typeId": "6b9c-9509-7450-6cf6",
-        "$text": "3"
-       },
-       {
-        "name": "Str",
-        "typeId": "cc5e-c56d-543f-0a69",
-        "$text": "5"
-       },
-       {
-        "name": "AP",
-        "typeId": "ca1e-4b8f-6554-3f2f",
-        "$text": "2"
-       },
-       {
-        "name": "Agi",
-        "typeId": "6518-cb29-b2b2-aa69",
-        "$text": "3"
-       },
-       {
-        "name": "Rules",
-        "typeId": "5e9b-1961-df0b-5ddd",
-        "$text": "Rage"
-       },
-       {
-        "name": "Tags",
-        "typeId": "ce24-79db-670a-0520",
-        "$text": ""
-       }
-      ]
-     },
-     {
-      "id": "a396-67d0-7808-2bc1",
-      "name": "Feudal Giant (Size)",
-      "typeId": "a7dd-61af-e630-732e",
-      "typeName": "Size",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Height",
-        "typeId": "069b-9ad6-e430-21e6",
-        "$text": ""
-       },
-       {
-        "name": "Type",
-        "typeId": "0fe4-f75c-b1c3-dc9a",
-        "$text": ""
-       },
-       {
-        "name": "Base",
-        "typeId": "0a68-c69a-774f-d74d",
-        "$text": "50×75"
-       },
-       {
-        "name": "Rarity",
-        "typeId": "0a01-69a6-f861-ae76",
-        "$text": ""
-       }
-      ]
-     }
-    ],
-    "infoLinks": [
-     {
-      "id": "51a9-b89d-557f-0fec",
-      "name": "Giant See, Giant Do",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "b98b-9e69-0ec4-2ceb"
-     },
-     {
-      "id": "8d51-a1e8-96bf-3cab",
-      "name": "Rage",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "857c-9d17-1cb0-ca4a"
-     },
-     {
-      "id": "22bf-9edc-e6ba-4e88",
-      "name": "Hand Weapon",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "c0bc-4ca5-811a-d067"
-     }
-    ],
-    "selectionEntries": [],
-    "selectionEntryGroups": [
-     {
-      "id": "64b4-d513-f929-97cd",
-      "name": "Weapons",
-      "hidden": false,
-      "constraints": [
-       {
-        "id": "5d9e-1e72-d659-27af",
-        "field": "selections",
-        "scope": "parent",
-        "value": 1,
-        "type": "max",
-        "includeChildSelections": false,
-        "includeChildForces": false,
-        "shared": true,
-        "percentValue": false
-       }
-      ],
-      "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "14d7-9795-f38d-d695",
-        "name": "Relic Bearer",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "d595-a81d-9a73-166c",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "9216-2cc2-2a14-cd9c",
-          "name": "Relic Bearer",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "1aeb-5c12-793d-4dd0"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 1,
-        "collective": true
-       },
-       {
-        "id": "07d9-3b6f-03a9-86b2",
-        "name": "Giant Club",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 5
-         }
-        ],
-        "constraints": [
-         {
-          "id": "c51e-8574-a63b-ecc4",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "4b84-bd0f-7cb8-ab15",
-          "name": "Giant Club",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "2d56-b367-1381-488e"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 2,
-        "collective": true
-       },
-       {
-        "id": "0969-411d-dc60-d43a",
-        "name": "Knighted Giant",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 25
-         }
-        ],
-        "constraints": [
-         {
-          "id": "64e0-0733-0d96-d5ec",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "d494-af54-efe4-6096",
-          "name": "Knighted Giant",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "0450-6968-ac30-7ff7"
-         }
-        ],
-        "categoryLinks": [
-         {
-          "id": "45c2-83e9-26b3-ee6e",
-          "name": "Knighted Giant",
-          "hidden": true,
-          "targetId": "aa96-24bd-a858-74bb",
-          "primary": false
-         }
-        ],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 3,
-        "collective": true
-       }
-      ],
-      "selectionEntryGroups": [],
-      "entryLinks": [],
-      "sortIndex": 1,
-      "collective": true
-     },
-     {
-      "id": "b13d-2d39-3cb9-dac8",
-      "name": "Options",
-      "hidden": false,
-      "constraints": [],
-      "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "52c8-4bef-6053-400c",
-        "name": "Big Brother",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 25
-         }
-        ],
-        "constraints": [
-         {
-          "id": "6ec6-a5ce-ed45-1bf2",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "d9da-20fe-2691-52fb",
-          "name": "Big Brother",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "6c2b-4251-8bcc-1b94"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 1,
-        "collective": true
-       }
-      ],
-      "selectionEntryGroups": [],
-      "entryLinks": [],
-      "sortIndex": 2,
-      "collective": true
-     }
-    ],
-    "entryLinks": [],
-    "constraints": [],
-    "modifiers": [],
-    "collective": true
-   },
-   {
     "id": "7745-c58d-7ee9-246b",
     "name": "Fey Knight",
     "type": "model",
@@ -19878,10 +19558,10 @@
       "primary": false
      },
      {
-      "id": "eece-ae96-3db5-f74f",
-      "name": "Beast",
+      "id": "429f-552e-bb4a-70df",
+      "name": "Infantry",
       "hidden": true,
-      "targetId": "2398-273e-d6b8-4522",
+      "targetId": "0d09-a3fa-e8ed-584e",
       "primary": false
      }
     ],
@@ -21059,13 +20739,6 @@
       "name": "Cavalry",
       "hidden": true,
       "targetId": "c018-0c88-bd8e-2896",
-      "primary": false
-     },
-     {
-      "id": "692d-04bc-fa35-5656",
-      "name": "Large Size",
-      "hidden": true,
-      "targetId": "4fb4-69c1-a8e6-be53",
       "primary": false
      },
      {
@@ -22662,7 +22335,15 @@
       "targetId": "4843-0625-3379-ac89"
      }
     ],
-    "categoryLinks": [],
+    "categoryLinks": [
+     {
+      "id": "9465-e5d1-00bd-86d2",
+      "name": "Relic Shroud",
+      "hidden": true,
+      "targetId": "b385-e135-ae89-ceb5",
+      "primary": false
+     }
+    ],
     "selectionEntries": [],
     "selectionEntryGroups": [
      {

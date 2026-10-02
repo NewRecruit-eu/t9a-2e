@@ -1370,82 +1370,6 @@
     ]
    },
    {
-    "id": "5278-e85f-7316-ed10",
-    "name": "Imperial Giant",
-    "comment": "imperialGiant",
-    "hidden": true,
-    "constraints": [
-     {
-      "id": "eb89-b29d-a2cb-00b3",
-      "field": "selections",
-      "scope": "roster",
-      "value": 3,
-      "type": "max",
-      "includeChildSelections": true,
-      "includeChildForces": true,
-      "shared": true,
-      "percentValue": false
-     }
-    ],
-    "modifiers": [
-     {
-      "parentKey": "modifiers",
-      "type": "ceil",
-      "value": -1,
-      "field": "eb89-b29d-a2cb-00b3",
-      "conditions": [
-       {
-        "type": "instanceOf",
-        "value": 1,
-        "field": "selections",
-        "scope": "self",
-        "childId": "header",
-        "childName": "header",
-        "shared": true
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "id": "2ec6-c3bf-eca2-a3d2",
-    "name": "Giant Repeater",
-    "comment": "giant_repeater",
-    "hidden": true,
-    "constraints": [
-     {
-      "id": "36be-3cb5-c9e6-c792",
-      "field": "selections",
-      "scope": "roster",
-      "value": 1,
-      "type": "max",
-      "includeChildSelections": true,
-      "includeChildForces": true,
-      "shared": true,
-      "percentValue": false
-     }
-    ],
-    "modifiers": [
-     {
-      "parentKey": "modifiers",
-      "type": "ceil",
-      "value": -1,
-      "field": "36be-3cb5-c9e6-c792",
-      "conditions": [
-       {
-        "type": "instanceOf",
-        "value": 1,
-        "field": "selections",
-        "scope": "self",
-        "childId": "header",
-        "childName": "header",
-        "shared": true
-       }
-      ]
-     }
-    ]
-   },
-   {
     "id": "da2c-38b9-d886-4a44",
     "name": "Great Griffon",
     "comment": "greatGriffon_mount_unit",
@@ -2029,26 +1953,6 @@
     "constraints": [],
     "modifiers": [],
     "sortIndex": 19,
-    "collective": true
-   },
-   {
-    "id": "c016-4078-dcd4-c495",
-    "name": "Imperial Giant",
-    "hidden": false,
-    "type": "selectionEntry",
-    "targetId": "a7dc-5286-25c2-af7d",
-    "categoryLinks": [
-     {
-      "id": "0e8c-3d4f-7a93-2423",
-      "name": "Sunna's Fury",
-      "hidden": false,
-      "targetId": "c4c4-fb03-3e93-5caa",
-      "primary": true
-     }
-    ],
-    "constraints": [],
-    "modifiers": [],
-    "sortIndex": 20,
     "collective": true
    }
   ],
@@ -9464,7 +9368,19 @@
         "id": "8e75-9c20-461b-a088",
         "name": "Close Combat Weapons",
         "hidden": false,
-        "constraints": [],
+        "constraints": [
+         {
+          "id": "4d97-bc2f-ce1d-428c",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1,
+          "type": "max",
+          "includeChildSelections": false,
+          "includeChildForces": false,
+          "shared": true,
+          "percentValue": false
+         }
+        ],
         "modifiers": [],
         "selectionEntries": [
          {
@@ -17455,463 +17371,6 @@
     "collective": true
    },
    {
-    "id": "a7dc-5286-25c2-af7d",
-    "name": "Imperial Giant",
-    "type": "model",
-    "hidden": false,
-    "categoryLinks": [
-     {
-      "id": "37c6-3d7b-37f1-a2e6",
-      "name": "Imperial Giant",
-      "hidden": true,
-      "targetId": "5278-e85f-7316-ed10",
-      "primary": false
-     }
-    ],
-    "costs": [
-     {
-      "name": "pts",
-      "typeId": "37a7-7901-5410-8a02",
-      "value": 270
-     }
-    ],
-    "profiles": [
-     {
-      "id": "8642-8421-de68-6a40",
-      "name": "Imperial Giant (Global)",
-      "typeId": "0bb5-fae5-f5a7-6b97",
-      "typeName": "Global",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Adv",
-        "typeId": "cf70-c87b-5e2d-5d97",
-        "$text": "7"
-       },
-       {
-        "name": "Mar",
-        "typeId": "3547-0c61-20c1-f727",
-        "$text": "14"
-       },
-       {
-        "name": "Dis",
-        "typeId": "9766-e5ef-1ccf-e1c4",
-        "$text": "8"
-       },
-       {
-        "name": "Rsr",
-        "typeId": "a67a-60ca-9e84-619d",
-        "$text": ""
-       },
-       {
-        "name": "Rules",
-        "typeId": "edbe-a5d2-8dda-794b",
-        "$text": "Giant See, Giant Do"
-       }
-      ]
-     },
-     {
-      "id": "6bda-4b15-a1f9-c181",
-      "name": "Imperial Giant (Defensive)",
-      "typeId": "cc02-4c45-fc8e-9c20",
-      "typeName": "Defensive",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "HP",
-        "typeId": "d0d3-36c5-8a8d-cbb4",
-        "$text": "7"
-       },
-       {
-        "name": "Def",
-        "typeId": "1f95-9871-6b5e-cc35",
-        "$text": "3"
-       },
-       {
-        "name": "Res",
-        "typeId": "b725-eae8-7a15-b275",
-        "$text": "5"
-       },
-       {
-        "name": "Arm",
-        "typeId": "d15a-5931-24e5-be5d",
-        "$text": "1"
-       },
-       {
-        "name": "Aeg",
-        "typeId": "55dc-3dc1-b4f0-750e",
-        "$text": ""
-       },
-       {
-        "name": "Rules",
-        "typeId": "add5-e615-b82e-05dc",
-        "$text": ""
-       }
-      ]
-     },
-     {
-      "id": "5da1-6428-bb59-bd5f",
-      "name": "Imperial Giant",
-      "typeId": "34e0-cf8a-007f-a558",
-      "typeName": "Offensive",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Att",
-        "typeId": "977e-3683-45e2-07ca",
-        "$text": "5"
-       },
-       {
-        "name": "Off",
-        "typeId": "6b9c-9509-7450-6cf6",
-        "$text": "3"
-       },
-       {
-        "name": "Str",
-        "typeId": "cc5e-c56d-543f-0a69",
-        "$text": "5"
-       },
-       {
-        "name": "AP",
-        "typeId": "ca1e-4b8f-6554-3f2f",
-        "$text": "2"
-       },
-       {
-        "name": "Agi",
-        "typeId": "6518-cb29-b2b2-aa69",
-        "$text": "3"
-       },
-       {
-        "name": "Rules",
-        "typeId": "5e9b-1961-df0b-5ddd",
-        "$text": "Rage"
-       },
-       {
-        "name": "Tags",
-        "typeId": "ce24-79db-670a-0520",
-        "$text": ""
-       }
-      ]
-     },
-     {
-      "id": "ae68-eaf6-dffc-e45e",
-      "name": "Imperial Giant (Size)",
-      "typeId": "a7dd-61af-e630-732e",
-      "typeName": "Size",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Height",
-        "typeId": "069b-9ad6-e430-21e6",
-        "$text": ""
-       },
-       {
-        "name": "Type",
-        "typeId": "0fe4-f75c-b1c3-dc9a",
-        "$text": ""
-       },
-       {
-        "name": "Base",
-        "typeId": "0a68-c69a-774f-d74d",
-        "$text": "50×75"
-       },
-       {
-        "name": "Rarity",
-        "typeId": "0a01-69a6-f861-ae76",
-        "$text": ""
-       }
-      ]
-     }
-    ],
-    "infoLinks": [
-     {
-      "id": "d822-9cb8-e35c-5fd3",
-      "name": "Giant See, Giant Do",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "1bfd-e007-e764-7c76"
-     },
-     {
-      "id": "f4c0-8c03-9ef4-9702",
-      "name": "Rage",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "857c-9d17-1cb0-ca4a"
-     },
-     {
-      "id": "5e3d-ef33-90fb-53c8",
-      "name": "Hand Weapon",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "c0bc-4ca5-811a-d067"
-     }
-    ],
-    "selectionEntries": [],
-    "selectionEntryGroups": [
-     {
-      "id": "6717-4ecf-3c43-3c0b",
-      "name": "Weapons",
-      "hidden": false,
-      "constraints": [
-       {
-        "id": "e6cb-0884-b9c5-0169",
-        "field": "selections",
-        "scope": "parent",
-        "value": 1,
-        "type": "max",
-        "includeChildSelections": false,
-        "includeChildForces": false,
-        "shared": true,
-        "percentValue": false
-       }
-      ],
-      "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "4daa-b189-2ed3-5131",
-        "name": "Giant Club",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "a23b-baae-883c-99a2",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "45b6-8981-d889-9c83",
-          "name": "Giant Club",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "986d-aa76-cbcf-fc9a"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 1,
-        "collective": true
-       },
-       {
-        "id": "2384-2ca9-4d15-9e0e",
-        "name": "Big Fan of Sunna",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 20
-         }
-        ],
-        "constraints": [
-         {
-          "id": "b518-a9bc-f69d-f108",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "7bda-1668-d850-cc07",
-          "name": "Big Fan of Sunna",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "2882-cad3-8206-018c"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 2,
-        "collective": true
-       },
-       {
-        "id": "6fa1-a7ba-7b4f-e9b4",
-        "name": "Giant Repeater (4+)",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 65
-         }
-        ],
-        "constraints": [
-         {
-          "id": "f0c3-f5ab-ce4d-02e4",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "0853-4b14-7891-d2dc",
-          "name": "Giant Repeater",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "064a-ca7e-61d9-3ebe"
-         }
-        ],
-        "categoryLinks": [
-         {
-          "id": "8cfa-623d-61e9-99c6",
-          "name": "Giant Repeater",
-          "hidden": true,
-          "targetId": "2ec6-c3bf-eca2-a3d2",
-          "primary": false
-         }
-        ],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 3,
-        "collective": true
-       }
-      ],
-      "selectionEntryGroups": [],
-      "entryLinks": [],
-      "sortIndex": 1,
-      "collective": true
-     },
-     {
-      "id": "eb90-814d-fed3-963f",
-      "name": "Options",
-      "hidden": false,
-      "constraints": [],
-      "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "d860-676c-d8e4-c76c",
-        "name": "Big Brother",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 25
-         }
-        ],
-        "constraints": [
-         {
-          "id": "eabc-3340-b558-6213",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "4eb5-5ba9-d8e0-27fc",
-          "name": "Big Brother",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "d759-54f8-9673-60b0"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 1,
-        "collective": true
-       }
-      ],
-      "selectionEntryGroups": [],
-      "entryLinks": [],
-      "sortIndex": 2,
-      "collective": true
-     }
-    ],
-    "entryLinks": [],
-    "constraints": [],
-    "modifiers": [
-     {
-      "type": "set-primary",
-      "field": "category",
-      "value": "7896-3abd-06cb-121a",
-      "conditions": [
-       {
-        "type": "atLeast",
-        "value": 1,
-        "field": "selections",
-        "scope": "root-entry-self",
-        "childId": "2ec6-c3bf-eca2-a3d2",
-        "shared": true,
-        "includeChildSelections": true,
-        "includeChildForces": false,
-        "percentValue": false
-       }
-      ],
-      "conditionGroups": []
-     },
-     {
-      "type": "remove",
-      "field": "category",
-      "value": "c4c4-fb03-3e93-5caa",
-      "conditions": [
-       {
-        "type": "atLeast",
-        "value": 1,
-        "field": "selections",
-        "scope": "root-entry-self",
-        "childId": "2ec6-c3bf-eca2-a3d2",
-        "shared": true,
-        "includeChildSelections": true,
-        "includeChildForces": false,
-        "percentValue": false
-       }
-      ],
-      "conditionGroups": []
-     }
-    ],
-    "collective": true
-   },
-   {
     "id": "1edc-72e7-9135-48a6",
     "name": "Altar of Battle",
     "type": "mount",
@@ -20602,7 +20061,27 @@
       "percentValue": false
      }
     ],
-    "modifiers": [],
+    "modifiers": [
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "5912-3e17-93bc-d695",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     }
+    ],
     "profiles": [],
     "infoLinks": [
      {
@@ -20625,6 +20104,7 @@
     "selectionEntries": [],
     "selectionEntryGroups": [],
     "entryLinks": [],
+    "comment": "restriction: Cannot be taken with Gigantic Size.",
     "collective": true
    },
    {

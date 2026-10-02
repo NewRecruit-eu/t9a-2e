@@ -4446,6 +4446,70 @@
       "modifiers": [],
       "selectionEntries": [
        {
+        "id": "b5d0-c304-7cb6-e70f",
+        "name": "Stallion's Tempest",
+        "type": "upgrade",
+        "hidden": false,
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "37a7-7901-5410-8a02",
+          "value": 25
+         }
+        ],
+        "constraints": [
+         {
+          "id": "ab26-fcae-32f3-3495",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1,
+          "type": "max",
+          "includeChildSelections": false,
+          "includeChildForces": false,
+          "shared": true,
+          "percentValue": false
+         }
+        ],
+        "modifiers": [
+         {
+          "type": "set",
+          "field": "hidden",
+          "value": true,
+          "conditions": [
+           {
+            "type": "atMost",
+            "value": 0,
+            "field": "selections",
+            "scope": "root-entry-self",
+            "childId": "40c7-cd91-7449-4c1e",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "percentValue": false
+           }
+          ],
+          "conditionGroups": []
+         }
+        ],
+        "profiles": [],
+        "infoLinks": [
+         {
+          "id": "5f7d-dc1d-528b-0a2c",
+          "name": "Stallion's Tempest",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "dd54-7c02-0a01-4b46"
+         }
+        ],
+        "categoryLinks": [],
+        "selectionEntries": [],
+        "selectionEntryGroups": [],
+        "entryLinks": [],
+        "comment": "restriction: Models with General only.",
+        "sortIndex": 1,
+        "collective": true
+       },
+       {
         "id": "b09d-c633-071e-1dac",
         "name": "Mare's Shelter",
         "type": "upgrade",
@@ -4499,70 +4563,6 @@
           "hidden": false,
           "type": "profile",
           "targetId": "29a8-7f71-ee1e-7bd2"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "comment": "restriction: Models with General only.",
-        "sortIndex": 1,
-        "collective": true
-       },
-       {
-        "id": "b5d0-c304-7cb6-e70f",
-        "name": "Stallion's Tempest",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 40
-         }
-        ],
-        "constraints": [
-         {
-          "id": "ab26-fcae-32f3-3495",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [
-         {
-          "type": "set",
-          "field": "hidden",
-          "value": true,
-          "conditions": [
-           {
-            "type": "atMost",
-            "value": 0,
-            "field": "selections",
-            "scope": "root-entry-self",
-            "childId": "40c7-cd91-7449-4c1e",
-            "shared": true,
-            "includeChildSelections": true,
-            "includeChildForces": false,
-            "percentValue": false
-           }
-          ],
-          "conditionGroups": []
-         }
-        ],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "5f7d-dc1d-528b-0a2c",
-          "name": "Stallion's Tempest",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "dd54-7c02-0a01-4b46"
          }
         ],
         "categoryLinks": [],
@@ -8433,7 +8433,7 @@
       "selectionEntries": [
        {
         "id": "3477-8329-66fe-4009",
-        "name": "Vanguard (6\")",
+        "name": "Vanguard",
         "type": "upgrade",
         "hidden": false,
         "costs": [
@@ -9471,6 +9471,17 @@
       "hidden": false,
       "constraints": [
        {
+        "id": "f015-ce39-82e0-05c8",
+        "field": "selections",
+        "scope": "parent",
+        "value": 1,
+        "type": "min",
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "shared": true,
+        "percentValue": false
+       },
+       {
         "id": "022c-1f1f-4908-e3d5",
         "field": "selections",
         "scope": "parent",
@@ -9631,6 +9642,7 @@
       ],
       "selectionEntryGroups": [],
       "entryLinks": [],
+      "defaultSelectionEntryId": "f3c5-cefc-2639-8c78",
       "sortIndex": 1,
       "collective": true
      },
@@ -10850,6 +10862,17 @@
       "hidden": false,
       "constraints": [
        {
+        "id": "8e4f-e74c-be69-7a50",
+        "field": "selections",
+        "scope": "parent",
+        "value": 1,
+        "type": "min",
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "shared": true,
+        "percentValue": false
+       },
+       {
         "id": "2882-2704-d262-0857",
         "field": "selections",
         "scope": "parent",
@@ -10952,6 +10975,7 @@
       ],
       "selectionEntryGroups": [],
       "entryLinks": [],
+      "defaultSelectionEntryId": "6478-34b4-103c-5ef0",
       "sortIndex": 1,
       "collective": true
      }
@@ -12548,7 +12572,46 @@
       "percentValue": false
      }
     ],
-    "modifiers": [],
+    "modifiers": [
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "5912-3e17-93bc-d695",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "4fb4-69c1-a8e6-be53",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     }
+    ],
     "profiles": [],
     "infoLinks": [
      {
@@ -12571,6 +12634,7 @@
     "selectionEntries": [],
     "selectionEntryGroups": [],
     "entryLinks": [],
+    "comment": "restriction: Cannot be taken with Gigantic Size. Cannot be taken with Large Size.",
     "collective": true
    }
   ],

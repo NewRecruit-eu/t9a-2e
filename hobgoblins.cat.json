@@ -395,7 +395,7 @@
    },
    {
     "id": "a666-e798-5e29-0817",
-    "name": "Regimental Gogyag",
+    "name": "Drum Gogyag",
     "comment": "drumGogyag",
     "hidden": true,
     "constraints": [
@@ -645,44 +645,6 @@
       "type": "ceil",
       "value": -1,
       "field": "ea3e-8c61-4e6f-62c7",
-      "conditions": [
-       {
-        "type": "instanceOf",
-        "value": 1,
-        "field": "selections",
-        "scope": "self",
-        "childId": "header",
-        "childName": "header",
-        "shared": true
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "id": "fc3a-eb11-6e28-18a6",
-    "name": "Royal Gogyag",
-    "comment": "alphaKarkadan_mount_unit",
-    "hidden": true,
-    "constraints": [
-     {
-      "id": "d902-f6e4-0e99-c4d1",
-      "field": "selections",
-      "scope": "roster",
-      "value": 3,
-      "type": "max",
-      "includeChildSelections": true,
-      "includeChildForces": true,
-      "shared": true,
-      "percentValue": false
-     }
-    ],
-    "modifiers": [
-     {
-      "parentKey": "modifiers",
-      "type": "ceil",
-      "value": -1,
-      "field": "d902-f6e4-0e99-c4d1",
       "conditions": [
        {
         "type": "instanceOf",
@@ -3293,7 +3255,7 @@
        },
        {
         "id": "ac1f-2756-e842-2f8b",
-        "name": "Bear--Dog",
+        "name": "Bear–Dog",
         "type": "upgrade",
         "hidden": false,
         "costs": [
@@ -3320,7 +3282,7 @@
         "profiles": [
          {
           "id": "ca57-c6d5-8b0f-8538",
-          "name": "Bear--Dog",
+          "name": "Bear–Dog",
           "typeId": "34e0-cf8a-007f-a558",
           "typeName": "Offensive",
           "hidden": false,
@@ -3612,6 +3574,25 @@
            }
           ],
           "conditionGroups": []
+         },
+         {
+          "type": "set",
+          "field": "hidden",
+          "value": true,
+          "conditions": [
+           {
+            "type": "atLeast",
+            "value": 1,
+            "field": "selections",
+            "scope": "root-entry-self",
+            "childId": "bd58-f8e7-0cc2-23c1",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "percentValue": false
+           }
+          ],
+          "conditionGroups": []
          }
         ],
         "profiles": [],
@@ -3700,7 +3681,7 @@
           "collective": true
          }
         ],
-        "comment": "restriction: Cannot be taken with General.",
+        "comment": "restriction: Cannot be taken with General. Cannot be taken with Shah.",
         "sortIndex": 1,
         "collective": true
        }
@@ -4733,7 +4714,7 @@
        },
        {
         "id": "f494-bee7-09cd-fa60",
-        "name": "Bear--Dog",
+        "name": "Bear–Dog",
         "type": "upgrade",
         "hidden": false,
         "costs": [
@@ -4760,7 +4741,7 @@
         "profiles": [
          {
           "id": "5e4c-6e19-7030-13fc",
-          "name": "Bear--Dog",
+          "name": "Bear–Dog",
           "typeId": "34e0-cf8a-007f-a558",
           "typeName": "Offensive",
           "hidden": false,
@@ -4995,31 +4976,7 @@
           "categoryLinks": [],
           "selectionEntries": [],
           "selectionEntryGroups": [],
-          "entryLinks": [
-           {
-            "id": "fcaa-5829-f8d4-fee6",
-            "name": "Bow Enchant",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "targetId": "393d-0047-816c-6d71",
-            "constraints": [
-             {
-              "id": "4375-80a3-ea99-b739",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "sortIndex": 1,
-            "collective": true
-           }
-          ],
+          "entryLinks": [],
           "sortIndex": 1,
           "collective": true
          },
@@ -5148,7 +5105,27 @@
             "percentValue": false
            }
           ],
-          "modifiers": [],
+          "modifiers": [
+           {
+            "type": "set",
+            "field": "hidden",
+            "value": true,
+            "conditions": [
+             {
+              "type": "atMost",
+              "value": 0,
+              "field": "selections",
+              "scope": "root-entry-self",
+              "childId": "d368-25fc-557f-b395",
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": false,
+              "percentValue": false
+             }
+            ],
+            "conditionGroups": []
+           }
+          ],
           "profiles": [],
           "infoLinks": [
            {
@@ -5163,6 +5140,7 @@
           "selectionEntries": [],
           "selectionEntryGroups": [],
           "entryLinks": [],
+          "comment": "restriction: Models with Mount only.",
           "sortIndex": 2,
           "collective": true
          },
@@ -6404,13 +6382,6 @@
       "hidden": true,
       "targetId": "cdc7-4961-042e-eb77",
       "primary": false
-     },
-     {
-      "id": "4e6a-459d-fe7f-0f93",
-      "name": "Blotting the Sun",
-      "hidden": false,
-      "targetId": "9c2e-d4e2-4fb4-6d73",
-      "primary": false
      }
     ],
     "costs": [
@@ -6904,6 +6875,25 @@
      {
       "type": "add",
       "field": "category",
+      "value": "9c2e-d4e2-4fb4-6d73",
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "8342-d36f-210a-1d41",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "add",
+      "field": "category",
       "value": "8342-d36f-210a-1d41",
       "conditions": [
        {
@@ -6950,7 +6940,7 @@
     "categoryLinks": [
      {
       "id": "6282-1f2e-066e-9f24",
-      "name": "Regimental Gogyag",
+      "name": "Drum Gogyag",
       "hidden": true,
       "targetId": "a666-e798-5e29-0817",
       "primary": false
@@ -10005,6 +9995,17 @@
         "hidden": false,
         "constraints": [
          {
+          "id": "83ca-ba21-3015-f646",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1,
+          "type": "min",
+          "includeChildSelections": false,
+          "includeChildForces": false,
+          "shared": true,
+          "percentValue": false
+         },
+         {
           "id": "6e26-d429-3fc4-c85a",
           "field": "selections",
           "scope": "parent",
@@ -10107,6 +10108,7 @@
         ],
         "selectionEntryGroups": [],
         "entryLinks": [],
+        "defaultSelectionEntryId": "b90c-4d03-40bc-8f2a",
         "sortIndex": 1,
         "collective": true
        }
@@ -10994,13 +10996,6 @@
     "hidden": false,
     "categoryLinks": [
      {
-      "id": "87db-47e4-0f2b-c2c3",
-      "name": "Royal Gogyag",
-      "hidden": true,
-      "targetId": "fc3a-eb11-6e28-18a6",
-      "primary": false
-     },
-     {
       "id": "cb21-bf3a-365d-75a8",
       "name": "Gigantic Size",
       "hidden": true,
@@ -11019,6 +11014,13 @@
       "name": "Mount",
       "hidden": true,
       "targetId": "d368-25fc-557f-b395",
+      "primary": false
+     },
+     {
+      "id": "a92b-9de4-d511-f858",
+      "name": "Drum Gogyag",
+      "hidden": true,
+      "targetId": "a666-e798-5e29-0817",
       "primary": false
      },
      {
@@ -11822,7 +11824,27 @@
       "percentValue": false
      }
     ],
-    "modifiers": [],
+    "modifiers": [
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "cdc7-4961-042e-eb77",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     }
+    ],
     "profiles": [],
     "infoLinks": [
      {
@@ -11845,6 +11867,7 @@
     "selectionEntries": [],
     "selectionEntryGroups": [],
     "entryLinks": [],
+    "comment": "restriction: Cannot be taken with Core Unit.",
     "collective": true
    },
    {
@@ -11962,7 +11985,27 @@
       "percentValue": false
      }
     ],
-    "modifiers": [],
+    "modifiers": [
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atMost",
+        "value": 0,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "bd58-f8e7-0cc2-23c1",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     }
+    ],
     "profiles": [],
     "infoLinks": [
      {
@@ -11992,6 +12035,7 @@
     "selectionEntries": [],
     "selectionEntryGroups": [],
     "entryLinks": [],
+    "comment": "restriction: Models with Shah only.",
     "collective": true
    },
    {
@@ -12076,7 +12120,27 @@
       "percentValue": false
      }
     ],
-    "modifiers": [],
+    "modifiers": [
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "5912-3e17-93bc-d695",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     }
+    ],
     "profiles": [],
     "infoLinks": [
      {
@@ -12099,6 +12163,7 @@
     "selectionEntries": [],
     "selectionEntryGroups": [],
     "entryLinks": [],
+    "comment": "restriction: Cannot be taken with Gigantic Size.",
     "collective": true
    },
    {

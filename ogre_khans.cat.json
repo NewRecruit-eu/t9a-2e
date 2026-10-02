@@ -1844,7 +1844,7 @@
    },
    {
     "id": "8c82-1644-eace-192a",
-    "name": "Slave Giant",
+    "name": "Mercenary Giant",
     "comment": "slave_giant",
     "hidden": true,
     "constraints": [
@@ -2064,166 +2064,7 @@
     "forceEntries": []
    }
   ],
-  "selectionEntries": [
-   {
-    "id": "d4bf-d062-94d6-2f1a",
-    "name": "Scrapling Foreman",
-    "type": "model",
-    "hidden": true,
-    "categoryLinks": [
-     {
-      "id": "aa5b-0109-75fe-3f7b",
-      "name": "Extra",
-      "hidden": false,
-      "targetId": "c389-85cf-9ad3-cb29",
-      "primary": true
-     },
-     {
-      "id": "ddb8-8b65-c07d-d958",
-      "name": "Infantry",
-      "hidden": true,
-      "targetId": "0d09-a3fa-e8ed-584e",
-      "primary": false
-     }
-    ],
-    "costs": [
-     {
-      "name": "pts",
-      "typeId": "37a7-7901-5410-8a02",
-      "value": 0
-     }
-    ],
-    "profiles": [],
-    "infoLinks": [
-     {
-      "id": "8a22-f91a-6b1f-04ad",
-      "name": "Hand Weapon",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "c0bc-4ca5-811a-d067"
-     }
-    ],
-    "selectionEntries": [],
-    "selectionEntryGroups": [
-     {
-      "id": "17ee-ee7b-c85a-dfd6",
-      "name": "Weapons",
-      "hidden": false,
-      "constraints": [
-       {
-        "id": "85c2-522c-1a61-dc87",
-        "field": "selections",
-        "scope": "parent",
-        "value": 1,
-        "type": "max",
-        "includeChildSelections": false,
-        "includeChildForces": false,
-        "shared": true,
-        "percentValue": false
-       }
-      ],
-      "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "9838-cafc-339e-64c7",
-        "name": "Halberd",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 5
-         }
-        ],
-        "constraints": [
-         {
-          "id": "67ab-fca4-c044-43e4",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "c31b-9ba2-2f71-b7ed",
-          "name": "Halberd",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "8cd4-e81d-2990-1587"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 1,
-        "collective": true
-       },
-       {
-        "id": "8d64-e998-2bba-506c",
-        "name": "Great Weapon",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 5
-         }
-        ],
-        "constraints": [
-         {
-          "id": "1760-2ebb-a10d-b48f",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "cf27-696b-b2da-544d",
-          "name": "Great Weapon",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "5bca-24c5-c933-ad70"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 2,
-        "collective": true
-       }
-      ],
-      "selectionEntryGroups": [],
-      "entryLinks": [],
-      "sortIndex": 1,
-      "collective": true
-     }
-    ],
-    "entryLinks": [],
-    "constraints": [],
-    "modifiers": [],
-    "sortIndex": 1,
-    "collective": true
-   }
-  ],
+  "selectionEntries": [],
   "entryLinks": [
    {
     "id": "93db-cba6-1da2-63c6",
@@ -2242,7 +2083,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 2,
+    "sortIndex": 1,
     "collective": true
    },
    {
@@ -2262,7 +2103,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 3,
+    "sortIndex": 2,
     "collective": true
    },
    {
@@ -2282,7 +2123,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 4,
+    "sortIndex": 3,
     "collective": true
    },
    {
@@ -2302,7 +2143,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 5,
+    "sortIndex": 4,
     "collective": true
    },
    {
@@ -2322,7 +2163,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 6,
+    "sortIndex": 5,
     "collective": true
    },
    {
@@ -2342,7 +2183,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 7,
+    "sortIndex": 6,
     "collective": true
    },
    {
@@ -2362,7 +2203,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 8,
+    "sortIndex": 7,
     "collective": true
    },
    {
@@ -2382,7 +2223,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 9,
+    "sortIndex": 8,
     "collective": true
    },
    {
@@ -2402,7 +2243,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 10,
+    "sortIndex": 9,
     "collective": true
    },
    {
@@ -2422,7 +2263,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 11,
+    "sortIndex": 10,
     "collective": true
    },
    {
@@ -2442,7 +2283,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 12,
+    "sortIndex": 11,
     "collective": true
    },
    {
@@ -2462,7 +2303,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 13,
+    "sortIndex": 12,
     "collective": true
    },
    {
@@ -2482,7 +2323,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 14,
+    "sortIndex": 13,
     "collective": true
    },
    {
@@ -2502,7 +2343,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 15,
+    "sortIndex": 14,
     "collective": true
    },
    {
@@ -2522,7 +2363,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 16,
+    "sortIndex": 15,
     "collective": true
    },
    {
@@ -2542,7 +2383,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 17,
+    "sortIndex": 16,
     "collective": true
    },
    {
@@ -2562,7 +2403,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 18,
+    "sortIndex": 17,
     "collective": true
    },
    {
@@ -2582,7 +2423,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 19,
+    "sortIndex": 18,
     "collective": true
    },
    {
@@ -2602,27 +2443,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 20,
-    "collective": true
-   },
-   {
-    "id": "6cbf-0bbf-4443-d1b1",
-    "name": "Supplement Slave Giant",
-    "hidden": false,
-    "type": "selectionEntry",
-    "targetId": "8d69-a731-40fd-a359",
-    "categoryLinks": [
-     {
-      "id": "8e73-3e56-a39b-3940",
-      "name": "Chained Beasts",
-      "hidden": false,
-      "targetId": "8e81-f558-1216-221d",
-      "primary": true
-     }
-    ],
-    "constraints": [],
-    "modifiers": [],
-    "sortIndex": 21,
+    "sortIndex": 19,
     "collective": true
    }
   ],
@@ -4193,7 +4014,27 @@
               "percentValue": false
              }
             ],
-            "modifiers": [],
+            "modifiers": [
+             {
+              "type": "set",
+              "field": "hidden",
+              "value": true,
+              "conditions": [
+               {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "root-entry-self",
+                "childId": "6fac-3d55-26e9-546b",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": false,
+                "percentValue": false
+               }
+              ],
+              "conditionGroups": []
+             }
+            ],
             "collapsible": true,
             "sortIndex": 1,
             "collective": true
@@ -4282,7 +4123,27 @@
               "percentValue": false
              }
             ],
-            "modifiers": [],
+            "modifiers": [
+             {
+              "type": "set",
+              "field": "hidden",
+              "value": true,
+              "conditions": [
+               {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "root-entry-self",
+                "childId": "6fac-3d55-26e9-546b",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": false,
+                "percentValue": false
+               }
+              ],
+              "conditionGroups": []
+             }
+            ],
             "collapsible": true,
             "sortIndex": 1,
             "collective": true
@@ -4370,7 +4231,27 @@
               "percentValue": false
              }
             ],
-            "modifiers": [],
+            "modifiers": [
+             {
+              "type": "set",
+              "field": "hidden",
+              "value": true,
+              "conditions": [
+               {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "root-entry-self",
+                "childId": "6fac-3d55-26e9-546b",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": false,
+                "percentValue": false
+               }
+              ],
+              "conditionGroups": []
+             }
+            ],
             "collapsible": true,
             "sortIndex": 1,
             "collective": true
@@ -4458,7 +4339,27 @@
               "percentValue": false
              }
             ],
-            "modifiers": [],
+            "modifiers": [
+             {
+              "type": "set",
+              "field": "hidden",
+              "value": true,
+              "conditions": [
+               {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "root-entry-self",
+                "childId": "6fac-3d55-26e9-546b",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": false,
+                "percentValue": false
+               }
+              ],
+              "conditionGroups": []
+             }
+            ],
             "collapsible": true,
             "sortIndex": 1,
             "collective": true
@@ -4552,7 +4453,27 @@
               "percentValue": false
              }
             ],
-            "modifiers": [],
+            "modifiers": [
+             {
+              "type": "set",
+              "field": "hidden",
+              "value": true,
+              "conditions": [
+               {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "root-entry-self",
+                "childId": "6fac-3d55-26e9-546b",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": false,
+                "percentValue": false
+               }
+              ],
+              "conditionGroups": []
+             }
+            ],
             "collapsible": true,
             "sortIndex": 1,
             "collective": true
@@ -4620,7 +4541,27 @@
               "percentValue": false
              }
             ],
-            "modifiers": [],
+            "modifiers": [
+             {
+              "type": "set",
+              "field": "hidden",
+              "value": true,
+              "conditions": [
+               {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "root-entry-self",
+                "childId": "6fac-3d55-26e9-546b",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": false,
+                "percentValue": false
+               }
+              ],
+              "conditionGroups": []
+             }
+            ],
             "collapsible": true,
             "sortIndex": 1,
             "collective": true
@@ -4657,7 +4598,27 @@
           "percentValue": false
          }
         ],
-        "modifiers": [],
+        "modifiers": [
+         {
+          "type": "set",
+          "field": "hidden",
+          "value": true,
+          "conditions": [
+           {
+            "type": "atLeast",
+            "value": 1,
+            "field": "selections",
+            "scope": "root-entry-self",
+            "childId": "6fac-3d55-26e9-546b",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "percentValue": false
+           }
+          ],
+          "conditionGroups": []
+         }
+        ],
         "collapsible": true,
         "sortIndex": 4,
         "collective": true
@@ -6532,7 +6493,27 @@
               "percentValue": false
              }
             ],
-            "modifiers": [],
+            "modifiers": [
+             {
+              "type": "set",
+              "field": "hidden",
+              "value": true,
+              "conditions": [
+               {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "root-entry-self",
+                "childId": "6fac-3d55-26e9-546b",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": false,
+                "percentValue": false
+               }
+              ],
+              "conditionGroups": []
+             }
+            ],
             "collapsible": true,
             "sortIndex": 1,
             "collective": true
@@ -6621,7 +6602,27 @@
               "percentValue": false
              }
             ],
-            "modifiers": [],
+            "modifiers": [
+             {
+              "type": "set",
+              "field": "hidden",
+              "value": true,
+              "conditions": [
+               {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "root-entry-self",
+                "childId": "6fac-3d55-26e9-546b",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": false,
+                "percentValue": false
+               }
+              ],
+              "conditionGroups": []
+             }
+            ],
             "collapsible": true,
             "sortIndex": 1,
             "collective": true
@@ -6709,7 +6710,27 @@
               "percentValue": false
              }
             ],
-            "modifiers": [],
+            "modifiers": [
+             {
+              "type": "set",
+              "field": "hidden",
+              "value": true,
+              "conditions": [
+               {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "root-entry-self",
+                "childId": "6fac-3d55-26e9-546b",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": false,
+                "percentValue": false
+               }
+              ],
+              "conditionGroups": []
+             }
+            ],
             "collapsible": true,
             "sortIndex": 1,
             "collective": true
@@ -6797,7 +6818,27 @@
               "percentValue": false
              }
             ],
-            "modifiers": [],
+            "modifiers": [
+             {
+              "type": "set",
+              "field": "hidden",
+              "value": true,
+              "conditions": [
+               {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "root-entry-self",
+                "childId": "6fac-3d55-26e9-546b",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": false,
+                "percentValue": false
+               }
+              ],
+              "conditionGroups": []
+             }
+            ],
             "collapsible": true,
             "sortIndex": 1,
             "collective": true
@@ -6891,7 +6932,27 @@
               "percentValue": false
              }
             ],
-            "modifiers": [],
+            "modifiers": [
+             {
+              "type": "set",
+              "field": "hidden",
+              "value": true,
+              "conditions": [
+               {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "root-entry-self",
+                "childId": "6fac-3d55-26e9-546b",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": false,
+                "percentValue": false
+               }
+              ],
+              "conditionGroups": []
+             }
+            ],
             "collapsible": true,
             "sortIndex": 1,
             "collective": true
@@ -6959,7 +7020,27 @@
               "percentValue": false
              }
             ],
-            "modifiers": [],
+            "modifiers": [
+             {
+              "type": "set",
+              "field": "hidden",
+              "value": true,
+              "conditions": [
+               {
+                "type": "atLeast",
+                "value": 1,
+                "field": "selections",
+                "scope": "root-entry-self",
+                "childId": "6fac-3d55-26e9-546b",
+                "shared": true,
+                "includeChildSelections": true,
+                "includeChildForces": false,
+                "percentValue": false
+               }
+              ],
+              "conditionGroups": []
+             }
+            ],
             "collapsible": true,
             "sortIndex": 1,
             "collective": true
@@ -6996,7 +7077,27 @@
           "percentValue": false
          }
         ],
-        "modifiers": [],
+        "modifiers": [
+         {
+          "type": "set",
+          "field": "hidden",
+          "value": true,
+          "conditions": [
+           {
+            "type": "atLeast",
+            "value": 1,
+            "field": "selections",
+            "scope": "root-entry-self",
+            "childId": "6fac-3d55-26e9-546b",
+            "shared": true,
+            "includeChildSelections": true,
+            "includeChildForces": false,
+            "percentValue": false
+           }
+          ],
+          "conditionGroups": []
+         }
+        ],
         "collapsible": true,
         "sortIndex": 5,
         "collective": true
@@ -10419,7 +10520,30 @@
         "id": "f37e-be23-ad73-e917",
         "name": "Weapons",
         "hidden": false,
-        "constraints": [],
+        "constraints": [
+         {
+          "id": "2121-7b5a-d6e1-3872",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1,
+          "type": "min",
+          "includeChildSelections": false,
+          "includeChildForces": false,
+          "shared": true,
+          "percentValue": false
+         },
+         {
+          "id": "56c1-697f-8946-b2d1",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1,
+          "type": "max",
+          "includeChildSelections": false,
+          "includeChildForces": false,
+          "shared": true,
+          "percentValue": false
+         }
+        ],
         "modifiers": [],
         "selectionEntries": [
          {
@@ -10511,6 +10635,7 @@
         ],
         "selectionEntryGroups": [],
         "entryLinks": [],
+        "defaultSelectionEntryId": "2a38-8589-58e3-8ce8",
         "sortIndex": 1,
         "collective": true
        }
@@ -16669,7 +16794,7 @@
     "categoryLinks": [
      {
       "id": "8013-f84e-a711-1152",
-      "name": "Slave Giant",
+      "name": "Mercenary Giant",
       "hidden": true,
       "targetId": "8c82-1644-eace-192a",
       "primary": false
@@ -16869,6 +16994,17 @@
         "hidden": false,
         "constraints": [
          {
+          "id": "de38-3552-c739-7229",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1,
+          "type": "min",
+          "includeChildSelections": false,
+          "includeChildForces": false,
+          "shared": true,
+          "percentValue": false
+         },
+         {
           "id": "73ba-5d27-4b2f-b25a",
           "field": "selections",
           "scope": "parent",
@@ -17014,6 +17150,7 @@
         ],
         "selectionEntryGroups": [],
         "entryLinks": [],
+        "defaultSelectionEntryId": "809d-be6d-4d54-e769",
         "sortIndex": 1,
         "collective": true
        },
@@ -17076,298 +17213,6 @@
       ],
       "entryLinks": [],
       "sortIndex": 1,
-      "collective": true
-     }
-    ],
-    "entryLinks": [],
-    "constraints": [],
-    "modifiers": [],
-    "collective": true
-   },
-   {
-    "id": "8d69-a731-40fd-a359",
-    "name": "Supplement Slave Giant",
-    "type": "model",
-    "hidden": false,
-    "categoryLinks": [
-     {
-      "id": "60c6-a023-b03c-076b",
-      "name": "Slave Giant",
-      "hidden": true,
-      "targetId": "8c82-1644-eace-192a",
-      "primary": false
-     }
-    ],
-    "costs": [
-     {
-      "name": "pts",
-      "typeId": "37a7-7901-5410-8a02",
-      "value": 275
-     }
-    ],
-    "profiles": [],
-    "infoLinks": [
-     {
-      "id": "09eb-69fe-c15e-6a79",
-      "name": "Hand Weapon",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "c0bc-4ca5-811a-d067"
-     }
-    ],
-    "selectionEntries": [],
-    "selectionEntryGroups": [
-     {
-      "id": "1a34-b2c2-e7d3-e6f8",
-      "name": "Weapons",
-      "hidden": false,
-      "constraints": [
-       {
-        "id": "18cb-7a5e-3776-3f70",
-        "field": "selections",
-        "scope": "parent",
-        "value": 1,
-        "type": "max",
-        "includeChildSelections": false,
-        "includeChildForces": false,
-        "shared": true,
-        "percentValue": false
-       }
-      ],
-      "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "3849-c738-94b0-da07",
-        "name": "Iron Fist",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "d829-78f5-8520-caea",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "ea4e-fe71-f8ba-ad98",
-          "name": "Iron Fist",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "ce99-0033-1db8-77d0"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 1,
-        "collective": true
-       },
-       {
-        "id": "1d75-203f-0736-b734",
-        "name": "Giant Club",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 25
-         }
-        ],
-        "constraints": [
-         {
-          "id": "f129-729a-9296-d941",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "cb68-e194-b48e-59a6",
-          "name": "Giant Club",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "056e-35d2-47cb-122a"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 2,
-        "collective": true
-       },
-       {
-        "id": "b1e6-00b3-2e07-c40f",
-        "name": "Troll Stew Cauldron",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 25
-         }
-        ],
-        "constraints": [
-         {
-          "id": "2056-2767-09fe-b327",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "5985-4fa4-f30e-aec5",
-          "name": "Troll Stew Cauldron",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "0db9-a25b-4069-f028"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 3,
-        "collective": true
-       },
-       {
-        "id": "323b-baef-daa5-8fb5",
-        "name": "Great Weapon",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 40
-         }
-        ],
-        "constraints": [
-         {
-          "id": "fae3-a6cf-8443-0f58",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "2aaa-80f7-b535-19b6",
-          "name": "Great Weapon",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "5bca-24c5-c933-ad70"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 4,
-        "collective": true
-       }
-      ],
-      "selectionEntryGroups": [],
-      "entryLinks": [],
-      "sortIndex": 1,
-      "collective": true
-     },
-     {
-      "id": "9c55-c23c-49dc-4464",
-      "name": "Options",
-      "hidden": false,
-      "constraints": [],
-      "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "b476-fc36-b1da-e052",
-        "name": "Big Brother",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 25
-         }
-        ],
-        "constraints": [
-         {
-          "id": "0705-7dac-a32b-6231",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "81df-9704-6efa-7fa2",
-          "name": "Big Brother",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "6e9a-94d3-2f22-7fff"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 1,
-        "collective": true
-       }
-      ],
-      "selectionEntryGroups": [],
-      "entryLinks": [],
-      "sortIndex": 2,
       "collective": true
      }
     ],
@@ -19852,7 +19697,7 @@
    },
    {
     "id": "6247-1b8e-99b4-19de",
-    "name": "Viper's Curse ",
+    "name": "Viper's Curse",
     "type": "upgrade",
     "hidden": false,
     "costs": [
@@ -22567,7 +22412,7 @@
     "entryLinks": [
      {
       "id": "3b8d-b949-4ded-44ec",
-      "name": "Viper's Curse ",
+      "name": "Viper's Curse",
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "6247-1b8e-99b4-19de",
@@ -22599,7 +22444,7 @@
     "entryLinks": [
      {
       "id": "1330-1488-a4aa-7fd4",
-      "name": "Viper's Curse ",
+      "name": "Viper's Curse",
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "6247-1b8e-99b4-19de",

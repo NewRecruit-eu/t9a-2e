@@ -3713,6 +3713,17 @@
         "hidden": false,
         "constraints": [
          {
+          "id": "bcb6-59ac-1e47-4349",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1,
+          "type": "min",
+          "includeChildSelections": false,
+          "includeChildForces": false,
+          "shared": true,
+          "percentValue": false
+         },
+         {
           "id": "40d3-5cc5-e383-7553",
           "field": "selections",
           "scope": "parent",
@@ -3815,6 +3826,7 @@
         ],
         "selectionEntryGroups": [],
         "entryLinks": [],
+        "defaultSelectionEntryId": "6afd-d7d2-73ab-8f32",
         "sortIndex": 1,
         "collective": true
        }
@@ -6060,6 +6072,17 @@
           "hidden": false,
           "constraints": [
            {
+            "id": "8c4a-0967-9365-0640",
+            "field": "selections",
+            "scope": "parent",
+            "value": 1,
+            "type": "min",
+            "includeChildSelections": false,
+            "includeChildForces": false,
+            "shared": true,
+            "percentValue": false
+           },
+           {
             "id": "d402-632b-0302-399a",
             "field": "selections",
             "scope": "parent",
@@ -6162,6 +6185,7 @@
           ],
           "selectionEntryGroups": [],
           "entryLinks": [],
+          "defaultSelectionEntryId": "9feb-b4ba-bf18-f775",
           "sortIndex": 2,
           "collective": true
          }
@@ -9417,7 +9441,27 @@
       "percentValue": false
      }
     ],
-    "modifiers": [],
+    "modifiers": [
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "d368-25fc-557f-b395",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     }
+    ],
     "profiles": [],
     "infoLinks": [
      {
@@ -9440,6 +9484,7 @@
     "selectionEntries": [],
     "selectionEntryGroups": [],
     "entryLinks": [],
+    "comment": "restriction: Cannot be taken with Mount.",
     "collective": true
    },
    {
@@ -9536,6 +9581,44 @@
        }
       ],
       "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "6055-4fa7-5663-3c62",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "1e09-cc6b-9632-d101",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
      }
     ],
     "profiles": [],
@@ -9560,7 +9643,7 @@
     "selectionEntries": [],
     "selectionEntryGroups": [],
     "entryLinks": [],
-    "comment": "restriction: Cannot be taken with Construct.",
+    "comment": "restriction: Cannot be taken with Construct. Cannot be taken with Leprous Cauldron. Cannot be taken with Sacred Platform.",
     "collective": true
    },
    {

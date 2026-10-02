@@ -1428,44 +1428,6 @@
     ]
    },
    {
-    "id": "bbec-8dcb-7ed2-97d7",
-    "name": "Sylvan Giant",
-    "comment": "sylvanGiant",
-    "hidden": true,
-    "constraints": [
-     {
-      "id": "45ad-651c-c116-25e3",
-      "field": "selections",
-      "scope": "roster",
-      "value": 3,
-      "type": "max",
-      "includeChildSelections": true,
-      "includeChildForces": true,
-      "shared": true,
-      "percentValue": false
-     }
-    ],
-    "modifiers": [
-     {
-      "parentKey": "modifiers",
-      "type": "ceil",
-      "value": -1,
-      "field": "45ad-651c-c116-25e3",
-      "conditions": [
-       {
-        "type": "instanceOf",
-        "value": 1,
-        "field": "selections",
-        "scope": "self",
-        "childId": "header",
-        "childName": "header",
-        "shared": true
-       }
-      ]
-     }
-    ]
-   },
-   {
     "id": "71b9-2d47-12be-1381",
     "name": "Eagle King",
     "comment": "eagleKing_mount_unit",
@@ -2011,26 +1973,6 @@
     "constraints": [],
     "modifiers": [],
     "sortIndex": 21,
-    "collective": true
-   },
-   {
-    "id": "f62e-ef9b-e3ee-dd89",
-    "name": "Sylvan Giant",
-    "hidden": false,
-    "type": "selectionEntry",
-    "targetId": "ef08-c440-8943-7c4c",
-    "categoryLinks": [
-     {
-      "id": "f3c1-6349-5984-b506",
-      "name": "Unseen Arrows",
-      "hidden": false,
-      "targetId": "97b6-938f-272a-269b",
-      "primary": true
-     }
-    ],
-    "constraints": [],
-    "modifiers": [],
-    "sortIndex": 22,
     "collective": true
    }
   ],
@@ -7680,20 +7622,7 @@
       "id": "0862-9ea0-906c-b822",
       "name": "Equipment",
       "hidden": false,
-      "constraints": [
-       {
-        "id": "3b45-2bdc-6343-7ed0",
-        "field": "37a7-7901-5410-8a02",
-        "scope": "root-entry",
-        "childId": "820e-ab52-8728-a69d",
-        "value": 100,
-        "type": "max",
-        "includeChildSelections": true,
-        "includeChildForces": false,
-        "shared": true,
-        "percentValue": false
-       }
-      ],
+      "constraints": [],
       "modifiers": [],
       "selectionEntries": [],
       "selectionEntryGroups": [],
@@ -9834,18 +9763,6 @@
         "includeChildForces": false,
         "shared": true,
         "percentValue": false
-       },
-       {
-        "id": "d26c-d62b-91f0-0cd3",
-        "field": "37a7-7901-5410-8a02",
-        "scope": "root-entry",
-        "childId": "820e-ab52-8728-a69d",
-        "value": 100,
-        "type": "max",
-        "includeChildSelections": true,
-        "includeChildForces": false,
-        "shared": true,
-        "percentValue": false
        }
       ],
       "modifiers": [],
@@ -10301,18 +10218,6 @@
         "value": 1,
         "type": "max",
         "includeChildSelections": false,
-        "includeChildForces": false,
-        "shared": true,
-        "percentValue": false
-       },
-       {
-        "id": "8f5b-37ee-5bc8-d76b",
-        "field": "37a7-7901-5410-8a02",
-        "scope": "root-entry",
-        "childId": "820e-ab52-8728-a69d",
-        "value": 100,
-        "type": "max",
-        "includeChildSelections": true,
         "includeChildForces": false,
         "shared": true,
         "percentValue": false
@@ -13828,6 +13733,13 @@
       "hidden": true,
       "targetId": "4642-149a-b923-670a",
       "primary": false
+     },
+     {
+      "id": "1d6f-fddf-72ee-4273",
+      "name": "Large Size",
+      "hidden": true,
+      "targetId": "4fb4-69c1-a8e6-be53",
+      "primary": false
      }
     ],
     "costs": [
@@ -14183,6 +14095,13 @@
       "name": "Forest Eagles",
       "hidden": true,
       "targetId": "4ce8-378c-d73c-3155",
+      "primary": false
+     },
+     {
+      "id": "5f01-d033-948c-d93e",
+      "name": "Large Size",
+      "hidden": true,
+      "targetId": "4fb4-69c1-a8e6-be53",
       "primary": false
      }
     ],
@@ -16321,6 +16240,13 @@
       "hidden": true,
       "targetId": "58e3-2631-b92a-640d",
       "primary": false
+     },
+     {
+      "id": "0fb9-c2a0-5bf1-4155",
+      "name": "Large Size",
+      "hidden": true,
+      "targetId": "4fb4-69c1-a8e6-be53",
+      "primary": false
      }
     ],
     "costs": [
@@ -17583,217 +17509,7 @@
         ],
         "categoryLinks": [],
         "selectionEntries": [],
-        "selectionEntryGroups": [
-         {
-          "id": "4091-22e7-7816-497d",
-          "name": "Spells",
-          "hidden": false,
-          "constraints": [
-           {
-            "id": "4b4f-3332-6c24-f513",
-            "field": "selections",
-            "scope": "parent",
-            "value": 2,
-            "type": "min",
-            "includeChildSelections": false,
-            "includeChildForces": false,
-            "shared": true,
-            "percentValue": false
-           },
-           {
-            "id": "5901-150d-0291-2032",
-            "field": "selections",
-            "scope": "parent",
-            "value": 2,
-            "type": "max",
-            "includeChildSelections": false,
-            "includeChildForces": false,
-            "shared": true,
-            "percentValue": false
-           }
-          ],
-          "modifiers": [],
-          "selectionEntries": [
-           {
-            "id": "a30c-4e8d-ad1e-85cb",
-            "name": "Truth of Time",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "ab9a-8e1d-27ff-3f56",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "e454-c14b-d9e6-8591",
-              "name": "Truth of Time",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "310f-7c41-0443-c009",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 1,
-            "collective": true
-           },
-           {
-            "id": "9922-c0df-46c2-373f",
-            "name": "Master of Earth",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "39df-2ce4-9a73-d88f",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "ef60-802b-93e5-0f81",
-              "name": "Master of Earth",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "c2eb-632f-810f-f324",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 2,
-            "collective": true
-           },
-           {
-            "id": "9491-ad57-50da-b26e",
-            "name": "Break the Spirit",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "8a59-5529-adf9-28c1",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "72b0-80fd-a424-798e",
-              "name": "Break the Spirit",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "417e-a958-ea3f-b0e8",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 3,
-            "collective": true
-           },
-           {
-            "id": "ef8b-6c7c-13e3-f5ab",
-            "name": "Forest Embrace",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "42d9-f927-5410-d2c9",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "24aa-aa96-7890-d56e",
-              "name": "Forest Embrace",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "5aca-ce5d-7433-c176",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 4,
-            "collective": true
-           }
-          ],
-          "entryLinks": [],
-          "selectionEntryGroups": [],
-          "defaultSelectionEntryId": "a30c-4e8d-ad1e-85cb",
-          "sortIndex": 1,
-          "collective": true
-         }
-        ],
+        "selectionEntryGroups": [],
         "entryLinks": [],
         "sortIndex": 3,
         "collective": true
@@ -17802,6 +17518,215 @@
       "selectionEntryGroups": [],
       "entryLinks": [],
       "sortIndex": 2,
+      "collective": true
+     },
+     {
+      "id": "ba70-71fc-3d5d-deee",
+      "name": "Spells",
+      "hidden": false,
+      "constraints": [
+       {
+        "id": "f5b4-8012-5fb1-11cb",
+        "field": "selections",
+        "scope": "parent",
+        "value": 2,
+        "type": "min",
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "shared": true,
+        "percentValue": false
+       },
+       {
+        "id": "80bf-fcef-e180-2b78",
+        "field": "selections",
+        "scope": "parent",
+        "value": 2,
+        "type": "max",
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "shared": true,
+        "percentValue": false
+       }
+      ],
+      "modifiers": [],
+      "selectionEntries": [
+       {
+        "id": "3c3d-8430-a322-53e5",
+        "name": "Truth of Time",
+        "type": "upgrade",
+        "hidden": false,
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "37a7-7901-5410-8a02",
+          "value": 0
+         }
+        ],
+        "constraints": [
+         {
+          "id": "bb04-890c-1d6f-819e",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1,
+          "type": "max",
+          "includeChildSelections": false,
+          "includeChildForces": false,
+          "shared": true,
+          "percentValue": false
+         }
+        ],
+        "modifiers": [],
+        "profiles": [],
+        "infoLinks": [
+         {
+          "id": "10fd-c3be-7f93-f1d5",
+          "name": "Truth of Time",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "310f-7c41-0443-c009",
+          "modifiers": []
+         }
+        ],
+        "categoryLinks": [],
+        "entryLinks": [],
+        "selectionEntryGroups": [],
+        "sortIndex": 1,
+        "collective": true
+       },
+       {
+        "id": "a600-2295-2d4b-dd12",
+        "name": "Master of Earth",
+        "type": "upgrade",
+        "hidden": false,
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "37a7-7901-5410-8a02",
+          "value": 0
+         }
+        ],
+        "constraints": [
+         {
+          "id": "923b-c6a7-f72b-6c9d",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1,
+          "type": "max",
+          "includeChildSelections": false,
+          "includeChildForces": false,
+          "shared": true,
+          "percentValue": false
+         }
+        ],
+        "modifiers": [],
+        "profiles": [],
+        "infoLinks": [
+         {
+          "id": "1b91-d747-a4ca-8b91",
+          "name": "Master of Earth",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "c2eb-632f-810f-f324",
+          "modifiers": []
+         }
+        ],
+        "categoryLinks": [],
+        "entryLinks": [],
+        "selectionEntryGroups": [],
+        "sortIndex": 2,
+        "collective": true
+       },
+       {
+        "id": "f293-85f3-d5ba-ad89",
+        "name": "Break the Spirit",
+        "type": "upgrade",
+        "hidden": false,
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "37a7-7901-5410-8a02",
+          "value": 0
+         }
+        ],
+        "constraints": [
+         {
+          "id": "08d5-b444-e18f-fcf6",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1,
+          "type": "max",
+          "includeChildSelections": false,
+          "includeChildForces": false,
+          "shared": true,
+          "percentValue": false
+         }
+        ],
+        "modifiers": [],
+        "profiles": [],
+        "infoLinks": [
+         {
+          "id": "7437-cd52-dd7e-0439",
+          "name": "Break the Spirit",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "417e-a958-ea3f-b0e8",
+          "modifiers": []
+         }
+        ],
+        "categoryLinks": [],
+        "entryLinks": [],
+        "selectionEntryGroups": [],
+        "sortIndex": 3,
+        "collective": true
+       },
+       {
+        "id": "dd8a-7038-9505-bd34",
+        "name": "Forest Embrace",
+        "type": "upgrade",
+        "hidden": false,
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "37a7-7901-5410-8a02",
+          "value": 0
+         }
+        ],
+        "constraints": [
+         {
+          "id": "c7cd-77f0-46c6-5bf8",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1,
+          "type": "max",
+          "includeChildSelections": false,
+          "includeChildForces": false,
+          "shared": true,
+          "percentValue": false
+         }
+        ],
+        "modifiers": [],
+        "profiles": [],
+        "infoLinks": [
+         {
+          "id": "4085-159b-a225-7dd7",
+          "name": "Forest Embrace",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "5aca-ce5d-7433-c176",
+          "modifiers": []
+         }
+        ],
+        "categoryLinks": [],
+        "entryLinks": [],
+        "selectionEntryGroups": [],
+        "sortIndex": 4,
+        "collective": true
+       }
+      ],
+      "entryLinks": [],
+      "selectionEntryGroups": [],
+      "defaultSelectionEntryId": "3c3d-8430-a322-53e5",
+      "sortIndex": 3,
       "collective": true
      }
     ],
@@ -18651,430 +18576,6 @@
           "hidden": false,
           "type": "profile",
           "targetId": "99b4-2aab-6d77-8c08"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 1,
-        "collective": true
-       }
-      ],
-      "selectionEntryGroups": [],
-      "entryLinks": [],
-      "sortIndex": 2,
-      "collective": true
-     }
-    ],
-    "entryLinks": [],
-    "constraints": [],
-    "modifiers": [],
-    "collective": true
-   },
-   {
-    "id": "ef08-c440-8943-7c4c",
-    "name": "Sylvan Giant",
-    "type": "model",
-    "hidden": false,
-    "categoryLinks": [
-     {
-      "id": "dde0-0465-1aab-4087",
-      "name": "Sylvan Giant",
-      "hidden": true,
-      "targetId": "bbec-8dcb-7ed2-97d7",
-      "primary": false
-     },
-     {
-      "id": "bf90-3943-05f2-86db",
-      "name": "Gigantic Size",
-      "hidden": true,
-      "targetId": "5912-3e17-93bc-d695",
-      "primary": false
-     }
-    ],
-    "costs": [
-     {
-      "name": "pts",
-      "typeId": "37a7-7901-5410-8a02",
-      "value": 270
-     }
-    ],
-    "profiles": [
-     {
-      "id": "f5b5-0acd-f9a9-07ce",
-      "name": "Sylvan Giant (Global)",
-      "typeId": "0bb5-fae5-f5a7-6b97",
-      "typeName": "Global",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Adv",
-        "typeId": "cf70-c87b-5e2d-5d97",
-        "$text": "7"
-       },
-       {
-        "name": "Mar",
-        "typeId": "3547-0c61-20c1-f727",
-        "$text": "14"
-       },
-       {
-        "name": "Dis",
-        "typeId": "9766-e5ef-1ccf-e1c4",
-        "$text": "8"
-       },
-       {
-        "name": "Rsr",
-        "typeId": "a67a-60ca-9e84-619d",
-        "$text": ""
-       },
-       {
-        "name": "Rules",
-        "typeId": "edbe-a5d2-8dda-794b",
-        "$text": "Giant See, Giant Do"
-       }
-      ]
-     },
-     {
-      "id": "b7a8-dde6-dafe-04ec",
-      "name": "Sylvan Giant (Defensive)",
-      "typeId": "cc02-4c45-fc8e-9c20",
-      "typeName": "Defensive",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "HP",
-        "typeId": "d0d3-36c5-8a8d-cbb4",
-        "$text": "7"
-       },
-       {
-        "name": "Def",
-        "typeId": "1f95-9871-6b5e-cc35",
-        "$text": "3"
-       },
-       {
-        "name": "Res",
-        "typeId": "b725-eae8-7a15-b275",
-        "$text": "5"
-       },
-       {
-        "name": "Arm",
-        "typeId": "d15a-5931-24e5-be5d",
-        "$text": "1"
-       },
-       {
-        "name": "Aeg",
-        "typeId": "55dc-3dc1-b4f0-750e",
-        "$text": ""
-       },
-       {
-        "name": "Rules",
-        "typeId": "add5-e615-b82e-05dc",
-        "$text": ""
-       }
-      ]
-     },
-     {
-      "id": "50ee-6a95-dac5-1c69",
-      "name": "Sylvan Giant",
-      "typeId": "34e0-cf8a-007f-a558",
-      "typeName": "Offensive",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Att",
-        "typeId": "977e-3683-45e2-07ca",
-        "$text": "5"
-       },
-       {
-        "name": "Off",
-        "typeId": "6b9c-9509-7450-6cf6",
-        "$text": "3"
-       },
-       {
-        "name": "Str",
-        "typeId": "cc5e-c56d-543f-0a69",
-        "$text": "5"
-       },
-       {
-        "name": "AP",
-        "typeId": "ca1e-4b8f-6554-3f2f",
-        "$text": "2"
-       },
-       {
-        "name": "Agi",
-        "typeId": "6518-cb29-b2b2-aa69",
-        "$text": "3"
-       },
-       {
-        "name": "Rules",
-        "typeId": "5e9b-1961-df0b-5ddd",
-        "$text": "Rage"
-       },
-       {
-        "name": "Tags",
-        "typeId": "ce24-79db-670a-0520",
-        "$text": ""
-       }
-      ]
-     },
-     {
-      "id": "dfbb-b9dd-5c4b-0816",
-      "name": "Sylvan Giant (Size)",
-      "typeId": "a7dd-61af-e630-732e",
-      "typeName": "Size",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Height",
-        "typeId": "069b-9ad6-e430-21e6",
-        "$text": ""
-       },
-       {
-        "name": "Type",
-        "typeId": "0fe4-f75c-b1c3-dc9a",
-        "$text": ""
-       },
-       {
-        "name": "Base",
-        "typeId": "0a68-c69a-774f-d74d",
-        "$text": "50×75"
-       },
-       {
-        "name": "Rarity",
-        "typeId": "0a01-69a6-f861-ae76",
-        "$text": ""
-       }
-      ]
-     }
-    ],
-    "infoLinks": [
-     {
-      "id": "6a9c-7923-b1d0-7c32",
-      "name": "Giant See, Giant Do",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "2a68-7c4b-3d65-f610"
-     },
-     {
-      "id": "86a3-a251-3ee8-55c7",
-      "name": "Rage",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "857c-9d17-1cb0-ca4a"
-     },
-     {
-      "id": "22e7-27a6-a63a-150f",
-      "name": "Hand Weapon",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "c0bc-4ca5-811a-d067"
-     }
-    ],
-    "selectionEntries": [],
-    "selectionEntryGroups": [
-     {
-      "id": "cbfc-a1c3-7af2-c286",
-      "name": "Weapons",
-      "hidden": false,
-      "constraints": [
-       {
-        "id": "037a-75d8-093d-7ae5",
-        "field": "selections",
-        "scope": "parent",
-        "value": 1,
-        "type": "max",
-        "includeChildSelections": false,
-        "includeChildForces": false,
-        "shared": true,
-        "percentValue": false
-       }
-      ],
-      "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "46af-0cb4-cd9e-27bd",
-        "name": "Giant Club",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "a494-dd07-e234-147c",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "a584-c249-6610-3691",
-          "name": "Giant Club",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "9656-cc5f-cc8a-74df"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 1,
-        "collective": true
-       },
-       {
-        "id": "075f-cd01-99e8-3ffb",
-        "name": "Giant Sentinel",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 20
-         }
-        ],
-        "constraints": [
-         {
-          "id": "5f08-ce93-3945-85d6",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "1733-c3ec-092c-4824",
-          "name": "Giant Sentinel",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "6807-2491-7ee0-4c53"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 2,
-        "collective": true
-       },
-       {
-        "id": "07ab-9bae-2830-fb16",
-        "name": "Bone Break Dancer and Sylvan Blades",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 35
-         }
-        ],
-        "constraints": [
-         {
-          "id": "5814-1304-ccb4-5890",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "9b48-c586-9597-7f08",
-          "name": "Bone Break Dancer",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "b8e3-40d2-71f8-ed45"
-         },
-         {
-          "id": "49bb-7baf-cd15-e204",
-          "name": "Sylvan Blades",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "30a3-cac8-2271-1079"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 3,
-        "collective": true
-       }
-      ],
-      "selectionEntryGroups": [],
-      "entryLinks": [],
-      "sortIndex": 1,
-      "collective": true
-     },
-     {
-      "id": "5203-6d41-3c99-86d1",
-      "name": "Options",
-      "hidden": false,
-      "constraints": [],
-      "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "17fc-d441-9e6b-089b",
-        "name": "Big Brother",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 25
-         }
-        ],
-        "constraints": [
-         {
-          "id": "6ffe-c8d7-9192-c312",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "f4f8-154d-2aac-8503",
-          "name": "Big Brother",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "95a4-c2eb-cb7e-9769"
          }
         ],
         "categoryLinks": [],

@@ -764,7 +764,7 @@
       "id": "5a82-c533-d83f-2230",
       "field": "selections",
       "scope": "roster",
-      "value": 2,
+      "value": 1,
       "type": "max",
       "includeChildSelections": true,
       "includeChildForces": true,
@@ -2283,26 +2283,6 @@
     "collective": true
    },
    {
-    "id": "eb9a-8504-2928-ed76",
-    "name": "Supplement Giant",
-    "hidden": false,
-    "type": "selectionEntry",
-    "targetId": "52b4-32cb-3a4d-700e",
-    "categoryLinks": [
-     {
-      "id": "61bc-bdeb-5a29-8c7f",
-      "name": "Special",
-      "hidden": false,
-      "targetId": "c927-2a74-e681-257c",
-      "primary": true
-     }
-    ],
-    "constraints": [],
-    "modifiers": [],
-    "sortIndex": 15,
-    "collective": true
-   },
-   {
     "id": "307e-2abc-1b22-a4d7",
     "name": "Gnashers",
     "hidden": false,
@@ -2319,7 +2299,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 16,
+    "sortIndex": 15,
     "collective": true
    },
    {
@@ -2339,7 +2319,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 17,
+    "sortIndex": 16,
     "collective": true
    },
    {
@@ -2359,7 +2339,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 18,
+    "sortIndex": 17,
     "collective": true
    },
    {
@@ -2379,7 +2359,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 19,
+    "sortIndex": 18,
     "collective": true
    },
    {
@@ -2399,7 +2379,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 20,
+    "sortIndex": 19,
     "collective": true
    },
    {
@@ -2419,7 +2399,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 21,
+    "sortIndex": 20,
     "collective": true
    },
    {
@@ -2439,7 +2419,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 22,
+    "sortIndex": 21,
     "collective": true
    },
    {
@@ -2459,7 +2439,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 23,
+    "sortIndex": 22,
     "collective": true
    },
    {
@@ -2479,7 +2459,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 24,
+    "sortIndex": 23,
     "collective": true
    },
    {
@@ -2499,7 +2479,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 25,
+    "sortIndex": 24,
     "collective": true
    },
    {
@@ -2519,7 +2499,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 26,
+    "sortIndex": 25,
     "collective": true
    },
    {
@@ -2539,7 +2519,7 @@
     ],
     "constraints": [],
     "modifiers": [],
-    "sortIndex": 27,
+    "sortIndex": 26,
     "collective": true
    }
   ],
@@ -3313,7 +3293,7 @@
         "selectionEntries": [
          {
           "id": "35b8-1a5b-e332-a0d6",
-          "name": "Bow",
+          "name": "Bow (4+)",
           "type": "upgrade",
           "hidden": false,
           "costs": [
@@ -12784,6 +12764,17 @@
         "hidden": false,
         "constraints": [
          {
+          "id": "8d6f-304b-5960-fc0c",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1,
+          "type": "min",
+          "includeChildSelections": false,
+          "includeChildForces": false,
+          "shared": true,
+          "percentValue": false
+         },
+         {
           "id": "bf1c-6575-ab3f-334e",
           "field": "selections",
           "scope": "parent",
@@ -12951,6 +12942,7 @@
         ],
         "selectionEntryGroups": [],
         "entryLinks": [],
+        "defaultSelectionEntryId": "a3ff-6249-01bb-5e73",
         "sortIndex": 1,
         "collective": true
        },
@@ -13554,6 +13546,17 @@
         "hidden": false,
         "constraints": [
          {
+          "id": "578a-2f82-3359-8f05",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1,
+          "type": "min",
+          "includeChildSelections": false,
+          "includeChildForces": false,
+          "shared": true,
+          "percentValue": false
+         },
+         {
           "id": "6360-f771-cee9-67fa",
           "field": "selections",
           "scope": "parent",
@@ -13976,6 +13979,7 @@
         ],
         "selectionEntryGroups": [],
         "entryLinks": [],
+        "defaultSelectionEntryId": "90dd-df3e-17ea-a04c",
         "sortIndex": 1,
         "collective": true
        },
@@ -14722,7 +14726,7 @@
          },
          {
           "id": "b334-8912-cae9-7320",
-          "name": "Bow",
+          "name": "Bow (4+)",
           "type": "upgrade",
           "hidden": false,
           "costs": [
@@ -16120,6 +16124,17 @@
       "hidden": false,
       "constraints": [
        {
+        "id": "1a9f-2028-c6cc-72f2",
+        "field": "selections",
+        "scope": "parent",
+        "value": 1,
+        "type": "min",
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "shared": true,
+        "percentValue": false
+       },
+       {
         "id": "4612-b757-6bc8-27f4",
         "field": "selections",
         "scope": "parent",
@@ -16265,6 +16280,7 @@
       ],
       "selectionEntryGroups": [],
       "entryLinks": [],
+      "defaultSelectionEntryId": "9bc2-f23d-b13d-a1f9",
       "sortIndex": 1,
       "collective": true
      },
@@ -16322,484 +16338,6 @@
       "selectionEntryGroups": [],
       "entryLinks": [],
       "sortIndex": 2,
-      "collective": true
-     }
-    ],
-    "entryLinks": [],
-    "constraints": [],
-    "modifiers": [],
-    "collective": true
-   },
-   {
-    "id": "52b4-32cb-3a4d-700e",
-    "name": "Supplement Giant",
-    "type": "model",
-    "hidden": false,
-    "categoryLinks": [
-     {
-      "id": "83d2-6599-45ba-35cd",
-      "name": "Giant",
-      "hidden": true,
-      "targetId": "b7c4-81b3-d36f-d523",
-      "primary": false
-     }
-    ],
-    "costs": [
-     {
-      "name": "pts",
-      "typeId": "37a7-7901-5410-8a02",
-      "value": 310
-     }
-    ],
-    "profiles": [
-     {
-      "id": "1239-3cc9-6739-dce3",
-      "name": "Supplement Giant (Global)",
-      "typeId": "0bb5-fae5-f5a7-6b97",
-      "typeName": "Global",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Adv",
-        "typeId": "cf70-c87b-5e2d-5d97",
-        "$text": "7"
-       },
-       {
-        "name": "Mar",
-        "typeId": "3547-0c61-20c1-f727",
-        "$text": "14"
-       },
-       {
-        "name": "Dis",
-        "typeId": "9766-e5ef-1ccf-e1c4",
-        "$text": "8"
-       },
-       {
-        "name": "Rsr",
-        "typeId": "a67a-60ca-9e84-619d",
-        "$text": ""
-       },
-       {
-        "name": "Rules",
-        "typeId": "edbe-a5d2-8dda-794b",
-        "$text": "Giant See, Giant Do"
-       }
-      ]
-     },
-     {
-      "id": "a42b-c9c7-a7bd-3332",
-      "name": "Supplement Giant (Defensive)",
-      "typeId": "cc02-4c45-fc8e-9c20",
-      "typeName": "Defensive",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "HP",
-        "typeId": "d0d3-36c5-8a8d-cbb4",
-        "$text": "7"
-       },
-       {
-        "name": "Def",
-        "typeId": "1f95-9871-6b5e-cc35",
-        "$text": "3"
-       },
-       {
-        "name": "Res",
-        "typeId": "b725-eae8-7a15-b275",
-        "$text": "5"
-       },
-       {
-        "name": "Arm",
-        "typeId": "d15a-5931-24e5-be5d",
-        "$text": "1"
-       },
-       {
-        "name": "Aeg",
-        "typeId": "55dc-3dc1-b4f0-750e",
-        "$text": ""
-       },
-       {
-        "name": "Rules",
-        "typeId": "add5-e615-b82e-05dc",
-        "$text": ""
-       }
-      ]
-     },
-     {
-      "id": "9d21-ebd5-3fd7-bf86",
-      "name": "Giant",
-      "typeId": "34e0-cf8a-007f-a558",
-      "typeName": "Offensive",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Att",
-        "typeId": "977e-3683-45e2-07ca",
-        "$text": "5"
-       },
-       {
-        "name": "Off",
-        "typeId": "6b9c-9509-7450-6cf6",
-        "$text": "3"
-       },
-       {
-        "name": "Str",
-        "typeId": "cc5e-c56d-543f-0a69",
-        "$text": "5"
-       },
-       {
-        "name": "AP",
-        "typeId": "ca1e-4b8f-6554-3f2f",
-        "$text": "2"
-       },
-       {
-        "name": "Agi",
-        "typeId": "6518-cb29-b2b2-aa69",
-        "$text": "3"
-       },
-       {
-        "name": "Rules",
-        "typeId": "5e9b-1961-df0b-5ddd",
-        "$text": "Rage"
-       },
-       {
-        "name": "Tags",
-        "typeId": "ce24-79db-670a-0520",
-        "$text": ""
-       }
-      ]
-     },
-     {
-      "id": "ecc8-018e-249a-f44d",
-      "name": "Supplement Giant (Size)",
-      "typeId": "a7dd-61af-e630-732e",
-      "typeName": "Size",
-      "hidden": false,
-      "characteristics": [
-       {
-        "name": "Height",
-        "typeId": "069b-9ad6-e430-21e6",
-        "$text": ""
-       },
-       {
-        "name": "Type",
-        "typeId": "0fe4-f75c-b1c3-dc9a",
-        "$text": ""
-       },
-       {
-        "name": "Base",
-        "typeId": "0a68-c69a-774f-d74d",
-        "$text": "50×75"
-       },
-       {
-        "name": "Rarity",
-        "typeId": "0a01-69a6-f861-ae76",
-        "$text": ""
-       }
-      ]
-     }
-    ],
-    "infoLinks": [
-     {
-      "id": "6596-b31f-51e2-b774",
-      "name": "Giant See, Giant Do",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "9268-4cc1-730d-7364"
-     },
-     {
-      "id": "1d78-b874-8b3f-a6cd",
-      "name": "Rage",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "857c-9d17-1cb0-ca4a"
-     },
-     {
-      "id": "d953-aec6-0cf1-725e",
-      "name": "Hand Weapon",
-      "hidden": false,
-      "type": "profile",
-      "targetId": "c0bc-4ca5-811a-d067"
-     }
-    ],
-    "selectionEntries": [],
-    "selectionEntryGroups": [
-     {
-      "id": "b37b-d1f1-0363-c97e",
-      "name": "Options",
-      "hidden": false,
-      "constraints": [],
-      "modifiers": [],
-      "selectionEntries": [],
-      "selectionEntryGroups": [
-       {
-        "id": "7cef-f1f3-a88f-bf2a",
-        "name": "Weapon",
-        "hidden": false,
-        "constraints": [
-         {
-          "id": "e2fe-6af0-4abd-ee1e",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "min",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         },
-         {
-          "id": "d4be-8a8c-903e-5f47",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "selectionEntries": [
-         {
-          "id": "9ed2-7a0a-08bc-3068",
-          "name": "Beloved Mascots",
-          "type": "upgrade",
-          "hidden": false,
-          "costs": [
-           {
-            "name": "pts",
-            "typeId": "37a7-7901-5410-8a02",
-            "value": 0
-           }
-          ],
-          "constraints": [
-           {
-            "id": "5f17-9142-7535-5a79",
-            "field": "selections",
-            "scope": "parent",
-            "value": 1,
-            "type": "max",
-            "includeChildSelections": false,
-            "includeChildForces": false,
-            "shared": true,
-            "percentValue": false
-           }
-          ],
-          "modifiers": [],
-          "profiles": [],
-          "infoLinks": [
-           {
-            "id": "4a80-9b8d-506b-a81c",
-            "name": "Beloved Mascots",
-            "hidden": false,
-            "type": "profile",
-            "targetId": "2d31-7bcf-0b54-bc9b"
-           }
-          ],
-          "categoryLinks": [],
-          "selectionEntries": [],
-          "selectionEntryGroups": [],
-          "entryLinks": [],
-          "sortIndex": 1,
-          "collective": true
-         },
-         {
-          "id": "3e37-e811-f71e-f751",
-          "name": "Giant Club",
-          "type": "upgrade",
-          "hidden": false,
-          "costs": [
-           {
-            "name": "pts",
-            "typeId": "37a7-7901-5410-8a02",
-            "value": 0
-           }
-          ],
-          "constraints": [
-           {
-            "id": "8c5d-28f1-ba66-a105",
-            "field": "selections",
-            "scope": "parent",
-            "value": 1,
-            "type": "max",
-            "includeChildSelections": false,
-            "includeChildForces": false,
-            "shared": true,
-            "percentValue": false
-           }
-          ],
-          "modifiers": [],
-          "profiles": [],
-          "infoLinks": [
-           {
-            "id": "20a5-36cb-f01d-5fba",
-            "name": "Giant Club",
-            "hidden": false,
-            "type": "profile",
-            "targetId": "40a3-ab6e-04b7-63b5"
-           }
-          ],
-          "categoryLinks": [],
-          "selectionEntries": [],
-          "selectionEntryGroups": [],
-          "entryLinks": [],
-          "sortIndex": 2,
-          "collective": true
-         },
-         {
-          "id": "a7cd-0d69-7b92-a2e7",
-          "name": "Armed to the Teeth",
-          "type": "upgrade",
-          "hidden": false,
-          "costs": [
-           {
-            "name": "pts",
-            "typeId": "37a7-7901-5410-8a02",
-            "value": 25
-           }
-          ],
-          "constraints": [
-           {
-            "id": "7ba6-848c-a608-64c3",
-            "field": "selections",
-            "scope": "parent",
-            "value": 1,
-            "type": "max",
-            "includeChildSelections": false,
-            "includeChildForces": false,
-            "shared": true,
-            "percentValue": false
-           }
-          ],
-          "modifiers": [],
-          "profiles": [],
-          "infoLinks": [
-           {
-            "id": "ef66-6bd2-2445-ea69",
-            "name": "Armed to the Teeth",
-            "hidden": false,
-            "type": "profile",
-            "targetId": "f547-ef1e-2bdc-cd14"
-           }
-          ],
-          "categoryLinks": [],
-          "selectionEntries": [],
-          "selectionEntryGroups": [],
-          "entryLinks": [],
-          "sortIndex": 3,
-          "collective": true
-         },
-         {
-          "id": "e41a-4392-6ffd-888f",
-          "name": "Belly Flop",
-          "type": "upgrade",
-          "hidden": false,
-          "costs": [
-           {
-            "name": "pts",
-            "typeId": "37a7-7901-5410-8a02",
-            "value": 30
-           }
-          ],
-          "constraints": [
-           {
-            "id": "02e4-64b7-a126-26e5",
-            "field": "selections",
-            "scope": "parent",
-            "value": 1,
-            "type": "max",
-            "includeChildSelections": false,
-            "includeChildForces": false,
-            "shared": true,
-            "percentValue": false
-           }
-          ],
-          "modifiers": [],
-          "profiles": [],
-          "infoLinks": [
-           {
-            "id": "8da5-9410-3cb1-d075",
-            "name": "Belly Flop",
-            "hidden": false,
-            "type": "profile",
-            "targetId": "9e14-7c65-f3de-d05a"
-           }
-          ],
-          "categoryLinks": [],
-          "selectionEntries": [],
-          "selectionEntryGroups": [],
-          "entryLinks": [],
-          "sortIndex": 4,
-          "collective": true
-         }
-        ],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "defaultSelectionEntryId": "9ed2-7a0a-08bc-3068",
-        "sortIndex": 1,
-        "collective": true
-       },
-       {
-        "id": "bfbf-3ac2-acf9-db53",
-        "name": "Big Brother",
-        "hidden": false,
-        "constraints": [],
-        "modifiers": [],
-        "selectionEntries": [
-         {
-          "id": "168b-8ce7-5deb-d109",
-          "name": "Big Brother",
-          "type": "upgrade",
-          "hidden": false,
-          "costs": [
-           {
-            "name": "pts",
-            "typeId": "37a7-7901-5410-8a02",
-            "value": 25
-           }
-          ],
-          "constraints": [
-           {
-            "id": "6a2e-cdfc-e6eb-797f",
-            "field": "selections",
-            "scope": "parent",
-            "value": 1,
-            "type": "max",
-            "includeChildSelections": false,
-            "includeChildForces": false,
-            "shared": true,
-            "percentValue": false
-           }
-          ],
-          "modifiers": [],
-          "profiles": [],
-          "infoLinks": [
-           {
-            "id": "d8bf-1331-82ef-b5ef",
-            "name": "Big Brother",
-            "hidden": false,
-            "type": "profile",
-            "targetId": "dd57-4375-d736-21e6"
-           }
-          ],
-          "categoryLinks": [],
-          "selectionEntries": [],
-          "selectionEntryGroups": [],
-          "entryLinks": [],
-          "sortIndex": 1,
-          "collective": true
-         }
-        ],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 2,
-        "collective": true
-       }
-      ],
-      "entryLinks": [],
-      "sortIndex": 1,
       "collective": true
      }
     ],
@@ -22290,6 +21828,17 @@
         "hidden": false,
         "constraints": [
          {
+          "id": "32b8-42ba-76f1-03f6",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1,
+          "type": "min",
+          "includeChildSelections": false,
+          "includeChildForces": false,
+          "shared": true,
+          "percentValue": false
+         },
+         {
           "id": "4734-c3c3-5991-4dd2",
           "field": "selections",
           "scope": "parent",
@@ -22435,6 +21984,7 @@
         ],
         "selectionEntryGroups": [],
         "entryLinks": [],
+        "defaultSelectionEntryId": "729c-7a56-598c-a0d6",
         "sortIndex": 1,
         "collective": true
        }
@@ -24379,13 +23929,6 @@
       "name": "Goga Cauldron",
       "hidden": true,
       "targetId": "ea50-7ee8-7e65-e67e",
-      "primary": false
-     },
-     {
-      "id": "0c74-88f3-3d1d-1770",
-      "name": "⟨Dominant⟩",
-      "hidden": true,
-      "targetId": "dbb6-2b39-527b-73dd",
       "primary": false
      }
     ],

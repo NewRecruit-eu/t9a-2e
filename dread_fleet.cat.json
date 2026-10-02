@@ -129,7 +129,7 @@
    },
    {
     "id": "555c-ff73-93b6-65e0",
-    "name": "Chest of Envoloping Fog",
+    "name": "Chest of Enveloping Fog",
     "comment": "chest of envoloping fog_6c7honza",
     "hidden": true,
     "constraints": [
@@ -9616,7 +9616,217 @@
          }
         ],
         "selectionEntries": [],
-        "selectionEntryGroups": [],
+        "selectionEntryGroups": [
+         {
+          "id": "180d-04fb-f3dc-340b",
+          "name": "Spells",
+          "hidden": false,
+          "constraints": [
+           {
+            "id": "6e28-e878-9d8d-880a",
+            "field": "selections",
+            "scope": "parent",
+            "value": 2,
+            "type": "min",
+            "includeChildSelections": false,
+            "includeChildForces": false,
+            "shared": true,
+            "percentValue": false
+           },
+           {
+            "id": "75ae-02ae-a042-a36c",
+            "field": "selections",
+            "scope": "parent",
+            "value": 2,
+            "type": "max",
+            "includeChildSelections": false,
+            "includeChildForces": false,
+            "shared": true,
+            "percentValue": false
+           }
+          ],
+          "modifiers": [],
+          "selectionEntries": [
+           {
+            "id": "7d0c-8e8d-0fc9-ff2b",
+            "name": "Fate's Judgement",
+            "type": "upgrade",
+            "hidden": false,
+            "costs": [
+             {
+              "name": "pts",
+              "typeId": "37a7-7901-5410-8a02",
+              "value": 0
+             }
+            ],
+            "constraints": [
+             {
+              "id": "6359-c2fe-a6af-77e2",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1,
+              "type": "max",
+              "includeChildSelections": false,
+              "includeChildForces": false,
+              "shared": true,
+              "percentValue": false
+             }
+            ],
+            "modifiers": [],
+            "profiles": [],
+            "infoLinks": [
+             {
+              "id": "07b3-1df1-0b77-11b4",
+              "name": "Fate's Judgement",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "bc3c-151e-c14b-fc7f",
+              "modifiers": []
+             }
+            ],
+            "categoryLinks": [],
+            "entryLinks": [],
+            "selectionEntryGroups": [],
+            "sortIndex": 1,
+            "collective": true
+           },
+           {
+            "id": "12a5-7318-3147-86f7",
+            "name": "Chilling Howl",
+            "type": "upgrade",
+            "hidden": false,
+            "costs": [
+             {
+              "name": "pts",
+              "typeId": "37a7-7901-5410-8a02",
+              "value": 0
+             }
+            ],
+            "constraints": [
+             {
+              "id": "0199-ab75-fdc2-7ac8",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1,
+              "type": "max",
+              "includeChildSelections": false,
+              "includeChildForces": false,
+              "shared": true,
+              "percentValue": false
+             }
+            ],
+            "modifiers": [],
+            "profiles": [],
+            "infoLinks": [
+             {
+              "id": "ca1f-27f1-7562-9c0a",
+              "name": "Chilling Howl",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "32c7-cb3f-e973-764b",
+              "modifiers": []
+             }
+            ],
+            "categoryLinks": [],
+            "entryLinks": [],
+            "selectionEntryGroups": [],
+            "sortIndex": 2,
+            "collective": true
+           },
+           {
+            "id": "3a18-f75c-487c-477f",
+            "name": "Will-o'-the-Wisp",
+            "type": "upgrade",
+            "hidden": false,
+            "costs": [
+             {
+              "name": "pts",
+              "typeId": "37a7-7901-5410-8a02",
+              "value": 0
+             }
+            ],
+            "constraints": [
+             {
+              "id": "9a49-9328-8b34-19c0",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1,
+              "type": "max",
+              "includeChildSelections": false,
+              "includeChildForces": false,
+              "shared": true,
+              "percentValue": false
+             }
+            ],
+            "modifiers": [],
+            "profiles": [],
+            "infoLinks": [
+             {
+              "id": "8c95-08e4-321f-6dd9",
+              "name": "Will-o'-the-Wisp",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "c9e7-f532-53f3-17a2",
+              "modifiers": []
+             }
+            ],
+            "categoryLinks": [],
+            "entryLinks": [],
+            "selectionEntryGroups": [],
+            "sortIndex": 3,
+            "collective": true
+           },
+           {
+            "id": "fbdb-2c1a-07c7-11ab",
+            "name": "Tempest of the Storm Witch",
+            "type": "upgrade",
+            "hidden": false,
+            "costs": [
+             {
+              "name": "pts",
+              "typeId": "37a7-7901-5410-8a02",
+              "value": 0
+             }
+            ],
+            "constraints": [
+             {
+              "id": "c9e4-9f0d-786a-921e",
+              "field": "selections",
+              "scope": "parent",
+              "value": 1,
+              "type": "max",
+              "includeChildSelections": false,
+              "includeChildForces": false,
+              "shared": true,
+              "percentValue": false
+             }
+            ],
+            "modifiers": [],
+            "profiles": [],
+            "infoLinks": [
+             {
+              "id": "38de-dd1a-f3c5-0cf5",
+              "name": "Tempest of the Storm Witch",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "ec31-7767-31f6-4d50",
+              "modifiers": []
+             }
+            ],
+            "categoryLinks": [],
+            "entryLinks": [],
+            "selectionEntryGroups": [],
+            "sortIndex": 4,
+            "collective": true
+           }
+          ],
+          "entryLinks": [],
+          "selectionEntryGroups": [],
+          "defaultSelectionEntryId": "7d0c-8e8d-0fc9-ff2b",
+          "sortIndex": 1,
+          "collective": true
+         }
+        ],
         "entryLinks": [],
         "sortIndex": 1,
         "collective": true
@@ -10612,7 +10822,46 @@
       "percentValue": false
      }
     ],
-    "modifiers": [],
+    "modifiers": [
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "d368-25fc-557f-b395",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     },
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "08d4-9d2e-1849-0df9",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     }
+    ],
     "profiles": [],
     "infoLinks": [
      {
@@ -10635,6 +10884,7 @@
     "selectionEntries": [],
     "selectionEntryGroups": [],
     "entryLinks": [],
+    "comment": "restriction: Cannot be taken with Mount. Cannot be taken with Thunder Riders.",
     "collective": true
    },
    {
@@ -10710,7 +10960,7 @@
    },
    {
     "id": "da71-9f4b-18f2-99ce",
-    "name": "Chest of Envoloping Fog",
+    "name": "Chest of Enveloping Fog",
     "type": "upgrade",
     "hidden": false,
     "costs": [
@@ -10733,13 +10983,41 @@
       "percentValue": false
      }
     ],
-    "modifiers": [],
+    "modifiers": [
+     {
+      "type": "set",
+      "field": "hidden",
+      "value": true,
+      "conditions": [
+       {
+        "type": "atLeast",
+        "value": 1,
+        "field": "selections",
+        "scope": "root-entry-self",
+        "childId": "d368-25fc-557f-b395",
+        "shared": true,
+        "includeChildSelections": true,
+        "includeChildForces": false,
+        "percentValue": false
+       }
+      ],
+      "conditionGroups": []
+     }
+    ],
     "profiles": [],
-    "infoLinks": [],
+    "infoLinks": [
+     {
+      "id": "a5d7-0237-3210-02ce",
+      "name": "Chest of Enveloping Fog",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "17d1-e4ba-afe9-bd3c"
+     }
+    ],
     "categoryLinks": [
      {
       "id": "f276-9953-b558-2d19",
-      "name": "Chest of Envoloping Fog",
+      "name": "Chest of Enveloping Fog",
       "hidden": true,
       "targetId": "555c-ff73-93b6-65e0",
       "primary": false
@@ -10748,14 +11026,7 @@
     "selectionEntries": [],
     "selectionEntryGroups": [],
     "entryLinks": [],
-    "rules": [
-     {
-      "id": "8482-0979-ec9c-460d",
-      "name": "Chest of Envoloping Fog",
-      "hidden": false,
-      "description": "One use only. The owner may activate this Artefact at the end of any friendly Movement Phase and place a Water Terrain Feature in contact with the bearer and at least 1\" away from any enemy units and other Terrain Features. The Water Terrain must fit within a circle with a diameter of 6\"."
-     }
-    ],
+    "comment": "restriction: Cannot be taken with Mount.",
     "collective": true
    },
    {
@@ -12297,7 +12568,7 @@
      },
      {
       "id": "d935-2e63-4dab-2dd0",
-      "name": "Chest of Envoloping Fog",
+      "name": "Chest of Enveloping Fog",
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "da71-9f4b-18f2-99ce",

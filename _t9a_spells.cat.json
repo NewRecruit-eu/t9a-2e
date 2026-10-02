@@ -8385,6 +8385,48 @@
       "entryLinks": [],
       "sortIndex": 18,
       "collective": true
+     },
+     {
+      "id": "821c-5380-05cb-782a",
+      "name": "Call of the War God",
+      "type": "upgrade",
+      "hidden": false,
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "37a7-7901-5410-8a02",
+        "value": 0
+       }
+      ],
+      "constraints": [
+       {
+        "id": "9478-6e89-2653-4062",
+        "field": "selections",
+        "scope": "parent",
+        "value": 1,
+        "type": "max",
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "shared": true,
+        "percentValue": false
+       }
+      ],
+      "modifiers": [],
+      "profiles": [],
+      "infoLinks": [
+       {
+        "id": "9f40-debd-9b4f-0dce",
+        "name": "Call of the War God",
+        "hidden": false,
+        "type": "profile",
+        "targetId": "9f72-4c1b-23f1-265f",
+        "modifiers": []
+       }
+      ],
+      "categoryLinks": [],
+      "entryLinks": [],
+      "sortIndex": 19,
+      "collective": true
      }
     ],
     "selectionEntryGroups": [],
@@ -15139,7 +15181,7 @@
      {
       "name": "Type",
       "typeId": "e78e-c5a2-3a7f-46a2",
-      "$text": "Hex"
+      "$text": "Augment"
      },
      {
       "name": "Duration",
@@ -15350,6 +15392,46 @@
       "name": "Description",
       "typeId": "4918-3dcd-6cc5-e85e",
       "$text": "The target may immediately perform a 12″ Magical Move and loses Scoring. {In addition, the target gains Coastal Predator.}"
+     },
+     {
+      "name": "Bound",
+      "typeId": "8114-69ca-4bf3-08ee",
+      "$text": "false"
+     }
+    ]
+   },
+   {
+    "id": "9f72-4c1b-23f1-265f",
+    "name": "Call of the War God",
+    "hidden": false,
+    "typeId": "31e0-fd79-dbe4-f7df",
+    "typeName": "Spell",
+    "group": "Hereditary",
+    "characteristics": [
+     {
+      "name": "Casting Value",
+      "typeId": "d07d-3f3e-392c-a4eb",
+      "$text": "6"
+     },
+     {
+      "name": "Range",
+      "typeId": "9f37-1ea7-146e-c23e",
+      "$text": "18\""
+     },
+     {
+      "name": "Type",
+      "typeId": "e78e-c5a2-3a7f-46a2",
+      "$text": "Augment, Focused"
+     },
+     {
+      "name": "Duration",
+      "typeId": "b9ee-ebf0-9ae6-9f46",
+      "$text": "1"
+     },
+     {
+      "name": "Description",
+      "typeId": "4918-3dcd-6cc5-e85e",
+      "$text": "This spell may only target Characters, Champions, and single model units. Choose a Model Part and a non-global characteristic (except Armour) of the target. Then repeat this process. Choose these characteristics prior to making a Casting Attempt. Each chosen model part gets +1 to each of its chosen characteristic up to a maximum of +1. {Your opponent cannot refuse Duels issued by the target.}"
      },
      {
       "name": "Bound",
