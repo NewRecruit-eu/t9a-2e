@@ -1339,6 +1339,82 @@
     ]
    },
    {
+    "id": "6bfb-ffc4-92d8-1fe4",
+    "name": "Number",
+    "comment": "ordo_sergeants_amount",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "5a51-fd36-5225-3e5a",
+      "field": "selections",
+      "scope": "roster",
+      "value": 30,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "5a51-fd36-5225-3e5a",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "a9a4-6ca4-6214-5f2d",
+    "name": "Number",
+    "comment": "hedge_knights_numbers",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "08ab-aa91-5651-9df4",
+      "field": "selections",
+      "scope": "roster",
+      "value": 15,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "08ab-aa91-5651-9df4",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
     "id": "5291-dae3-b167-f290",
     "name": "Enlisted Outlaws",
     "comment": "enlistedOutlaws",
@@ -1529,6 +1605,44 @@
     ]
    },
    {
+    "id": "85c7-13dd-fafa-5543",
+    "name": "Number",
+    "comment": "pegasus_knights_amount",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "32de-e1c7-dcaa-a9ef",
+      "field": "selections",
+      "scope": "roster",
+      "value": 12,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "32de-e1c7-dcaa-a9ef",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
     "id": "2066-8a17-d031-434d",
     "name": "Sacred Reliquary",
     "comment": "sacredReliquary",
@@ -1590,6 +1704,44 @@
       "type": "ceil",
       "value": -1,
       "field": "ccc7-385d-9585-fcb8",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "7e8a-7909-756e-8606",
+    "name": "Number",
+    "comment": "sky_heralds_amount",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "faca-0417-b82f-05d1",
+      "field": "selections",
+      "scope": "roster",
+      "value": 10,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "faca-0417-b82f-05d1",
       "conditions": [
        {
         "type": "instanceOf",
@@ -11638,7 +11790,15 @@
         "targetId": "c0bc-4ca5-811a-d067"
        }
       ],
-      "categoryLinks": [],
+      "categoryLinks": [
+       {
+        "id": "f48d-b8f8-8ea9-77cb",
+        "name": "Number",
+        "hidden": true,
+        "targetId": "6bfb-ffc4-92d8-1fe4",
+        "primary": false
+       }
+      ],
       "selectionEntries": [],
       "selectionEntryGroups": [
        {
@@ -12336,7 +12496,15 @@
         "targetId": "c0bc-4ca5-811a-d067"
        }
       ],
-      "categoryLinks": [],
+      "categoryLinks": [
+       {
+        "id": "2a71-b84e-fde5-3701",
+        "name": "Number",
+        "hidden": true,
+        "targetId": "a9a4-6ca4-6214-5f2d",
+        "primary": false
+       }
+      ],
       "selectionEntries": [],
       "selectionEntryGroups": [],
       "entryLinks": [],
@@ -16405,7 +16573,15 @@
         "targetId": "c0bc-4ca5-811a-d067"
        }
       ],
-      "categoryLinks": [],
+      "categoryLinks": [
+       {
+        "id": "e268-d20f-1563-5ce2",
+        "name": "Number",
+        "hidden": true,
+        "targetId": "85c7-13dd-fafa-5543",
+        "primary": false
+       }
+      ],
       "selectionEntries": [],
       "selectionEntryGroups": [],
       "entryLinks": [],
@@ -17755,7 +17931,15 @@
         "targetId": "c0bc-4ca5-811a-d067"
        }
       ],
-      "categoryLinks": [],
+      "categoryLinks": [
+       {
+        "id": "6373-1799-bcef-a789",
+        "name": "Number",
+        "hidden": true,
+        "targetId": "7e8a-7909-756e-8606",
+        "primary": false
+       }
+      ],
       "selectionEntries": [],
       "selectionEntryGroups": [
        {

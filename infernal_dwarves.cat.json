@@ -989,6 +989,44 @@
     ]
    },
    {
+    "id": "c677-77bf-8554-1e44",
+    "name": "Number",
+    "comment": "kadim_incarnates_amount",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "35ca-3637-7296-2c91",
+      "field": "selections",
+      "scope": "roster",
+      "value": 12,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "35ca-3637-7296-2c91",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
     "id": "8003-49c0-a807-658c",
     "name": "Kadim Chariot",
     "comment": "kadimChariot",
@@ -1126,6 +1164,44 @@
       "type": "ceil",
       "value": -1,
       "field": "66f6-e084-2852-265a",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "8258-b8c4-7af0-c92a",
+    "name": "Number",
+    "comment": "taurukh_anointed_amount",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "7302-b4ec-1f66-9c3a",
+      "field": "selections",
+      "scope": "roster",
+      "value": 12,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "7302-b4ec-1f66-9c3a",
       "conditions": [
        {
         "type": "instanceOf",
@@ -14158,7 +14234,15 @@
         "targetId": "c0bc-4ca5-811a-d067"
        }
       ],
-      "categoryLinks": [],
+      "categoryLinks": [
+       {
+        "id": "dd58-5fd5-0239-da72",
+        "name": "Number",
+        "hidden": true,
+        "targetId": "c677-77bf-8554-1e44",
+        "primary": false
+       }
+      ],
       "selectionEntries": [],
       "selectionEntryGroups": [],
       "entryLinks": [],
@@ -15720,7 +15804,15 @@
         "targetId": "c0bc-4ca5-811a-d067"
        }
       ],
-      "categoryLinks": [],
+      "categoryLinks": [
+       {
+        "id": "ca7b-0ecd-e449-8527",
+        "name": "Number",
+        "hidden": true,
+        "targetId": "8258-b8c4-7af0-c92a",
+        "primary": false
+       }
+      ],
       "selectionEntries": [],
       "selectionEntryGroups": [
        {

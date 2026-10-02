@@ -1940,10 +1940,146 @@
     ]
    },
    {
+    "id": "e396-a01e-7013-6de2",
+    "name": "Number",
+    "comment": "imp_amount",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "672f-bd01-af3a-88b6",
+      "field": "selections",
+      "scope": "roster",
+      "value": -1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "type": "set",
+      "field": "672f-bd01-af3a-88b6",
+      "value": 40,
+      "conditions": [],
+      "conditionGroups": [
+       {
+        "type": "or",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "primary-catalogue",
+          "childId": "2b5b-09a7-0e0f-b87c",
+          "shared": true
+         },
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "primary-catalogue",
+          "childId": "4a76-f405-c8d0-8e4c",
+          "shared": true
+         }
+        ],
+        "conditionGroups": []
+       }
+      ]
+     },
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "672f-bd01-af3a-88b6",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
     "id": "6e09-e999-e27d-b716",
     "name": "Champion",
     "comment": "imp_champion",
     "hidden": true
+   },
+   {
+    "id": "fa4a-4142-83be-2f20",
+    "name": "Number",
+    "comment": "eidolon_amount",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "65c7-ccd9-908e-6b40",
+      "field": "selections",
+      "scope": "roster",
+      "value": -1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "type": "set",
+      "field": "65c7-ccd9-908e-6b40",
+      "value": 18,
+      "conditions": [],
+      "conditionGroups": [
+       {
+        "type": "or",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "primary-catalogue",
+          "childId": "2b5b-09a7-0e0f-b87c",
+          "shared": true
+         },
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "primary-catalogue",
+          "childId": "4a76-f405-c8d0-8e4c",
+          "shared": true
+         }
+        ],
+        "conditionGroups": []
+       }
+      ]
+     },
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "65c7-ccd9-908e-6b40",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
    },
    {
     "id": "201b-e836-f915-da51",
@@ -4036,17 +4172,39 @@
       "type": "set",
       "field": "9e7c-8519-7d1e-5f35",
       "value": 2,
-      "conditions": [
+      "conditions": [],
+      "conditionGroups": [
        {
-        "type": "instanceOf",
-        "value": 1,
-        "field": "selections",
-        "scope": "primary-catalogue",
-        "childId": "6cb9-ed0e-fd85-e972",
-        "shared": true
+        "type": "or",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "primary-catalogue",
+          "childId": "6cb9-ed0e-fd85-e972",
+          "shared": true
+         },
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "primary-catalogue",
+          "childId": "0672-e20b-d0df-ff1f",
+          "shared": true
+         },
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "primary-catalogue",
+          "childId": "a335-5ff9-8b47-c5a8",
+          "shared": true
+         }
+        ],
+        "conditionGroups": []
        }
-      ],
-      "conditionGroups": []
+      ]
      },
      {
       "parentKey": "modifiers",

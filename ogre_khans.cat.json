@@ -12431,57 +12431,22 @@
           "modifiers": [
            {
             "type": "set",
-            "field": "hidden",
-            "value": true,
-            "conditions": [],
-            "conditionGroups": [
+            "field": "6935-f2b5-d66a-c90b",
+            "value": 0,
+            "conditions": [
              {
-              "type": "or",
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 7,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "8e32-9693-6afc-d440",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": false,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": [
-               {
-                "type": "and",
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 6,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "8e32-9693-6afc-d440",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": false,
-                  "percentValue": false
-                 },
-                 {
-                  "type": "atMost",
-                  "value": 0,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "8e32-9693-6afc-d440",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": false,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               }
-              ]
+              "type": "atLeast",
+              "value": 7,
+              "field": "selections",
+              "scope": "root-entry-self",
+              "childId": "4a9a-d369-c6a4-e3bc",
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": false,
+              "percentValue": false
              }
-            ]
+            ],
+            "conditionGroups": []
            }
           ],
           "profiles": [],

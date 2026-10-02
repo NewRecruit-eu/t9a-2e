@@ -741,6 +741,44 @@
     ]
    },
    {
+    "id": "1a94-43cf-9454-86f8",
+    "name": "Number",
+    "comment": "imps_amount",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "7118-ae66-cbeb-057a",
+      "field": "selections",
+      "scope": "roster",
+      "value": 40,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "7118-ae66-cbeb-057a",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
     "id": "6c3d-6774-9ef0-6b22",
     "name": "Covetous Camouflage",
     "comment": "covetous_succubi_imps",
@@ -954,6 +992,44 @@
       "type": "ceil",
       "value": -1,
       "field": "2f08-186b-994e-a26e",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "f952-8780-6096-b6ce",
+    "name": "Number",
+    "comment": "eidolons_amount",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "bcce-db48-4520-6fc8",
+      "field": "selections",
+      "scope": "roster",
+      "value": 18,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "bcce-db48-4520-6fc8",
       "conditions": [
        {
         "type": "instanceOf",
@@ -25022,7 +25098,15 @@
         "targetId": "c0bc-4ca5-811a-d067"
        }
       ],
-      "categoryLinks": [],
+      "categoryLinks": [
+       {
+        "id": "e6eb-ab65-13c3-9669",
+        "name": "Number",
+        "hidden": true,
+        "targetId": "1a94-43cf-9454-86f8",
+        "primary": false
+       }
+      ],
       "selectionEntries": [],
       "selectionEntryGroups": [
        {
@@ -25973,7 +26057,15 @@
         "targetId": "c0bc-4ca5-811a-d067"
        }
       ],
-      "categoryLinks": [],
+      "categoryLinks": [
+       {
+        "id": "aeb8-2ae7-c8e0-ff18",
+        "name": "Number",
+        "hidden": true,
+        "targetId": "1a94-43cf-9454-86f8",
+        "primary": false
+       }
+      ],
       "selectionEntries": [],
       "selectionEntryGroups": [
        {
@@ -26952,7 +27044,15 @@
         "targetId": "c0bc-4ca5-811a-d067"
        }
       ],
-      "categoryLinks": [],
+      "categoryLinks": [
+       {
+        "id": "e087-5290-52f5-a1ae",
+        "name": "Number",
+        "hidden": true,
+        "targetId": "1a94-43cf-9454-86f8",
+        "primary": false
+       }
+      ],
       "selectionEntries": [],
       "selectionEntryGroups": [
        {
@@ -38059,7 +38159,15 @@
         "targetId": "c0bc-4ca5-811a-d067"
        }
       ],
-      "categoryLinks": [],
+      "categoryLinks": [
+       {
+        "id": "dcfc-bfe0-b8fa-9fdd",
+        "name": "Number",
+        "hidden": true,
+        "targetId": "f952-8780-6096-b6ce",
+        "primary": false
+       }
+      ],
       "selectionEntries": [],
       "selectionEntryGroups": [
        {
@@ -38875,7 +38983,15 @@
         "targetId": "c0bc-4ca5-811a-d067"
        }
       ],
-      "categoryLinks": [],
+      "categoryLinks": [
+       {
+        "id": "babe-89f2-6494-a88a",
+        "name": "Number",
+        "hidden": true,
+        "targetId": "f952-8780-6096-b6ce",
+        "primary": false
+       }
+      ],
       "selectionEntries": [],
       "selectionEntryGroups": [
        {

@@ -679,6 +679,44 @@
     ]
    },
    {
+    "id": "18f0-59a0-4eb7-34d9",
+    "name": "Number",
+    "comment": "thunder_riders_amount",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "18c1-319f-0dd7-484b",
+      "field": "selections",
+      "scope": "roster",
+      "value": 8,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "18c1-319f-0dd7-484b",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
     "id": "32c3-a628-217f-df38",
     "name": "Avatar of Harag",
     "comment": "avatarOfHarag",
@@ -816,6 +854,44 @@
       "type": "ceil",
       "value": -1,
       "field": "dec2-b4b3-fd4c-0502",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "ead2-84c2-03ba-3717",
+    "name": "Number",
+    "comment": "tritons_amount",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "989d-9648-e6f0-489d",
+      "field": "selections",
+      "scope": "roster",
+      "value": 6,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "989d-9648-e6f0-489d",
       "conditions": [
        {
         "type": "instanceOf",
@@ -7879,7 +7955,15 @@
         "targetId": "c0bc-4ca5-811a-d067"
        }
       ],
-      "categoryLinks": [],
+      "categoryLinks": [
+       {
+        "id": "6286-81de-f35f-9851",
+        "name": "Number",
+        "hidden": true,
+        "targetId": "18f0-59a0-4eb7-34d9",
+        "primary": false
+       }
+      ],
       "selectionEntries": [],
       "selectionEntryGroups": [],
       "entryLinks": [],
@@ -9442,7 +9526,15 @@
         "targetId": "c0bc-4ca5-811a-d067"
        }
       ],
-      "categoryLinks": [],
+      "categoryLinks": [
+       {
+        "id": "5d14-72e1-8077-4b0a",
+        "name": "Number",
+        "hidden": true,
+        "targetId": "ead2-84c2-03ba-3717",
+        "primary": false
+       }
+      ],
       "selectionEntries": [],
       "selectionEntryGroups": [
        {

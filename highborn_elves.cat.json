@@ -1277,6 +1277,44 @@
     ]
    },
    {
+    "id": "29dc-f18a-7223-ee24",
+    "name": "Number",
+    "comment": "queen_guard_amount",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "da64-8c75-4605-39a2",
+      "field": "selections",
+      "scope": "roster",
+      "value": 20,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "da64-8c75-4605-39a2",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
     "id": "6916-c517-c1e6-1f8b",
     "name": "Grey Watchers",
     "comment": "grey_watchers",
@@ -16140,7 +16178,15 @@
         "targetId": "c0bc-4ca5-811a-d067"
        }
       ],
-      "categoryLinks": [],
+      "categoryLinks": [
+       {
+        "id": "88c9-6555-7cf4-8b36",
+        "name": "Number",
+        "hidden": true,
+        "targetId": "29dc-f18a-7223-ee24",
+        "primary": false
+       }
+      ],
       "selectionEntries": [],
       "selectionEntryGroups": [
        {

@@ -432,6 +432,44 @@
     ]
    },
    {
+    "id": "214d-8f94-bec1-14ae",
+    "name": "Brute Disciples",
+    "comment": "brute_disciples_amount",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "c223-f231-b408-e3a6",
+      "field": "selections",
+      "scope": "roster",
+      "value": 24,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "c223-f231-b408-e3a6",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
     "id": "8310-1adc-b7c6-9e0d",
     "name": "Giant Plague Rats",
     "comment": "giantPlagueRats",
@@ -4350,7 +4388,15 @@
         "targetId": "c0bc-4ca5-811a-d067"
        }
       ],
-      "categoryLinks": [],
+      "categoryLinks": [
+       {
+        "id": "5a96-1c2a-774e-200b",
+        "name": "Brute Disciples",
+        "hidden": true,
+        "targetId": "214d-8f94-bec1-14ae",
+        "primary": false
+       }
+      ],
       "selectionEntries": [],
       "selectionEntryGroups": [],
       "entryLinks": [],
@@ -5994,57 +6040,22 @@
           "modifiers": [
            {
             "type": "set",
-            "field": "hidden",
-            "value": true,
-            "conditions": [],
-            "conditionGroups": [
+            "field": "dbc6-488a-3951-aa0a",
+            "value": 0,
+            "conditions": [
              {
-              "type": "or",
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 16,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "2a48-87a6-65ea-ad92",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": false,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": [
-               {
-                "type": "and",
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 15,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "2a48-87a6-65ea-ad92",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": false,
-                  "percentValue": false
-                 },
-                 {
-                  "type": "atMost",
-                  "value": 0,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "2a48-87a6-65ea-ad92",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": false,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               }
-              ]
+              "type": "atLeast",
+              "value": 16,
+              "field": "selections",
+              "scope": "root-entry-self",
+              "childId": "9428-ea7a-4a65-8dc7",
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": false,
+              "percentValue": false
              }
-            ]
+            ],
+            "conditionGroups": []
            }
           ],
           "profiles": [],
@@ -7718,57 +7729,22 @@
           "modifiers": [
            {
             "type": "set",
-            "field": "hidden",
-            "value": true,
-            "conditions": [],
-            "conditionGroups": [
+            "field": "da14-5bc6-c845-131a",
+            "value": 0,
+            "conditions": [
              {
-              "type": "or",
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 16,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "bf51-f6f2-874c-c3a4",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": false,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": [
-               {
-                "type": "and",
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 15,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "bf51-f6f2-874c-c3a4",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": false,
-                  "percentValue": false
-                 },
-                 {
-                  "type": "atMost",
-                  "value": 0,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "bf51-f6f2-874c-c3a4",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": false,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               }
-              ]
+              "type": "atLeast",
+              "value": 16,
+              "field": "selections",
+              "scope": "root-entry-self",
+              "childId": "680d-683e-c44b-5ec3",
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": false,
+              "percentValue": false
              }
-            ]
+            ],
+            "conditionGroups": []
            }
           ],
           "profiles": [],

@@ -1213,6 +1213,44 @@
     ]
    },
    {
+    "id": "2c22-0af5-5d1b-4f79",
+    "name": "Number",
+    "comment": "Yabusame_numbers",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "7138-08c2-f882-a95a",
+      "field": "selections",
+      "scope": "roster",
+      "value": 20,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "7138-08c2-f882-a95a",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
     "id": "8b56-7d1f-f839-ae8c",
     "name": "Great Guard",
     "comment": "greatGuard",
@@ -13615,7 +13653,15 @@
         "targetId": "c0bc-4ca5-811a-d067"
        }
       ],
-      "categoryLinks": [],
+      "categoryLinks": [
+       {
+        "id": "8411-cabd-600c-e785",
+        "name": "Number",
+        "hidden": true,
+        "targetId": "2c22-0af5-5d1b-4f79",
+        "primary": false
+       }
+      ],
       "selectionEntries": [],
       "selectionEntryGroups": [
        {

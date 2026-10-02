@@ -668,6 +668,44 @@
     ]
    },
    {
+    "id": "fc97-c93c-3cb3-7093",
+    "name": "Number",
+    "comment": "warriors_count",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "59cd-ca28-3090-cca3",
+      "field": "selections",
+      "scope": "roster",
+      "value": 22,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "59cd-ca28-3090-cca3",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
     "id": "f88b-8b3d-23d9-ae6d",
     "name": "Wargs",
     "comment": "wargs",
@@ -1460,94 +1498,6 @@
         "entryLinks": [],
         "sortIndex": 1,
         "collective": true
-       },
-       {
-        "id": "8b74-e1b9-96f5-8d0c",
-        "name": "Wasteland Behemoth",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 345
-         }
-        ],
-        "constraints": [
-         {
-          "id": "3d8f-4ef0-8b0e-8ef3",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [
-         {
-          "id": "6279-0cda-f599-2a6b",
-          "name": "Wasteland Behemoth",
-          "typeId": "34e0-cf8a-007f-a558",
-          "typeName": "Offensive",
-          "hidden": false,
-          "characteristics": [
-           {
-            "name": "Att",
-            "typeId": "977e-3683-45e2-07ca",
-            "$text": "6"
-           },
-           {
-            "name": "Off",
-            "typeId": "6b9c-9509-7450-6cf6",
-            "$text": "3"
-           },
-           {
-            "name": "Str",
-            "typeId": "cc5e-c56d-543f-0a69",
-            "$text": "6"
-           },
-           {
-            "name": "AP",
-            "typeId": "ca1e-4b8f-6554-3f2f",
-            "$text": "3"
-           },
-           {
-            "name": "Agi",
-            "typeId": "6518-cb29-b2b2-aa69",
-            "$text": "3"
-           },
-           {
-            "name": "Rules",
-            "typeId": "5e9b-1961-df0b-5ddd",
-            "$text": "Harnessed"
-           },
-           {
-            "name": "Tags",
-            "typeId": "ce24-79db-670a-0520",
-            "$text": ""
-           }
-          ]
-         }
-        ],
-        "infoLinks": [
-         {
-          "id": "b2c3-8f76-2553-161e",
-          "name": "Harnessed",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "2f6c-46a4-e4ee-af98"
-         }
-        ],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 2,
-        "collective": true
        }
       ],
       "selectionEntryGroups": [],
@@ -1580,7 +1530,7 @@
         ],
         "modifiers": [],
         "categoryLinks": [],
-        "sortIndex": 3,
+        "sortIndex": 2,
         "collective": true
        },
        {
@@ -1611,7 +1561,7 @@
         ],
         "modifiers": [],
         "categoryLinks": [],
-        "sortIndex": 4,
+        "sortIndex": 3,
         "collective": true
        },
        {
@@ -1642,7 +1592,7 @@
         ],
         "modifiers": [],
         "categoryLinks": [],
-        "sortIndex": 5,
+        "sortIndex": 4,
         "collective": true
        },
        {
@@ -1661,6 +1611,37 @@
         "constraints": [
          {
           "id": "c307-bca9-f925-66fe",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1,
+          "type": "max",
+          "includeChildSelections": false,
+          "includeChildForces": false,
+          "shared": true,
+          "percentValue": false
+         }
+        ],
+        "modifiers": [],
+        "categoryLinks": [],
+        "sortIndex": 5,
+        "collective": true
+       },
+       {
+        "id": "8b74-e1b9-96f5-8d0c",
+        "name": "Wasteland Behemoth",
+        "hidden": false,
+        "type": "selectionEntry",
+        "targetId": "48b4-adc0-4193-d48d",
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "37a7-7901-5410-8a02",
+          "value": 345
+         }
+        ],
+        "constraints": [
+         {
+          "id": "3d8f-4ef0-8b0e-8ef3",
           "field": "selections",
           "scope": "parent",
           "value": 1,
@@ -8464,7 +8445,15 @@
         "targetId": "c0bc-4ca5-811a-d067"
        }
       ],
-      "categoryLinks": [],
+      "categoryLinks": [
+       {
+        "id": "d386-e631-ce70-fc71",
+        "name": "Number",
+        "hidden": true,
+        "targetId": "fc97-c93c-3cb3-7093",
+        "primary": false
+       }
+      ],
       "selectionEntries": [],
       "selectionEntryGroups": [
        {
@@ -8839,7 +8828,7 @@
         "value": 12,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "6cbb-ea0f-a9a1-f32c",
+        "childId": "fc97-c93c-3cb3-7093",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -8858,7 +8847,7 @@
         "value": 12,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "6cbb-ea0f-a9a1-f32c",
+        "childId": "fc97-c93c-3cb3-7093",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -11468,6 +11457,297 @@
     ],
     "selectionEntries": [],
     "selectionEntryGroups": [],
+    "entryLinks": [],
+    "constraints": [],
+    "modifiers": [],
+    "collective": true
+   },
+   {
+    "id": "48b4-adc0-4193-d48d",
+    "name": "Wasteland Behemoth",
+    "type": "mount",
+    "hidden": false,
+    "categoryLinks": [
+     {
+      "id": "bd65-1869-9343-81b7",
+      "name": "Mount",
+      "hidden": true,
+      "targetId": "d368-25fc-557f-b395",
+      "primary": false
+     },
+     {
+      "id": "0d47-946f-1e8c-4ae6",
+      "name": "Gigantic Size",
+      "hidden": true,
+      "targetId": "5912-3e17-93bc-d695",
+      "primary": false
+     },
+     {
+      "id": "361f-cff0-2d5a-74c7",
+      "name": "Non Infantry Mount",
+      "hidden": true,
+      "targetId": "ae9c-ed75-27ff-977c",
+      "primary": false
+     },
+     {
+      "id": "1a31-3516-77de-5491",
+      "name": "Wasteland Behemoth",
+      "hidden": true,
+      "targetId": "d72c-c8a8-52bc-48f5",
+      "primary": false
+     },
+     {
+      "id": "f40c-f2f5-bf05-0ce6",
+      "name": "Beast",
+      "hidden": true,
+      "targetId": "2398-273e-d6b8-4522",
+      "primary": false
+     },
+     {
+      "id": "2fc6-b11a-531b-bcce",
+      "name": "Legendary Beasts",
+      "hidden": false,
+      "targetId": "a902-edca-9c89-146b",
+      "primary": false
+     },
+     {
+      "id": "6bb0-8459-609d-9dce",
+      "name": "⟨mount⟩",
+      "hidden": true,
+      "targetId": "ecee-fbfd-a9f0-7550",
+      "primary": false
+     }
+    ],
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 0
+     }
+    ],
+    "profiles": [
+     {
+      "id": "88f4-13dc-e026-f020",
+      "name": "Wasteland Behemoth (Global)",
+      "typeId": "0bb5-fae5-f5a7-6b97",
+      "typeName": "Global",
+      "hidden": false,
+      "characteristics": [
+       {
+        "name": "Adv",
+        "typeId": "cf70-c87b-5e2d-5d97",
+        "$text": "7"
+       },
+       {
+        "name": "Mar",
+        "typeId": "3547-0c61-20c1-f727",
+        "$text": "14"
+       },
+       {
+        "name": "Dis",
+        "typeId": "9766-e5ef-1ccf-e1c4",
+        "$text": "C"
+       },
+       {
+        "name": "Rsr",
+        "typeId": "a67a-60ca-9e84-619d",
+        "$text": ""
+       },
+       {
+        "name": "Rules",
+        "typeId": "edbe-a5d2-8dda-794b",
+        "$text": ""
+       }
+      ]
+     },
+     {
+      "id": "5ff8-2b91-cc6e-8062",
+      "name": "Wasteland Behemoth (Defensive)",
+      "typeId": "cc02-4c45-fc8e-9c20",
+      "typeName": "Defensive",
+      "hidden": false,
+      "characteristics": [
+       {
+        "name": "HP",
+        "typeId": "d0d3-36c5-8a8d-cbb4",
+        "$text": "7"
+       },
+       {
+        "name": "Def",
+        "typeId": "1f95-9871-6b5e-cc35",
+        "$text": "3"
+       },
+       {
+        "name": "Res",
+        "typeId": "b725-eae8-7a15-b275",
+        "$text": "6"
+       },
+       {
+        "name": "Arm",
+        "typeId": "d15a-5931-24e5-be5d",
+        "$text": "4"
+       },
+       {
+        "name": "Aeg",
+        "typeId": "55dc-3dc1-b4f0-750e",
+        "$text": ""
+       },
+       {
+        "name": "Rules",
+        "typeId": "add5-e615-b82e-05dc",
+        "$text": ""
+       }
+      ]
+     },
+     {
+      "id": "59c8-7aa1-a3c4-48d0",
+      "name": "Wasteland Behemoth",
+      "typeId": "34e0-cf8a-007f-a558",
+      "typeName": "Offensive",
+      "hidden": false,
+      "characteristics": [
+       {
+        "name": "Att",
+        "typeId": "977e-3683-45e2-07ca",
+        "$text": "6"
+       },
+       {
+        "name": "Off",
+        "typeId": "6b9c-9509-7450-6cf6",
+        "$text": "3"
+       },
+       {
+        "name": "Str",
+        "typeId": "cc5e-c56d-543f-0a69",
+        "$text": "6"
+       },
+       {
+        "name": "AP",
+        "typeId": "ca1e-4b8f-6554-3f2f",
+        "$text": "3"
+       },
+       {
+        "name": "Agi",
+        "typeId": "6518-cb29-b2b2-aa69",
+        "$text": "3"
+       },
+       {
+        "name": "Rules",
+        "typeId": "5e9b-1961-df0b-5ddd",
+        "$text": "Harnessed"
+       },
+       {
+        "name": "Tags",
+        "typeId": "ce24-79db-670a-0520",
+        "$text": ""
+       }
+      ]
+     },
+     {
+      "id": "b734-566b-a436-d119",
+      "name": "Wasteland Behemoth (Size)",
+      "typeId": "a7dd-61af-e630-732e",
+      "typeName": "Size",
+      "hidden": false,
+      "characteristics": [
+       {
+        "name": "Height",
+        "typeId": "069b-9ad6-e430-21e6",
+        "$text": ""
+       },
+       {
+        "name": "Type",
+        "typeId": "0fe4-f75c-b1c3-dc9a",
+        "$text": ""
+       },
+       {
+        "name": "Base",
+        "typeId": "0a68-c69a-774f-d74d",
+        "$text": "100×150"
+       },
+       {
+        "name": "Rarity",
+        "typeId": "0a01-69a6-f861-ae76",
+        "$text": ""
+       }
+      ]
+     }
+    ],
+    "infoLinks": [
+     {
+      "id": "cd9b-8658-cbea-2fdb",
+      "name": "Harnessed",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "2f6c-46a4-e4ee-af98"
+     },
+     {
+      "id": "dcc2-93ad-927d-6f54",
+      "name": "Hand Weapon",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "c0bc-4ca5-811a-d067"
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [
+     {
+      "id": "013d-bd80-2ea0-a13a",
+      "name": "Options",
+      "hidden": false,
+      "constraints": [],
+      "modifiers": [],
+      "selectionEntries": [
+       {
+        "id": "df9e-a340-f5fd-e347",
+        "name": "Additional Limbs",
+        "type": "upgrade",
+        "hidden": false,
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "37a7-7901-5410-8a02",
+          "value": 30
+         }
+        ],
+        "constraints": [
+         {
+          "id": "e0c7-51a6-15d7-4378",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1,
+          "type": "max",
+          "includeChildSelections": false,
+          "includeChildForces": false,
+          "shared": true,
+          "percentValue": false
+         }
+        ],
+        "modifiers": [],
+        "profiles": [],
+        "infoLinks": [
+         {
+          "id": "af32-dcf8-5a5f-fe38",
+          "name": "Additional Limbs",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "7e6f-b983-00d5-30e7"
+         }
+        ],
+        "categoryLinks": [],
+        "selectionEntries": [],
+        "selectionEntryGroups": [],
+        "entryLinks": [],
+        "sortIndex": 1,
+        "collective": true
+       }
+      ],
+      "selectionEntryGroups": [],
+      "entryLinks": [],
+      "sortIndex": 1,
+      "collective": true
+     }
+    ],
     "entryLinks": [],
     "constraints": [],
     "modifiers": [],

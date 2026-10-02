@@ -10252,7 +10252,15 @@
         "targetId": "c0bc-4ca5-811a-d067"
        }
       ],
-      "categoryLinks": [],
+      "categoryLinks": [
+       {
+        "id": "c5b5-89c1-37b2-14c9",
+        "name": "Number",
+        "hidden": true,
+        "targetId": "e396-a01e-7013-6de2",
+        "primary": false
+       }
+      ],
       "selectionEntries": [],
       "selectionEntryGroups": [
        {
@@ -13335,7 +13343,15 @@
         "targetId": "c0bc-4ca5-811a-d067"
        }
       ],
-      "categoryLinks": [],
+      "categoryLinks": [
+       {
+        "id": "3179-3658-14b7-61cf",
+        "name": "Number",
+        "hidden": true,
+        "targetId": "fa4a-4142-83be-2f20",
+        "primary": false
+       }
+      ],
       "selectionEntries": [],
       "selectionEntryGroups": [
        {

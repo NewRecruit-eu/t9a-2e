@@ -1900,6 +1900,44 @@
     ]
    },
    {
+    "id": "df72-1e35-bd13-658f",
+    "name": "Number",
+    "comment": "thyroscutusHerd_model",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "1ee2-991b-c7a9-cb0f",
+      "field": "selections",
+      "scope": "roster",
+      "value": 4,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "1ee2-991b-c7a9-cb0f",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
     "id": "af85-142a-a0ff-c511",
     "name": "Special Ambush",
     "comment": "special_ambush_ptera",
@@ -2417,6 +2455,44 @@
       "type": "ceil",
       "value": -1,
       "field": "2a8c-1ad6-3bd2-5320",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "84ca-b047-dec3-e113",
+    "name": "Taurosaur",
+    "comment": "taurosaur_mount_unit",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "98e1-6888-3ebf-0b81",
+      "field": "selections",
+      "scope": "roster",
+      "value": 1,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "98e1-6888-3ebf-0b81",
       "conditions": [
        {
         "type": "instanceOf",
@@ -6941,187 +7017,7 @@
        }
       ],
       "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "f61e-0896-7f16-d8b5",
-        "name": "Taurosaur",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 345
-         }
-        ],
-        "constraints": [
-         {
-          "id": "dcd3-5825-0a86-79de",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [
-         {
-          "id": "ea73-d3d2-fbfa-6eb4",
-          "name": "Skink Rider (4)",
-          "typeId": "34e0-cf8a-007f-a558",
-          "typeName": "Offensive",
-          "hidden": false,
-          "characteristics": [
-           {
-            "name": "Att",
-            "typeId": "977e-3683-45e2-07ca",
-            "$text": "1"
-           },
-           {
-            "name": "Off",
-            "typeId": "6b9c-9509-7450-6cf6",
-            "$text": "2"
-           },
-           {
-            "name": "Str",
-            "typeId": "cc5e-c56d-543f-0a69",
-            "$text": "3"
-           },
-           {
-            "name": "AP",
-            "typeId": "ca1e-4b8f-6554-3f2f",
-            "$text": "0"
-           },
-           {
-            "name": "Agi",
-            "typeId": "6518-cb29-b2b2-aa69",
-            "$text": "3"
-           },
-           {
-            "name": "Rules",
-            "typeId": "5e9b-1961-df0b-5ddd",
-            "$text": "Poisoned Javelin (4+)"
-           },
-           {
-            "name": "Tags",
-            "typeId": "ce24-79db-670a-0520",
-            "$text": ""
-           }
-          ]
-         },
-         {
-          "id": "ae83-8dd1-fc3c-9574",
-          "name": "Taurosaur",
-          "typeId": "34e0-cf8a-007f-a558",
-          "typeName": "Offensive",
-          "hidden": false,
-          "characteristics": [
-           {
-            "name": "Att",
-            "typeId": "977e-3683-45e2-07ca",
-            "$text": "4"
-           },
-           {
-            "name": "Off",
-            "typeId": "6b9c-9509-7450-6cf6",
-            "$text": "3"
-           },
-           {
-            "name": "Str",
-            "typeId": "cc5e-c56d-543f-0a69",
-            "$text": "6"
-           },
-           {
-            "name": "AP",
-            "typeId": "ca1e-4b8f-6554-3f2f",
-            "$text": "3"
-           },
-           {
-            "name": "Agi",
-            "typeId": "6518-cb29-b2b2-aa69",
-            "$text": "2"
-           },
-           {
-            "name": "Rules",
-            "typeId": "5e9b-1961-df0b-5ddd",
-            "$text": "Impact Hits (3D3), Harnessed"
-           },
-           {
-            "name": "Tags",
-            "typeId": "ce24-79db-670a-0520",
-            "$text": ""
-           }
-          ]
-         }
-        ],
-        "infoLinks": [
-         {
-          "id": "3d01-83c1-b260-626d",
-          "name": "Impact Hits",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "4697-d60f-c040-7d88",
-          "modifiers": [
-           {
-            "type": "set",
-            "field": "name",
-            "value": "Impact Hits (3D3)",
-            "conditions": [],
-            "conditionGroups": []
-           }
-          ]
-         },
-         {
-          "id": "2fc2-2ad4-a922-8d25",
-          "name": "Harnessed",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "2f6c-46a4-e4ee-af98"
-         },
-         {
-          "id": "bbe9-71c9-a17f-e502",
-          "name": "Poisoned Javelin",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "6076-9848-f336-08b4",
-          "modifiers": [
-           {
-            "type": "set",
-            "field": "name",
-            "value": "Poisoned Javelin (4+)",
-            "conditions": [],
-            "conditionGroups": []
-           }
-          ]
-         }
-        ],
-        "categoryLinks": [
-         {
-          "id": "69ff-b849-6f90-b470",
-          "name": "Mount",
-          "hidden": true,
-          "targetId": "d368-25fc-557f-b395",
-          "primary": false
-         },
-         {
-          "id": "be7b-070d-96dc-0259",
-          "name": "Magna Sauria",
-          "hidden": false,
-          "targetId": "186d-5be5-a05f-150c",
-          "primary": false
-         }
-        ],
-        "selectionEntries": [],
-        "selectionEntryGroups": [],
-        "entryLinks": [],
-        "sortIndex": 1,
-        "collective": true
-       }
-      ],
+      "selectionEntries": [],
       "selectionEntryGroups": [],
       "entryLinks": [
        {
@@ -7160,7 +7056,7 @@
           "primary": false
          }
         ],
-        "sortIndex": 2,
+        "sortIndex": 1,
         "collective": true
        },
        {
@@ -7200,6 +7096,52 @@
          },
          {
           "id": "c993-0714-469c-a24a",
+          "name": "Magna Sauria",
+          "hidden": false,
+          "targetId": "186d-5be5-a05f-150c",
+          "primary": false
+         }
+        ],
+        "sortIndex": 2,
+        "collective": true
+       },
+       {
+        "id": "f61e-0896-7f16-d8b5",
+        "name": "Taurosaur",
+        "hidden": false,
+        "type": "selectionEntry",
+        "targetId": "dd52-d48f-9731-e258",
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "37a7-7901-5410-8a02",
+          "value": 345
+         }
+        ],
+        "constraints": [
+         {
+          "id": "dcd3-5825-0a86-79de",
+          "field": "selections",
+          "scope": "parent",
+          "value": 1,
+          "type": "max",
+          "includeChildSelections": false,
+          "includeChildForces": false,
+          "shared": true,
+          "percentValue": false
+         }
+        ],
+        "modifiers": [],
+        "categoryLinks": [
+         {
+          "id": "69ff-b849-6f90-b470",
+          "name": "Mount",
+          "hidden": true,
+          "targetId": "d368-25fc-557f-b395",
+          "primary": false
+         },
+         {
+          "id": "be7b-070d-96dc-0259",
           "name": "Magna Sauria",
           "hidden": false,
           "targetId": "186d-5be5-a05f-150c",
@@ -15639,7 +15581,15 @@
         "targetId": "c0bc-4ca5-811a-d067"
        }
       ],
-      "categoryLinks": [],
+      "categoryLinks": [
+       {
+        "id": "6faa-e561-aeda-0b1f",
+        "name": "Number",
+        "hidden": true,
+        "targetId": "df72-1e35-bd13-658f",
+        "primary": false
+       }
+      ],
       "selectionEntries": [],
       "selectionEntryGroups": [
        {
@@ -17910,57 +17860,22 @@
           "modifiers": [
            {
             "type": "set",
-            "field": "hidden",
-            "value": true,
-            "conditions": [],
-            "conditionGroups": [
+            "field": "301b-6156-b1c5-0e88",
+            "value": 0,
+            "conditions": [
              {
-              "type": "or",
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 3,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "1eb3-7228-9316-c514",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": false,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": [
-               {
-                "type": "and",
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 2,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "1eb3-7228-9316-c514",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": false,
-                  "percentValue": false
-                 },
-                 {
-                  "type": "atMost",
-                  "value": 0,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "c09c-469d-23bf-f610",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": false,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               }
-              ]
+              "type": "atLeast",
+              "value": 3,
+              "field": "selections",
+              "scope": "root-entry-self",
+              "childId": "166e-33c7-e45d-500c",
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": false,
+              "percentValue": false
              }
-            ]
+            ],
+            "conditionGroups": []
            }
           ],
           "profiles": [],
@@ -21385,6 +21300,326 @@
     "selectionEntries": [],
     "selectionEntryGroups": [],
     "entryLinks": [],
+    "constraints": [],
+    "modifiers": [],
+    "collective": true
+   },
+   {
+    "id": "dd52-d48f-9731-e258",
+    "name": "Taurosaur",
+    "type": "mount",
+    "hidden": false,
+    "categoryLinks": [
+     {
+      "id": "3830-4451-2a64-8c1a",
+      "name": "Taurosaur",
+      "hidden": true,
+      "targetId": "84ca-b047-dec3-e113",
+      "primary": false
+     },
+     {
+      "id": "df80-d674-dd02-23cb",
+      "name": "Mount",
+      "hidden": true,
+      "targetId": "d368-25fc-557f-b395",
+      "primary": false
+     },
+     {
+      "id": "de64-c7ef-09b6-a4d2",
+      "name": "Gigantic Size",
+      "hidden": true,
+      "targetId": "5912-3e17-93bc-d695",
+      "primary": false
+     },
+     {
+      "id": "87e3-1fe0-20e0-c119",
+      "name": "Beast",
+      "hidden": true,
+      "targetId": "2398-273e-d6b8-4522",
+      "primary": false
+     },
+     {
+      "id": "8c5e-2a39-fc35-f85a",
+      "name": "⟨mount⟩",
+      "hidden": true,
+      "targetId": "ecee-fbfd-a9f0-7550",
+      "primary": false
+     }
+    ],
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "37a7-7901-5410-8a02",
+      "value": 0
+     }
+    ],
+    "profiles": [
+     {
+      "id": "024e-3e82-b3b0-d81e",
+      "name": "Taurosaur (Global)",
+      "typeId": "0bb5-fae5-f5a7-6b97",
+      "typeName": "Global",
+      "hidden": false,
+      "characteristics": [
+       {
+        "name": "Adv",
+        "typeId": "cf70-c87b-5e2d-5d97",
+        "$text": "6"
+       },
+       {
+        "name": "Mar",
+        "typeId": "3547-0c61-20c1-f727",
+        "$text": "10"
+       },
+       {
+        "name": "Dis",
+        "typeId": "9766-e5ef-1ccf-e1c4",
+        "$text": "C"
+       },
+       {
+        "name": "Rsr",
+        "typeId": "a67a-60ca-9e84-619d",
+        "$text": ""
+       },
+       {
+        "name": "Rules",
+        "typeId": "edbe-a5d2-8dda-794b",
+        "$text": ""
+       }
+      ]
+     },
+     {
+      "id": "4716-06ff-41b4-3a56",
+      "name": "Taurosaur (Defensive)",
+      "typeId": "cc02-4c45-fc8e-9c20",
+      "typeName": "Defensive",
+      "hidden": false,
+      "characteristics": [
+       {
+        "name": "HP",
+        "typeId": "d0d3-36c5-8a8d-cbb4",
+        "$text": "6"
+       },
+       {
+        "name": "Def",
+        "typeId": "1f95-9871-6b5e-cc35",
+        "$text": "3"
+       },
+       {
+        "name": "Res",
+        "typeId": "b725-eae8-7a15-b275",
+        "$text": "6"
+       },
+       {
+        "name": "Arm",
+        "typeId": "d15a-5931-24e5-be5d",
+        "$text": "4"
+       },
+       {
+        "name": "Aeg",
+        "typeId": "55dc-3dc1-b4f0-750e",
+        "$text": ""
+       },
+       {
+        "name": "Rules",
+        "typeId": "add5-e615-b82e-05dc",
+        "$text": ""
+       }
+      ]
+     },
+     {
+      "id": "6a2f-9459-6692-5890",
+      "name": "Skink Rider (4)",
+      "typeId": "34e0-cf8a-007f-a558",
+      "typeName": "Offensive",
+      "hidden": false,
+      "characteristics": [
+       {
+        "name": "Att",
+        "typeId": "977e-3683-45e2-07ca",
+        "$text": "1"
+       },
+       {
+        "name": "Off",
+        "typeId": "6b9c-9509-7450-6cf6",
+        "$text": "2"
+       },
+       {
+        "name": "Str",
+        "typeId": "cc5e-c56d-543f-0a69",
+        "$text": "3"
+       },
+       {
+        "name": "AP",
+        "typeId": "ca1e-4b8f-6554-3f2f",
+        "$text": "0"
+       },
+       {
+        "name": "Agi",
+        "typeId": "6518-cb29-b2b2-aa69",
+        "$text": "3"
+       },
+       {
+        "name": "Rules",
+        "typeId": "5e9b-1961-df0b-5ddd",
+        "$text": "Poisoned Javelin (4+)"
+       },
+       {
+        "name": "Tags",
+        "typeId": "ce24-79db-670a-0520",
+        "$text": ""
+       }
+      ]
+     },
+     {
+      "id": "bb4a-6dee-1f71-50b1",
+      "name": "Taurosaur",
+      "typeId": "34e0-cf8a-007f-a558",
+      "typeName": "Offensive",
+      "hidden": false,
+      "characteristics": [
+       {
+        "name": "Att",
+        "typeId": "977e-3683-45e2-07ca",
+        "$text": "4"
+       },
+       {
+        "name": "Off",
+        "typeId": "6b9c-9509-7450-6cf6",
+        "$text": "3"
+       },
+       {
+        "name": "Str",
+        "typeId": "cc5e-c56d-543f-0a69",
+        "$text": "6"
+       },
+       {
+        "name": "AP",
+        "typeId": "ca1e-4b8f-6554-3f2f",
+        "$text": "3"
+       },
+       {
+        "name": "Agi",
+        "typeId": "6518-cb29-b2b2-aa69",
+        "$text": "2"
+       },
+       {
+        "name": "Rules",
+        "typeId": "5e9b-1961-df0b-5ddd",
+        "$text": "Impact Hits (3D3), Harnessed"
+       },
+       {
+        "name": "Tags",
+        "typeId": "ce24-79db-670a-0520",
+        "$text": ""
+       }
+      ]
+     },
+     {
+      "id": "ae76-c460-ea39-8e79",
+      "name": "Taurosaur (Size)",
+      "typeId": "a7dd-61af-e630-732e",
+      "typeName": "Size",
+      "hidden": false,
+      "characteristics": [
+       {
+        "name": "Height",
+        "typeId": "069b-9ad6-e430-21e6",
+        "$text": ""
+       },
+       {
+        "name": "Type",
+        "typeId": "0fe4-f75c-b1c3-dc9a",
+        "$text": ""
+       },
+       {
+        "name": "Base",
+        "typeId": "0a68-c69a-774f-d74d",
+        "$text": "50×100"
+       },
+       {
+        "name": "Rarity",
+        "typeId": "0a01-69a6-f861-ae76",
+        "$text": ""
+       }
+      ]
+     }
+    ],
+    "infoLinks": [
+     {
+      "id": "a094-8c98-c4cc-af00",
+      "name": "Impact Hits",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "4697-d60f-c040-7d88",
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "name",
+        "value": "Impact Hits (3D3)",
+        "conditions": [],
+        "conditionGroups": []
+       }
+      ]
+     },
+     {
+      "id": "e224-1503-0a16-8946",
+      "name": "Harnessed",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "2f6c-46a4-e4ee-af98"
+     },
+     {
+      "id": "6ab0-564a-be85-1026",
+      "name": "Poisoned Javelin",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "6076-9848-f336-08b4",
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "name",
+        "value": "Poisoned Javelin (4+)",
+        "conditions": [],
+        "conditionGroups": []
+       }
+      ]
+     },
+     {
+      "id": "f63a-ab77-6c16-f779",
+      "name": "Hand Weapon",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "c0bc-4ca5-811a-d067"
+     }
+    ],
+    "selectionEntries": [],
+    "selectionEntryGroups": [],
+    "entryLinks": [
+     {
+      "id": "605e-1f35-bc7d-ccd4",
+      "name": "Howdah Device",
+      "hidden": false,
+      "type": "selectionEntryGroup",
+      "targetId": "8175-22b1-ec12-9d29",
+      "constraints": [
+       {
+        "id": "54bb-a663-6fae-1996",
+        "field": "selections",
+        "scope": "parent",
+        "value": 1,
+        "type": "max",
+        "includeChildSelections": false,
+        "includeChildForces": false,
+        "shared": true,
+        "percentValue": false
+       }
+      ],
+      "modifiers": [],
+      "sortIndex": 1,
+      "collective": true
+     }
+    ],
     "constraints": [],
     "modifiers": [],
     "collective": true

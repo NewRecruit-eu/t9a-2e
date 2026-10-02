@@ -12381,57 +12381,22 @@
            },
            {
             "type": "set",
-            "field": "hidden",
-            "value": true,
-            "conditions": [],
-            "conditionGroups": [
+            "field": "d565-2498-fb3b-54a6",
+            "value": 0,
+            "conditions": [
              {
-              "type": "or",
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 11,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "ca2d-fa80-8f23-a7e6",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": false,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": [
-               {
-                "type": "and",
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 10,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "ca2d-fa80-8f23-a7e6",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": false,
-                  "percentValue": false
-                 },
-                 {
-                  "type": "atMost",
-                  "value": 0,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "ca2d-fa80-8f23-a7e6",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": false,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               }
-              ]
+              "type": "atLeast",
+              "value": 11,
+              "field": "selections",
+              "scope": "root-entry-self",
+              "childId": "8527-a683-a080-3367",
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": false,
+              "percentValue": false
              }
-            ]
+            ],
+            "conditionGroups": []
            }
           ],
           "profiles": [],
@@ -13054,57 +13019,22 @@
           "modifiers": [
            {
             "type": "set",
-            "field": "hidden",
-            "value": true,
-            "conditions": [],
-            "conditionGroups": [
+            "field": "4a2a-70f1-2843-c24f",
+            "value": 0,
+            "conditions": [
              {
-              "type": "or",
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 16,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "cc93-514e-9327-431d",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": false,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": [
-               {
-                "type": "and",
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 15,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "cc93-514e-9327-431d",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": false,
-                  "percentValue": false
-                 },
-                 {
-                  "type": "atMost",
-                  "value": 0,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "cc93-514e-9327-431d",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": false,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               }
-              ]
+              "type": "atLeast",
+              "value": 16,
+              "field": "selections",
+              "scope": "root-entry-self",
+              "childId": "f69e-0c37-2d21-e306",
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": false,
+              "percentValue": false
              }
-            ]
+            ],
+            "conditionGroups": []
            }
           ],
           "profiles": [],

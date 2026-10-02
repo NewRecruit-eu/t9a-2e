@@ -1252,6 +1252,44 @@
     ]
    },
    {
+    "id": "86d5-aef3-756b-6d00",
+    "name": "Number",
+    "comment": "forge_wardens_numbers",
+    "hidden": true,
+    "constraints": [
+     {
+      "id": "6880-ffd4-600e-246f",
+      "field": "selections",
+      "scope": "roster",
+      "value": 30,
+      "type": "max",
+      "includeChildSelections": true,
+      "includeChildForces": true,
+      "shared": true,
+      "percentValue": false
+     }
+    ],
+    "modifiers": [
+     {
+      "parentKey": "modifiers",
+      "type": "ceil",
+      "value": -1,
+      "field": "6880-ffd4-600e-246f",
+      "conditions": [
+       {
+        "type": "instanceOf",
+        "value": 1,
+        "field": "selections",
+        "scope": "self",
+        "childId": "header",
+        "childName": "header",
+        "shared": true
+       }
+      ]
+     }
+    ]
+   },
+   {
     "id": "7f32-87ea-a052-2807",
     "name": "Steam Copters",
     "comment": "steam_copter",
@@ -12304,57 +12342,22 @@
            },
            {
             "type": "set",
-            "field": "hidden",
-            "value": true,
-            "conditions": [],
-            "conditionGroups": [
+            "field": "9962-cc0a-711a-3c6a",
+            "value": 0,
+            "conditions": [
              {
-              "type": "or",
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 16,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "9963-bd00-3c66-5242",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": false,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": [
-               {
-                "type": "and",
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 15,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "9963-bd00-3c66-5242",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": false,
-                  "percentValue": false
-                 },
-                 {
-                  "type": "atMost",
-                  "value": 0,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "9963-bd00-3c66-5242",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": false,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               }
-              ]
+              "type": "atLeast",
+              "value": 16,
+              "field": "selections",
+              "scope": "root-entry-self",
+              "childId": "abe2-7a7b-efbd-670b",
+              "shared": true,
+              "includeChildSelections": true,
+              "includeChildForces": false,
+              "percentValue": false
              }
-            ]
+            ],
+            "conditionGroups": []
            }
           ],
           "profiles": [],
@@ -14734,7 +14737,15 @@
         "targetId": "c0bc-4ca5-811a-d067"
        }
       ],
-      "categoryLinks": [],
+      "categoryLinks": [
+       {
+        "id": "3a37-6bce-699b-355e",
+        "name": "Number",
+        "hidden": true,
+        "targetId": "86d5-aef3-756b-6d00",
+        "primary": false
+       }
+      ],
       "selectionEntries": [],
       "selectionEntryGroups": [],
       "entryLinks": [],

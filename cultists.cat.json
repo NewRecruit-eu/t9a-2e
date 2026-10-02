@@ -7034,7 +7034,15 @@
         "targetId": "c0bc-4ca5-811a-d067"
        }
       ],
-      "categoryLinks": [],
+      "categoryLinks": [
+       {
+        "id": "b386-23ca-7d79-c63d",
+        "name": "Number",
+        "hidden": true,
+        "targetId": "e396-a01e-7013-6de2",
+        "primary": false
+       }
+      ],
       "selectionEntries": [],
       "selectionEntryGroups": [
        {
@@ -13097,7 +13105,15 @@
         "targetId": "c0bc-4ca5-811a-d067"
        }
       ],
-      "categoryLinks": [],
+      "categoryLinks": [
+       {
+        "id": "617d-7d0f-158e-0664",
+        "name": "Number",
+        "hidden": true,
+        "targetId": "fa4a-4142-83be-2f20",
+        "primary": false
+       }
+      ],
       "selectionEntries": [],
       "selectionEntryGroups": [
        {
