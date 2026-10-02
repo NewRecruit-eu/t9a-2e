@@ -11500,6 +11500,13 @@
       "primary": false
      },
      {
+      "id": "4066-5a90-c5c7-f3b9",
+      "name": "Great Elk",
+      "hidden": true,
+      "targetId": "e928-6b0e-53f7-1605",
+      "primary": false
+     },
+     {
       "id": "4007-5011-21fd-711f",
       "name": "Cavalry",
       "hidden": true,

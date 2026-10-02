@@ -2484,6 +2484,13 @@
       "hidden": true,
       "targetId": "0259-ff46-6378-23bb",
       "primary": false
+     },
+     {
+      "id": "7998-51a4-8696-5780",
+      "name": "⟨weaponEnchantUni ×2⟩",
+      "hidden": true,
+      "targetId": "ab90-10f2-7470-b9bc",
+      "primary": false
      }
     ],
     "costs": [

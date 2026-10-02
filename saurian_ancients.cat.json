@@ -23575,49 +23575,6 @@
         "collective": true
        },
        {
-        "id": "0dda-63ac-c044-38b2",
-        "name": "hidden_paths",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "3cdd-ae9d-2352-5284",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "2ab0-f136-ec08-3f8c",
-          "name": "hidden_paths",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "a982-f7a8-334c-045f",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 3,
-        "collective": true
-       },
-       {
         "id": "30ee-f40b-efc2-c30a",
         "name": "Evil Eye",
         "type": "upgrade",
@@ -23657,7 +23614,7 @@
         "categoryLinks": [],
         "entryLinks": [],
         "selectionEntryGroups": [],
-        "sortIndex": 4,
+        "sortIndex": 3,
         "collective": true
        },
        {
@@ -23700,7 +23657,7 @@
         "categoryLinks": [],
         "entryLinks": [],
         "selectionEntryGroups": [],
-        "sortIndex": 5,
+        "sortIndex": 4,
         "collective": true
        }
       ],

@@ -509,17 +509,6 @@
       "includeChildForces": false,
       "shared": true,
       "percentValue": false
-     },
-     {
-      "id": "34f1-e343-e868-f92a",
-      "field": "selections",
-      "scope": "root-entry",
-      "value": 1,
-      "type": "max",
-      "includeChildSelections": true,
-      "includeChildForces": false,
-      "shared": true,
-      "percentValue": false
      }
     ],
     "modifiers": [
@@ -550,7 +539,7 @@
         "value": 1,
         "field": "selections",
         "scope": "root-entry-self",
-        "childId": "77c7-bd9c-2a7a-f713",
+        "childId": "ab90-10f2-7470-b9bc",
         "shared": true,
         "includeChildSelections": true,
         "includeChildForces": false,
@@ -3779,6 +3768,12 @@
     "hidden": true
    },
    {
+    "id": "e928-6b0e-53f7-1605",
+    "name": "Great Elk",
+    "comment": "greatElk_mount_unit",
+    "hidden": true
+   },
+   {
     "id": "3c0f-a908-4be0-0d84",
     "name": "Crown of Hubris",
     "comment": "soulstone_z9gynq02",
@@ -4369,6 +4364,11 @@
       ]
      }
     ]
+   },
+   {
+    "id": "ab90-10f2-7470-b9bc",
+    "name": "⟨weaponEnchantUni ×2⟩",
+    "hidden": true
    }
   ],
   "forceEntries": [
