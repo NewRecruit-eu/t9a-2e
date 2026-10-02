@@ -23411,161 +23411,68 @@
           ],
           "modifiers": [],
           "profiles": [],
-          "infoLinks": [],
+          "infoLinks": [
+           {
+            "id": "fb0a-2566-43fd-951c",
+            "name": "Guiding Light",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "f1ba-415e-839d-4ebc",
+            "modifiers": []
+           },
+           {
+            "id": "d6b4-cc67-0c41-301d",
+            "name": "Know Thine Enemy",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "c77b-44bf-e1b3-70f5",
+            "modifiers": []
+           },
+           {
+            "id": "3dd3-6155-27e9-e91e",
+            "name": "Fate's Judgement",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "bc3c-151e-c14b-fc7f",
+            "modifiers": []
+           },
+           {
+            "id": "6b68-bf24-3f9f-626b",
+            "name": "Scrying",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "6c1a-a912-98bc-6b3a",
+            "modifiers": []
+           },
+           {
+            "id": "5eb6-5620-a232-04d4",
+            "name": "The Stars Align",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "d73b-0450-02ad-3b0d",
+            "modifiers": []
+           },
+           {
+            "id": "ba7b-5f1b-2c58-1967",
+            "name": "Unerring Strike",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "57ff-6097-a2a2-03ce",
+            "modifiers": []
+           },
+           {
+            "id": "429a-109b-4cb3-0535",
+            "name": "Mirror of the Veil",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "c14f-065b-16ed-1973",
+            "modifiers": []
+           }
+          ],
           "categoryLinks": [],
           "selectionEntries": [],
           "selectionEntryGroups": [],
-          "entryLinks": [
-           {
-            "id": "fbc1-84e9-dc4f-6135",
-            "name": "Divination Spells",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "constraints": [
-             {
-              "id": "3fe7-6e64-588d-7427",
-              "field": "selections",
-              "scope": "parent",
-              "value": 0,
-              "type": "max",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": false,
-              "percentValue": false
-             },
-             {
-              "id": "9a2c-e85f-2084-86fb",
-              "field": "selections",
-              "scope": "parent",
-              "value": 0,
-              "type": "min",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": false,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [
-             {
-              "type": "set",
-              "field": "3fe7-6e64-588d-7427",
-              "value": 1,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "2acf-59f1-2a85-273b",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "9a2c-e85f-2084-86fb",
-              "value": 1,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "2acf-59f1-2a85-273b",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "3fe7-6e64-588d-7427",
-              "value": 3,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "5c2d-edeb-a76d-2175",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "9a2c-e85f-2084-86fb",
-              "value": 3,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "5c2d-edeb-a76d-2175",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "3fe7-6e64-588d-7427",
-              "value": 5,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "8589-cbff-af0e-be49",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "9a2c-e85f-2084-86fb",
-              "value": 5,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "8589-cbff-af0e-be49",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             }
-            ],
-            "targetId": "318b-aae1-f5ed-17f6",
-            "sortIndex": 1,
-            "collective": true
-           }
-          ],
+          "entryLinks": [],
           "sortIndex": 1,
           "collective": true
          },
@@ -23596,161 +23503,68 @@
           ],
           "modifiers": [],
           "profiles": [],
-          "infoLinks": [],
+          "infoLinks": [
+           {
+            "id": "a6e1-fc6c-2ec8-319b",
+            "name": "Evocation of Souls",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "7061-37a8-2f5e-e52e",
+            "modifiers": []
+           },
+           {
+            "id": "640f-8108-a16b-0156",
+            "name": "Ancestral Aid",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "bfb2-3894-fbe6-1d1a",
+            "modifiers": []
+           },
+           {
+            "id": "c92c-0521-cc13-6251",
+            "name": "Whispers of the Veil",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "cf00-60d3-82e1-044f",
+            "modifiers": []
+           },
+           {
+            "id": "f906-d145-11e6-a1bf",
+            "name": "Hasten the Hour",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "5f52-0687-9823-826c",
+            "modifiers": []
+           },
+           {
+            "id": "96b6-58a9-bafe-8838",
+            "name": "Spectral Blades",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "6053-c92f-b86c-ce08",
+            "modifiers": []
+           },
+           {
+            "id": "d778-531f-dabf-44a2",
+            "name": "Touch of the Reaper",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "e9f4-c0de-b3f4-8184",
+            "modifiers": []
+           },
+           {
+            "id": "5b83-80c0-eb58-5488",
+            "name": "Danse Macabre",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "5883-da82-0bef-7935",
+            "modifiers": []
+           }
+          ],
           "categoryLinks": [],
           "selectionEntries": [],
           "selectionEntryGroups": [],
-          "entryLinks": [
-           {
-            "id": "a1df-83a1-f2c8-92d7",
-            "name": "Evocation Spells",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "constraints": [
-             {
-              "id": "6020-508e-2fb0-60e5",
-              "field": "selections",
-              "scope": "parent",
-              "value": 0,
-              "type": "max",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": false,
-              "percentValue": false
-             },
-             {
-              "id": "4404-42e2-1b84-02e7",
-              "field": "selections",
-              "scope": "parent",
-              "value": 0,
-              "type": "min",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": false,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [
-             {
-              "type": "set",
-              "field": "6020-508e-2fb0-60e5",
-              "value": 1,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "2acf-59f1-2a85-273b",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "4404-42e2-1b84-02e7",
-              "value": 1,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "2acf-59f1-2a85-273b",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "6020-508e-2fb0-60e5",
-              "value": 3,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "5c2d-edeb-a76d-2175",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "4404-42e2-1b84-02e7",
-              "value": 3,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "5c2d-edeb-a76d-2175",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "6020-508e-2fb0-60e5",
-              "value": 5,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "8589-cbff-af0e-be49",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "4404-42e2-1b84-02e7",
-              "value": 5,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "8589-cbff-af0e-be49",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             }
-            ],
-            "targetId": "5822-dcb9-cabe-965f",
-            "sortIndex": 1,
-            "collective": true
-           }
-          ],
+          "entryLinks": [],
           "sortIndex": 2,
           "collective": true
          },
@@ -23781,161 +23595,60 @@
           ],
           "modifiers": [],
           "profiles": [],
-          "infoLinks": [],
+          "infoLinks": [
+           {
+            "id": "321e-af96-5366-603e",
+            "name": "Hand of Heaven",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "d678-c510-14ef-a2ab",
+            "modifiers": []
+           },
+           {
+            "id": "b687-552a-5cc6-d2de",
+            "name": "Smite the Unbeliever",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "65f4-5509-345f-86c6",
+            "modifiers": []
+           },
+           {
+            "id": "50a9-9d1e-7feb-e511",
+            "name": "Speaking in Tongues",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "2d5a-5c65-de47-1511",
+            "modifiers": []
+           },
+           {
+            "id": "712a-b877-5956-8534",
+            "name": "Cleansing Fire",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "6b9c-457c-fc6c-d269",
+            "modifiers": []
+           },
+           {
+            "id": "351c-e840-ecbe-5282",
+            "name": "Wrath of God",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "9dc6-c1ff-0519-8b6b",
+            "modifiers": []
+           },
+           {
+            "id": "9c2d-e5c6-3fbd-a442",
+            "name": "Trial of Faith",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "d85e-7eea-d965-7faf",
+            "modifiers": []
+           }
+          ],
           "categoryLinks": [],
           "selectionEntries": [],
           "selectionEntryGroups": [],
-          "entryLinks": [
-           {
-            "id": "d32c-29dc-e242-4006",
-            "name": "Thaumaturgy Spells",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "constraints": [
-             {
-              "id": "d489-d5ae-a452-aaf7",
-              "field": "selections",
-              "scope": "parent",
-              "value": 0,
-              "type": "max",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": false,
-              "percentValue": false
-             },
-             {
-              "id": "134f-a220-fc46-8ecd",
-              "field": "selections",
-              "scope": "parent",
-              "value": 0,
-              "type": "min",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": false,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [
-             {
-              "type": "set",
-              "field": "d489-d5ae-a452-aaf7",
-              "value": 1,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "2acf-59f1-2a85-273b",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "134f-a220-fc46-8ecd",
-              "value": 1,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "2acf-59f1-2a85-273b",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "d489-d5ae-a452-aaf7",
-              "value": 3,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "5c2d-edeb-a76d-2175",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "134f-a220-fc46-8ecd",
-              "value": 3,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "5c2d-edeb-a76d-2175",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "d489-d5ae-a452-aaf7",
-              "value": 5,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "8589-cbff-af0e-be49",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "134f-a220-fc46-8ecd",
-              "value": 5,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "8589-cbff-af0e-be49",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             }
-            ],
-            "targetId": "331e-3845-2dcd-92e3",
-            "sortIndex": 1,
-            "collective": true
-           }
-          ],
+          "entryLinks": [],
           "sortIndex": 3,
           "collective": true
          },
@@ -23966,161 +23679,68 @@
           ],
           "modifiers": [],
           "profiles": [],
-          "infoLinks": [],
+          "infoLinks": [
+           {
+            "id": "6208-318a-06d9-20f0",
+            "name": "Evil Eye",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "5d45-8c89-632b-43e0",
+            "modifiers": []
+           },
+           {
+            "id": "d4aa-674b-2895-6634",
+            "name": "Raven's Wing",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "edf9-7e9a-f9c9-973e",
+            "modifiers": []
+           },
+           {
+            "id": "5961-8ec6-610d-edd9",
+            "name": "Deceptive Glamour",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "db40-a7bf-48f4-b4f2",
+            "modifiers": []
+           },
+           {
+            "id": "b646-9b4a-d7cb-eac9",
+            "name": "Twisted Effigy",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "acb6-01e5-a7fd-9522",
+            "modifiers": []
+           },
+           {
+            "id": "3e78-26ac-3a6d-2a26",
+            "name": "The Wheel Turns",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "cbe9-4bd8-8088-df28",
+            "modifiers": []
+           },
+           {
+            "id": "3180-d19d-526f-29be",
+            "name": "Will-o'-the-Wisp",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "c9e7-f532-53f3-17a2",
+            "modifiers": []
+           },
+           {
+            "id": "5402-3b08-aeee-b3d6",
+            "name": "Bewitching Glare",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "27b5-e7b1-2b99-ebc1",
+            "modifiers": []
+           }
+          ],
           "categoryLinks": [],
           "selectionEntries": [],
           "selectionEntryGroups": [],
-          "entryLinks": [
-           {
-            "id": "c3bc-ed8f-2e83-e4ab",
-            "name": "Witchcraft Spells",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "constraints": [
-             {
-              "id": "53cf-b452-0707-120c",
-              "field": "selections",
-              "scope": "parent",
-              "value": 0,
-              "type": "max",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": false,
-              "percentValue": false
-             },
-             {
-              "id": "37b5-742c-6f3f-afcf",
-              "field": "selections",
-              "scope": "parent",
-              "value": 0,
-              "type": "min",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": false,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [
-             {
-              "type": "set",
-              "field": "53cf-b452-0707-120c",
-              "value": 1,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "2acf-59f1-2a85-273b",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "37b5-742c-6f3f-afcf",
-              "value": 1,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "2acf-59f1-2a85-273b",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "53cf-b452-0707-120c",
-              "value": 3,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "5c2d-edeb-a76d-2175",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "37b5-742c-6f3f-afcf",
-              "value": 3,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "5c2d-edeb-a76d-2175",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "53cf-b452-0707-120c",
-              "value": 5,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "8589-cbff-af0e-be49",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "37b5-742c-6f3f-afcf",
-              "value": 5,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "8589-cbff-af0e-be49",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             }
-            ],
-            "targetId": "8cf7-dc47-c91b-2b66",
-            "sortIndex": 1,
-            "collective": true
-           }
-          ],
+          "entryLinks": [],
           "sortIndex": 4,
           "collective": true
          }
@@ -40170,6 +39790,38 @@
           "hidden": false,
           "type": "profile",
           "targetId": "99b4-2aab-6d77-8c08"
+         },
+         {
+          "id": "95dc-0073-c292-7bc5",
+          "name": "Fate's Judgement",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "bc3c-151e-c14b-fc7f",
+          "modifiers": []
+         },
+         {
+          "id": "6601-5624-d43c-81ea",
+          "name": "Hasten the Hour",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "5f52-0687-9823-826c",
+          "modifiers": []
+         },
+         {
+          "id": "7c4e-cd51-3fbb-b900",
+          "name": "Hand of Heaven",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "d678-c510-14ef-a2ab",
+          "modifiers": []
+         },
+         {
+          "id": "962b-86eb-30b7-26c2",
+          "name": "Spear of Infinity",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "75fa-980a-527a-0921",
+          "modifiers": []
          }
         ],
         "categoryLinks": [
@@ -40182,217 +39834,7 @@
          }
         ],
         "selectionEntries": [],
-        "selectionEntryGroups": [
-         {
-          "id": "d31f-658f-c371-6f31",
-          "name": "Spells",
-          "hidden": false,
-          "constraints": [
-           {
-            "id": "4880-84a2-d0ea-532f",
-            "field": "selections",
-            "scope": "parent",
-            "value": 2,
-            "type": "min",
-            "includeChildSelections": false,
-            "includeChildForces": false,
-            "shared": true,
-            "percentValue": false
-           },
-           {
-            "id": "0cc5-0da3-99ef-9ca3",
-            "field": "selections",
-            "scope": "parent",
-            "value": 2,
-            "type": "max",
-            "includeChildSelections": false,
-            "includeChildForces": false,
-            "shared": true,
-            "percentValue": false
-           }
-          ],
-          "modifiers": [],
-          "selectionEntries": [
-           {
-            "id": "2b4e-b19a-38e1-2326",
-            "name": "Fate's Judgement",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "f56b-1852-b3f8-6ed1",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "3b13-a535-ea6c-676b",
-              "name": "Fate's Judgement",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "bc3c-151e-c14b-fc7f",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 1,
-            "collective": true
-           },
-           {
-            "id": "6027-da28-8d5a-8136",
-            "name": "Hasten the Hour",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "39a0-9117-74e6-3dbd",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "75cd-5881-8240-252e",
-              "name": "Hasten the Hour",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "5f52-0687-9823-826c",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 2,
-            "collective": true
-           },
-           {
-            "id": "e81e-819a-f43e-d88c",
-            "name": "Hand of Heaven",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "9152-cccc-8183-93b9",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "5ccb-a5fd-2edd-0dc7",
-              "name": "Hand of Heaven",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "d678-c510-14ef-a2ab",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 3,
-            "collective": true
-           },
-           {
-            "id": "fee3-3159-b890-8366",
-            "name": "Spear of Infinity",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "7bf5-c55d-a55f-a1f6",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "3a77-8515-6816-1a62",
-              "name": "Spear of Infinity",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "75fa-980a-527a-0921",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 4,
-            "collective": true
-           }
-          ],
-          "entryLinks": [],
-          "selectionEntryGroups": [],
-          "defaultSelectionEntryId": "2b4e-b19a-38e1-2326",
-          "sortIndex": 1,
-          "collective": true
-         }
-        ],
+        "selectionEntryGroups": [],
         "entryLinks": [],
         "sortIndex": 1,
         "collective": true
@@ -41065,6 +40507,38 @@
           "hidden": false,
           "type": "profile",
           "targetId": "99b4-2aab-6d77-8c08"
+         },
+         {
+          "id": "80fc-b203-3458-b10c",
+          "name": "Fate's Judgement",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "bc3c-151e-c14b-fc7f",
+          "modifiers": []
+         },
+         {
+          "id": "5eaa-6796-a2fb-da7f",
+          "name": "Hasten the Hour",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "5f52-0687-9823-826c",
+          "modifiers": []
+         },
+         {
+          "id": "052e-4701-27b2-d66b",
+          "name": "Hand of Heaven",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "d678-c510-14ef-a2ab",
+          "modifiers": []
+         },
+         {
+          "id": "3516-87a7-0c41-780e",
+          "name": "Spear of Infinity",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "75fa-980a-527a-0921",
+          "modifiers": []
          }
         ],
         "categoryLinks": [
@@ -41077,217 +40551,7 @@
          }
         ],
         "selectionEntries": [],
-        "selectionEntryGroups": [
-         {
-          "id": "7fd9-4ee6-2021-b721",
-          "name": "Spells",
-          "hidden": false,
-          "constraints": [
-           {
-            "id": "0de6-b717-a61d-259d",
-            "field": "selections",
-            "scope": "parent",
-            "value": 2,
-            "type": "min",
-            "includeChildSelections": false,
-            "includeChildForces": false,
-            "shared": true,
-            "percentValue": false
-           },
-           {
-            "id": "ade4-3b50-aee5-1926",
-            "field": "selections",
-            "scope": "parent",
-            "value": 2,
-            "type": "max",
-            "includeChildSelections": false,
-            "includeChildForces": false,
-            "shared": true,
-            "percentValue": false
-           }
-          ],
-          "modifiers": [],
-          "selectionEntries": [
-           {
-            "id": "fe5b-0441-3698-47f5",
-            "name": "Fate's Judgement",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "b9a4-29fd-73e9-0a86",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "f923-1740-1755-d896",
-              "name": "Fate's Judgement",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "bc3c-151e-c14b-fc7f",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 1,
-            "collective": true
-           },
-           {
-            "id": "5eeb-8db7-e877-e626",
-            "name": "Hasten the Hour",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "ab9b-8e41-f212-cd32",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "6027-4c0f-b486-1b28",
-              "name": "Hasten the Hour",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "5f52-0687-9823-826c",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 2,
-            "collective": true
-           },
-           {
-            "id": "7650-e706-c30e-8aea",
-            "name": "Hand of Heaven",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "3a26-4d41-b3dc-067a",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "abec-b541-a7a7-3a29",
-              "name": "Hand of Heaven",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "d678-c510-14ef-a2ab",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 3,
-            "collective": true
-           },
-           {
-            "id": "e8eb-3bf9-4d56-8e94",
-            "name": "Spear of Infinity",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "88e8-a09a-d31c-b5bf",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "a361-4b67-5a4d-653a",
-              "name": "Spear of Infinity",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "75fa-980a-527a-0921",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 4,
-            "collective": true
-           }
-          ],
-          "entryLinks": [],
-          "selectionEntryGroups": [],
-          "defaultSelectionEntryId": "fe5b-0441-3698-47f5",
-          "sortIndex": 1,
-          "collective": true
-         }
-        ],
+        "selectionEntryGroups": [],
         "entryLinks": [],
         "sortIndex": 1,
         "collective": true
@@ -49766,6 +49030,38 @@
           "hidden": false,
           "type": "profile",
           "targetId": "99b4-2aab-6d77-8c08"
+         },
+         {
+          "id": "7f4d-0833-45e6-c9fd",
+          "name": "Smite the Unbeliever",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "65f4-5509-345f-86c6",
+          "modifiers": []
+         },
+         {
+          "id": "3ed6-152b-5ecd-2475",
+          "name": "Deceptive Glamour",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "db40-a7bf-48f4-b4f2",
+          "modifiers": []
+         },
+         {
+          "id": "6100-b921-ebfc-75ae",
+          "name": "Twisted Effigy",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "acb6-01e5-a7fd-9522",
+          "modifiers": []
+         },
+         {
+          "id": "c7c9-49b9-f743-edf9",
+          "name": "Spear of Infinity",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "75fa-980a-527a-0921",
+          "modifiers": []
          }
         ],
         "categoryLinks": [
@@ -49778,217 +49074,7 @@
          }
         ],
         "selectionEntries": [],
-        "selectionEntryGroups": [
-         {
-          "id": "b280-7a38-0106-ac58",
-          "name": "Spells",
-          "hidden": false,
-          "constraints": [
-           {
-            "id": "acd7-d3ee-c0c2-9f3c",
-            "field": "selections",
-            "scope": "parent",
-            "value": 2,
-            "type": "min",
-            "includeChildSelections": false,
-            "includeChildForces": false,
-            "shared": true,
-            "percentValue": false
-           },
-           {
-            "id": "8d0b-6986-eda5-fd70",
-            "field": "selections",
-            "scope": "parent",
-            "value": 2,
-            "type": "max",
-            "includeChildSelections": false,
-            "includeChildForces": false,
-            "shared": true,
-            "percentValue": false
-           }
-          ],
-          "modifiers": [],
-          "selectionEntries": [
-           {
-            "id": "2f56-6366-13ae-185f",
-            "name": "Smite the Unbeliever",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "0c0e-d06d-cfd6-1638",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "050f-182d-4f7d-9b60",
-              "name": "Smite the Unbeliever",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "65f4-5509-345f-86c6",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 1,
-            "collective": true
-           },
-           {
-            "id": "bd42-879d-2e0e-d9a9",
-            "name": "Deceptive Glamour",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "ea6c-05c5-b14e-02b2",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "0e6b-c11d-5605-10c8",
-              "name": "Deceptive Glamour",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "db40-a7bf-48f4-b4f2",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 2,
-            "collective": true
-           },
-           {
-            "id": "83d5-270e-5f9d-0a4b",
-            "name": "Twisted Effigy",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "9e04-dd14-06e8-8fcb",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "160a-ceb8-4cfc-218b",
-              "name": "Twisted Effigy",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "acb6-01e5-a7fd-9522",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 3,
-            "collective": true
-           },
-           {
-            "id": "c809-2720-a9ef-3335",
-            "name": "Spear of Infinity",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "2518-bd3e-45e9-d625",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "5ed3-5c7c-17c6-b4eb",
-              "name": "Spear of Infinity",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "75fa-980a-527a-0921",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 4,
-            "collective": true
-           }
-          ],
-          "entryLinks": [],
-          "selectionEntryGroups": [],
-          "defaultSelectionEntryId": "2f56-6366-13ae-185f",
-          "sortIndex": 1,
-          "collective": true
-         }
-        ],
+        "selectionEntryGroups": [],
         "entryLinks": [],
         "sortIndex": 1,
         "collective": true
@@ -50365,6 +49451,38 @@
           "hidden": false,
           "type": "profile",
           "targetId": "99b4-2aab-6d77-8c08"
+         },
+         {
+          "id": "f183-1fb3-1a07-bdad",
+          "name": "Smite the Unbeliever",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "65f4-5509-345f-86c6",
+          "modifiers": []
+         },
+         {
+          "id": "2080-a677-f153-b14b",
+          "name": "Deceptive Glamour",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "db40-a7bf-48f4-b4f2",
+          "modifiers": []
+         },
+         {
+          "id": "4ac8-df9e-f85b-4caf",
+          "name": "Twisted Effigy",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "acb6-01e5-a7fd-9522",
+          "modifiers": []
+         },
+         {
+          "id": "35bf-51ab-1e87-2f3a",
+          "name": "Spear of Infinity",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "75fa-980a-527a-0921",
+          "modifiers": []
          }
         ],
         "categoryLinks": [
@@ -50377,217 +49495,7 @@
          }
         ],
         "selectionEntries": [],
-        "selectionEntryGroups": [
-         {
-          "id": "1bf6-6b51-f6da-f204",
-          "name": "Spells",
-          "hidden": false,
-          "constraints": [
-           {
-            "id": "9d90-b04e-ba3a-5c0d",
-            "field": "selections",
-            "scope": "parent",
-            "value": 2,
-            "type": "min",
-            "includeChildSelections": false,
-            "includeChildForces": false,
-            "shared": true,
-            "percentValue": false
-           },
-           {
-            "id": "3a11-9f2a-bb53-5826",
-            "field": "selections",
-            "scope": "parent",
-            "value": 2,
-            "type": "max",
-            "includeChildSelections": false,
-            "includeChildForces": false,
-            "shared": true,
-            "percentValue": false
-           }
-          ],
-          "modifiers": [],
-          "selectionEntries": [
-           {
-            "id": "667b-55ee-8d71-53ed",
-            "name": "Smite the Unbeliever",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "6483-b68d-c5e4-2fc7",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "dce7-03a5-8453-3ca1",
-              "name": "Smite the Unbeliever",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "65f4-5509-345f-86c6",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 1,
-            "collective": true
-           },
-           {
-            "id": "fa21-ae92-6d39-350d",
-            "name": "Deceptive Glamour",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "658c-2d5f-b66d-c616",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "4acb-60fc-f279-6735",
-              "name": "Deceptive Glamour",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "db40-a7bf-48f4-b4f2",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 2,
-            "collective": true
-           },
-           {
-            "id": "6c21-5400-a355-d801",
-            "name": "Twisted Effigy",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "6a83-4aa7-4f54-9493",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "958c-343d-1d2b-9372",
-              "name": "Twisted Effigy",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "acb6-01e5-a7fd-9522",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 3,
-            "collective": true
-           },
-           {
-            "id": "ff0a-feb5-0bd1-e4a4",
-            "name": "Spear of Infinity",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "3984-f2ac-8438-4ee0",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "5d8b-3df1-66ff-1d08",
-              "name": "Spear of Infinity",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "75fa-980a-527a-0921",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 4,
-            "collective": true
-           }
-          ],
-          "entryLinks": [],
-          "selectionEntryGroups": [],
-          "defaultSelectionEntryId": "667b-55ee-8d71-53ed",
-          "sortIndex": 1,
-          "collective": true
-         }
-        ],
+        "selectionEntryGroups": [],
         "entryLinks": [],
         "sortIndex": 1,
         "collective": true
@@ -50964,6 +49872,38 @@
           "hidden": false,
           "type": "profile",
           "targetId": "99b4-2aab-6d77-8c08"
+         },
+         {
+          "id": "0bbb-b092-e389-3050",
+          "name": "Smite the Unbeliever",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "65f4-5509-345f-86c6",
+          "modifiers": []
+         },
+         {
+          "id": "6dae-82f0-5ba0-3d9e",
+          "name": "Deceptive Glamour",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "db40-a7bf-48f4-b4f2",
+          "modifiers": []
+         },
+         {
+          "id": "bfc5-04ff-992d-cfb5",
+          "name": "Twisted Effigy",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "acb6-01e5-a7fd-9522",
+          "modifiers": []
+         },
+         {
+          "id": "b982-ec58-682d-7cac",
+          "name": "Spear of Infinity",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "75fa-980a-527a-0921",
+          "modifiers": []
          }
         ],
         "categoryLinks": [
@@ -50976,217 +49916,7 @@
          }
         ],
         "selectionEntries": [],
-        "selectionEntryGroups": [
-         {
-          "id": "9811-87f5-0e99-0de3",
-          "name": "Spells",
-          "hidden": false,
-          "constraints": [
-           {
-            "id": "2a1d-db77-2907-9ef6",
-            "field": "selections",
-            "scope": "parent",
-            "value": 2,
-            "type": "min",
-            "includeChildSelections": false,
-            "includeChildForces": false,
-            "shared": true,
-            "percentValue": false
-           },
-           {
-            "id": "effd-7a92-9ae7-bc2b",
-            "field": "selections",
-            "scope": "parent",
-            "value": 2,
-            "type": "max",
-            "includeChildSelections": false,
-            "includeChildForces": false,
-            "shared": true,
-            "percentValue": false
-           }
-          ],
-          "modifiers": [],
-          "selectionEntries": [
-           {
-            "id": "5c72-af77-e10f-5efb",
-            "name": "Smite the Unbeliever",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "0113-fb88-b6bc-7376",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "1c55-8092-efeb-e89e",
-              "name": "Smite the Unbeliever",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "65f4-5509-345f-86c6",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 1,
-            "collective": true
-           },
-           {
-            "id": "15bf-024b-9706-f367",
-            "name": "Deceptive Glamour",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "17fc-826b-8e28-3f0e",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "02c1-476f-105a-1e8b",
-              "name": "Deceptive Glamour",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "db40-a7bf-48f4-b4f2",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 2,
-            "collective": true
-           },
-           {
-            "id": "0d70-32c3-93ae-e946",
-            "name": "Twisted Effigy",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "d6cf-ca6b-ac11-3048",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "efac-dae4-db66-f860",
-              "name": "Twisted Effigy",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "acb6-01e5-a7fd-9522",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 3,
-            "collective": true
-           },
-           {
-            "id": "5c1f-8520-9cce-e382",
-            "name": "Spear of Infinity",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "eaf4-24b6-970a-374c",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "d80f-0d9e-5b7c-e81d",
-              "name": "Spear of Infinity",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "75fa-980a-527a-0921",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 4,
-            "collective": true
-           }
-          ],
-          "entryLinks": [],
-          "selectionEntryGroups": [],
-          "defaultSelectionEntryId": "5c72-af77-e10f-5efb",
-          "sortIndex": 1,
-          "collective": true
-         }
-        ],
+        "selectionEntryGroups": [],
         "entryLinks": [],
         "sortIndex": 1,
         "collective": true
@@ -51563,6 +50293,38 @@
           "hidden": false,
           "type": "profile",
           "targetId": "99b4-2aab-6d77-8c08"
+         },
+         {
+          "id": "340c-5ece-c76e-d7f8",
+          "name": "Smite the Unbeliever",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "65f4-5509-345f-86c6",
+          "modifiers": []
+         },
+         {
+          "id": "de11-1458-d6d4-e54f",
+          "name": "Deceptive Glamour",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "db40-a7bf-48f4-b4f2",
+          "modifiers": []
+         },
+         {
+          "id": "f1ab-5db5-8fea-25e8",
+          "name": "Twisted Effigy",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "acb6-01e5-a7fd-9522",
+          "modifiers": []
+         },
+         {
+          "id": "49ae-97a8-2adc-8fb0",
+          "name": "Spear of Infinity",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "75fa-980a-527a-0921",
+          "modifiers": []
          }
         ],
         "categoryLinks": [
@@ -51575,217 +50337,7 @@
          }
         ],
         "selectionEntries": [],
-        "selectionEntryGroups": [
-         {
-          "id": "4b17-567e-45b0-51a7",
-          "name": "Spells",
-          "hidden": false,
-          "constraints": [
-           {
-            "id": "0926-ccbf-23e7-7064",
-            "field": "selections",
-            "scope": "parent",
-            "value": 2,
-            "type": "min",
-            "includeChildSelections": false,
-            "includeChildForces": false,
-            "shared": true,
-            "percentValue": false
-           },
-           {
-            "id": "8f60-1c38-54cf-a059",
-            "field": "selections",
-            "scope": "parent",
-            "value": 2,
-            "type": "max",
-            "includeChildSelections": false,
-            "includeChildForces": false,
-            "shared": true,
-            "percentValue": false
-           }
-          ],
-          "modifiers": [],
-          "selectionEntries": [
-           {
-            "id": "672e-cf9c-9480-0ff2",
-            "name": "Smite the Unbeliever",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "937d-a7a1-5d6c-19d3",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "3de9-5eb6-bebc-8a1a",
-              "name": "Smite the Unbeliever",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "65f4-5509-345f-86c6",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 1,
-            "collective": true
-           },
-           {
-            "id": "3f70-4eb7-6ff3-40a6",
-            "name": "Deceptive Glamour",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "d47d-c802-265e-340f",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "d388-10fe-8100-88d6",
-              "name": "Deceptive Glamour",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "db40-a7bf-48f4-b4f2",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 2,
-            "collective": true
-           },
-           {
-            "id": "8826-be73-b7d1-c6dd",
-            "name": "Twisted Effigy",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "e88b-29f4-75e0-df0a",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "5d9d-d279-e688-ad8e",
-              "name": "Twisted Effigy",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "acb6-01e5-a7fd-9522",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 3,
-            "collective": true
-           },
-           {
-            "id": "fbf8-9503-15b9-0854",
-            "name": "Spear of Infinity",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "3cf9-7558-d83e-e285",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "d0de-79cd-daba-4ee7",
-              "name": "Spear of Infinity",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "75fa-980a-527a-0921",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 4,
-            "collective": true
-           }
-          ],
-          "entryLinks": [],
-          "selectionEntryGroups": [],
-          "defaultSelectionEntryId": "672e-cf9c-9480-0ff2",
-          "sortIndex": 1,
-          "collective": true
-         }
-        ],
+        "selectionEntryGroups": [],
         "entryLinks": [],
         "sortIndex": 1,
         "collective": true

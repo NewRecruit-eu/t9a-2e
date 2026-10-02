@@ -4493,348 +4493,59 @@
         "constraints": [],
         "modifiers": [],
         "profiles": [],
-        "infoLinks": [],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [
+        "infoLinks": [
          {
-          "id": "3fec-f6b4-1ba6-2912",
-          "name": "Spells",
+          "id": "03de-91a3-8ef4-667b",
+          "name": "Rune of Revocation",
           "hidden": false,
-          "constraints": [
-           {
-            "id": "f6b0-cee9-b98e-828d",
-            "field": "selections",
-            "scope": "parent",
-            "value": 0,
-            "type": "min",
-            "includeChildSelections": false,
-            "includeChildForces": false,
-            "shared": true,
-            "percentValue": false
-           },
-           {
-            "id": "90d7-9528-2eae-8da6",
-            "field": "selections",
-            "scope": "parent",
-            "value": 0,
-            "type": "max",
-            "includeChildSelections": false,
-            "includeChildForces": false,
-            "shared": true,
-            "percentValue": false
-           }
-          ],
-          "modifiers": [
-           {
-            "type": "increment",
-            "field": "90d7-9528-2eae-8da6",
-            "value": 1,
-            "conditions": [],
-            "conditionGroups": [],
-            "repeats": [
-             {
-              "field": "selections",
-              "scope": "root-entry",
-              "value": 1,
-              "percentValue": false,
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": false,
-              "childId": "6b39-0161-a0a6-e77e",
-              "repeats": 1,
-              "roundUp": false
-             }
-            ]
-           },
-           {
-            "type": "increment",
-            "field": "f6b0-cee9-b98e-828d",
-            "value": 1,
-            "conditions": [],
-            "conditionGroups": [],
-            "repeats": [
-             {
-              "field": "selections",
-              "scope": "root-entry",
-              "value": 1,
-              "percentValue": false,
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": false,
-              "childId": "6b39-0161-a0a6-e77e",
-              "repeats": 1,
-              "roundUp": false
-             }
-            ]
-           }
-          ],
-          "selectionEntries": [
-           {
-            "id": "6c94-f436-191c-fbcc",
-            "name": "Rune of Revocation",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "6e1a-1fbd-789a-010f",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "2052-0464-593e-5309",
-              "name": "Rune of Revocation",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "8caa-ca82-f610-9b95",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 1,
-            "collective": true
-           },
-           {
-            "id": "cb05-1393-85f0-8ea2",
-            "name": "Rune of Reckoning",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "1fcd-6cbe-6c0b-41c8",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "183a-b198-d217-3da4",
-              "name": "Rune of Reckoning",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "7503-01fa-a049-b557",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 2,
-            "collective": true
-           },
-           {
-            "id": "aca5-69b6-3da2-4d42",
-            "name": "Rune of Oaths",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "6eb9-cadc-6610-2846",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "fedd-5012-b763-670a",
-              "name": "Rune of Oaths",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "f459-2a01-f6a4-13db",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 3,
-            "collective": true
-           },
-           {
-            "id": "690c-8e0d-b35f-c707",
-            "name": "Rune of Resolve",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "90e2-fb3b-495e-f38b",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "25c7-c2f8-91b3-a9c9",
-              "name": "Rune of Resolve",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "94eb-8677-ed58-d6a7",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 4,
-            "collective": true
-           },
-           {
-            "id": "9308-4091-294b-ed95",
-            "name": "Rune of Gleaming",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "4871-25e2-fa69-e3b2",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "0281-c9bb-6cb2-ef43",
-              "name": "Rune of Gleaming",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "ad7e-7b60-bbcb-1dd9",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 5,
-            "collective": true
-           },
-           {
-            "id": "8a5a-268b-276b-45c4",
-            "name": "Rune of Resilience",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "1795-7ca9-7faa-2519",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "ee6a-8135-1bdf-c907",
-              "name": "Rune of Resilience",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "54ed-1dd5-86d8-8db2",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 6,
-            "collective": true
-           }
-          ],
-          "entryLinks": [],
-          "selectionEntryGroups": [],
-          "sortIndex": 1,
-          "collective": true
+          "type": "profile",
+          "targetId": "8caa-ca82-f610-9b95",
+          "modifiers": []
+         },
+         {
+          "id": "48af-2b35-8456-eada",
+          "name": "Rune of Reckoning",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "7503-01fa-a049-b557",
+          "modifiers": []
+         },
+         {
+          "id": "2685-868a-3ced-f676",
+          "name": "Rune of Oaths",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "f459-2a01-f6a4-13db",
+          "modifiers": []
+         },
+         {
+          "id": "ff61-3909-d5db-206f",
+          "name": "Rune of Resolve",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "94eb-8677-ed58-d6a7",
+          "modifiers": []
+         },
+         {
+          "id": "5918-842a-35f0-b64c",
+          "name": "Rune of Gleaming",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "ad7e-7b60-bbcb-1dd9",
+          "modifiers": []
+         },
+         {
+          "id": "8126-73ce-4a60-dd37",
+          "name": "Rune of Resilience",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "54ed-1dd5-86d8-8db2",
+          "modifiers": []
          }
         ],
+        "categoryLinks": [],
+        "selectionEntries": [],
+        "selectionEntryGroups": [],
         "entryLinks": [],
         "comment": "alias: Up to 1 Battle Rune",
         "sortIndex": 1,
@@ -5820,348 +5531,59 @@
         "constraints": [],
         "modifiers": [],
         "profiles": [],
-        "infoLinks": [],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [
+        "infoLinks": [
          {
-          "id": "28df-9c13-7a1c-876e",
-          "name": "Spells",
+          "id": "bb3d-03d2-54a2-bf53",
+          "name": "Rune of Revocation",
           "hidden": false,
-          "constraints": [
-           {
-            "id": "ff3f-2e9b-d30d-79d3",
-            "field": "selections",
-            "scope": "parent",
-            "value": 0,
-            "type": "min",
-            "includeChildSelections": false,
-            "includeChildForces": false,
-            "shared": true,
-            "percentValue": false
-           },
-           {
-            "id": "afc7-a49d-0873-24fb",
-            "field": "selections",
-            "scope": "parent",
-            "value": 0,
-            "type": "max",
-            "includeChildSelections": false,
-            "includeChildForces": false,
-            "shared": true,
-            "percentValue": false
-           }
-          ],
-          "modifiers": [
-           {
-            "type": "increment",
-            "field": "afc7-a49d-0873-24fb",
-            "value": 1,
-            "conditions": [],
-            "conditionGroups": [],
-            "repeats": [
-             {
-              "field": "selections",
-              "scope": "root-entry",
-              "value": 1,
-              "percentValue": false,
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": false,
-              "childId": "6f4d-e89d-2d93-2f60",
-              "repeats": 1,
-              "roundUp": false
-             }
-            ]
-           },
-           {
-            "type": "increment",
-            "field": "ff3f-2e9b-d30d-79d3",
-            "value": 1,
-            "conditions": [],
-            "conditionGroups": [],
-            "repeats": [
-             {
-              "field": "selections",
-              "scope": "root-entry",
-              "value": 1,
-              "percentValue": false,
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": false,
-              "childId": "6f4d-e89d-2d93-2f60",
-              "repeats": 1,
-              "roundUp": false
-             }
-            ]
-           }
-          ],
-          "selectionEntries": [
-           {
-            "id": "53ea-192e-7b6c-ef3e",
-            "name": "Rune of Revocation",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "a9ee-b3f2-5646-fb63",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "a77e-224d-2240-bb76",
-              "name": "Rune of Revocation",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "8caa-ca82-f610-9b95",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 1,
-            "collective": true
-           },
-           {
-            "id": "504f-ea98-ed59-cfee",
-            "name": "Rune of Reckoning",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "eee5-b390-08c9-e01a",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "be2c-ec3b-5746-7c7a",
-              "name": "Rune of Reckoning",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "7503-01fa-a049-b557",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 2,
-            "collective": true
-           },
-           {
-            "id": "012e-fb73-2189-8b4e",
-            "name": "Rune of Oaths",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "bab3-9983-d1c8-ee66",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "d06e-6e10-a547-84d6",
-              "name": "Rune of Oaths",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "f459-2a01-f6a4-13db",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 3,
-            "collective": true
-           },
-           {
-            "id": "8f3e-a128-ca07-46e8",
-            "name": "Rune of Resolve",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "b4cd-2a1a-cb63-68fe",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "eec8-8163-464f-b4a5",
-              "name": "Rune of Resolve",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "94eb-8677-ed58-d6a7",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 4,
-            "collective": true
-           },
-           {
-            "id": "95bb-e65e-ef6e-204b",
-            "name": "Rune of Gleaming",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "3310-2f6e-5757-cb24",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "9b5d-0f58-f05a-021e",
-              "name": "Rune of Gleaming",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "ad7e-7b60-bbcb-1dd9",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 5,
-            "collective": true
-           },
-           {
-            "id": "d2ae-6288-da36-1134",
-            "name": "Rune of Resilience",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "87a1-0190-4915-f24c",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "f045-68d1-8b23-0309",
-              "name": "Rune of Resilience",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "54ed-1dd5-86d8-8db2",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 6,
-            "collective": true
-           }
-          ],
-          "entryLinks": [],
-          "selectionEntryGroups": [],
-          "sortIndex": 1,
-          "collective": true
+          "type": "profile",
+          "targetId": "8caa-ca82-f610-9b95",
+          "modifiers": []
+         },
+         {
+          "id": "a3a6-dab6-d8fb-9037",
+          "name": "Rune of Reckoning",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "7503-01fa-a049-b557",
+          "modifiers": []
+         },
+         {
+          "id": "c57a-e7fc-100e-fdd5",
+          "name": "Rune of Oaths",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "f459-2a01-f6a4-13db",
+          "modifiers": []
+         },
+         {
+          "id": "0756-b5eb-5c91-1e60",
+          "name": "Rune of Resolve",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "94eb-8677-ed58-d6a7",
+          "modifiers": []
+         },
+         {
+          "id": "1d9c-379a-561c-0374",
+          "name": "Rune of Gleaming",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "ad7e-7b60-bbcb-1dd9",
+          "modifiers": []
+         },
+         {
+          "id": "44e6-cc20-0326-302d",
+          "name": "Rune of Resilience",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "54ed-1dd5-86d8-8db2",
+          "modifiers": []
          }
         ],
+        "categoryLinks": [],
+        "selectionEntries": [],
+        "selectionEntryGroups": [],
         "entryLinks": [],
         "comment": "alias: Up to 1 Battle Rune",
         "sortIndex": 1,
@@ -7269,348 +6691,59 @@
         "constraints": [],
         "modifiers": [],
         "profiles": [],
-        "infoLinks": [],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [
+        "infoLinks": [
          {
-          "id": "16f2-1f13-b818-b9fb",
-          "name": "Spells",
+          "id": "81b0-e078-8d55-eec6",
+          "name": "Rune of Revocation",
           "hidden": false,
-          "constraints": [
-           {
-            "id": "95cc-6648-ab2a-8cbe",
-            "field": "selections",
-            "scope": "parent",
-            "value": 0,
-            "type": "min",
-            "includeChildSelections": false,
-            "includeChildForces": false,
-            "shared": true,
-            "percentValue": false
-           },
-           {
-            "id": "52c8-70b3-0e9b-f58c",
-            "field": "selections",
-            "scope": "parent",
-            "value": 0,
-            "type": "max",
-            "includeChildSelections": false,
-            "includeChildForces": false,
-            "shared": true,
-            "percentValue": false
-           }
-          ],
-          "modifiers": [
-           {
-            "type": "increment",
-            "field": "52c8-70b3-0e9b-f58c",
-            "value": 1,
-            "conditions": [],
-            "conditionGroups": [],
-            "repeats": [
-             {
-              "field": "selections",
-              "scope": "root-entry",
-              "value": 1,
-              "percentValue": false,
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": false,
-              "childId": "16d6-8013-793f-213c",
-              "repeats": 1,
-              "roundUp": false
-             }
-            ]
-           },
-           {
-            "type": "increment",
-            "field": "95cc-6648-ab2a-8cbe",
-            "value": 1,
-            "conditions": [],
-            "conditionGroups": [],
-            "repeats": [
-             {
-              "field": "selections",
-              "scope": "root-entry",
-              "value": 1,
-              "percentValue": false,
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": false,
-              "childId": "16d6-8013-793f-213c",
-              "repeats": 1,
-              "roundUp": false
-             }
-            ]
-           }
-          ],
-          "selectionEntries": [
-           {
-            "id": "ab82-d375-b432-776a",
-            "name": "Rune of Revocation",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "d726-b5ba-cc3a-7fbb",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "7d84-9b81-84b8-aad1",
-              "name": "Rune of Revocation",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "8caa-ca82-f610-9b95",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 1,
-            "collective": true
-           },
-           {
-            "id": "cadf-114d-2df7-24ec",
-            "name": "Rune of Reckoning",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "377b-d547-d72d-275d",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "2eab-e04a-e552-a704",
-              "name": "Rune of Reckoning",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "7503-01fa-a049-b557",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 2,
-            "collective": true
-           },
-           {
-            "id": "31b7-83c1-113b-51e9",
-            "name": "Rune of Oaths",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "7ba2-42f3-fc3e-c25e",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "05a9-4aed-89f6-b889",
-              "name": "Rune of Oaths",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "f459-2a01-f6a4-13db",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 3,
-            "collective": true
-           },
-           {
-            "id": "7e3b-0e87-32e5-bd60",
-            "name": "Rune of Resolve",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "5a89-ee4c-4195-2a61",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "5ff9-fff8-6269-1f6d",
-              "name": "Rune of Resolve",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "94eb-8677-ed58-d6a7",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 4,
-            "collective": true
-           },
-           {
-            "id": "fa06-f9dd-2e78-c45e",
-            "name": "Rune of Gleaming",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "ecea-99a7-ae20-d3bd",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "9801-ed8f-fb72-4a91",
-              "name": "Rune of Gleaming",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "ad7e-7b60-bbcb-1dd9",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 5,
-            "collective": true
-           },
-           {
-            "id": "8b56-6843-9750-73a2",
-            "name": "Rune of Resilience",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "c709-60ad-73a8-0a82",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "9729-e1cc-eb3b-49db",
-              "name": "Rune of Resilience",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "54ed-1dd5-86d8-8db2",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 6,
-            "collective": true
-           }
-          ],
-          "entryLinks": [],
-          "selectionEntryGroups": [],
-          "sortIndex": 1,
-          "collective": true
+          "type": "profile",
+          "targetId": "8caa-ca82-f610-9b95",
+          "modifiers": []
+         },
+         {
+          "id": "e0cf-6d14-b137-d64a",
+          "name": "Rune of Reckoning",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "7503-01fa-a049-b557",
+          "modifiers": []
+         },
+         {
+          "id": "b7fa-034d-38f9-d33a",
+          "name": "Rune of Oaths",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "f459-2a01-f6a4-13db",
+          "modifiers": []
+         },
+         {
+          "id": "a20c-61b8-0549-42fe",
+          "name": "Rune of Resolve",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "94eb-8677-ed58-d6a7",
+          "modifiers": []
+         },
+         {
+          "id": "0382-2836-3a1c-008f",
+          "name": "Rune of Gleaming",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "ad7e-7b60-bbcb-1dd9",
+          "modifiers": []
+         },
+         {
+          "id": "bf58-7bc7-c646-0eb3",
+          "name": "Rune of Resilience",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "54ed-1dd5-86d8-8db2",
+          "modifiers": []
          }
         ],
+        "categoryLinks": [],
+        "selectionEntries": [],
+        "selectionEntryGroups": [],
         "entryLinks": [],
         "comment": "alias: Up to 3 different Battle Runes",
         "sortIndex": 1,
@@ -8469,348 +7602,59 @@
         "constraints": [],
         "modifiers": [],
         "profiles": [],
-        "infoLinks": [],
-        "categoryLinks": [],
-        "selectionEntries": [],
-        "selectionEntryGroups": [
+        "infoLinks": [
          {
-          "id": "fabf-9c56-faa5-0f78",
-          "name": "Spells",
+          "id": "3fd0-85da-7bf5-9905",
+          "name": "Rune of Revocation",
           "hidden": false,
-          "constraints": [
-           {
-            "id": "6d29-fc4d-8305-4831",
-            "field": "selections",
-            "scope": "parent",
-            "value": 0,
-            "type": "min",
-            "includeChildSelections": false,
-            "includeChildForces": false,
-            "shared": true,
-            "percentValue": false
-           },
-           {
-            "id": "df5b-9706-5fdf-e6f6",
-            "field": "selections",
-            "scope": "parent",
-            "value": 0,
-            "type": "max",
-            "includeChildSelections": false,
-            "includeChildForces": false,
-            "shared": true,
-            "percentValue": false
-           }
-          ],
-          "modifiers": [
-           {
-            "type": "increment",
-            "field": "df5b-9706-5fdf-e6f6",
-            "value": 1,
-            "conditions": [],
-            "conditionGroups": [],
-            "repeats": [
-             {
-              "field": "selections",
-              "scope": "root-entry",
-              "value": 1,
-              "percentValue": false,
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": false,
-              "childId": "3ad3-c00a-b0fc-ccfa",
-              "repeats": 1,
-              "roundUp": false
-             }
-            ]
-           },
-           {
-            "type": "increment",
-            "field": "6d29-fc4d-8305-4831",
-            "value": 1,
-            "conditions": [],
-            "conditionGroups": [],
-            "repeats": [
-             {
-              "field": "selections",
-              "scope": "root-entry",
-              "value": 1,
-              "percentValue": false,
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": false,
-              "childId": "3ad3-c00a-b0fc-ccfa",
-              "repeats": 1,
-              "roundUp": false
-             }
-            ]
-           }
-          ],
-          "selectionEntries": [
-           {
-            "id": "7ec6-fa2c-e73e-0449",
-            "name": "Rune of Revocation",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "c0f2-cc90-8a2f-7fd2",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "166e-095c-078d-fadc",
-              "name": "Rune of Revocation",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "8caa-ca82-f610-9b95",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 1,
-            "collective": true
-           },
-           {
-            "id": "2730-1846-702f-12f6",
-            "name": "Rune of Reckoning",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "fdf9-ad37-d9aa-c481",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "364c-1861-bbd5-6804",
-              "name": "Rune of Reckoning",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "7503-01fa-a049-b557",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 2,
-            "collective": true
-           },
-           {
-            "id": "52d5-5dd5-33a1-b4ec",
-            "name": "Rune of Oaths",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "1854-9bad-a52f-a0b5",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "5c0d-c50d-68ca-0f74",
-              "name": "Rune of Oaths",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "f459-2a01-f6a4-13db",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 3,
-            "collective": true
-           },
-           {
-            "id": "7c50-201b-43b1-00e9",
-            "name": "Rune of Resolve",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "36ae-3114-e436-c826",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "6deb-65dc-ee4d-e128",
-              "name": "Rune of Resolve",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "94eb-8677-ed58-d6a7",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 4,
-            "collective": true
-           },
-           {
-            "id": "0b3d-5cdb-5dcb-da20",
-            "name": "Rune of Gleaming",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "f00a-170b-a92c-76db",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "1e55-56a7-c23e-b86e",
-              "name": "Rune of Gleaming",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "ad7e-7b60-bbcb-1dd9",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 5,
-            "collective": true
-           },
-           {
-            "id": "2065-5353-7054-d10f",
-            "name": "Rune of Resilience",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "c1cd-e597-af31-5aad",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "3a8f-d4fe-7f9d-1e9e",
-              "name": "Rune of Resilience",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "54ed-1dd5-86d8-8db2",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 6,
-            "collective": true
-           }
-          ],
-          "entryLinks": [],
-          "selectionEntryGroups": [],
-          "sortIndex": 1,
-          "collective": true
+          "type": "profile",
+          "targetId": "8caa-ca82-f610-9b95",
+          "modifiers": []
+         },
+         {
+          "id": "dbd9-acf8-3ca5-e771",
+          "name": "Rune of Reckoning",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "7503-01fa-a049-b557",
+          "modifiers": []
+         },
+         {
+          "id": "160c-8c21-b721-3d1a",
+          "name": "Rune of Oaths",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "f459-2a01-f6a4-13db",
+          "modifiers": []
+         },
+         {
+          "id": "7fd2-3b4d-4db4-7143",
+          "name": "Rune of Resolve",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "94eb-8677-ed58-d6a7",
+          "modifiers": []
+         },
+         {
+          "id": "a46c-cc3e-72a7-ea5e",
+          "name": "Rune of Gleaming",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "ad7e-7b60-bbcb-1dd9",
+          "modifiers": []
+         },
+         {
+          "id": "90a4-f493-565c-3eac",
+          "name": "Rune of Resilience",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "54ed-1dd5-86d8-8db2",
+          "modifiers": []
          }
         ],
+        "categoryLinks": [],
+        "selectionEntries": [],
+        "selectionEntryGroups": [],
         "entryLinks": [],
         "comment": "alias: Up to 1 Battle Rune",
         "sortIndex": 1,
@@ -9111,303 +7955,7 @@
      }
     ],
     "selectionEntries": [],
-    "selectionEntryGroups": [
-     {
-      "id": "6ac6-1f28-2059-1485",
-      "name": "Battle Runes",
-      "hidden": false,
-      "constraints": [
-       {
-        "id": "643c-df9a-9f67-fb8d",
-        "field": "selections",
-        "scope": "parent",
-        "value": 3,
-        "type": "min",
-        "includeChildSelections": false,
-        "includeChildForces": false,
-        "shared": true,
-        "percentValue": false
-       },
-       {
-        "id": "6a76-9e78-dc92-3ba1",
-        "field": "selections",
-        "scope": "parent",
-        "value": 3,
-        "type": "max",
-        "includeChildSelections": false,
-        "includeChildForces": false,
-        "shared": true,
-        "percentValue": false
-       }
-      ],
-      "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "1a66-185c-df2a-6be7",
-        "name": "Rune of Revocation",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "c60f-c50f-ba2d-5b9d",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "440e-831f-1d53-1cf0",
-          "name": "Rune of Revocation",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "79de-4d9d-d631-8a69",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 1,
-        "collective": true
-       },
-       {
-        "id": "1972-ff73-d60b-a225",
-        "name": "Rune of Reckoning",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "13ba-836f-7e17-415c",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "ca78-3c32-8af2-dabf",
-          "name": "Rune of Reckoning",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "5f56-58a1-1451-9ba8",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 2,
-        "collective": true
-       },
-       {
-        "id": "9821-e3dd-1ae0-d05f",
-        "name": "Rune of Oaths",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "7f06-2427-55ae-4155",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "7621-2074-6f7d-800e",
-          "name": "Rune of Oaths",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "e623-7aad-6e6e-71ef",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 3,
-        "collective": true
-       },
-       {
-        "id": "25b8-678d-f5ba-e8b5",
-        "name": "Rune of Resolve",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "9376-dab2-7665-5330",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "2e4d-9367-6b4f-8961",
-          "name": "Rune of Resolve",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "8c71-fb7f-5ec3-78b2",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 4,
-        "collective": true
-       },
-       {
-        "id": "391f-24be-ad43-c796",
-        "name": "Rune of Gleaming",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "f1ee-2791-2a3c-d6c2",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "cd59-d19a-ad52-1d08",
-          "name": "Rune of Gleaming",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "309d-1039-24ec-e8cc",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 5,
-        "collective": true
-       },
-       {
-        "id": "aa2a-a424-616d-d5b2",
-        "name": "Rune of Resilience",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "95fd-d71f-c81a-c7ca",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "9421-a531-cd9d-88b8",
-          "name": "Rune of Resilience",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "cecc-717b-7585-45ae",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 6,
-        "collective": true
-       }
-      ],
-      "entryLinks": [],
-      "selectionEntryGroups": [],
-      "defaultSelectionEntryId": "1a66-185c-df2a-6be7",
-      "sortIndex": 1,
-      "collective": true
-     }
-    ],
+    "selectionEntryGroups": [],
     "entryLinks": [],
     "constraints": [],
     "modifiers": [],
@@ -19635,6 +18183,54 @@
       "hidden": false,
       "type": "profile",
       "targetId": "ef8e-d1a2-ee59-2e36"
+     },
+     {
+      "id": "32c7-a6b1-f8e2-62e2",
+      "name": "Rune of Revocation",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "8caa-ca82-f610-9b95",
+      "modifiers": []
+     },
+     {
+      "id": "a412-f000-e3bf-0e7b",
+      "name": "Rune of Reckoning",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "7503-01fa-a049-b557",
+      "modifiers": []
+     },
+     {
+      "id": "bdbb-a0e8-cffa-c1be",
+      "name": "Rune of Oaths",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "f459-2a01-f6a4-13db",
+      "modifiers": []
+     },
+     {
+      "id": "eb75-7297-c2b4-ed99",
+      "name": "Rune of Resolve",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "94eb-8677-ed58-d6a7",
+      "modifiers": []
+     },
+     {
+      "id": "2993-e96b-2e38-ba46",
+      "name": "Rune of Gleaming",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "ad7e-7b60-bbcb-1dd9",
+      "modifiers": []
+     },
+     {
+      "id": "a91f-d0f8-1c52-a373",
+      "name": "Rune of Resilience",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "54ed-1dd5-86d8-8db2",
+      "modifiers": []
      }
     ],
     "categoryLinks": [
@@ -19647,303 +18243,7 @@
      }
     ],
     "selectionEntries": [],
-    "selectionEntryGroups": [
-     {
-      "id": "a62b-7b07-8c44-0ae5",
-      "name": "Spells",
-      "hidden": false,
-      "constraints": [
-       {
-        "id": "f447-21b9-234b-c0f2",
-        "field": "selections",
-        "scope": "parent",
-        "value": 1,
-        "type": "min",
-        "includeChildSelections": false,
-        "includeChildForces": false,
-        "shared": true,
-        "percentValue": false
-       },
-       {
-        "id": "1257-d2a3-88ee-17ca",
-        "field": "selections",
-        "scope": "parent",
-        "value": 1,
-        "type": "max",
-        "includeChildSelections": false,
-        "includeChildForces": false,
-        "shared": true,
-        "percentValue": false
-       }
-      ],
-      "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "c8c2-95d8-afce-d842",
-        "name": "Rune of Revocation",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "5d33-6344-9945-e8e3",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "e0f2-f512-182c-4e4a",
-          "name": "Rune of Revocation",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "8caa-ca82-f610-9b95",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 1,
-        "collective": true
-       },
-       {
-        "id": "568b-d11c-11f4-3908",
-        "name": "Rune of Reckoning",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "964a-9f93-34e1-a4cd",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "62b2-deac-743f-5301",
-          "name": "Rune of Reckoning",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "7503-01fa-a049-b557",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 2,
-        "collective": true
-       },
-       {
-        "id": "a1bf-82b3-6039-1a59",
-        "name": "Rune of Oaths",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "609b-dc3c-0959-a74c",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "e116-56ea-e2c2-f445",
-          "name": "Rune of Oaths",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "f459-2a01-f6a4-13db",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 3,
-        "collective": true
-       },
-       {
-        "id": "cd56-0be7-7551-09b0",
-        "name": "Rune of Resolve",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "a535-858b-97eb-68db",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "91ff-5000-3c8f-0dc0",
-          "name": "Rune of Resolve",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "94eb-8677-ed58-d6a7",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 4,
-        "collective": true
-       },
-       {
-        "id": "863e-895f-9ad5-0c53",
-        "name": "Rune of Gleaming",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "ea17-497b-3d72-d47b",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "12ae-03b4-f943-6d69",
-          "name": "Rune of Gleaming",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "ad7e-7b60-bbcb-1dd9",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 5,
-        "collective": true
-       },
-       {
-        "id": "f871-fcfd-9a07-3ebd",
-        "name": "Rune of Resilience",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "7ca7-8693-13e0-00f5",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "0633-8f9a-fbee-e480",
-          "name": "Rune of Resilience",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "54ed-1dd5-86d8-8db2",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 6,
-        "collective": true
-       }
-      ],
-      "entryLinks": [],
-      "selectionEntryGroups": [],
-      "defaultSelectionEntryId": "c8c2-95d8-afce-d842",
-      "sortIndex": 1,
-      "collective": true
-     }
-    ],
+    "selectionEntryGroups": [],
     "entryLinks": [],
     "collective": true
    },

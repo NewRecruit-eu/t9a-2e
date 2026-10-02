@@ -3963,6 +3963,110 @@
       "hidden": false,
       "type": "profile",
       "targetId": "c0bc-4ca5-811a-d067"
+     },
+     {
+      "id": "6aab-7dc4-f08f-cafb",
+      "name": "Smite the Unbeliever",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "65f4-5509-345f-86c6",
+      "modifiers": []
+     },
+     {
+      "id": "f238-89b5-4d8c-165d",
+      "name": "Breath of Corruption",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "058f-e1ea-9c67-c5e1",
+      "modifiers": []
+     },
+     {
+      "id": "f337-0889-f8c7-e344",
+      "name": "Pentagram of Pain",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "83e2-9005-b969-6500",
+      "modifiers": []
+     },
+     {
+      "id": "a6f9-c7c9-eb25-5c62",
+      "name": "Marked for Doom",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "e0d7-f997-03f4-4267",
+      "modifiers": []
+     },
+     {
+      "id": "a959-1166-2b4b-4d5c",
+      "name": "The Grave Calls",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "1f91-3c54-98dd-fc19",
+      "modifiers": []
+     },
+     {
+      "id": "b58e-3ac5-bb8d-fee7",
+      "name": "The Rot Within",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "0795-5125-ccde-f03e",
+      "modifiers": []
+     },
+     {
+      "id": "ef44-5941-18f7-444f",
+      "name": "Hellfire",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "d522-4663-c7d2-1346",
+      "modifiers": []
+     },
+     {
+      "id": "2699-a9ca-c1df-10f4",
+      "name": "Wrath of God",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "9dc6-c1ff-0519-8b6b",
+      "modifiers": []
+     },
+     {
+      "id": "5a9e-82b9-44af-7476",
+      "name": "Abiding Spirit",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "1831-9d39-c606-0c30",
+      "modifiers": []
+     },
+     {
+      "id": "3a85-22e5-92ea-ebcf",
+      "name": "Brand of the Dragon",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "a446-5e7c-1ac0-7194",
+      "modifiers": []
+     },
+     {
+      "id": "e7eb-5947-d55e-f724",
+      "name": "Emissary of Chaos",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "9222-e6f5-72f4-9d6a",
+      "modifiers": []
+     },
+     {
+      "id": "9c45-d710-d905-fa3d",
+      "name": "Sorcerer Immortal",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "9ee6-64f6-e349-227c",
+      "modifiers": []
+     },
+     {
+      "id": "b2ad-8505-8f57-3894",
+      "name": "Unholy Avatar",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "5635-cf2d-f735-37ac",
+      "modifiers": []
      }
     ],
     "selectionEntries": [],
@@ -4029,602 +4133,6 @@
       "selectionEntryGroups": [],
       "entryLinks": [],
       "sortIndex": 1,
-      "collective": true
-     },
-     {
-      "id": "8eaf-c6d0-77a2-75da",
-      "name": "Spells",
-      "hidden": false,
-      "constraints": [
-       {
-        "id": "0f0b-3983-c157-5608",
-        "field": "selections",
-        "scope": "parent",
-        "value": 2,
-        "type": "min",
-        "includeChildSelections": false,
-        "includeChildForces": false,
-        "shared": true,
-        "percentValue": false
-       },
-       {
-        "id": "2b66-a7ff-481f-6e25",
-        "field": "selections",
-        "scope": "parent",
-        "value": 2,
-        "type": "max",
-        "includeChildSelections": false,
-        "includeChildForces": false,
-        "shared": true,
-        "percentValue": false
-       }
-      ],
-      "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "b558-ef6e-c5ab-236d",
-        "name": "Smite the Unbeliever",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "f5df-1c3c-6021-1d18",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "3caa-6a03-a95d-452f",
-          "name": "Smite the Unbeliever",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "65f4-5509-345f-86c6",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 1,
-        "collective": true
-       },
-       {
-        "id": "d1ac-c00c-9de4-0fb4",
-        "name": "Breath of Corruption",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "acd6-ad85-b6a6-537e",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "287d-5dc0-56fa-4110",
-          "name": "Breath of Corruption",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "058f-e1ea-9c67-c5e1",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 2,
-        "collective": true
-       },
-       {
-        "id": "4075-b8ea-e61a-79cf",
-        "name": "Pentagram of Pain",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "c582-6f33-4756-e813",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "665e-f619-bc75-16e9",
-          "name": "Pentagram of Pain",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "83e2-9005-b969-6500",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 3,
-        "collective": true
-       },
-       {
-        "id": "d1d1-0346-79ff-2fbe",
-        "name": "Marked for Doom",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "9a7c-50e4-6de9-1a1f",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "01f2-946b-62ea-6c27",
-          "name": "Marked for Doom",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "e0d7-f997-03f4-4267",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 4,
-        "collective": true
-       },
-       {
-        "id": "bd94-3c88-6221-f5b2",
-        "name": "The Grave Calls",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "4f28-3f26-e8ac-21a5",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "0e66-ce2b-96d7-8b35",
-          "name": "The Grave Calls",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "1f91-3c54-98dd-fc19",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 5,
-        "collective": true
-       },
-       {
-        "id": "1384-696d-ab29-f35b",
-        "name": "The Rot Within",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "3fe7-56a5-b6b5-37b0",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "33ea-4e2c-33d9-a046",
-          "name": "The Rot Within",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "0795-5125-ccde-f03e",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 6,
-        "collective": true
-       },
-       {
-        "id": "2343-b849-8f08-f3b5",
-        "name": "Hellfire",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "15aa-8dc3-f84d-81e9",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "d3aa-3bef-b386-8544",
-          "name": "Hellfire",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "d522-4663-c7d2-1346",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 7,
-        "collective": true
-       },
-       {
-        "id": "989a-a7e6-2187-e0c1",
-        "name": "Wrath of God",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "e174-f1b0-8325-609c",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "d743-d29e-904c-81ee",
-          "name": "Wrath of God",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "9dc6-c1ff-0519-8b6b",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 8,
-        "collective": true
-       },
-       {
-        "id": "a0bf-d3e9-f5d2-7075",
-        "name": "Abiding Spirit",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "b8d6-f9e7-f7fc-900e",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "a9c1-fd43-88dc-63b9",
-          "name": "Abiding Spirit",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "1831-9d39-c606-0c30",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 9,
-        "collective": true
-       },
-       {
-        "id": "d451-c65b-6127-755e",
-        "name": "Brand of the Dragon",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "4c74-141c-b2ec-9929",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "c813-a4a2-2802-5aa9",
-          "name": "Brand of the Dragon",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "a446-5e7c-1ac0-7194",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 10,
-        "collective": true
-       },
-       {
-        "id": "1835-a366-e483-69b4",
-        "name": "Emissary of Chaos",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "84cb-1c93-2e3e-bf2f",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "7677-6a75-dd69-4e88",
-          "name": "Emissary of Chaos",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "9222-e6f5-72f4-9d6a",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 11,
-        "collective": true
-       },
-       {
-        "id": "a367-7bed-8f1b-ba7b",
-        "name": "Sorcerer Immortal",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "cc49-dc2b-5340-022b",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "a820-1a87-4fa9-f29c",
-          "name": "Sorcerer Immortal",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "9ee6-64f6-e349-227c",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 12,
-        "collective": true
-       },
-       {
-        "id": "e4bc-e145-9543-f32b",
-        "name": "Unholy Avatar",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "1334-c208-cf32-4dae",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "fc61-04af-a496-63cc",
-          "name": "Unholy Avatar",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "5635-cf2d-f735-37ac",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 13,
-        "collective": true
-       }
-      ],
-      "entryLinks": [],
-      "selectionEntryGroups": [],
-      "defaultSelectionEntryId": "b558-ef6e-c5ab-236d",
-      "sortIndex": 2,
       "collective": true
      }
     ],
@@ -8877,161 +8385,68 @@
         ],
         "modifiers": [],
         "profiles": [],
-        "infoLinks": [],
+        "infoLinks": [
+         {
+          "id": "0859-3df6-2a05-6fe3",
+          "name": "Alchemical Fire",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "3cdc-80bd-a9b3-fdb8",
+          "modifiers": []
+         },
+         {
+          "id": "266b-1706-7524-0ff5",
+          "name": "Quicksilver Lash",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "08d0-6bfd-cafd-148a",
+          "modifiers": []
+         },
+         {
+          "id": "dad8-a9a9-436d-d633",
+          "name": "Word of Iron",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "50e3-76b3-a594-af88",
+          "modifiers": []
+         },
+         {
+          "id": "c4e3-fc28-db9f-a69e",
+          "name": "Glory of Gold",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "cdc8-50dd-ff05-e3d8",
+          "modifiers": []
+         },
+         {
+          "id": "eb2d-a0a7-cea6-694a",
+          "name": "Silver Spike",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "6eda-f1a6-38e9-47fb",
+          "modifiers": []
+         },
+         {
+          "id": "2292-77a3-a7f7-891b",
+          "name": "Corruption of Tin",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "1b11-3386-92b1-3484",
+          "modifiers": []
+         },
+         {
+          "id": "3082-e5bd-5216-62b2",
+          "name": "Molten Copper",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "d916-7ba0-d864-6a14",
+          "modifiers": []
+         }
+        ],
         "categoryLinks": [],
         "selectionEntries": [],
         "selectionEntryGroups": [],
-        "entryLinks": [
-         {
-          "id": "e963-c95d-6dc7-c7cc",
-          "name": "Alchemy Spells",
-          "hidden": false,
-          "type": "selectionEntryGroup",
-          "constraints": [
-           {
-            "id": "31b1-1bad-f62c-7a8f",
-            "field": "selections",
-            "scope": "parent",
-            "value": 0,
-            "type": "max",
-            "shared": true,
-            "includeChildSelections": true,
-            "includeChildForces": false,
-            "percentValue": false
-           },
-           {
-            "id": "d560-40fa-0218-5ff1",
-            "field": "selections",
-            "scope": "parent",
-            "value": 0,
-            "type": "min",
-            "shared": true,
-            "includeChildSelections": true,
-            "includeChildForces": false,
-            "percentValue": false
-           }
-          ],
-          "modifiers": [
-           {
-            "type": "set",
-            "field": "31b1-1bad-f62c-7a8f",
-            "value": 1,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "2acf-59f1-2a85-273b",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "d560-40fa-0218-5ff1",
-            "value": 1,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "2acf-59f1-2a85-273b",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "31b1-1bad-f62c-7a8f",
-            "value": 3,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "5c2d-edeb-a76d-2175",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "d560-40fa-0218-5ff1",
-            "value": 3,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "5c2d-edeb-a76d-2175",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "31b1-1bad-f62c-7a8f",
-            "value": 5,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "8589-cbff-af0e-be49",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "d560-40fa-0218-5ff1",
-            "value": 5,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "8589-cbff-af0e-be49",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           }
-          ],
-          "targetId": "9fa5-ef3d-4b3a-7d62",
-          "sortIndex": 1,
-          "collective": true
-         }
-        ],
+        "entryLinks": [],
         "sortIndex": 1,
         "collective": true
        },
@@ -9062,161 +8477,68 @@
         ],
         "modifiers": [],
         "profiles": [],
-        "infoLinks": [],
+        "infoLinks": [
+         {
+          "id": "1516-9bc0-b380-21ce",
+          "name": "Evocation of Souls",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "7061-37a8-2f5e-e52e",
+          "modifiers": []
+         },
+         {
+          "id": "63ba-4a0f-a099-3d67",
+          "name": "Ancestral Aid",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "bfb2-3894-fbe6-1d1a",
+          "modifiers": []
+         },
+         {
+          "id": "165e-0b2a-39eb-7839",
+          "name": "Whispers of the Veil",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "cf00-60d3-82e1-044f",
+          "modifiers": []
+         },
+         {
+          "id": "759b-ac68-943a-0b67",
+          "name": "Hasten the Hour",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "5f52-0687-9823-826c",
+          "modifiers": []
+         },
+         {
+          "id": "71c0-d598-5fb2-7ec7",
+          "name": "Spectral Blades",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "6053-c92f-b86c-ce08",
+          "modifiers": []
+         },
+         {
+          "id": "a7dd-7999-f30c-c0ea",
+          "name": "Touch of the Reaper",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "e9f4-c0de-b3f4-8184",
+          "modifiers": []
+         },
+         {
+          "id": "a359-a752-5faa-769e",
+          "name": "Danse Macabre",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "5883-da82-0bef-7935",
+          "modifiers": []
+         }
+        ],
         "categoryLinks": [],
         "selectionEntries": [],
         "selectionEntryGroups": [],
-        "entryLinks": [
-         {
-          "id": "a7fc-97b3-fb65-6b20",
-          "name": "Evocation Spells",
-          "hidden": false,
-          "type": "selectionEntryGroup",
-          "constraints": [
-           {
-            "id": "5054-b179-f19d-8331",
-            "field": "selections",
-            "scope": "parent",
-            "value": 0,
-            "type": "max",
-            "shared": true,
-            "includeChildSelections": true,
-            "includeChildForces": false,
-            "percentValue": false
-           },
-           {
-            "id": "6bec-d606-36a7-7270",
-            "field": "selections",
-            "scope": "parent",
-            "value": 0,
-            "type": "min",
-            "shared": true,
-            "includeChildSelections": true,
-            "includeChildForces": false,
-            "percentValue": false
-           }
-          ],
-          "modifiers": [
-           {
-            "type": "set",
-            "field": "5054-b179-f19d-8331",
-            "value": 1,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "2acf-59f1-2a85-273b",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "6bec-d606-36a7-7270",
-            "value": 1,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "2acf-59f1-2a85-273b",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "5054-b179-f19d-8331",
-            "value": 3,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "5c2d-edeb-a76d-2175",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "6bec-d606-36a7-7270",
-            "value": 3,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "5c2d-edeb-a76d-2175",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "5054-b179-f19d-8331",
-            "value": 5,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "8589-cbff-af0e-be49",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "6bec-d606-36a7-7270",
-            "value": 5,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "8589-cbff-af0e-be49",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           }
-          ],
-          "targetId": "5822-dcb9-cabe-965f",
-          "sortIndex": 1,
-          "collective": true
-         }
-        ],
+        "entryLinks": [],
         "sortIndex": 2,
         "collective": true
        },
@@ -9247,161 +8569,68 @@
         ],
         "modifiers": [],
         "profiles": [],
-        "infoLinks": [],
+        "infoLinks": [
+         {
+          "id": "e9af-1a87-4562-6337",
+          "name": "The Sacrifice",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "b255-543f-727b-fec7",
+          "modifiers": []
+         },
+         {
+          "id": "032d-b47f-b067-4a08",
+          "name": "Breath of Corruption",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "058f-e1ea-9c67-c5e1",
+          "modifiers": []
+         },
+         {
+          "id": "8b9b-9da3-0896-985f",
+          "name": "Hand of Glory",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "24d1-7156-3462-4a52",
+          "modifiers": []
+         },
+         {
+          "id": "f5ef-cc7f-11d7-ec8d",
+          "name": "The Rot Within",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "0795-5125-ccde-f03e",
+          "modifiers": []
+         },
+         {
+          "id": "ed8c-9def-ca94-279a",
+          "name": "Pentagram of Pain",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "83e2-9005-b969-6500",
+          "modifiers": []
+         },
+         {
+          "id": "fa31-7132-a13f-2a0a",
+          "name": "Marked for Doom",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "e0d7-f997-03f4-4267",
+          "modifiers": []
+         },
+         {
+          "id": "6a9b-c75e-c6bb-cf85",
+          "name": "The Grave Calls",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "1f91-3c54-98dd-fc19",
+          "modifiers": []
+         }
+        ],
         "categoryLinks": [],
         "selectionEntries": [],
         "selectionEntryGroups": [],
-        "entryLinks": [
-         {
-          "id": "55eb-6e7a-ae30-9ab7",
-          "name": "Occultism Spells",
-          "hidden": false,
-          "type": "selectionEntryGroup",
-          "constraints": [
-           {
-            "id": "c6f3-491d-3462-1f26",
-            "field": "selections",
-            "scope": "parent",
-            "value": 0,
-            "type": "max",
-            "shared": true,
-            "includeChildSelections": true,
-            "includeChildForces": false,
-            "percentValue": false
-           },
-           {
-            "id": "0f9e-bfe4-d7f3-7f62",
-            "field": "selections",
-            "scope": "parent",
-            "value": 0,
-            "type": "min",
-            "shared": true,
-            "includeChildSelections": true,
-            "includeChildForces": false,
-            "percentValue": false
-           }
-          ],
-          "modifiers": [
-           {
-            "type": "set",
-            "field": "c6f3-491d-3462-1f26",
-            "value": 1,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "2acf-59f1-2a85-273b",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "0f9e-bfe4-d7f3-7f62",
-            "value": 1,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "2acf-59f1-2a85-273b",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "c6f3-491d-3462-1f26",
-            "value": 3,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "5c2d-edeb-a76d-2175",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "0f9e-bfe4-d7f3-7f62",
-            "value": 3,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "5c2d-edeb-a76d-2175",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "c6f3-491d-3462-1f26",
-            "value": 5,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "8589-cbff-af0e-be49",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "0f9e-bfe4-d7f3-7f62",
-            "value": 5,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "8589-cbff-af0e-be49",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           }
-          ],
-          "targetId": "08a6-3651-1c81-36ac",
-          "sortIndex": 1,
-          "collective": true
-         }
-        ],
+        "entryLinks": [],
         "sortIndex": 3,
         "collective": true
        }
@@ -20768,153 +19997,34 @@
       "hidden": false,
       "type": "profile",
       "targetId": "c0bc-4ca5-811a-d067"
+     },
+     {
+      "id": "e946-b48d-c70b-3b3e",
+      "name": "Whispers of the Veil",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "cf00-60d3-82e1-044f",
+      "modifiers": []
+     },
+     {
+      "id": "590d-a918-1a37-aa18",
+      "name": "The Grave Calls",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "1f91-3c54-98dd-fc19",
+      "modifiers": []
+     },
+     {
+      "id": "0dac-dd10-4a3b-7b45",
+      "name": "Hellfire",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "d522-4663-c7d2-1346",
+      "modifiers": []
      }
     ],
     "selectionEntries": [],
-    "selectionEntryGroups": [
-     {
-      "id": "601c-1624-0188-fc35",
-      "name": "Spells",
-      "hidden": false,
-      "constraints": [],
-      "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "69c0-eed3-6391-a751",
-        "name": "Whispers of the Veil",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "1651-a0dd-57e5-aef2",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "2485-4123-5b34-5f46",
-          "name": "Whispers of the Veil",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "cf00-60d3-82e1-044f",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 1,
-        "collective": true
-       },
-       {
-        "id": "7767-34bc-30f9-a0e7",
-        "name": "The Grave Calls",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "aa57-b5e0-696b-a42c",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "f5a2-43c8-3f0a-9049",
-          "name": "The Grave Calls",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "1f91-3c54-98dd-fc19",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 2,
-        "collective": true
-       },
-       {
-        "id": "729a-c62c-fb32-3fbc",
-        "name": "Hellfire",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "8ee3-70ae-f004-f544",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "8946-d692-d8de-e726",
-          "name": "Hellfire",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "d522-4663-c7d2-1346",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 3,
-        "collective": true
-       }
-      ],
-      "entryLinks": [],
-      "selectionEntryGroups": [],
-      "sortIndex": 1,
-      "collective": true
-     }
-    ],
+    "selectionEntryGroups": [],
     "entryLinks": [
      {
       "id": "f7f1-d797-f877-be4e",
@@ -20936,7 +20046,7 @@
        }
       ],
       "modifiers": [],
-      "sortIndex": 2,
+      "sortIndex": 1,
       "collective": true
      }
     ],
@@ -24363,6 +23473,30 @@
           "hidden": false,
           "type": "profile",
           "targetId": "914b-3728-f2d5-3a82"
+         },
+         {
+          "id": "6763-f371-d90d-70a2",
+          "name": "Glory of Gold",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "cdc8-50dd-ff05-e3d8",
+          "modifiers": []
+         },
+         {
+          "id": "f956-16d1-b273-3649",
+          "name": "Breath of Corruption",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "058f-e1ea-9c67-c5e1",
+          "modifiers": []
+         },
+         {
+          "id": "68da-68d2-f7a8-f456",
+          "name": "Hellfire",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "d522-4663-c7d2-1346",
+          "modifiers": []
          }
         ],
         "categoryLinks": [
@@ -24375,150 +23509,7 @@
          }
         ],
         "selectionEntries": [],
-        "selectionEntryGroups": [
-         {
-          "id": "92f5-3f45-de3a-6380",
-          "name": "Spells",
-          "hidden": false,
-          "constraints": [],
-          "modifiers": [],
-          "selectionEntries": [
-           {
-            "id": "c7e7-fe6d-5085-1e19",
-            "name": "Glory of Gold",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "b79c-22a3-982e-2fa2",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "9078-8c38-74bb-65cf",
-              "name": "Glory of Gold",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "cdc8-50dd-ff05-e3d8",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 1,
-            "collective": true
-           },
-           {
-            "id": "ca00-54e8-c547-e669",
-            "name": "Breath of Corruption",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "0008-7ed4-717f-6a6a",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "846a-6cbb-f551-b1f4",
-              "name": "Breath of Corruption",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "058f-e1ea-9c67-c5e1",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 2,
-            "collective": true
-           },
-           {
-            "id": "5c1e-5041-a4ab-7e1f",
-            "name": "Hellfire",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "fb10-3389-1447-29a1",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "24f0-7a7e-3586-087c",
-              "name": "Hellfire",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "d522-4663-c7d2-1346",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 3,
-            "collective": true
-           }
-          ],
-          "entryLinks": [],
-          "selectionEntryGroups": [],
-          "sortIndex": 1,
-          "collective": true
-         }
-        ],
+        "selectionEntryGroups": [],
         "entryLinks": [],
         "sortIndex": 3,
         "collective": true
@@ -25684,196 +24675,42 @@
       "hidden": false,
       "type": "profile",
       "targetId": "c0bc-4ca5-811a-d067"
+     },
+     {
+      "id": "2376-a673-8dd2-584a",
+      "name": "Whispers of the Veil",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "cf00-60d3-82e1-044f",
+      "modifiers": []
+     },
+     {
+      "id": "547e-bf28-8e78-554a",
+      "name": "The Grave Calls",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "1f91-3c54-98dd-fc19",
+      "modifiers": []
+     },
+     {
+      "id": "a764-5144-ff92-a2a2",
+      "name": "Wrath of God",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "9dc6-c1ff-0519-8b6b",
+      "modifiers": []
+     },
+     {
+      "id": "d4ab-a2f0-36e7-6501",
+      "name": "Hellfire",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "d522-4663-c7d2-1346",
+      "modifiers": []
      }
     ],
     "selectionEntries": [],
-    "selectionEntryGroups": [
-     {
-      "id": "4a7a-ad3c-6d9a-ce9c",
-      "name": "Spells",
-      "hidden": false,
-      "constraints": [],
-      "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "3d11-21b3-6b20-d260",
-        "name": "Whispers of the Veil",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "ece5-4e32-b361-94ba",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "3124-e164-db70-df99",
-          "name": "Whispers of the Veil",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "cf00-60d3-82e1-044f",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 1,
-        "collective": true
-       },
-       {
-        "id": "1cd2-194c-714c-f50e",
-        "name": "The Grave Calls",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "2b7d-5c6c-de6a-f089",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "a54c-1998-e3bb-cd4d",
-          "name": "The Grave Calls",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "1f91-3c54-98dd-fc19",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 2,
-        "collective": true
-       },
-       {
-        "id": "43e9-71ee-b3cb-8568",
-        "name": "Wrath of God",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "e655-29c9-c055-186c",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "a856-119b-0db5-5d9c",
-          "name": "Wrath of God",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "9dc6-c1ff-0519-8b6b",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 3,
-        "collective": true
-       },
-       {
-        "id": "c395-ba21-32af-4564",
-        "name": "Hellfire",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "b3cd-99e3-7387-49c5",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "6b76-b5ef-f0cb-a26c",
-          "name": "Hellfire",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "d522-4663-c7d2-1346",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 4,
-        "collective": true
-       }
-      ],
-      "entryLinks": [],
-      "selectionEntryGroups": [],
-      "sortIndex": 1,
-      "collective": true
-     }
-    ],
+    "selectionEntryGroups": [],
     "entryLinks": [],
     "constraints": [],
     "modifiers": [],

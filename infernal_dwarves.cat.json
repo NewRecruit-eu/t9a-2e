@@ -6067,6 +6067,22 @@
           "hidden": false,
           "type": "profile",
           "targetId": "847b-b197-8f13-38f0"
+         },
+         {
+          "id": "38ee-13bd-7323-037b",
+          "name": "Alchemical Fire",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "3cdc-80bd-a9b3-fdb8",
+          "modifiers": []
+         },
+         {
+          "id": "b354-8b9b-aaf6-31e5",
+          "name": "Blaze",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "2853-d878-c659-bddb",
+          "modifiers": []
          }
         ],
         "categoryLinks": [
@@ -6079,107 +6095,7 @@
          }
         ],
         "selectionEntries": [],
-        "selectionEntryGroups": [
-         {
-          "id": "f18c-9b02-72d7-920e",
-          "name": "Spells",
-          "hidden": false,
-          "constraints": [],
-          "modifiers": [],
-          "selectionEntries": [
-           {
-            "id": "d7b1-17a0-a232-f3c6",
-            "name": "Alchemical Fire",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "bb58-0648-fd9e-97e3",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "148b-4ec0-323c-5f87",
-              "name": "Alchemical Fire",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "3cdc-80bd-a9b3-fdb8",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 1,
-            "collective": true
-           },
-           {
-            "id": "8519-a9a0-fccd-4c77",
-            "name": "Blaze",
-            "type": "upgrade",
-            "hidden": false,
-            "costs": [
-             {
-              "name": "pts",
-              "typeId": "37a7-7901-5410-8a02",
-              "value": 0
-             }
-            ],
-            "constraints": [
-             {
-              "id": "9eb2-1e82-4710-2e54",
-              "field": "selections",
-              "scope": "parent",
-              "value": 1,
-              "type": "max",
-              "includeChildSelections": false,
-              "includeChildForces": false,
-              "shared": true,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [],
-            "profiles": [],
-            "infoLinks": [
-             {
-              "id": "5c1c-6456-393a-4d01",
-              "name": "Blaze",
-              "hidden": false,
-              "type": "profile",
-              "targetId": "2853-d878-c659-bddb",
-              "modifiers": []
-             }
-            ],
-            "categoryLinks": [],
-            "entryLinks": [],
-            "selectionEntryGroups": [],
-            "sortIndex": 2,
-            "collective": true
-           }
-          ],
-          "entryLinks": [],
-          "selectionEntryGroups": [],
-          "sortIndex": 1,
-          "collective": true
-         }
-        ],
+        "selectionEntryGroups": [],
         "entryLinks": [],
         "sortIndex": 4,
         "collective": true
@@ -6910,161 +6826,68 @@
           ],
           "modifiers": [],
           "profiles": [],
-          "infoLinks": [],
+          "infoLinks": [
+           {
+            "id": "acfd-7195-951a-512e",
+            "name": "Alchemical Fire",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "3cdc-80bd-a9b3-fdb8",
+            "modifiers": []
+           },
+           {
+            "id": "1ea8-30c5-1001-c2b1",
+            "name": "Quicksilver Lash",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "08d0-6bfd-cafd-148a",
+            "modifiers": []
+           },
+           {
+            "id": "ccbf-5f03-8534-4ffa",
+            "name": "Word of Iron",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "50e3-76b3-a594-af88",
+            "modifiers": []
+           },
+           {
+            "id": "dc67-2706-3714-80f6",
+            "name": "Glory of Gold",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "cdc8-50dd-ff05-e3d8",
+            "modifiers": []
+           },
+           {
+            "id": "be05-df1b-c9ab-df7c",
+            "name": "Silver Spike",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "6eda-f1a6-38e9-47fb",
+            "modifiers": []
+           },
+           {
+            "id": "d821-7728-2889-4552",
+            "name": "Corruption of Tin",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "1b11-3386-92b1-3484",
+            "modifiers": []
+           },
+           {
+            "id": "2197-e2f0-a3fa-687b",
+            "name": "Molten Copper",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "d916-7ba0-d864-6a14",
+            "modifiers": []
+           }
+          ],
           "categoryLinks": [],
           "selectionEntries": [],
           "selectionEntryGroups": [],
-          "entryLinks": [
-           {
-            "id": "d7be-ca64-c4cf-779f",
-            "name": "Alchemy Spells",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "constraints": [
-             {
-              "id": "c5c2-2b75-6cf0-2d1d",
-              "field": "selections",
-              "scope": "parent",
-              "value": 0,
-              "type": "max",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": false,
-              "percentValue": false
-             },
-             {
-              "id": "50bb-d208-9bec-82c9",
-              "field": "selections",
-              "scope": "parent",
-              "value": 0,
-              "type": "min",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": false,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [
-             {
-              "type": "set",
-              "field": "c5c2-2b75-6cf0-2d1d",
-              "value": 1,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "2acf-59f1-2a85-273b",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "50bb-d208-9bec-82c9",
-              "value": 1,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "2acf-59f1-2a85-273b",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "c5c2-2b75-6cf0-2d1d",
-              "value": 3,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "5c2d-edeb-a76d-2175",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "50bb-d208-9bec-82c9",
-              "value": 3,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "5c2d-edeb-a76d-2175",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "c5c2-2b75-6cf0-2d1d",
-              "value": 5,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "8589-cbff-af0e-be49",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "50bb-d208-9bec-82c9",
-              "value": 5,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "8589-cbff-af0e-be49",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             }
-            ],
-            "targetId": "9fa5-ef3d-4b3a-7d62",
-            "sortIndex": 1,
-            "collective": true
-           }
-          ],
+          "entryLinks": [],
           "sortIndex": 1,
           "collective": true
          },
@@ -7095,7 +6918,64 @@
           ],
           "modifiers": [],
           "profiles": [],
-          "infoLinks": [],
+          "infoLinks": [
+           {
+            "id": "2e05-00ff-6d7f-3e9d",
+            "name": "Blaze",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "2853-d878-c659-bddb",
+            "modifiers": []
+           },
+           {
+            "id": "2508-da10-e23f-610f",
+            "name": "Fireball",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "b42e-f15f-7caa-f0c4",
+            "modifiers": []
+           },
+           {
+            "id": "f19c-cb56-c810-bb62",
+            "name": "Cloak of Cinders",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "dada-4f82-cf39-bd25",
+            "modifiers": []
+           },
+           {
+            "id": "8cec-abf7-396d-b097",
+            "name": "Flaming Swords",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "a3e0-74f0-5665-7251",
+            "modifiers": []
+           },
+           {
+            "id": "84c8-9558-6fba-44b0",
+            "name": "Pyroclastic Flow",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "6bf2-998d-97c8-99e0",
+            "modifiers": []
+           },
+           {
+            "id": "a8dc-3869-8c8f-79b3",
+            "name": "Scorching Salvo",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "31e5-d4cb-a8ad-c2b5",
+            "modifiers": []
+           },
+           {
+            "id": "66fd-6db8-ccd2-ba7f",
+            "name": "Enveloping Embers",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "10a7-fd07-ed50-9d7e",
+            "modifiers": []
+           }
+          ],
           "categoryLinks": [
            {
             "id": "12c1-b359-0967-accb",
@@ -7107,157 +6987,7 @@
           ],
           "selectionEntries": [],
           "selectionEntryGroups": [],
-          "entryLinks": [
-           {
-            "id": "7edf-e217-8e30-4b56",
-            "name": "Pyromancy Spells",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "constraints": [
-             {
-              "id": "8aad-553c-884b-7811",
-              "field": "selections",
-              "scope": "parent",
-              "value": 0,
-              "type": "max",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": false,
-              "percentValue": false
-             },
-             {
-              "id": "74d4-c388-f0b9-2e03",
-              "field": "selections",
-              "scope": "parent",
-              "value": 0,
-              "type": "min",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": false,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [
-             {
-              "type": "set",
-              "field": "8aad-553c-884b-7811",
-              "value": 1,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "2acf-59f1-2a85-273b",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "74d4-c388-f0b9-2e03",
-              "value": 1,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "2acf-59f1-2a85-273b",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "8aad-553c-884b-7811",
-              "value": 3,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "5c2d-edeb-a76d-2175",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "74d4-c388-f0b9-2e03",
-              "value": 3,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "5c2d-edeb-a76d-2175",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "8aad-553c-884b-7811",
-              "value": 5,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "8589-cbff-af0e-be49",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "74d4-c388-f0b9-2e03",
-              "value": 5,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "8589-cbff-af0e-be49",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             }
-            ],
-            "targetId": "5849-a8d9-71d2-3ab9",
-            "sortIndex": 1,
-            "collective": true
-           }
-          ],
+          "entryLinks": [],
           "sortIndex": 2,
           "collective": true
          },
@@ -7288,161 +7018,68 @@
           ],
           "modifiers": [],
           "profiles": [],
-          "infoLinks": [],
+          "infoLinks": [
+           {
+            "id": "f7aa-571b-7035-9cd5",
+            "name": "The Sacrifice",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "b255-543f-727b-fec7",
+            "modifiers": []
+           },
+           {
+            "id": "c027-36a8-467d-9cbc",
+            "name": "Breath of Corruption",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "058f-e1ea-9c67-c5e1",
+            "modifiers": []
+           },
+           {
+            "id": "7b4c-83ce-ece5-0466",
+            "name": "Hand of Glory",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "24d1-7156-3462-4a52",
+            "modifiers": []
+           },
+           {
+            "id": "6736-7ac9-15f1-dc55",
+            "name": "The Rot Within",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "0795-5125-ccde-f03e",
+            "modifiers": []
+           },
+           {
+            "id": "dbb6-346c-4735-3213",
+            "name": "Pentagram of Pain",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "83e2-9005-b969-6500",
+            "modifiers": []
+           },
+           {
+            "id": "fb25-8be1-35a4-f468",
+            "name": "Marked for Doom",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "e0d7-f997-03f4-4267",
+            "modifiers": []
+           },
+           {
+            "id": "bffc-9c97-06e3-e5dc",
+            "name": "The Grave Calls",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "1f91-3c54-98dd-fc19",
+            "modifiers": []
+           }
+          ],
           "categoryLinks": [],
           "selectionEntries": [],
           "selectionEntryGroups": [],
-          "entryLinks": [
-           {
-            "id": "c2e8-2711-defd-9ca0",
-            "name": "Occultism Spells",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "constraints": [
-             {
-              "id": "190a-664f-b3aa-0d7a",
-              "field": "selections",
-              "scope": "parent",
-              "value": 0,
-              "type": "max",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": false,
-              "percentValue": false
-             },
-             {
-              "id": "aeb4-9f57-9473-d0d5",
-              "field": "selections",
-              "scope": "parent",
-              "value": 0,
-              "type": "min",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": false,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [
-             {
-              "type": "set",
-              "field": "190a-664f-b3aa-0d7a",
-              "value": 1,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "2acf-59f1-2a85-273b",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "aeb4-9f57-9473-d0d5",
-              "value": 1,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "2acf-59f1-2a85-273b",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "190a-664f-b3aa-0d7a",
-              "value": 3,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "5c2d-edeb-a76d-2175",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "aeb4-9f57-9473-d0d5",
-              "value": 3,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "5c2d-edeb-a76d-2175",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "190a-664f-b3aa-0d7a",
-              "value": 5,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "8589-cbff-af0e-be49",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "aeb4-9f57-9473-d0d5",
-              "value": 5,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "8589-cbff-af0e-be49",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             }
-            ],
-            "targetId": "08a6-3651-1c81-36ac",
-            "sortIndex": 1,
-            "collective": true
-           }
-          ],
+          "entryLinks": [],
           "sortIndex": 3,
           "collective": true
          }
@@ -10926,7 +10563,64 @@
           ],
           "modifiers": [],
           "profiles": [],
-          "infoLinks": [],
+          "infoLinks": [
+           {
+            "id": "e58d-966d-61e3-be19",
+            "name": "Blaze",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "2853-d878-c659-bddb",
+            "modifiers": []
+           },
+           {
+            "id": "1669-a582-fab4-87f3",
+            "name": "Fireball",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "b42e-f15f-7caa-f0c4",
+            "modifiers": []
+           },
+           {
+            "id": "17fb-3cc7-ee96-3d0a",
+            "name": "Cloak of Cinders",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "dada-4f82-cf39-bd25",
+            "modifiers": []
+           },
+           {
+            "id": "376a-80ec-4d95-e4ff",
+            "name": "Flaming Swords",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "a3e0-74f0-5665-7251",
+            "modifiers": []
+           },
+           {
+            "id": "f1b0-f161-52e5-a22c",
+            "name": "Pyroclastic Flow",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "6bf2-998d-97c8-99e0",
+            "modifiers": []
+           },
+           {
+            "id": "04d9-e1f8-01b4-f86c",
+            "name": "Scorching Salvo",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "31e5-d4cb-a8ad-c2b5",
+            "modifiers": []
+           },
+           {
+            "id": "0ddc-2fb1-69e8-1083",
+            "name": "Enveloping Embers",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "10a7-fd07-ed50-9d7e",
+            "modifiers": []
+           }
+          ],
           "categoryLinks": [
            {
             "id": "65b2-03bb-481f-b785",
@@ -10938,157 +10632,7 @@
           ],
           "selectionEntries": [],
           "selectionEntryGroups": [],
-          "entryLinks": [
-           {
-            "id": "ae58-c093-9c30-1650",
-            "name": "Pyromancy Spells",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "constraints": [
-             {
-              "id": "2bba-6270-8cb1-f8cb",
-              "field": "selections",
-              "scope": "parent",
-              "value": 0,
-              "type": "max",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": false,
-              "percentValue": false
-             },
-             {
-              "id": "08b3-b9b8-c2dc-4112",
-              "field": "selections",
-              "scope": "parent",
-              "value": 0,
-              "type": "min",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": false,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [
-             {
-              "type": "set",
-              "field": "2bba-6270-8cb1-f8cb",
-              "value": 1,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "2acf-59f1-2a85-273b",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "08b3-b9b8-c2dc-4112",
-              "value": 1,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "2acf-59f1-2a85-273b",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "2bba-6270-8cb1-f8cb",
-              "value": 3,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "5c2d-edeb-a76d-2175",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "08b3-b9b8-c2dc-4112",
-              "value": 3,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "5c2d-edeb-a76d-2175",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "2bba-6270-8cb1-f8cb",
-              "value": 5,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "8589-cbff-af0e-be49",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "08b3-b9b8-c2dc-4112",
-              "value": 5,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "8589-cbff-af0e-be49",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             }
-            ],
-            "targetId": "5849-a8d9-71d2-3ab9",
-            "sortIndex": 1,
-            "collective": true
-           }
-          ],
+          "entryLinks": [],
           "sortIndex": 1,
           "collective": true
          },
@@ -11119,161 +10663,68 @@
           ],
           "modifiers": [],
           "profiles": [],
-          "infoLinks": [],
+          "infoLinks": [
+           {
+            "id": "b1dc-70e9-49c3-ca2e",
+            "name": "Evil Eye",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "5d45-8c89-632b-43e0",
+            "modifiers": []
+           },
+           {
+            "id": "97ed-384a-cc8b-bbdf",
+            "name": "Raven's Wing",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "edf9-7e9a-f9c9-973e",
+            "modifiers": []
+           },
+           {
+            "id": "8e55-75d7-1c60-688d",
+            "name": "Deceptive Glamour",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "db40-a7bf-48f4-b4f2",
+            "modifiers": []
+           },
+           {
+            "id": "c7a5-d867-4093-f1b8",
+            "name": "Twisted Effigy",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "acb6-01e5-a7fd-9522",
+            "modifiers": []
+           },
+           {
+            "id": "f9be-b730-cb76-ed13",
+            "name": "The Wheel Turns",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "cbe9-4bd8-8088-df28",
+            "modifiers": []
+           },
+           {
+            "id": "09fb-b5ca-6f50-5365",
+            "name": "Will-o'-the-Wisp",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "c9e7-f532-53f3-17a2",
+            "modifiers": []
+           },
+           {
+            "id": "9c26-47b9-96e3-8837",
+            "name": "Bewitching Glare",
+            "hidden": false,
+            "type": "profile",
+            "targetId": "27b5-e7b1-2b99-ebc1",
+            "modifiers": []
+           }
+          ],
           "categoryLinks": [],
           "selectionEntries": [],
           "selectionEntryGroups": [],
-          "entryLinks": [
-           {
-            "id": "1b66-5e3e-9b75-cff6",
-            "name": "Witchcraft Spells",
-            "hidden": false,
-            "type": "selectionEntryGroup",
-            "constraints": [
-             {
-              "id": "222b-0afd-46c3-a970",
-              "field": "selections",
-              "scope": "parent",
-              "value": 0,
-              "type": "max",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": false,
-              "percentValue": false
-             },
-             {
-              "id": "6138-49b3-1ffc-e4e5",
-              "field": "selections",
-              "scope": "parent",
-              "value": 0,
-              "type": "min",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": false,
-              "percentValue": false
-             }
-            ],
-            "modifiers": [
-             {
-              "type": "set",
-              "field": "222b-0afd-46c3-a970",
-              "value": 1,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "2acf-59f1-2a85-273b",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "6138-49b3-1ffc-e4e5",
-              "value": 1,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "2acf-59f1-2a85-273b",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "222b-0afd-46c3-a970",
-              "value": 3,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "5c2d-edeb-a76d-2175",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "6138-49b3-1ffc-e4e5",
-              "value": 3,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "5c2d-edeb-a76d-2175",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "222b-0afd-46c3-a970",
-              "value": 5,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "8589-cbff-af0e-be49",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             },
-             {
-              "type": "set",
-              "field": "6138-49b3-1ffc-e4e5",
-              "value": 5,
-              "conditions": [
-               {
-                "type": "atLeast",
-                "value": 1,
-                "field": "selections",
-                "scope": "root-entry-self",
-                "childId": "8589-cbff-af0e-be49",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": true,
-                "percentValue": false
-               }
-              ],
-              "conditionGroups": []
-             }
-            ],
-            "targetId": "8cf7-dc47-c91b-2b66",
-            "sortIndex": 1,
-            "collective": true
-           }
-          ],
+          "entryLinks": [],
           "sortIndex": 2,
           "collective": true
          }
@@ -11837,263 +11288,50 @@
       "hidden": false,
       "type": "profile",
       "targetId": "c0bc-4ca5-811a-d067"
+     },
+     {
+      "id": "aa8c-ed5b-a2c9-9954",
+      "name": "Word of Iron",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "50e3-76b3-a594-af88",
+      "modifiers": []
+     },
+     {
+      "id": "0549-0141-5066-09f9",
+      "name": "Deceptive Glamour",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "db40-a7bf-48f4-b4f2",
+      "modifiers": []
+     },
+     {
+      "id": "0c08-4601-24ac-09a7",
+      "name": "Breath of Corruption",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "058f-e1ea-9c67-c5e1",
+      "modifiers": []
+     },
+     {
+      "id": "b8b5-13ae-5046-1d37",
+      "name": "Flaming Swords",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "a3e0-74f0-5665-7251",
+      "modifiers": []
+     },
+     {
+      "id": "af8d-ade6-b74c-ee71",
+      "name": "Curse of Nezibkesh",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "0f91-7738-c838-0d5d",
+      "modifiers": []
      }
     ],
     "selectionEntries": [],
-    "selectionEntryGroups": [
-     {
-      "id": "6051-6402-2922-05c0",
-      "name": "Spells",
-      "hidden": false,
-      "constraints": [
-       {
-        "id": "a4e0-4017-9350-dd39",
-        "field": "selections",
-        "scope": "parent",
-        "value": 2,
-        "type": "min",
-        "includeChildSelections": false,
-        "includeChildForces": false,
-        "shared": true,
-        "percentValue": false
-       },
-       {
-        "id": "558b-c09f-a1fe-3f64",
-        "field": "selections",
-        "scope": "parent",
-        "value": 2,
-        "type": "max",
-        "includeChildSelections": false,
-        "includeChildForces": false,
-        "shared": true,
-        "percentValue": false
-       }
-      ],
-      "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "0c5a-07ed-73b6-f8e3",
-        "name": "Word of Iron",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "9769-713a-ba07-9e5d",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "16d0-7b24-7c39-bb06",
-          "name": "Word of Iron",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "50e3-76b3-a594-af88",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 1,
-        "collective": true
-       },
-       {
-        "id": "49ea-d3bf-1a16-2396",
-        "name": "Deceptive Glamour",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "47b0-86a5-a218-e56a",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "4f54-d6a9-d57d-779d",
-          "name": "Deceptive Glamour",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "db40-a7bf-48f4-b4f2",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 2,
-        "collective": true
-       },
-       {
-        "id": "1170-9a00-c5be-ad8c",
-        "name": "Breath of Corruption",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "ef83-bfc0-3424-7b4d",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "382d-74a3-a823-cb9a",
-          "name": "Breath of Corruption",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "058f-e1ea-9c67-c5e1",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 3,
-        "collective": true
-       },
-       {
-        "id": "9e73-4aa3-f423-8299",
-        "name": "Flaming Swords",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "09b1-ae46-7106-051e",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "7f7e-900d-54d9-175e",
-          "name": "Flaming Swords",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "a3e0-74f0-5665-7251",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 4,
-        "collective": true
-       },
-       {
-        "id": "c9ba-44b1-2615-ca82",
-        "name": "Curse of Nezibkesh",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "8c0e-3a61-4e5d-f554",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "2437-a7cd-d467-50f1",
-          "name": "Curse of Nezibkesh",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "0f91-7738-c838-0d5d",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 5,
-        "collective": true
-       }
-      ],
-      "entryLinks": [],
-      "selectionEntryGroups": [],
-      "defaultSelectionEntryId": "0c5a-07ed-73b6-f8e3",
-      "sortIndex": 1,
-      "collective": true
-     }
-    ],
+    "selectionEntryGroups": [],
     "entryLinks": [
      {
       "id": "d4a1-e2c4-d3b1-dd58",
@@ -12116,7 +11354,7 @@
       ],
       "modifiers": [],
       "collapsible": true,
-      "sortIndex": 2,
+      "sortIndex": 1,
       "collective": true
      }
     ],
@@ -26350,7 +25588,124 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "8d15-3160-4078-2826",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 45,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "91b7-4106-a473-bf02",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "6bd9-b9de-3add-7dd9",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "ce44-8579-52c6-b59f",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "eb9f-b00e-0167-86f0",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "530e-30ee-e2c2-0877",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "b9c5-47c3-4c68-ecc5",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "b22e-879e-7c77-7359",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "220f-0e57-a929-7957",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "4bfa-3a49-b503-9980",
@@ -26370,7 +25725,113 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "220f-0e57-a929-7957",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 28,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "91b7-4106-a473-bf02",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "6bd9-b9de-3add-7dd9",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "ce44-8579-52c6-b59f",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "eb9f-b00e-0167-86f0",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "530e-30ee-e2c2-0877",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "b9c5-47c3-4c68-ecc5",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "b22e-879e-7c77-7359",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "da34-0369-4923-6a2f",
@@ -26390,7 +25851,91 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "b9c5-47c3-4c68-ecc5",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 25,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "91b7-4106-a473-bf02",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "6bd9-b9de-3add-7dd9",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "ce44-8579-52c6-b59f",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "eb9f-b00e-0167-86f0",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "530e-30ee-e2c2-0877",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "6099-f149-ad84-7b31",
@@ -26410,7 +25955,102 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "b22e-879e-7c77-7359",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 25,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "91b7-4106-a473-bf02",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "6bd9-b9de-3add-7dd9",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "ce44-8579-52c6-b59f",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "eb9f-b00e-0167-86f0",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "530e-30ee-e2c2-0877",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "b9c5-47c3-4c68-ecc5",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "b832-6e6f-f508-6dc4",
@@ -26430,7 +26070,80 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "530e-30ee-e2c2-0877",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 23,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "91b7-4106-a473-bf02",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "6bd9-b9de-3add-7dd9",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "ce44-8579-52c6-b59f",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "eb9f-b00e-0167-86f0",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "ce7b-74b0-422f-4deb",
@@ -26450,7 +26163,58 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "ce44-8579-52c6-b59f",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 20,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "91b7-4106-a473-bf02",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "6bd9-b9de-3add-7dd9",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "bcfc-4555-1e81-dc80",
@@ -26470,7 +26234,47 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "6bd9-b9de-3add-7dd9",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 18,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "91b7-4106-a473-bf02",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "d2de-1ea0-4670-b056",
@@ -26490,7 +26294,36 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "91b7-4106-a473-bf02",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 13,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "b384-3227-1376-40af",
@@ -26510,7 +26343,25 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "caf1-d3e2-ba1b-add4",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 10,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "72fd-f026-a832-99d6",
@@ -26543,7 +26394,69 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "eb9f-b00e-0167-86f0",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 23,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "91b7-4106-a473-bf02",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "6bd9-b9de-3add-7dd9",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "ce44-8579-52c6-b59f",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "10a4-231b-daab-7792",
@@ -26575,7 +26488,113 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "220f-0e57-a929-7957",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 28,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "91b7-4106-a473-bf02",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "6bd9-b9de-3add-7dd9",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "ce44-8579-52c6-b59f",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "eb9f-b00e-0167-86f0",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "530e-30ee-e2c2-0877",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "b9c5-47c3-4c68-ecc5",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "b22e-879e-7c77-7359",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "3b27-8720-05de-5d05",
@@ -26595,7 +26614,102 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "b22e-879e-7c77-7359",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 25,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "91b7-4106-a473-bf02",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "6bd9-b9de-3add-7dd9",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "ce44-8579-52c6-b59f",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "eb9f-b00e-0167-86f0",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "530e-30ee-e2c2-0877",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "b9c5-47c3-4c68-ecc5",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "8db7-79af-4558-2b6b",
@@ -26615,7 +26729,80 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "530e-30ee-e2c2-0877",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 23,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "91b7-4106-a473-bf02",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "6bd9-b9de-3add-7dd9",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "ce44-8579-52c6-b59f",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "eb9f-b00e-0167-86f0",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "70c3-96dc-971d-557b",
@@ -26635,7 +26822,58 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "ce44-8579-52c6-b59f",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 20,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "91b7-4106-a473-bf02",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "6bd9-b9de-3add-7dd9",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "be3f-1a62-ff17-dfe0",
@@ -26655,7 +26893,47 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "6bd9-b9de-3add-7dd9",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 18,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "91b7-4106-a473-bf02",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "b53a-38b5-59f4-7afa",
@@ -26675,7 +26953,36 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "91b7-4106-a473-bf02",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 13,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "e888-f84d-5c48-4fc7",
@@ -26695,7 +27002,25 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "caf1-d3e2-ba1b-add4",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 10,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "abca-0fc9-ed9b-4620",
@@ -26728,7 +27053,113 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "220f-0e57-a929-7957",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 28,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "91b7-4106-a473-bf02",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "6bd9-b9de-3add-7dd9",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "ce44-8579-52c6-b59f",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "eb9f-b00e-0167-86f0",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "530e-30ee-e2c2-0877",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "b9c5-47c3-4c68-ecc5",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "b22e-879e-7c77-7359",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "995f-8f65-5e28-f3a8",
@@ -26748,7 +27179,91 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "b9c5-47c3-4c68-ecc5",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 25,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "91b7-4106-a473-bf02",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "6bd9-b9de-3add-7dd9",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "ce44-8579-52c6-b59f",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "eb9f-b00e-0167-86f0",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "530e-30ee-e2c2-0877",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "6bb2-4810-8d25-f45f",
@@ -26768,7 +27283,102 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "b22e-879e-7c77-7359",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 25,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "91b7-4106-a473-bf02",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "6bd9-b9de-3add-7dd9",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "ce44-8579-52c6-b59f",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "eb9f-b00e-0167-86f0",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "530e-30ee-e2c2-0877",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "b9c5-47c3-4c68-ecc5",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "bceb-823a-9973-5660",
@@ -26788,7 +27398,80 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "530e-30ee-e2c2-0877",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 23,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "91b7-4106-a473-bf02",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "6bd9-b9de-3add-7dd9",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "ce44-8579-52c6-b59f",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "eb9f-b00e-0167-86f0",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "2084-e911-eddb-e7df",
@@ -26808,7 +27491,58 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "ce44-8579-52c6-b59f",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 20,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "91b7-4106-a473-bf02",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "6bd9-b9de-3add-7dd9",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "2ff2-0bfd-9db3-36ea",
@@ -26828,7 +27562,47 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "6bd9-b9de-3add-7dd9",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 18,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "91b7-4106-a473-bf02",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "b061-ec8d-b9fe-9cda",
@@ -26848,7 +27622,36 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "91b7-4106-a473-bf02",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 13,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "30f6-e3e6-c07c-6abc",
@@ -26868,7 +27671,25 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "caf1-d3e2-ba1b-add4",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 10,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "da86-93e5-73b2-da15",
@@ -26901,7 +27722,124 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "8d15-3160-4078-2826",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 45,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "91b7-4106-a473-bf02",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "6bd9-b9de-3add-7dd9",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "ce44-8579-52c6-b59f",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "eb9f-b00e-0167-86f0",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "530e-30ee-e2c2-0877",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "b9c5-47c3-4c68-ecc5",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "b22e-879e-7c77-7359",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "220f-0e57-a929-7957",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "eebf-0995-a485-29b7",
@@ -26921,7 +27859,113 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "220f-0e57-a929-7957",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 28,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "91b7-4106-a473-bf02",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "6bd9-b9de-3add-7dd9",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "ce44-8579-52c6-b59f",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "eb9f-b00e-0167-86f0",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "530e-30ee-e2c2-0877",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "b9c5-47c3-4c68-ecc5",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "b22e-879e-7c77-7359",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "67c6-0126-1c25-f92a",
@@ -26941,7 +27985,102 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "b22e-879e-7c77-7359",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 25,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "91b7-4106-a473-bf02",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "6bd9-b9de-3add-7dd9",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "ce44-8579-52c6-b59f",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "eb9f-b00e-0167-86f0",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "530e-30ee-e2c2-0877",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "b9c5-47c3-4c68-ecc5",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "1a74-02db-18c4-23aa",
@@ -26961,7 +28100,80 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "530e-30ee-e2c2-0877",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 23,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "91b7-4106-a473-bf02",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "6bd9-b9de-3add-7dd9",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "ce44-8579-52c6-b59f",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "eb9f-b00e-0167-86f0",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "e1b6-2fd6-345c-c07b",
@@ -26981,7 +28193,58 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "ce44-8579-52c6-b59f",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 20,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "91b7-4106-a473-bf02",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "6bd9-b9de-3add-7dd9",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "7956-f7b0-cf5e-f6e0",
@@ -27001,7 +28264,47 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "6bd9-b9de-3add-7dd9",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 18,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "91b7-4106-a473-bf02",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "df8e-3191-27bd-35a6",
@@ -27021,7 +28324,36 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "91b7-4106-a473-bf02",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 13,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "cdcc-ca7a-db15-58fd",
@@ -27041,7 +28373,25 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "caf1-d3e2-ba1b-add4",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 10,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "e64f-95fe-2dc5-5cc7",
@@ -27074,7 +28424,113 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "220f-0e57-a929-7957",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 28,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "91b7-4106-a473-bf02",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "6bd9-b9de-3add-7dd9",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "ce44-8579-52c6-b59f",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "eb9f-b00e-0167-86f0",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "530e-30ee-e2c2-0877",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "b9c5-47c3-4c68-ecc5",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "b22e-879e-7c77-7359",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "fe8e-b6ef-8af4-383c",
@@ -27094,7 +28550,102 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "b22e-879e-7c77-7359",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 25,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "91b7-4106-a473-bf02",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "6bd9-b9de-3add-7dd9",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "ce44-8579-52c6-b59f",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "eb9f-b00e-0167-86f0",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "530e-30ee-e2c2-0877",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "b9c5-47c3-4c68-ecc5",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "aa30-a480-7a90-2f0b",
@@ -27114,7 +28665,80 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "530e-30ee-e2c2-0877",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 23,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "91b7-4106-a473-bf02",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "6bd9-b9de-3add-7dd9",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "ce44-8579-52c6-b59f",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "eb9f-b00e-0167-86f0",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "8641-f8da-2aa7-2329",
@@ -27134,7 +28758,58 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "ce44-8579-52c6-b59f",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 20,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "91b7-4106-a473-bf02",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "6bd9-b9de-3add-7dd9",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "32e6-b06b-d86d-05ae",
@@ -27154,7 +28829,47 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "6bd9-b9de-3add-7dd9",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 18,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "91b7-4106-a473-bf02",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "54f2-aac4-d3fb-41c1",
@@ -27174,7 +28889,36 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "91b7-4106-a473-bf02",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 13,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         },
+         {
+          "type": "atMost",
+          "value": 0,
+          "field": "selections",
+          "scope": "root-entry-self",
+          "childId": "caf1-d3e2-ba1b-add4",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": false,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "4443-41d2-bd06-68f3",
@@ -27194,7 +28938,25 @@
       "hidden": false,
       "type": "selectionEntry",
       "targetId": "caf1-d3e2-ba1b-add4",
-      "modifiers": [],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "37a7-7901-5410-8a02",
+        "value": 10,
+        "comment": "Keys to the Citadel (Overlord): cheapest Weapon Enchantment halved",
+        "conditions": [
+         {
+          "type": "instanceOf",
+          "value": 1,
+          "field": "selections",
+          "scope": "root-entry",
+          "childId": "77c7-bd9c-2a7a-f713",
+          "shared": true
+         }
+        ],
+        "conditionGroups": []
+       }
+      ],
       "categoryLinks": [
        {
         "id": "5f75-0622-90b6-ef21",

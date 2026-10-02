@@ -1229,14 +1229,6 @@
           "scope": "primary-catalogue",
           "childId": "a335-5ff9-8b47-c5a8",
           "shared": true
-         },
-         {
-          "type": "instanceOf",
-          "value": 1,
-          "field": "selections",
-          "scope": "primary-catalogue",
-          "childId": "75db-5989-2a92-7bcc",
-          "shared": true
          }
         ],
         "conditionGroups": []
@@ -1444,14 +1436,6 @@
           "scope": "primary-catalogue",
           "childId": "a335-5ff9-8b47-c5a8",
           "shared": true
-         },
-         {
-          "type": "instanceOf",
-          "value": 1,
-          "field": "selections",
-          "scope": "primary-catalogue",
-          "childId": "75db-5989-2a92-7bcc",
-          "shared": true
          }
         ],
         "conditionGroups": []
@@ -1647,14 +1631,6 @@
           "field": "selections",
           "scope": "primary-catalogue",
           "childId": "a335-5ff9-8b47-c5a8",
-          "shared": true
-         },
-         {
-          "type": "instanceOf",
-          "value": 1,
-          "field": "selections",
-          "scope": "primary-catalogue",
-          "childId": "75db-5989-2a92-7bcc",
           "shared": true
          }
         ],

@@ -7513,161 +7513,68 @@
         ],
         "modifiers": [],
         "profiles": [],
-        "infoLinks": [],
+        "infoLinks": [
+         {
+          "id": "9046-5c8d-7662-5a6d",
+          "name": "Ley Lines",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "b1de-aae5-bde4-996e",
+          "modifiers": []
+         },
+         {
+          "id": "e582-b77f-fb72-56b8",
+          "name": "Fountain of Youth",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "3c0b-ba18-1e55-2715",
+          "modifiers": []
+         },
+         {
+          "id": "8a85-1cde-f20c-53de",
+          "name": "Entwining Roots",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "791e-db4f-c25d-3b78",
+          "modifiers": []
+         },
+         {
+          "id": "61c6-5c32-8c42-698a",
+          "name": "Healing Waters",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "a325-4021-ab6c-dc4d",
+          "modifiers": []
+         },
+         {
+          "id": "1a46-8179-4847-eb0f",
+          "name": "Master of Earth",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "c2eb-632f-810f-f324",
+          "modifiers": []
+         },
+         {
+          "id": "150c-149e-03e6-6a7f",
+          "name": "Stone Skin",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "dd76-1661-0c19-bee8",
+          "modifiers": []
+         },
+         {
+          "id": "cacc-28ea-6c28-6e25",
+          "name": "Summer Growth",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "07e6-2389-5e5b-1227",
+          "modifiers": []
+         }
+        ],
         "categoryLinks": [],
         "selectionEntries": [],
         "selectionEntryGroups": [],
-        "entryLinks": [
-         {
-          "id": "cb00-5313-2b96-3cbc",
-          "name": "Druidism Spells",
-          "hidden": false,
-          "type": "selectionEntryGroup",
-          "constraints": [
-           {
-            "id": "1e15-4cc2-4522-316b",
-            "field": "selections",
-            "scope": "parent",
-            "value": 0,
-            "type": "max",
-            "shared": true,
-            "includeChildSelections": true,
-            "includeChildForces": false,
-            "percentValue": false
-           },
-           {
-            "id": "1912-79b7-e537-9e01",
-            "field": "selections",
-            "scope": "parent",
-            "value": 0,
-            "type": "min",
-            "shared": true,
-            "includeChildSelections": true,
-            "includeChildForces": false,
-            "percentValue": false
-           }
-          ],
-          "modifiers": [
-           {
-            "type": "set",
-            "field": "1e15-4cc2-4522-316b",
-            "value": 1,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "2acf-59f1-2a85-273b",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "1912-79b7-e537-9e01",
-            "value": 1,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "2acf-59f1-2a85-273b",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "1e15-4cc2-4522-316b",
-            "value": 3,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "5c2d-edeb-a76d-2175",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "1912-79b7-e537-9e01",
-            "value": 3,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "5c2d-edeb-a76d-2175",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "1e15-4cc2-4522-316b",
-            "value": 5,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "8589-cbff-af0e-be49",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "1912-79b7-e537-9e01",
-            "value": 5,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "8589-cbff-af0e-be49",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           }
-          ],
-          "targetId": "6459-870d-6179-64f8",
-          "sortIndex": 1,
-          "collective": true
-         }
-        ],
+        "entryLinks": [],
         "sortIndex": 1,
         "collective": true
        },
@@ -7698,161 +7605,68 @@
         ],
         "modifiers": [],
         "profiles": [],
-        "infoLinks": [],
+        "infoLinks": [
+         {
+          "id": "929b-8d1d-4b44-417a",
+          "name": "Evocation of Souls",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "7061-37a8-2f5e-e52e",
+          "modifiers": []
+         },
+         {
+          "id": "4d82-77df-7014-6a70",
+          "name": "Ancestral Aid",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "bfb2-3894-fbe6-1d1a",
+          "modifiers": []
+         },
+         {
+          "id": "16d8-9dea-71af-3113",
+          "name": "Whispers of the Veil",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "cf00-60d3-82e1-044f",
+          "modifiers": []
+         },
+         {
+          "id": "3220-06af-0d31-557e",
+          "name": "Hasten the Hour",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "5f52-0687-9823-826c",
+          "modifiers": []
+         },
+         {
+          "id": "4f7b-b755-5684-9395",
+          "name": "Spectral Blades",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "6053-c92f-b86c-ce08",
+          "modifiers": []
+         },
+         {
+          "id": "ea52-2102-1ec9-0442",
+          "name": "Touch of the Reaper",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "e9f4-c0de-b3f4-8184",
+          "modifiers": []
+         },
+         {
+          "id": "2307-830e-db66-917b",
+          "name": "Danse Macabre",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "5883-da82-0bef-7935",
+          "modifiers": []
+         }
+        ],
         "categoryLinks": [],
         "selectionEntries": [],
         "selectionEntryGroups": [],
-        "entryLinks": [
-         {
-          "id": "a09a-7f0a-13f8-dfda",
-          "name": "Evocation Spells",
-          "hidden": false,
-          "type": "selectionEntryGroup",
-          "constraints": [
-           {
-            "id": "d180-ef14-1ce9-1ab9",
-            "field": "selections",
-            "scope": "parent",
-            "value": 0,
-            "type": "max",
-            "shared": true,
-            "includeChildSelections": true,
-            "includeChildForces": false,
-            "percentValue": false
-           },
-           {
-            "id": "694e-fa2f-21a9-867d",
-            "field": "selections",
-            "scope": "parent",
-            "value": 0,
-            "type": "min",
-            "shared": true,
-            "includeChildSelections": true,
-            "includeChildForces": false,
-            "percentValue": false
-           }
-          ],
-          "modifiers": [
-           {
-            "type": "set",
-            "field": "d180-ef14-1ce9-1ab9",
-            "value": 1,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "2acf-59f1-2a85-273b",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "694e-fa2f-21a9-867d",
-            "value": 1,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "2acf-59f1-2a85-273b",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "d180-ef14-1ce9-1ab9",
-            "value": 3,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "5c2d-edeb-a76d-2175",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "694e-fa2f-21a9-867d",
-            "value": 3,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "5c2d-edeb-a76d-2175",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "d180-ef14-1ce9-1ab9",
-            "value": 5,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "8589-cbff-af0e-be49",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "694e-fa2f-21a9-867d",
-            "value": 5,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "8589-cbff-af0e-be49",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           }
-          ],
-          "targetId": "5822-dcb9-cabe-965f",
-          "sortIndex": 1,
-          "collective": true
-         }
-        ],
+        "entryLinks": [],
         "sortIndex": 2,
         "collective": true
        },
@@ -7883,161 +7697,68 @@
         ],
         "modifiers": [],
         "profiles": [],
-        "infoLinks": [],
+        "infoLinks": [
+         {
+          "id": "4da9-91c5-1d1f-65d9",
+          "name": "Scarification",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "134d-f6a9-b3af-58c8",
+          "modifiers": []
+         },
+         {
+          "id": "8c29-848e-1282-2f66",
+          "name": "Awaken the Beast",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "fb64-d4e6-a310-56ff",
+          "modifiers": []
+         },
+         {
+          "id": "1194-c78b-e871-87f7",
+          "name": "Swarm of Insects",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "877b-449b-2d76-5943",
+          "modifiers": []
+         },
+         {
+          "id": "6733-169f-d9d3-2229",
+          "name": "Savage Fury",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "1671-bc21-9547-f72b",
+          "modifiers": []
+         },
+         {
+          "id": "4e1d-361e-f683-ce49",
+          "name": "Chilling Howl",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "32c7-cb3f-e973-764b",
+          "modifiers": []
+         },
+         {
+          "id": "8199-3bbe-52d9-6def",
+          "name": "Totemic Summon",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "9939-4c6a-a4b7-1e4c",
+          "modifiers": []
+         },
+         {
+          "id": "4c77-155b-e1a6-665d",
+          "name": "Break the Spirit",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "417e-a958-ea3f-b0e8",
+          "modifiers": []
+         }
+        ],
         "categoryLinks": [],
         "selectionEntries": [],
         "selectionEntryGroups": [],
-        "entryLinks": [
-         {
-          "id": "4738-aac7-0663-d470",
-          "name": "Shamanism Spells",
-          "hidden": false,
-          "type": "selectionEntryGroup",
-          "constraints": [
-           {
-            "id": "7a8b-f88c-0601-65ed",
-            "field": "selections",
-            "scope": "parent",
-            "value": 0,
-            "type": "max",
-            "shared": true,
-            "includeChildSelections": true,
-            "includeChildForces": false,
-            "percentValue": false
-           },
-           {
-            "id": "294f-3dac-2613-337f",
-            "field": "selections",
-            "scope": "parent",
-            "value": 0,
-            "type": "min",
-            "shared": true,
-            "includeChildSelections": true,
-            "includeChildForces": false,
-            "percentValue": false
-           }
-          ],
-          "modifiers": [
-           {
-            "type": "set",
-            "field": "7a8b-f88c-0601-65ed",
-            "value": 1,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "2acf-59f1-2a85-273b",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "294f-3dac-2613-337f",
-            "value": 1,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "2acf-59f1-2a85-273b",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "7a8b-f88c-0601-65ed",
-            "value": 3,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "5c2d-edeb-a76d-2175",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "294f-3dac-2613-337f",
-            "value": 3,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "5c2d-edeb-a76d-2175",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "7a8b-f88c-0601-65ed",
-            "value": 5,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "8589-cbff-af0e-be49",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "294f-3dac-2613-337f",
-            "value": 5,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "8589-cbff-af0e-be49",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           }
-          ],
-          "targetId": "6321-3bed-4924-b138",
-          "sortIndex": 1,
-          "collective": true
-         }
-        ],
+        "entryLinks": [],
         "sortIndex": 3,
         "collective": true
        }

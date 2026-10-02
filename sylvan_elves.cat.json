@@ -7126,161 +7126,60 @@
         ],
         "modifiers": [],
         "profiles": [],
-        "infoLinks": [],
+        "infoLinks": [
+         {
+          "id": "2870-e1d9-0351-9480",
+          "name": "Altered Sight",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "6a83-b277-1931-6308",
+          "modifiers": []
+         },
+         {
+          "id": "f0ea-8dd8-2eb5-2ff2",
+          "name": "Truth of Time",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "310f-7c41-0443-c009",
+          "modifiers": []
+         },
+         {
+          "id": "7f4d-febe-3f97-5fb0",
+          "name": "Ice and Fire",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "710b-ac36-9d9d-ecb1",
+          "modifiers": []
+         },
+         {
+          "id": "c0bc-abfa-abb9-0eac",
+          "name": "Perception of Strength",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "f72c-9794-a46c-c27c",
+          "modifiers": []
+         },
+         {
+          "id": "3293-33bd-6286-f827",
+          "name": "Unity in Divergence",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "f971-761f-7251-74f2",
+          "modifiers": []
+         },
+         {
+          "id": "d19f-d4be-21e2-2d76",
+          "name": "Touch of the Heart",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "78a2-7d3b-aea7-3c9a",
+          "modifiers": []
+         }
+        ],
         "categoryLinks": [],
         "selectionEntries": [],
         "selectionEntryGroups": [],
-        "entryLinks": [
-         {
-          "id": "3fc2-8bd7-0cde-57ea",
-          "name": "Cosmology Spells",
-          "hidden": false,
-          "type": "selectionEntryGroup",
-          "constraints": [
-           {
-            "id": "0680-6289-b181-2ada",
-            "field": "selections",
-            "scope": "parent",
-            "value": 0,
-            "type": "max",
-            "shared": true,
-            "includeChildSelections": true,
-            "includeChildForces": false,
-            "percentValue": false
-           },
-           {
-            "id": "a431-bc06-e28f-60d0",
-            "field": "selections",
-            "scope": "parent",
-            "value": 0,
-            "type": "min",
-            "shared": true,
-            "includeChildSelections": true,
-            "includeChildForces": false,
-            "percentValue": false
-           }
-          ],
-          "modifiers": [
-           {
-            "type": "set",
-            "field": "0680-6289-b181-2ada",
-            "value": 1,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "2acf-59f1-2a85-273b",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "a431-bc06-e28f-60d0",
-            "value": 1,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "2acf-59f1-2a85-273b",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "0680-6289-b181-2ada",
-            "value": 3,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "5c2d-edeb-a76d-2175",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "a431-bc06-e28f-60d0",
-            "value": 3,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "5c2d-edeb-a76d-2175",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "0680-6289-b181-2ada",
-            "value": 5,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "8589-cbff-af0e-be49",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "a431-bc06-e28f-60d0",
-            "value": 5,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "8589-cbff-af0e-be49",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           }
-          ],
-          "targetId": "73f5-cd98-6a8c-ef9f",
-          "sortIndex": 1,
-          "collective": true
-         }
-        ],
+        "entryLinks": [],
         "sortIndex": 1,
         "collective": true
        },
@@ -7311,161 +7210,68 @@
         ],
         "modifiers": [],
         "profiles": [],
-        "infoLinks": [],
+        "infoLinks": [
+         {
+          "id": "a2aa-242e-7197-64e5",
+          "name": "Ley Lines",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "b1de-aae5-bde4-996e",
+          "modifiers": []
+         },
+         {
+          "id": "9e63-e32d-ad4c-5c68",
+          "name": "Fountain of Youth",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "3c0b-ba18-1e55-2715",
+          "modifiers": []
+         },
+         {
+          "id": "3499-bf31-d46f-ea80",
+          "name": "Entwining Roots",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "791e-db4f-c25d-3b78",
+          "modifiers": []
+         },
+         {
+          "id": "ecd9-30b7-f5d0-fad4",
+          "name": "Healing Waters",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "a325-4021-ab6c-dc4d",
+          "modifiers": []
+         },
+         {
+          "id": "6ee9-1ed5-e436-65a8",
+          "name": "Master of Earth",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "c2eb-632f-810f-f324",
+          "modifiers": []
+         },
+         {
+          "id": "7493-ceb7-f6af-22aa",
+          "name": "Stone Skin",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "dd76-1661-0c19-bee8",
+          "modifiers": []
+         },
+         {
+          "id": "ebed-480a-9914-906b",
+          "name": "Summer Growth",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "07e6-2389-5e5b-1227",
+          "modifiers": []
+         }
+        ],
         "categoryLinks": [],
         "selectionEntries": [],
         "selectionEntryGroups": [],
-        "entryLinks": [
-         {
-          "id": "8db2-ac45-6ad4-085f",
-          "name": "Druidism Spells",
-          "hidden": false,
-          "type": "selectionEntryGroup",
-          "constraints": [
-           {
-            "id": "d09d-d7b9-a639-b21d",
-            "field": "selections",
-            "scope": "parent",
-            "value": 0,
-            "type": "max",
-            "shared": true,
-            "includeChildSelections": true,
-            "includeChildForces": false,
-            "percentValue": false
-           },
-           {
-            "id": "5fda-5cc1-cca4-f10f",
-            "field": "selections",
-            "scope": "parent",
-            "value": 0,
-            "type": "min",
-            "shared": true,
-            "includeChildSelections": true,
-            "includeChildForces": false,
-            "percentValue": false
-           }
-          ],
-          "modifiers": [
-           {
-            "type": "set",
-            "field": "d09d-d7b9-a639-b21d",
-            "value": 1,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "2acf-59f1-2a85-273b",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "5fda-5cc1-cca4-f10f",
-            "value": 1,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "2acf-59f1-2a85-273b",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "d09d-d7b9-a639-b21d",
-            "value": 3,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "5c2d-edeb-a76d-2175",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "5fda-5cc1-cca4-f10f",
-            "value": 3,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "5c2d-edeb-a76d-2175",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "d09d-d7b9-a639-b21d",
-            "value": 5,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "8589-cbff-af0e-be49",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "5fda-5cc1-cca4-f10f",
-            "value": 5,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "8589-cbff-af0e-be49",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           }
-          ],
-          "targetId": "6459-870d-6179-64f8",
-          "sortIndex": 1,
-          "collective": true
-         }
-        ],
+        "entryLinks": [],
         "sortIndex": 2,
         "collective": true
        },
@@ -7496,161 +7302,68 @@
         ],
         "modifiers": [],
         "profiles": [],
-        "infoLinks": [],
+        "infoLinks": [
+         {
+          "id": "554b-afe6-168c-5c28",
+          "name": "Scarification",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "134d-f6a9-b3af-58c8",
+          "modifiers": []
+         },
+         {
+          "id": "ddbd-d736-7be8-1bd7",
+          "name": "Awaken the Beast",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "fb64-d4e6-a310-56ff",
+          "modifiers": []
+         },
+         {
+          "id": "72be-bfc5-8787-832c",
+          "name": "Swarm of Insects",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "877b-449b-2d76-5943",
+          "modifiers": []
+         },
+         {
+          "id": "66d1-4ed1-4f50-8369",
+          "name": "Savage Fury",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "1671-bc21-9547-f72b",
+          "modifiers": []
+         },
+         {
+          "id": "475c-46b1-db8e-cc69",
+          "name": "Chilling Howl",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "32c7-cb3f-e973-764b",
+          "modifiers": []
+         },
+         {
+          "id": "fc1e-fe51-1431-edb6",
+          "name": "Totemic Summon",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "9939-4c6a-a4b7-1e4c",
+          "modifiers": []
+         },
+         {
+          "id": "01f9-5738-2ed2-cc6f",
+          "name": "Break the Spirit",
+          "hidden": false,
+          "type": "profile",
+          "targetId": "417e-a958-ea3f-b0e8",
+          "modifiers": []
+         }
+        ],
         "categoryLinks": [],
         "selectionEntries": [],
         "selectionEntryGroups": [],
-        "entryLinks": [
-         {
-          "id": "c954-ec93-e1cb-70d9",
-          "name": "Shamanism Spells",
-          "hidden": false,
-          "type": "selectionEntryGroup",
-          "constraints": [
-           {
-            "id": "54c0-2cf3-4fd9-5814",
-            "field": "selections",
-            "scope": "parent",
-            "value": 0,
-            "type": "max",
-            "shared": true,
-            "includeChildSelections": true,
-            "includeChildForces": false,
-            "percentValue": false
-           },
-           {
-            "id": "9030-19fe-a10c-adf8",
-            "field": "selections",
-            "scope": "parent",
-            "value": 0,
-            "type": "min",
-            "shared": true,
-            "includeChildSelections": true,
-            "includeChildForces": false,
-            "percentValue": false
-           }
-          ],
-          "modifiers": [
-           {
-            "type": "set",
-            "field": "54c0-2cf3-4fd9-5814",
-            "value": 1,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "2acf-59f1-2a85-273b",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "9030-19fe-a10c-adf8",
-            "value": 1,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "2acf-59f1-2a85-273b",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "54c0-2cf3-4fd9-5814",
-            "value": 3,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "5c2d-edeb-a76d-2175",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "9030-19fe-a10c-adf8",
-            "value": 3,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "5c2d-edeb-a76d-2175",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "54c0-2cf3-4fd9-5814",
-            "value": 5,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "8589-cbff-af0e-be49",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           },
-           {
-            "type": "set",
-            "field": "9030-19fe-a10c-adf8",
-            "value": 5,
-            "conditions": [
-             {
-              "type": "atLeast",
-              "value": 1,
-              "field": "selections",
-              "scope": "root-entry-self",
-              "childId": "8589-cbff-af0e-be49",
-              "shared": true,
-              "includeChildSelections": true,
-              "includeChildForces": true,
-              "percentValue": false
-             }
-            ],
-            "conditionGroups": []
-           }
-          ],
-          "targetId": "6321-3bed-4924-b138",
-          "sortIndex": 1,
-          "collective": true
-         }
-        ],
+        "entryLinks": [],
         "sortIndex": 3,
         "collective": true
        }
@@ -8659,161 +8372,68 @@
             ],
             "modifiers": [],
             "profiles": [],
-            "infoLinks": [],
+            "infoLinks": [
+             {
+              "id": "2316-04bc-56e6-ea38",
+              "name": "Guiding Light",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "f1ba-415e-839d-4ebc",
+              "modifiers": []
+             },
+             {
+              "id": "2a73-f25d-fd0d-964b",
+              "name": "Know Thine Enemy",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "c77b-44bf-e1b3-70f5",
+              "modifiers": []
+             },
+             {
+              "id": "53e4-6ba2-98aa-e171",
+              "name": "Fate's Judgement",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "bc3c-151e-c14b-fc7f",
+              "modifiers": []
+             },
+             {
+              "id": "30f8-6743-4326-2145",
+              "name": "Scrying",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "6c1a-a912-98bc-6b3a",
+              "modifiers": []
+             },
+             {
+              "id": "50ff-6f35-3562-8e28",
+              "name": "The Stars Align",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "d73b-0450-02ad-3b0d",
+              "modifiers": []
+             },
+             {
+              "id": "6cbf-50f9-dffa-57ab",
+              "name": "Unerring Strike",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "57ff-6097-a2a2-03ce",
+              "modifiers": []
+             },
+             {
+              "id": "4fc4-a120-8744-5ed6",
+              "name": "Mirror of the Veil",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "c14f-065b-16ed-1973",
+              "modifiers": []
+             }
+            ],
             "categoryLinks": [],
             "selectionEntries": [],
             "selectionEntryGroups": [],
-            "entryLinks": [
-             {
-              "id": "b072-94d1-4bee-bdfd",
-              "name": "Divination Spells",
-              "hidden": false,
-              "type": "selectionEntryGroup",
-              "constraints": [
-               {
-                "id": "b0e8-a6b0-6ce3-2171",
-                "field": "selections",
-                "scope": "parent",
-                "value": 0,
-                "type": "max",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": false,
-                "percentValue": false
-               },
-               {
-                "id": "fcc4-65df-b2c3-4f74",
-                "field": "selections",
-                "scope": "parent",
-                "value": 0,
-                "type": "min",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": false,
-                "percentValue": false
-               }
-              ],
-              "modifiers": [
-               {
-                "type": "set",
-                "field": "b0e8-a6b0-6ce3-2171",
-                "value": 1,
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 1,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "2acf-59f1-2a85-273b",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": true,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               },
-               {
-                "type": "set",
-                "field": "fcc4-65df-b2c3-4f74",
-                "value": 1,
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 1,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "2acf-59f1-2a85-273b",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": true,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               },
-               {
-                "type": "set",
-                "field": "b0e8-a6b0-6ce3-2171",
-                "value": 3,
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 1,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "5c2d-edeb-a76d-2175",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": true,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               },
-               {
-                "type": "set",
-                "field": "fcc4-65df-b2c3-4f74",
-                "value": 3,
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 1,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "5c2d-edeb-a76d-2175",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": true,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               },
-               {
-                "type": "set",
-                "field": "b0e8-a6b0-6ce3-2171",
-                "value": 5,
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 1,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "8589-cbff-af0e-be49",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": true,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               },
-               {
-                "type": "set",
-                "field": "fcc4-65df-b2c3-4f74",
-                "value": 5,
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 1,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "8589-cbff-af0e-be49",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": true,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               }
-              ],
-              "targetId": "318b-aae1-f5ed-17f6",
-              "sortIndex": 1,
-              "collective": true
-             }
-            ],
+            "entryLinks": [],
             "sortIndex": 1,
             "collective": true
            },
@@ -8844,161 +8464,68 @@
             ],
             "modifiers": [],
             "profiles": [],
-            "infoLinks": [],
+            "infoLinks": [
+             {
+              "id": "3845-ce46-430b-856f",
+              "name": "Ley Lines",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "b1de-aae5-bde4-996e",
+              "modifiers": []
+             },
+             {
+              "id": "f328-c480-2ebe-4c16",
+              "name": "Fountain of Youth",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "3c0b-ba18-1e55-2715",
+              "modifiers": []
+             },
+             {
+              "id": "ea23-78eb-f732-ba43",
+              "name": "Entwining Roots",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "791e-db4f-c25d-3b78",
+              "modifiers": []
+             },
+             {
+              "id": "0307-62a9-97d9-dc51",
+              "name": "Healing Waters",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "a325-4021-ab6c-dc4d",
+              "modifiers": []
+             },
+             {
+              "id": "80e0-8ed5-5f39-094b",
+              "name": "Master of Earth",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "c2eb-632f-810f-f324",
+              "modifiers": []
+             },
+             {
+              "id": "981c-3245-dedd-5d05",
+              "name": "Stone Skin",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "dd76-1661-0c19-bee8",
+              "modifiers": []
+             },
+             {
+              "id": "0933-0c05-f37e-03d6",
+              "name": "Summer Growth",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "07e6-2389-5e5b-1227",
+              "modifiers": []
+             }
+            ],
             "categoryLinks": [],
             "selectionEntries": [],
             "selectionEntryGroups": [],
-            "entryLinks": [
-             {
-              "id": "4229-8826-deac-8631",
-              "name": "Druidism Spells",
-              "hidden": false,
-              "type": "selectionEntryGroup",
-              "constraints": [
-               {
-                "id": "1a5b-a086-b68f-b725",
-                "field": "selections",
-                "scope": "parent",
-                "value": 0,
-                "type": "max",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": false,
-                "percentValue": false
-               },
-               {
-                "id": "0713-134d-0098-e386",
-                "field": "selections",
-                "scope": "parent",
-                "value": 0,
-                "type": "min",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": false,
-                "percentValue": false
-               }
-              ],
-              "modifiers": [
-               {
-                "type": "set",
-                "field": "1a5b-a086-b68f-b725",
-                "value": 1,
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 1,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "2acf-59f1-2a85-273b",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": true,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               },
-               {
-                "type": "set",
-                "field": "0713-134d-0098-e386",
-                "value": 1,
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 1,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "2acf-59f1-2a85-273b",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": true,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               },
-               {
-                "type": "set",
-                "field": "1a5b-a086-b68f-b725",
-                "value": 3,
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 1,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "5c2d-edeb-a76d-2175",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": true,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               },
-               {
-                "type": "set",
-                "field": "0713-134d-0098-e386",
-                "value": 3,
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 1,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "5c2d-edeb-a76d-2175",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": true,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               },
-               {
-                "type": "set",
-                "field": "1a5b-a086-b68f-b725",
-                "value": 5,
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 1,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "8589-cbff-af0e-be49",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": true,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               },
-               {
-                "type": "set",
-                "field": "0713-134d-0098-e386",
-                "value": 5,
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 1,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "8589-cbff-af0e-be49",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": true,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               }
-              ],
-              "targetId": "6459-870d-6179-64f8",
-              "sortIndex": 1,
-              "collective": true
-             }
-            ],
+            "entryLinks": [],
             "sortIndex": 2,
             "collective": true
            }
@@ -10710,161 +10237,68 @@
             ],
             "modifiers": [],
             "profiles": [],
-            "infoLinks": [],
+            "infoLinks": [
+             {
+              "id": "9bc7-12eb-d451-8ba4",
+              "name": "Guiding Light",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "f1ba-415e-839d-4ebc",
+              "modifiers": []
+             },
+             {
+              "id": "f0f4-da73-2eb5-ee16",
+              "name": "Know Thine Enemy",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "c77b-44bf-e1b3-70f5",
+              "modifiers": []
+             },
+             {
+              "id": "819d-42ba-f582-9779",
+              "name": "Fate's Judgement",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "bc3c-151e-c14b-fc7f",
+              "modifiers": []
+             },
+             {
+              "id": "bd52-f2ac-a081-2e7a",
+              "name": "Scrying",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "6c1a-a912-98bc-6b3a",
+              "modifiers": []
+             },
+             {
+              "id": "827b-4410-63b4-1dd6",
+              "name": "The Stars Align",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "d73b-0450-02ad-3b0d",
+              "modifiers": []
+             },
+             {
+              "id": "c14c-4618-a88d-e0c4",
+              "name": "Unerring Strike",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "57ff-6097-a2a2-03ce",
+              "modifiers": []
+             },
+             {
+              "id": "2614-b1af-0b93-971c",
+              "name": "Mirror of the Veil",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "c14f-065b-16ed-1973",
+              "modifiers": []
+             }
+            ],
             "categoryLinks": [],
             "selectionEntries": [],
             "selectionEntryGroups": [],
-            "entryLinks": [
-             {
-              "id": "2911-ce81-f833-3442",
-              "name": "Divination Spells",
-              "hidden": false,
-              "type": "selectionEntryGroup",
-              "constraints": [
-               {
-                "id": "c163-534a-2da1-c116",
-                "field": "selections",
-                "scope": "parent",
-                "value": 0,
-                "type": "max",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": false,
-                "percentValue": false
-               },
-               {
-                "id": "e721-e09e-e2a2-9b64",
-                "field": "selections",
-                "scope": "parent",
-                "value": 0,
-                "type": "min",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": false,
-                "percentValue": false
-               }
-              ],
-              "modifiers": [
-               {
-                "type": "set",
-                "field": "c163-534a-2da1-c116",
-                "value": 1,
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 1,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "2acf-59f1-2a85-273b",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": true,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               },
-               {
-                "type": "set",
-                "field": "e721-e09e-e2a2-9b64",
-                "value": 1,
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 1,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "2acf-59f1-2a85-273b",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": true,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               },
-               {
-                "type": "set",
-                "field": "c163-534a-2da1-c116",
-                "value": 3,
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 1,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "5c2d-edeb-a76d-2175",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": true,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               },
-               {
-                "type": "set",
-                "field": "e721-e09e-e2a2-9b64",
-                "value": 3,
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 1,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "5c2d-edeb-a76d-2175",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": true,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               },
-               {
-                "type": "set",
-                "field": "c163-534a-2da1-c116",
-                "value": 5,
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 1,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "8589-cbff-af0e-be49",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": true,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               },
-               {
-                "type": "set",
-                "field": "e721-e09e-e2a2-9b64",
-                "value": 5,
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 1,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "8589-cbff-af0e-be49",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": true,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               }
-              ],
-              "targetId": "318b-aae1-f5ed-17f6",
-              "sortIndex": 1,
-              "collective": true
-             }
-            ],
+            "entryLinks": [],
             "sortIndex": 1,
             "collective": true
            },
@@ -10895,161 +10329,68 @@
             ],
             "modifiers": [],
             "profiles": [],
-            "infoLinks": [],
+            "infoLinks": [
+             {
+              "id": "1dba-aadf-be5b-22e7",
+              "name": "Ley Lines",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "b1de-aae5-bde4-996e",
+              "modifiers": []
+             },
+             {
+              "id": "e8a7-5d3e-3932-26ba",
+              "name": "Fountain of Youth",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "3c0b-ba18-1e55-2715",
+              "modifiers": []
+             },
+             {
+              "id": "4680-f3d3-f27b-cad5",
+              "name": "Entwining Roots",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "791e-db4f-c25d-3b78",
+              "modifiers": []
+             },
+             {
+              "id": "839d-c5d4-de72-9766",
+              "name": "Healing Waters",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "a325-4021-ab6c-dc4d",
+              "modifiers": []
+             },
+             {
+              "id": "f885-cae1-991f-50c7",
+              "name": "Master of Earth",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "c2eb-632f-810f-f324",
+              "modifiers": []
+             },
+             {
+              "id": "8c0c-d63a-d8da-413f",
+              "name": "Stone Skin",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "dd76-1661-0c19-bee8",
+              "modifiers": []
+             },
+             {
+              "id": "325a-00a3-cc4e-6267",
+              "name": "Summer Growth",
+              "hidden": false,
+              "type": "profile",
+              "targetId": "07e6-2389-5e5b-1227",
+              "modifiers": []
+             }
+            ],
             "categoryLinks": [],
             "selectionEntries": [],
             "selectionEntryGroups": [],
-            "entryLinks": [
-             {
-              "id": "8042-ddaf-1b78-d7da",
-              "name": "Druidism Spells",
-              "hidden": false,
-              "type": "selectionEntryGroup",
-              "constraints": [
-               {
-                "id": "41fa-ad5b-70e2-cbb4",
-                "field": "selections",
-                "scope": "parent",
-                "value": 0,
-                "type": "max",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": false,
-                "percentValue": false
-               },
-               {
-                "id": "d96a-a10e-90a5-fa68",
-                "field": "selections",
-                "scope": "parent",
-                "value": 0,
-                "type": "min",
-                "shared": true,
-                "includeChildSelections": true,
-                "includeChildForces": false,
-                "percentValue": false
-               }
-              ],
-              "modifiers": [
-               {
-                "type": "set",
-                "field": "41fa-ad5b-70e2-cbb4",
-                "value": 1,
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 1,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "2acf-59f1-2a85-273b",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": true,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               },
-               {
-                "type": "set",
-                "field": "d96a-a10e-90a5-fa68",
-                "value": 1,
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 1,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "2acf-59f1-2a85-273b",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": true,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               },
-               {
-                "type": "set",
-                "field": "41fa-ad5b-70e2-cbb4",
-                "value": 3,
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 1,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "5c2d-edeb-a76d-2175",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": true,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               },
-               {
-                "type": "set",
-                "field": "d96a-a10e-90a5-fa68",
-                "value": 3,
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 1,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "5c2d-edeb-a76d-2175",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": true,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               },
-               {
-                "type": "set",
-                "field": "41fa-ad5b-70e2-cbb4",
-                "value": 5,
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 1,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "8589-cbff-af0e-be49",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": true,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               },
-               {
-                "type": "set",
-                "field": "d96a-a10e-90a5-fa68",
-                "value": 5,
-                "conditions": [
-                 {
-                  "type": "atLeast",
-                  "value": 1,
-                  "field": "selections",
-                  "scope": "root-entry-self",
-                  "childId": "8589-cbff-af0e-be49",
-                  "shared": true,
-                  "includeChildSelections": true,
-                  "includeChildForces": true,
-                  "percentValue": false
-                 }
-                ],
-                "conditionGroups": []
-               }
-              ],
-              "targetId": "6459-870d-6179-64f8",
-              "sortIndex": 1,
-              "collective": true
-             }
-            ],
+            "entryLinks": [],
             "sortIndex": 2,
             "collective": true
            }
@@ -18336,7 +17677,40 @@
      }
     ],
     "profiles": [],
-    "infoLinks": [],
+    "infoLinks": [
+     {
+      "id": "236a-888f-0c76-0557",
+      "name": "Truth of Time",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "310f-7c41-0443-c009",
+      "modifiers": []
+     },
+     {
+      "id": "8dd8-de9e-8d9f-0558",
+      "name": "Master of Earth",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "c2eb-632f-810f-f324",
+      "modifiers": []
+     },
+     {
+      "id": "6cc7-35f1-630c-8902",
+      "name": "Break the Spirit",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "417e-a958-ea3f-b0e8",
+      "modifiers": []
+     },
+     {
+      "id": "c047-f441-3da6-26ba",
+      "name": "Forest Embrace",
+      "hidden": false,
+      "type": "profile",
+      "targetId": "5aca-ce5d-7433-c176",
+      "modifiers": []
+     }
+    ],
     "selectionEntries": [
      {
       "id": "4db9-949e-264e-4a8c",
@@ -18854,215 +18228,6 @@
       "selectionEntryGroups": [],
       "entryLinks": [],
       "sortIndex": 2,
-      "collective": true
-     },
-     {
-      "id": "ba70-71fc-3d5d-deee",
-      "name": "Spells",
-      "hidden": false,
-      "constraints": [
-       {
-        "id": "f5b4-8012-5fb1-11cb",
-        "field": "selections",
-        "scope": "parent",
-        "value": 2,
-        "type": "min",
-        "includeChildSelections": false,
-        "includeChildForces": false,
-        "shared": true,
-        "percentValue": false
-       },
-       {
-        "id": "80bf-fcef-e180-2b78",
-        "field": "selections",
-        "scope": "parent",
-        "value": 2,
-        "type": "max",
-        "includeChildSelections": false,
-        "includeChildForces": false,
-        "shared": true,
-        "percentValue": false
-       }
-      ],
-      "modifiers": [],
-      "selectionEntries": [
-       {
-        "id": "3c3d-8430-a322-53e5",
-        "name": "Truth of Time",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "bb04-890c-1d6f-819e",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "10fd-c3be-7f93-f1d5",
-          "name": "Truth of Time",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "310f-7c41-0443-c009",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 1,
-        "collective": true
-       },
-       {
-        "id": "a600-2295-2d4b-dd12",
-        "name": "Master of Earth",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "923b-c6a7-f72b-6c9d",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "1b91-d747-a4ca-8b91",
-          "name": "Master of Earth",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "c2eb-632f-810f-f324",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 2,
-        "collective": true
-       },
-       {
-        "id": "f293-85f3-d5ba-ad89",
-        "name": "Break the Spirit",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "08d5-b444-e18f-fcf6",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "7437-cd52-dd7e-0439",
-          "name": "Break the Spirit",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "417e-a958-ea3f-b0e8",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 3,
-        "collective": true
-       },
-       {
-        "id": "dd8a-7038-9505-bd34",
-        "name": "Forest Embrace",
-        "type": "upgrade",
-        "hidden": false,
-        "costs": [
-         {
-          "name": "pts",
-          "typeId": "37a7-7901-5410-8a02",
-          "value": 0
-         }
-        ],
-        "constraints": [
-         {
-          "id": "c7cd-77f0-46c6-5bf8",
-          "field": "selections",
-          "scope": "parent",
-          "value": 1,
-          "type": "max",
-          "includeChildSelections": false,
-          "includeChildForces": false,
-          "shared": true,
-          "percentValue": false
-         }
-        ],
-        "modifiers": [],
-        "profiles": [],
-        "infoLinks": [
-         {
-          "id": "4085-159b-a225-7dd7",
-          "name": "Forest Embrace",
-          "hidden": false,
-          "type": "profile",
-          "targetId": "5aca-ce5d-7433-c176",
-          "modifiers": []
-         }
-        ],
-        "categoryLinks": [],
-        "entryLinks": [],
-        "selectionEntryGroups": [],
-        "sortIndex": 4,
-        "collective": true
-       }
-      ],
-      "entryLinks": [],
-      "selectionEntryGroups": [],
-      "defaultSelectionEntryId": "3c3d-8430-a322-53e5",
-      "sortIndex": 3,
       "collective": true
      }
     ],
