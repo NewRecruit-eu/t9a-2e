@@ -2,7 +2,7 @@
  "catalogue": {
   "id": "33cb-5287-390c-ec80",
   "name": "Highborn Elves",
-  "revision": 354,
+  "revision": 355,
   "battleScribeVersion": "2.03",
   "authorName": "NR t9a->bs converter",
   "library": false,
@@ -3056,6 +3056,27 @@
         "includeChildSelections": true,
         "includeChildForces": true,
         "shared": true
+       }
+      ],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "9ceb-56dd-688a-5acd",
+        "value": 50,
+        "conditions": [
+         {
+          "type": "atLeast",
+          "value": 1,
+          "field": "selections",
+          "scope": "roster",
+          "childId": "9488-563b-ff6e-3ad6",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
        }
       ]
      },

@@ -2,7 +2,7 @@
  "catalogue": {
   "id": "cfbb-69db-3d04-e3d2",
   "name": "T9A Common Items",
-  "revision": 1,
+  "revision": 2,
   "battleScribeVersion": "2.03",
   "authorName": "NR t9a->bs converter",
   "library": true,
@@ -3150,7 +3150,7 @@
       "conditions": [],
       "conditionGroups": [
        {
-        "type": "or",
+        "type": "and",
         "conditions": [
          {
           "type": "atLeast",
@@ -3221,7 +3221,7 @@
     "selectionEntries": [],
     "selectionEntryGroups": [],
     "entryLinks": [],
-    "comment": "restriction: Cannot be taken with Towering. Cannot be taken with Large Size or Construct. Cannot be taken with Gigantic Size.",
+    "comment": "restriction: Cannot be taken with Towering. Cannot be taken by Large Constructs. Cannot be taken with Gigantic Size.",
     "collective": true
    },
    {
@@ -3295,7 +3295,7 @@
       "conditions": [],
       "conditionGroups": [
        {
-        "type": "or",
+        "type": "and",
         "conditions": [
          {
           "type": "atLeast",
@@ -3347,7 +3347,7 @@
     "selectionEntries": [],
     "selectionEntryGroups": [],
     "entryLinks": [],
-    "comment": "restriction: Cannot be taken with Towering. Cannot be taken with Gigantic Size. Cannot be taken with Large Size or Construct.",
+    "comment": "restriction: Cannot be taken with Towering. Cannot be taken with Gigantic Size. Cannot be taken by Large Constructs.",
     "collective": true
    },
    {

@@ -2,7 +2,7 @@
  "catalogue": {
   "id": "c01d-2bd1-3fed-f7fe",
   "name": "Ogre Khans",
-  "revision": 344,
+  "revision": 345,
   "battleScribeVersion": "2.03",
   "authorName": "NR t9a->bs converter",
   "library": false,
@@ -3368,6 +3368,27 @@
         "includeChildSelections": true,
         "includeChildForces": true,
         "shared": true
+       }
+      ],
+      "modifiers": [
+       {
+        "type": "set",
+        "field": "6968-809f-8d25-0e3f",
+        "value": 20,
+        "conditions": [
+         {
+          "type": "atLeast",
+          "value": 1,
+          "field": "selections",
+          "scope": "roster",
+          "childId": "4289-b366-8f72-53cc",
+          "shared": true,
+          "includeChildSelections": true,
+          "includeChildForces": true,
+          "percentValue": false
+         }
+        ],
+        "conditionGroups": []
        }
       ]
      },
