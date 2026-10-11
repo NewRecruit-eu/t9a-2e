@@ -2,7 +2,7 @@
  "catalogue": {
   "id": "648b-823a-df27-799c",
   "name": "Hobgoblins",
-  "revision": 344,
+  "revision": 345,
   "battleScribeVersion": "2.03",
   "authorName": "NR t9a->bs converter",
   "library": false,
@@ -11782,7 +11782,7 @@
        {
         "name": "Arm",
         "typeId": "d15a-5931-24e5-be5d",
-        "$text": "C+1"
+        "$text": "C"
        },
        {
         "name": "Aeg",
@@ -11920,7 +11920,16 @@
     "selectionEntryGroups": [],
     "entryLinks": [],
     "constraints": [],
-    "modifiers": [],
+    "modifiers": [
+     {
+      "type": "increment",
+      "value": 1,
+      "field": "d15a-5931-24e5-be5d",
+      "scope": "parent",
+      "affects": "self.profiles.cc02-4c45-fc8e-9c20",
+      "comment": "mount: Arm C+1"
+     }
+    ],
     "collective": true
    },
    {
@@ -12032,7 +12041,7 @@
        {
         "name": "Arm",
         "typeId": "d15a-5931-24e5-be5d",
-        "$text": "C+2"
+        "$text": "C"
        },
        {
         "name": "Aeg",
@@ -12163,7 +12172,16 @@
     "selectionEntryGroups": [],
     "entryLinks": [],
     "constraints": [],
-    "modifiers": [],
+    "modifiers": [
+     {
+      "type": "increment",
+      "value": 2,
+      "field": "d15a-5931-24e5-be5d",
+      "scope": "parent",
+      "affects": "self.profiles.cc02-4c45-fc8e-9c20",
+      "comment": "mount: Arm C+2"
+     }
+    ],
     "collective": true
    },
    {
